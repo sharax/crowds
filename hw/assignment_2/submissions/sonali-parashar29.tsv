@@ -100,25 +100,25 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predict the number of goals in a football match	"Given the league name, league ranking of teams before the match, predict the number of goals that will be scored during the match"	152
 0	Predicting a company's next quarter revenue	"Given a company name and some background details, predict the next quarter's revenue"	54
 0	Guess the top 3 artists/songs of the Billboard music charts	"Given a list of input audio files and artist information, predict which is going to top the charts"	87
-0	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
+1	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
 0	Metaquestion on a question.	"Given certain outreach information, the respondent must answer ""How many people would be answering this question?"""	97
-0	Identify the brand of the clothing 	"Given an image of a clothing, identify the brand"	126
+1	Identify the brand of the clothing 	"Given an image of a clothing, identify the brand"	126
 0	Gold and Silver Rate Prediction	The crowd can predict the next changes in the price of Gold and silver which could be close to the actual changes	138
 0	Number of Contributors	Predict the number of contributors in an Open Source Project	98
 0	estimating the age of Celestial bodies	"given a photograph of a celestial body,  the user will be asked to estimate the age of the planet ,stars ,galxies "	44
 0	Using Crowdsourcing for  Predicting the amount of buffer stock needed by country after drought	"Individual will be asked about there personal need of commodity especialy edibles(wheat,rice) and then based on that how much the whole country or state will need according to them"	166
 0	"given a picture of a stadium, estimate the number of people it can hold"	an image of a stadium or theatre will be displayed and the crowd will have to guess the number of people it can hold	59
-0	Predict the number of rooms required to accomodate given number of people	"Given some number of people,tell how many rooms will be needed to handle them in a given area"	34
+1	Predict the number of rooms required to accomodate given number of people	"Given some number of people,tell how many rooms will be needed to handle them in a given area"	34
 0	predict whether stampede will occur during haj or kumbha mela	"Given the input video for the haj or kumbha mela, or the count of people"	16
 0	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
 0	Classification of Dog breeds	"Give images of dogs, ask to classify according to breed"	50
 0	Predicting the number of hours required for a particular task to be performed by a particular person	Given the task description at minute level and a sample output for a basic task	17
 0	Predicting cost of a painting.	"Given the picture of a painting, guess the value of the painting, in terms of how much it would be bid for at an auction."	132
-0	Guess the life span of a person	"Provided the medical history of a person, predict the life-span."	22
+1	Guess the life span of a person	"Provided the medical history of a person, predict the life-span."	22
 0	Word Origin	"Given a word, guess its origin."	120
 0	Predict the correctness of an article online	"With increased number of online publications, it's hard to say whether the information we read is based on facts or assumptions. Using the wisdom of the crowds, we can predict, or atleast say with a certain probability whether the information is true. This can also be extended to opinions, and perspectives"	73
 0	Determining the relation between two people	"Given a collage of images of two different people,determine the relation between them "	162
-0	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
+1	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
 0	Predict the perfectness of geometrical shapes	"The crowd has to predict based on images that the geometrical figure like a circle, parallelogram, square, etc is perfect or not"	39
 0	Predict if it will rain	"Given an image of sky, predict if it will rain"	93
 0	Predict the highest bidding price	"Given the details of an item, predict the highest bid that it will fetch during an auction"	154
@@ -137,10 +137,10 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Spam mail detection	Given a particular email determine if its a spam mail	90
 0	Estimate the quantity of wheat that might be produced from wheat fields 	The people should be shown the wheat fields and without specifing the details of the cultivation and other specifications  they have to predict the final quantity of wheat that can be producded	106
 0	Predict the country name by flag	"Given a country's flag, predict which country is it actually?"	169
-0	Individual wisdom vs Crowd wisdom	"Quora users can be presented with an answer without the number of upvotes shown. Now, the user will have to make the decision of upvoting an answer independently without any knowledge about its popularity. Then, then the number of upvotes received (without prior knowledge about upvotes ie the answer's popularity) can be compared to the actual number of upvotes( Crowd wisdom)."	60
+1	Individual wisdom vs Crowd wisdom	"Quora users can be presented with an answer without the number of upvotes shown. Now, the user will have to make the decision of upvoting an answer independently without any knowledge about its popularity. Then, then the number of upvotes received (without prior knowledge about upvotes ie the answer's popularity) can be compared to the actual number of upvotes( Crowd wisdom)."	60
 0	Capacity of a container	Guess the capacity(in litre) of the container	47
 0	Predict the genre of a book	Predict the genre to which a book belongs	168
-0	Predicting that who's research will pe published. 	Many students have participated for the research paper to be published.Survyed will be done among the participated students.	6
+1	Predicting that who's research will pe published. 	Many students have participated for the research paper to be published.Survyed will be done among the participated students.	6
 0	Increasing TRP/Viewership of television ads 	preferences of the crowd with respect to time slot given an ad category	83
 0	Predicting the angle of swing of a fast bowler/angle of turn by a spinner	Given the video of a ball being bowled/ the hawk eye trajectory of the ball	18
 0	Estimate time for a line of traffic to clear	Given a traffic camera image	129
@@ -164,7 +164,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Number of online users	Predict the number of online users at a given website at a particular time.	134
 0	Predicting the standings of different political parties after an election 	"The crowd has to predict the percentage of votes both Republican and Democratic parties are going to receive after the US Senate Elections, 2016. "	104
 0	Estimate the net worth of a startup after a year of beginning operation	"Given the startup idea, and the name of companies already building similar products, the crowd is asked to predict the net worth of the startup after a year of it beginning operations"	33
-0	Word Meaning	"Given a word in a sentence that is not known to the person, guess its meaning in context"	85
+1	Word Meaning	"Given a word in a sentence that is not known to the person, guess its meaning in context"	85
 0	Predicting next day temperature of a city	Individuals are asked to make a guess of the next day temperature of their city according to the present and past one week weather conditions.	61
 0	Predict the amount spent for a party (treat)	"Given the occasion, place and number of people attending a party, predict the bill to be paid by the host"	5
 0	Guess the decade of the movie release	"Given the story line of a movie, guess the decade in which the movie was released"	116
@@ -187,4 +187,4 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Suggesting potential development	"Given the area and its details, along with the problems, suggest the developmental project need along with the budget for the community. The crowd shall be limited to the people from that particular community"	29
 0	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
 0	Guess the length of a rally in a game of table tennis/ tennis/ badminton	Show a video. Then ask to guess the length of the rally.	51
-0	Predict the number of song downloads in a day to be released soon	"Given the singer details,you need to guess total downloads of song on very first day of the release"	145
+1	Predict the number of song downloads in a day to be released soon	"Given the singer details,you need to guess total downloads of song on very first day of the release"	145
