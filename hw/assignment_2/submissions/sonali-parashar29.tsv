@@ -39,7 +39,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predict the future events that might happen based on photographs	People should be shown random photographs of people/places/heritage structures and ask them to predict the future events that might happen with them.	41
 0	Resource allocation and government spending.	"Given some background information about a country, like its population, life expectancy, literacy rate, GDP, allocate a fixed government budget to various fields of health, education, defence, etc."	58
 0	Total calories consumed	Predict the total amount of calories earned from a set of food items	159
-0	Predict the percentage of correctness of a crowd	"Two or more crowds ,independent of each other predicting the level of truthfulness among each other"	36
+1	Predict the percentage of correctness of a crowd	"Two or more crowds ,independent of each other predicting the level of truthfulness among each other"	36
 0	Guess the religion of a person	Present the subjects with a name of a person and ask them to guess the religion that the person believes in	173
 0	Guessing the potential stats of a match	"One could predict the stats of player before the match, during the 1st innings, during 2nd innings.This will show the deviation in his answers over the time."	142
 0	Estimating the standby time of a phone	"Given a fully charged iPhone , switched off, for how many days the battery will last ? (standby)"	13
@@ -53,12 +53,12 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predict if the inflation rate goes up/down	"Given the FII(Foreign Institutional Investor),gdp figures, predict if the inflation rate goes up or down"	92
 0	Predict if 2 people are related or not?	"Given two images of two different persons, predict if they are blood relatives or not?"	171
 0	Prediction of Influencers	"Predicting influencers on a social networking platform(facebook,twitter,instagram) based on number of followers"	28
-0	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
+1	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
 0	Election Result Prediction	The crowd can guess the next elections winner and they predict outcomes rather very well.	183
 0	"Given a song, Identify the artist/band"	"Given a 10sec audio clip,Identify the artist/band "	91
 0	Identifying a potential criminal	Present the subjects with the criminal record of a person	1
 0	Increasing TRP/Viewership of television ads 	preferences of the crowd with respect to ad category given a time slot.	84
-0	Identify cities in maps	Present subjects to a world map and ask them to locate a given city.	108
+1	Identify cities in maps	Present subjects to a world map and ask them to locate a given city.	108
 0	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
 0	Risk evaluation.	"Given different scenarios encompassing risk, for example air travel, living near a factory, etc. the respondent must give a probability estimate of mortality."	26
 0	Predict the guitar chords used in a song	The song is played and crowd is asked to identify which chords match the chords used in the song	167
@@ -70,15 +70,15 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	"given a legislative bill is passed, predict the cost incurred in implementing it"	a short description of a bill will be given and the crowd will have to guess the cost of implementing that bill	25
 0	Predict the grade point of a student in future semesters	"By providing the grades obtained by a student in previous semesters, WoC could be used to predict the grades of future semesters. Crowd can estimate the grades based on old grades and the amount of time spent on studying. If the hours spent are >= the hours spent in previous semesters, the student is likely to obtain better results. "	100
 0	To predict a feasability of a bet 	The crowd is provided the credibility information about the scenario on which the bet is placed Eg. A horse in a turf club	103
-0	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
+1	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
 0	Ordering local neighbourhoods/townships	Give the subjects a few details about the townships. Ask them if they would like to rent/buy a house there.	76
-0	Identify the nation 	"Given an image of nations currency, identify the nation"	128
+1	Identify the nation 	"Given an image of nations currency, identify the nation"	128
 0	 Predict the demographics of user based on the query patterns	Classifying the queries of an internet user and capturing the online behavior of the user (user clicks on web) for the behavioral tagetting for the search engine and change the result set according to the predicted demographics	155
 0	Spot the Difference	"Given two almost identical images, ask a user if he could predict the number of differences in the two images"	144
 0	Predict the manufacture year	Present subjects a picture of a car and ask them to predict the year in which the car was manufactured	114
 0	Bubble Sort	First ask to choose an O(n^2) sorting algorithm. Then ask to predict the percentage of people who would do a Bubble Sort if asked to implement an O(n^2) sorting algorithm.	7
 0	Guess the number of times the ball bounces	"a short video clip showing a bouncing ball, the crowd has to guess the number of times the ball bounces"	45
-0	Guess the order of events	Present the subjects with a list of major events in history and ask them to arrange them chornologically	174
+1	Guess the order of events	Present the subjects with a list of major events in history and ask them to arrange them chornologically	174
 0	Identify the disease	"Give list of symptoms, ask to identify the disease"	161
 0	Predict success of a film based on the cast and crew	"Presenting the participatns with the cast and crew of a film, based on which they would guess the possibility of movie becoming a success or a failure"	148
 0	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
@@ -91,7 +91,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predicting the ICC cricket worldcup Finalists	The users will be asked to predict the winners and runners of ICC cricket world cup	140
 0	Predicting the damage after any disaster	Observe the site of disaster and estimate the damage cost	131
 0	Determining if the accused person is guilty 	"Given the details about the case(witness statements,court proceeding,jury's opinions)"	89
-0	Predicting the content of a book based on its title.	"People should be given the title and genre of an upcoming novel and asked to predict the possible content of the novel."	157
+1	Predicting the content of a book based on its title.	"People should be given the title and genre of an upcoming novel and asked to predict the possible content of the novel."	157
 0	guess the typr of music	"given an audio file,user have to identify which kind of music is being played"	121
 0	"Prediction of rate of real estate in metro cities based on civil factor"	"Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates "	68
 0	Guessing the result of a cricket match	People watching the match will be surveyed and the anwer will be like the team wons or not.	3
