@@ -1,9 +1,9 @@
 Rating[0-1]	Short Description	Description	Task-ID
 0	Fake facebook profile detection	"Given a Facebook profile, guess whether it is a legitimate profile of a real person or not"	49
 0	guess if the cost of crude oil will increase or not	graph depicting cost of crude oil at different intervals of time	122
-0	Guessing a celebrity	Given the rest of the body and 4 options for the face. Ask them to guess the right option.	77
-0	Word Origin	"Given a word, guess its origin."	120
-0	Find out the age of a tree	Guess the number of growth rings / annual rings present in the trunk of a tree 	46
+1	Guessing a celebrity	Given the rest of the body and 4 options for the face. Ask them to guess the right option.	77
+1	Word Origin	"Given a word, guess its origin."	120
+1	Find out the age of a tree	Guess the number of growth rings / annual rings present in the trunk of a tree 	46
 0	No. of Twitter followers	"Given a celebrity, guess the no. of Twitter followers"	113
 0	Frontpage Headline Guesser	Predict which headline appear on the front page of a particular newspaper. 	137
 0	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
