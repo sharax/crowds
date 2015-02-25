@@ -1,13 +1,13 @@
 Rating[0-1]	Short Description	Description	Task-ID
-0	predict whether stampede will occur during haj or kumbha mela	"Given the input video for the haj or kumbha mela, or the count of people"	16
-0	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
-0	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
-0	Fake facebook profile detection	"Given a Facebook profile, guess whether it is a legitimate profile of a real person or not"	49
-0	Game theory scenarios	"One could ask the respondent to play the ""Guess 2/3 of the average Game"", wherein the respondent is asked to guess what 2/3 of the average of their guesses will be, where the numbers are restricted to the real numbers between 0 and 100, inclusive."	27
-0	Determining the relation between two people	"Given a collage of images of two different people,determine the relation between them "	162
-0	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
-0	predicting the possible move the player is going to take in a chess game.	People have to predict the possible move the a player is going to take in a chess game.	188
-0	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
+0.5	predict whether stampede will occur during haj or kumbha mela	"Given the input video for the haj or kumbha mela, or the count of people"	16
+0.5	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
+0.5	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
+0.6	Fake facebook profile detection	"Given a Facebook profile, guess whether it is a legitimate profile of a real person or not"	49
+0.5	Game theory scenarios	"One could ask the respondent to play the ""Guess 2/3 of the average Game"", wherein the respondent is asked to guess what 2/3 of the average of their guesses will be, where the numbers are restricted to the real numbers between 0 and 100, inclusive."	27
+0.6	Determining the relation between two people	"Given a collage of images of two different people,determine the relation between them "	162
+0.5	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
+0.5	predicting the possible move the player is going to take in a chess game.	People have to predict the possible move the a player is going to take in a chess game.	188
+0.6	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
 0	Predict whether the stock of a company will increase/decrease	"Given the name of company, predict whether its stocks value will increase or decrease"	124
 0	Estimate the net worth of a startup after a year of beginning operation	"Given the startup idea, and the name of companies already building similar products, the crowd is asked to predict the net worth of the startup after a year of it beginning operations"	33
 0	Estimating weights of objects.	"Given images/names of everyday-objects, estimate how much the object would weigh."	133
