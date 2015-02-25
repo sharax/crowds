@@ -1,11 +1,11 @@
 Rating[0-1]	Short Description	Description	Task-ID
-0	Primary Health Prediction	"Predicting the state of health of a person based on the symptoms, and probably suggest the disease"	181
+1	Primary Health Prediction	"Predicting the state of health of a person based on the symptoms, and probably suggest the disease"	181
 0	Predicting the depth of underground water 	people should be gven the population and environmental stats and should be asked to predct the ground water level in the particular area at that period of time 	107
-0	Ordering the colors of rainbow	"Given a set of colors, order them to create color ordering same as that of rainbow"	75
+1	Ordering the colors of rainbow	"Given a set of colors, order them to create color ordering same as that of rainbow"	75
 0	Identifying the color of an object	"given a picture ,guess the color of the object"	82
 0	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
-0	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
-0	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
+1	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
+1	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
 0	Predicting the language of text	"Given an image of an image of a scanned text, predict its language "	88
 0	Guessing the number of blades in a fan	"Given a rotating fan , the user will be asked to guess the no of blade it might have"	14
 0	Predicting the market price of a product	Given all the information about a product predicting the market price of the product	185
