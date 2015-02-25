@@ -1,64 +1,64 @@
 Rating[0-1]	Short Description	Description	Task-ID
-0	prediction of sucess for an upcoming movie	"given Name of the Movie, Cast and the Trailer"	130
-0	Predict if the inflation rate goes up/down	"Given the FII(Foreign Institutional Investor),gdp figures, predict if the inflation rate goes up or down"	92
-0	Malicious URL detection	"Given a URL, gess whether the URL is a malicious or phishing URL"	165
+1	prediction of sucess for an upcoming movie	"given Name of the Movie, Cast and the Trailer"	130
+1	Predict if the inflation rate goes up/down	"Given the FII(Foreign Institutional Investor),gdp figures, predict if the inflation rate goes up or down"	92
+1	Malicious URL detection	"Given a URL, gess whether the URL is a malicious or phishing URL"	165
 0	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
 0	Predict the age of a carbon sample	"Given a sample of carbon maybe noramal coal or any other isotope ,predict its age"	35
-0	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
+1	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
 0	Predict if 2 people are related or not?	"Given two images of two different persons, predict if they are blood relatives or not?"	171
 0	Guess the religion of a person	Present the subjects with a name of a person and ask them to guess the religion that the person believes in	173
 0	Guess the decade of the movie release	"Given the story line of a movie, guess the decade in which the movie was released"	116
-0	Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
+1	Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
 0	Guess the top 3 artists/songs of the Billboard music charts	"Given a list of input audio files and artist information, predict which is going to top the charts"	87
 0	estimating the age of Celestial bodies	"given a photograph of a celestial body,  the user will be asked to estimate the age of the planet ,stars ,galxies "	44
-0	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
-0	Classification of Dog breeds	"Give images of dogs, ask to classify according to breed"	50
-0	Predict the number of song downloads in a day to be released soon	"Given the singer details,you need to guess total downloads of song on very first day of the release"	145
-0	Estimate the winner of a singing contest	Estimate the winner of a singing contest	156
-0	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
-0	Resource allocation and government spending.	"Given some background information about a country, like its population, life expectancy, literacy rate, GDP, allocate a fixed government budget to various fields of health, education, defence, etc."	58
+1	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
+1	Classification of Dog breeds	"Give images of dogs, ask to classify according to breed"	50
+1	Predict the number of song downloads in a day to be released soon	"Given the singer details,you need to guess total downloads of song on very first day of the release"	145
+1	Estimate the winner of a singing contest	Estimate the winner of a singing contest	156
+1	Choice of major	Predict the percentage of students who would would opt for a particular major in incoming freshman year.	57
+1	Resource allocation and government spending.	"Given some background information about a country, like its population, life expectancy, literacy rate, GDP, allocate a fixed government budget to various fields of health, education, defence, etc."	58
 0	Predict if it will rain	"Given an image of sky, predict if it will rain"	93
 0	Predict the percentage of correctness of a crowd	"Two or more crowds ,independent of each other predicting the level of truthfulness among each other"	36
 0	Identify the brand of the clothing 	"Given an image of a clothing, identify the brand"	126
 0	Guess the length of a rally in a game of table tennis/ tennis/ badminton	Show a video. Then ask to guess the length of the rally.	51
-0	Predict depression in a person	"Based on behavior, predict whether a person is depressed or not"	31
-0	Ordering local neighbourhoods/townships	Give the subjects a few details about the townships. Ask them if they would like to rent/buy a house there.	76
-0	Election Result Prediction	The crowd can guess the next elections winner and they predict outcomes rather very well.	183
+1	Predict depression in a person	"Based on behavior, predict whether a person is depressed or not"	31
+1	Ordering local neighbourhoods/townships	Give the subjects a few details about the townships. Ask them if they would like to rent/buy a house there.	76
+1	Election Result Prediction	The crowd can guess the next elections winner and they predict outcomes rather very well.	183
 0	Predict whether a person in a photograph has past criminal records	"Shown a series of photographs having portrait shots of men/women, predict if the person in the photographs has past criminal records"	178
 0	Predict height of a player	Average height of a baskteball player is given and the maximum height ever observed is given with that particular player's image.	65
-0	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
-0	Predict the highest bidding price	"Given the details of an item, predict the highest bid that it will fetch during an auction"	154
+1	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
+1	Predict the highest bidding price	"Given the details of an item, predict the highest bid that it will fetch during an auction"	154
 0	Box office collection	Guessing the box office collection of a popular movie. Enter an integer in million usd/inr. 	112
-0	Predicting next day temperature of a city	Individuals are asked to make a guess of the next day temperature of their city according to the present and past one week weather conditions.	61
-0	Predict Economy of Country after 10 years	Given the details of current GDP of country and other resources	32
+1	Predicting next day temperature of a city	Individuals are asked to make a guess of the next day temperature of their city according to the present and past one week weather conditions.	61
+1	Predict Economy of Country after 10 years	Given the details of current GDP of country and other resources	32
 0	Predict who will win the best actor award in the next Oscar	"Among all the nominess, who will win the best actor award"	94
-0	Predict success of a film based on the cast and crew	"Presenting the participatns with the cast and crew of a film, based on which they would guess the possibility of movie becoming a success or a failure"	148
+1	Predict success of a film based on the cast and crew	"Presenting the participatns with the cast and crew of a film, based on which they would guess the possibility of movie becoming a success or a failure"	148
 0	Guessing the potential stats of a match	"One could predict the stats of player before the match, during the 1st innings, during 2nd innings.This will show the deviation in his answers over the time."	142
 0	Prediction of Influencers	"Predicting influencers on a social networking platform(facebook,twitter,instagram) based on number of followers"	28
 0	Predicting the number of hours required for a particular task to be performed by a particular person	Given the task description at minute level and a sample output for a basic task	17
-0	Predicting the content of a book based on its title.	"People should be given the title and genre of an upcoming novel and asked to predict the possible content of the novel."	157
+1	Predicting the content of a book based on its title.	People should be given the title and genre of an upcoming novel and asked to predict the possible content of the novel.	157
 0	Highest run scorer in a cricket match	Predict the highest run scorer in a particular cricket match	99
-0	Predict the results of an election based on Twitter discussion	Twitter data about the elections will be used to predict who wins the election	24
+1	Predict the results of an election based on Twitter discussion	Twitter data about the elections will be used to predict who wins the election	24
 0	Predict the next move of a chess player	"Provided the previous moves of the players and current state of the chessboard, predict the next move."	127
 0	Animal Population	Predicting rise/fall in the population of an endangered species within the next five years	136
 0	Ordering the colors of rainbow	"Given a set of colors, order them to create color ordering same as that of rainbow"	75
-0	Guess the order of events	Present the subjects with a list of major events in history and ask them to arrange them chornologically	174
-0	Predict whether a news headline is real	"Given a news headline, predict whether it is real or fake"	164
+1	Guess the order of events	Present the subjects with a list of major events in history and ask them to arrange them chornologically	174
+1	Predict whether a news headline is real	"Given a news headline, predict whether it is real or fake"	164
 0	Predicting the language of text	"Given an image of an image of a scanned text, predict its language "	88
 0	Total calories consumed	Predict the total amount of calories earned from a set of food items	159
 0	Predict the manufacture year	Present subjects a picture of a car and ask them to predict the year in which the car was manufactured	114
 0	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
 0	Predicting the damage after any disaster	Observe the site of disaster and estimate the damage cost	131
-0	Fake facebook profile detection	"Given a Facebook profile, guess whether it is a legitimate profile of a real person or not"	49
+1	Fake facebook profile detection	"Given a Facebook profile, guess whether it is a legitimate profile of a real person or not"	49
 0	Identifying the color of an object	"given a picture ,guess the color of the object"	82
 0	predict whether a person suffering from a certain cancer type will die or not	survey people asking whether people survive or not suffering from cancer	95
 0	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
 0	Number of retweets	"Given a tweet, predict the number of retweets it gets (duration of study may be specified)"	117
-0	predict the distance between places	"given two places,predict what is the distance between the two places"	119
+1	predict the distance between places	"given two places,predict what is the distance between the two places"	119
 0	predict whether stampede will occur during haj or kumbha mela	"Given the input video for the haj or kumbha mela, or the count of people"	16
 0	Estimate the quantity of wheat that might be produced from wheat fields 	The people should be shown the wheat fields and without specifing the details of the cultivation and other specifications  they have to predict the final quantity of wheat that can be producded	106
 0	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
-0	Using Crowdsourcing for  Predicting the amount of buffer stock needed by country after drought	"Individual will be asked about there personal need of commodity especialy edibles(wheat,rice) and then based on that how much the whole country or state will need according to them"	166
+1	Using Crowdsourcing for  Predicting the amount of buffer stock needed by country after drought	"Individual will be asked about there personal need of commodity especialy edibles(wheat,rice) and then based on that how much the whole country or state will need according to them"	166
 0	Find out the age of a tree	Guess the number of growth rings / annual rings present in the trunk of a tree 	46
 0	Predicition of Global Oil Prices	individuals working in related fields could predict the next change in prices of the Oil globally	184
 0	Predict the genre of a book	Predict the genre to which a book belongs	168
@@ -70,7 +70,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
 0	Predict the guitar chords used in a song	The song is played and crowd is asked to identify which chords match the chords used in the song	167
 0	Guessing the age of a person	"Given an image of a persong, identifying his/her age"	141
-0	Predict the cost incurred for developing and offering a MOOC	Expecting the cost for an offering of a MOOC	56
+1	Predict the cost incurred for developing and offering a MOOC	Expecting the cost for an offering of a MOOC	56
 0	No. of Twitter followers	"Given a celebrity, guess the no. of Twitter followers"	113
 0	Predict the number of friends of a person On social networking profile	"Given social media information(his/her image, detailed description) about the person, predict the number of friends he would have on Facebook"	170
 0	Estimating the time required to reach a particular destination	Presenting the participants with a map showing the route to the destination along with some information about traffic in that area and asking them to estimate the approximate time required to reach the destination	72
@@ -99,7 +99,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Estimating weights of objects.	"Given images/names of everyday-objects, estimate how much the object would weigh."	133
 0	Risk evaluation.	"Given different scenarios encompassing risk, for example air travel, living near a factory, etc. the respondent must give a probability estimate of mortality."	26
 0	Predict the change in price of a stock	"Given the current market conditions, predict the change in the price of a particular stock in the short term"	118
-0	"Prediction of rate of real estate in metro cities based on civil factor"	"Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates "	68
+0	Prediction of rate of real estate in metro cities based on civil factor	Based on the past data and current civil factor cost predict the future(2 yrs later) rate of real estates 	68
 0	Spam mail detection	Given a particular email determine if its a spam mail	90
 0	Guess the difficulty of a question	Present the subjects with a descriptive question from an unfamiliar domain and ask them to guess if the question is actually simple to the people of that domain or difficult.	102
 0	Guess the number of times the ball bounces	"a short video clip showing a bouncing ball, the crowd has to guess the number of times the ball bounces"	45
@@ -118,10 +118,10 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Estimate time for a line of traffic to clear	Given a traffic camera image	129
 0	predict the average grade point	Ask all the students in a batch to estimate the average grade point of their batch. Compare the median of this data with the actual average of the CGPA of the batch. 	10
 0	Predict the exchange rate of the currencies of two countries	"Given the GDP of two countries, the crowd is asked to predict the currency exchange rate"	143
-0	Guess the air travel time between two cities	"Give two cities, ask approx. travel time between them"	179
-0	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
+1	Guess the air travel time between two cities	"Give two cities, ask approx. travel time between them"	179
+1	Guessing the least possible distance between two cities	Names of two famous cities will be given and asked to identify the least possible distance between them	186
 0	Predicting that who's research will pe published. 	Many students have participated for the research paper to be published.Survyed will be done among the participated students.	6
-0	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
+1	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
 0	Guess the number of times a word is repeated	Guess the number of times a particular word is being repeated in lyrics of a song	81
 0	Predict if a certain player will be bought/sold by a football club in the English Premier League.	Presents the subjects with the stats of  the player along with existing squads of various teams and predict if the player transfer may take place	37
 0	Predict the number of people who will complete all the assignments and exams required for completing a registered MOOC (Massive Online Open Course) (or even this challenge)	"Among all those who have registered for a MOOC, how many would successfully go through the content(videos,reading material) and complete the assignments/HW and reach the end of the course on time"	55
@@ -132,17 +132,17 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predicting the virality of a tweet or post on social media	The number of favourites or retweet (or anyother terminology of the particular social media under consideration) a particular tweet/post may amass in a given period of time	176
 0	Predict the next product to buy	"Given an user's last 10 purchases, predict what he is going to buy next on the e-commerce site?"	69
 0	Find where the ball is in a magic trick	"Present subjects with a video of a magitian playing ""where is the ball"" and ask people to indicate the location of the ball"	109
-0	Predict the cities based on old photographs	"The crowd is shown some old images of the cities with correct city names, now crowd has to predict the city names based on current images of the cities"	177
+1	Predict the cities based on old photographs	"The crowd is shown some old images of the cities with correct city names, now crowd has to predict the city names based on current images of the cities"	177
 0	Guessing the height of buildings	Guessing the height of popular buildings. Enter an integer in meters.	80
 0	Number of Contributors	Predict the number of contributors in an Open Source Project	98
 0	Predict the grade point of a student in future semesters	"By providing the grades obtained by a student in previous semesters, WoC could be used to predict the grades of future semesters. Crowd can estimate the grades based on old grades and the amount of time spent on studying. If the hours spent are >= the hours spent in previous semesters, the student is likely to obtain better results. "	100
 0	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
 0	Predict the perfectness of geometrical shapes	"The crowd has to predict based on images that the geometrical figure like a circle, parallelogram, square, etc is perfect or not"	39
 0	Stock Market Prediction	The crowd shall guess the next ups and downs in the stock market which usually be close to the actual observations	182
-0	Guess the time difference between in two cities	"given two cities, the user will guess the time difference between two cities. for eg + 9hrs , - 10 hrs etc"	115
+1	Guess the time difference between in two cities	"given two cities, the user will guess the time difference between two cities. for eg + 9hrs , - 10 hrs etc"	115
 0	Guess the number of pages in a book	"Given the image of book, guess the number of pages"	160
 0	Whether a normal person will achieve what he aims for in his life	Each person has a dream of achieving something in his life but all are not able to do so. We will survey people from all age groups and grood diverse backgrounds to see the results	2
-0	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
+1	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
 0	predicting the size of the audience for an annual college fest	"predicting the no. of people who will be attending a college's annual fest in the year 2015 (given the data for the past 2 years). If the estimates are correct (in accordance with the wisdom of the crowds theory) this can help us in better organising the event, having security arrangements according to the size of the crowd, etc"	40
 0	Guessing the number of blades in a fan	"Given a rotating fan , the user will be asked to guess the no of blade it might have"	14
 0	Predict the failure age of a device	"Provided the software and hardware configuration and average duration of daily use, predict how long before a device will fail."	21
@@ -159,7 +159,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predict if a Youtube video will go viral	"Given some video, the person has to predict if there are chances of it becoming viral"	125
 0	Predicting the market price of a product	Given all the information about a product predicting the market price of the product	185
 0	Estimate number of days( or years ) required to construct a building	"Given a series of photograph of buildings (may be number of workers), estimate the number of days (years) required to construct those buildings"	151
-0	Identify cities in maps	Present subjects to a world map and ask them to locate a given city.	108
+1	Identify cities in maps	Present subjects to a world map and ask them to locate a given city.	108
 0	Increasing TRP/Viewership of television ads 	preferences of the crowd with respect to time slot given an ad category	83
 0	Predict no. of hair.	Present subjects a picture of some person and ask them to predict the no. of hair on that person's head	0
 0	Predict the amount spent for a party (treat)	"Given the occasion, place and number of people attending a party, predict the bill to be paid by the host"	5
@@ -174,7 +174,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Number of online users	Predict the number of online users at a given website at a particular time.	134
 0	predicting the possible move the player is going to take in a chess game.	People have to predict the possible move the a player is going to take in a chess game.	188
 0	Predict if a business idea is viable/will be popular	"Given a business idea, predict its success"	67
-0	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
+1	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
 0	Suggesting potential development	"Given the area and its details, along with the problems, suggest the developmental project need along with the budget for the community. The crowd shall be limited to the people from that particular community"	29
 0	"Predict the winner of ""Who wants to be a Millionaire """	"Given the bio and resume of the contenstants on the show, predict who will be the winner"	53
 0	Predict cost of farming	"Given the necessary information for planting crops and later harvesting them, predict the total cost until harvest."	63
@@ -182,8 +182,8 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Classification of trees into categories	"Given a picture of a tree, determine the species"	110
 0	To predict a feasability of a bet 	The crowd is provided the credibility information about the scenario on which the bet is placed Eg. A horse in a turf club	103
 0	Word Origin	"Given a word, guess its origin."	120
-0	Predict the country name by flag	"Given a country's flag, predict which country is it actually?"	169
-0	"Predicting the remaining part of the story,based on the preceeeding part of the story."	"People should be given an introductory part of the story and asked to predict the twist and plots that might occur in the remaining story."	42
+1	Predict the country name by flag	"Given a country's flag, predict which country is it actually?"	169
+1	"Predicting the remaining part of the story,based on the preceeeding part of the story."	People should be given an introductory part of the story and asked to predict the twist and plots that might occur in the remaining story.	42
 0	Expected number of questions in our last video session	They are required to give a prediction on the number of of questions they expect to be asked in our last online session.	62
 0	Estimating the standby time of a phone	"Given a fully charged iPhone , switched off, for how many days the battery will last ? (standby)"	13
 0	Predicting the standings of different political parties after an election 	"The crowd has to predict the percentage of votes both Republican and Democratic parties are going to receive after the US Senate Elections, 2016. "	104
