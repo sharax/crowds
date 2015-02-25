@@ -8,34 +8,34 @@ Rating[0-1]	Short Description	Description	Task-ID
 0.5	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
 0.5	predicting the possible move the player is going to take in a chess game.	People have to predict the possible move the a player is going to take in a chess game.	188
 0.6	Predicting sequel number 	Given a screenshot from a particular movie sequel and crowd is asked to which sequel number does it belong	101
-0	Predict whether the stock of a company will increase/decrease	"Given the name of company, predict whether its stocks value will increase or decrease"	124
-0	Estimate the net worth of a startup after a year of beginning operation	"Given the startup idea, and the name of companies already building similar products, the crowd is asked to predict the net worth of the startup after a year of it beginning operations"	33
-0	Estimating weights of objects.	"Given images/names of everyday-objects, estimate how much the object would weigh."	133
-0	Predict the failure age of a device	"Provided the software and hardware configuration and average duration of daily use, predict how long before a device will fail."	21
-0	guess the typr of music	"given an audio file,user have to identify which kind of music is being played"	121
-0	Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
-0	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
-0	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
-0	Predicting the virality of a tweet or post on social media	The number of favourites or retweet (or anyother terminology of the particular social media under consideration) a particular tweet/post may amass in a given period of time	176
-0	Spam mail detection	Given a particular email determine if its a spam mail	90
-0	Guess the top 3 artists/songs of the Billboard music charts	"Given a list of input audio files and artist information, predict which is going to top the charts"	87
-0	Highest run scorer in a cricket match	Predict the highest run scorer in a particular cricket match	99
-0	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
-0	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
-0	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
-0	Predicting the angle of swing of a fast bowler/angle of turn by a spinner	Given the video of a ball being bowled/ the hawk eye trajectory of the ball	18
-0	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
-0	Predict the cost incurred for developing and offering a MOOC	Expecting the cost for an offering of a MOOC	56
-0	Predict if the inflation rate goes up/down	"Given the FII(Foreign Institutional Investor),gdp figures, predict if the inflation rate goes up or down"	92
-0	Identify the brand of the clothing 	"Given an image of a clothing, identify the brand"	126
-0	Number of Contributors	Predict the number of contributors in an Open Source Project	98
-0	Predict the next move of a chess player	"Provided the previous moves of the players and current state of the chessboard, predict the next move."	127
-0	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
-0	guess if the cost of crude oil will increase or not	graph depicting cost of crude oil at different intervals of time	122
-0	Guess the religion of a person	Present the subjects with a name of a person and ask them to guess the religion that the person believes in	173
-0	Classification of trees into categories	"Given a picture of a tree, determine the species"	110
-0	Predict the verdict of a case	"Present subjects with just the photograph of the accused (in different attire or in different lighting condition to study their effects), ask them to predict if he/she was guilty or innocent and compare with the actual results. (Validating the jury system)"	146
-0	Total calories consumed	Predict the total amount of calories earned from a set of food items	159
+0.6	Predict whether the stock of a company will increase/decrease	"Given the name of company, predict whether its stocks value will increase or decrease"	124
+0.5	Estimate the net worth of a startup after a year of beginning operation	"Given the startup idea, and the name of companies already building similar products, the crowd is asked to predict the net worth of the startup after a year of it beginning operations"	33
+0.6	Estimating weights of objects.	"Given images/names of everyday-objects, estimate how much the object would weigh."	133
+0.6	Predict the failure age of a device	"Provided the software and hardware configuration and average duration of daily use, predict how long before a device will fail."	21
+0.7	guess the typr of music	"given an audio file,user have to identify which kind of music is being played"	121
+0.6	Predict the future usage of electricity for a country	"Given the past trends of electricty usage for a country, their populations statistics and industrail growth"	105
+0.6	Predict sales for a product	Given current trends estimate whether a product will sell or not	139
+0.7	predict a project real dealine and budget	"Given the details about project targets, predict its real dealine and budget"	52
+0.5	Predicting the virality of a tweet or post on social media	The number of favourites or retweet (or anyother terminology of the particular social media under consideration) a particular tweet/post may amass in a given period of time	176
+0.5	Spam mail detection	Given a particular email determine if its a spam mail	90
+0.6	Guess the top 3 artists/songs of the Billboard music charts	"Given a list of input audio files and artist information, predict which is going to top the charts"	87
+0.6	Highest run scorer in a cricket match	Predict the highest run scorer in a particular cricket match	99
+0.7	Guess the popularity of a brand	"Present the subjects with 2 images of a single commodity sold by 2 different brands in a foreign market and ask them to guess the more genuine/popular of the two. (In order to determine the effect of packaging, cover design and brand power on the sales of products) "	175
+0.7	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
+0.7	Predict the mood/emotion of a person 	"Given the photograph of a person, predict the emotion/mood of the person"	153
+0.7	Predicting the angle of swing of a fast bowler/angle of turn by a spinner	Given the video of a ball being bowled/ the hawk eye trajectory of the ball	18
+0.6	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
+0.7	Predict the cost incurred for developing and offering a MOOC	Expecting the cost for an offering of a MOOC	56
+0.6	Predict if the inflation rate goes up/down	"Given the FII(Foreign Institutional Investor),gdp figures, predict if the inflation rate goes up or down"	92
+0.5	Identify the brand of the clothing 	"Given an image of a clothing, identify the brand"	126
+0.4	Number of Contributors	Predict the number of contributors in an Open Source Project	98
+0.6	Predict the next move of a chess player	"Provided the previous moves of the players and current state of the chessboard, predict the next move."	127
+0.6	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
+0.6	guess if the cost of crude oil will increase or not	graph depicting cost of crude oil at different intervals of time	122
+0.6	Guess the religion of a person	Present the subjects with a name of a person and ask them to guess the religion that the person believes in	173
+0.7	Classification of trees into categories	"Given a picture of a tree, determine the species"	110
+0.7	Predict the verdict of a case	"Present subjects with just the photograph of the accused (in different attire or in different lighting condition to study their effects), ask them to predict if he/she was guilty or innocent and compare with the actual results. (Validating the jury system)"	146
+0.5	Total calories consumed	Predict the total amount of calories earned from a set of food items	159
 0	Predict the cities based on old photographs	"The crowd is shown some old images of the cities with correct city names, now crowd has to predict the city names based on current images of the cities"	177
 0	Predict Economy of Country after 10 years	Given the details of current GDP of country and other resources	32
 0	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
