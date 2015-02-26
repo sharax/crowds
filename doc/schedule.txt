@@ -1,0 +1,16 @@
+Week 1:
+	literature review
+	task proposal
+	web design team applications
+	
+Week 2:
+	continue lit review 
+		rename / move papers
+		not all entries have papers in repo
+		duplicate entries; incomplete entries
+		clean up doc (one entry with multiple rows)
+		add email on lit review tab
+		ensure "past studies" lists tasks
+	select tasks
+	
+	start designing and implementing web site
