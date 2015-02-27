@@ -1,7 +1,7 @@
 Rating[0-1]	Short Description	Description	Task-ID
 1	Predict the perfectness of geometrical shapes	"The crowd has to predict based on images that the geometrical figure like a circle, parallelogram, square, etc is perfect or not"	39
 1	Using Crowdsourcing for  Predicting the amount of buffer stock needed by country after drought	"Individual will be asked about there personal need of commodity especialy edibles(wheat,rice) and then based on that how much the whole country or state will need according to them"	166
-0	Predict the verdict of a case	"Present subjects with just the photograph of the accused (in different attire or in different lighting condition to study their effects), ask them to predict if he/she was guilty or innocent and compare with the actual results. (Validating the jury system)"	146
+1	Predict the verdict of a case	"Present subjects with just the photograph of the accused (in different attire or in different lighting condition to study their effects), ask them to predict if he/she was guilty or innocent and compare with the actual results. (Validating the jury system)"	146
 1	Bubble Sort	First ask to choose an O(n^2) sorting algorithm. Then ask to predict the percentage of people who would do a Bubble Sort if asked to implement an O(n^2) sorting algorithm.	7
 1	Guess the number of upvotes that an answer got on Quora	Show the question and the answer. Ask to guess the number of upvotes that it got.	86
 1	Predict the number of goals in a football match	"Given the league name, league ranking of teams before the match, predict the number of goals that will be scored during the match"	152
