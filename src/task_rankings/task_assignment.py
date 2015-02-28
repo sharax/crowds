@@ -58,7 +58,7 @@ def conflict_teams(pref):
 
 def set_second_choice(pref):
     """
-    Finds teams that chose a task that is unavailable
+    Take second choice for teams that chose a task that is already taken
     :param choice_dict: dict{team_name: task_id}
     :return: list of team_names (str)
     """
@@ -68,7 +68,6 @@ def set_second_choice(pref):
     for t in xrange(len(tied_team)):
         random_team = sample_team(tied_team)
         second_choice = pref[random_team][1]
-        # print "team", random_team, second_choice
         # if second choice is not taken, --> swap first and second choice
         if second_choice not in unique_top_choices:
             # swap first and second choice
@@ -77,9 +76,15 @@ def set_second_choice(pref):
             result[random_team][1] = temp
             unique_top_choices.append(second_choice)
         tied_team.remove(random_team)
-    # for k in sorted(result):
-    #     print k, result[k]
     return result
+
+
+def tied_on_task(pref, pref_index, task_id):
+    tied = []
+    for t in pref:
+        if pref[t][pref_index] == task_id:
+            tied.append(t)
+    return tied
 
 
 
@@ -88,53 +93,71 @@ def double_ties(pref):
     deals with situation when second choice is also taken by another team
     """
     # get names of teams whose first choice == the team's second pick
+    already_assigned_tasks = list(set([pref[t][0] for t in pref]))
+    print already_assigned_tasks
     for k in sorted(pref):
         print k, pref[k]
-    tied_teams, already_assigned_tasks = conflict_teams(pref)
-    print tied_teams
-    # the second task that is the same
-    trouble_task = pref[tied_teams[0]][1]
-    print "trouble task", trouble_task
-    switch_candidates = []
-    for team in pref:
-        if pref[team][0] == trouble_task:
-            switch_candidates.append(team)
-    print switch_candidates
-    for t in xrange(len(switch_candidates)):
-        random_team = sample_team(switch_candidates)
-        second_choice = pref[random_team][1]
-        # can swap conflict team's 1st & 2nd choices so that the random team
-        # doesn't have to take their third choice
-        if second_choice not in already_assigned_tasks:
-            # swap first and second choice of conflict team
-            temp = pref[random_team][0]
-            pref[random_team][0] = second_choice
-            pref[random_team][1] = temp
-            already_assigned_tasks.remove(temp)
-            already_assigned_tasks.append(second_choice)
-            # swap first and second choice of target team
-            temp_r = pref[random_team][0]
-            pref[random_team][0] = second_choice
-            pref[random_team][1] = temp_r
-            already_assigned_tasks.remove(temp_r)
-            already_assigned_tasks.append(second_choice)
-        else:
-            # take next choice
-            third_choice = pref[random_team][2]
-            temp1 = pref[random_team][0]
-            temp2 = pref[random_team][1]
-            pref[random_team][0] = third_choice
-            pref[random_team][1] = temp1
-            pref[random_team][2] = temp2
-            already_assigned_tasks.remove(temp1)
-            already_assigned_tasks.append(second_choice)
-    # print ""
-    # for k in pref:
-    #     print k, pref[k]
+    # split ties into buckets
+    choices = [pref[t][0] for t in pref]
+    c = Counter(choices)
+    tasks_to_be_resolved = [task for task in c if c[task]>1]
+    print c
+    print "conflict task", tasks_to_be_resolved
+    print ""
+    for id in tasks_to_be_resolved:
+        tied_teams = tied_on_task(pref, 0, id)
+        print "resolve:",tied_teams
+        # the second task that is the same
+        trouble_task = pref[tied_teams[0]][1]
+        print "trouble task", trouble_task
+        switch_candidates = []
+
+        for team in pref:
+            if pref[team][0] == trouble_task:
+                switch_candidates.append(team)
+        print switch_candidates
+        for t in xrange(len(switch_candidates)):
+            random_team = sample_team(switch_candidates)
+            second_choice = pref[random_team][1]
+            # can swap conflict team's 1st & 2nd choices so that the random team
+            # doesn't have to take their third choice
+            if second_choice not in already_assigned_tasks:
+                # swap first and second choice of conflict team
+                temp = pref[random_team][0]
+                pref[random_team][0] = second_choice
+                pref[random_team][1] = temp
+                already_assigned_tasks.append(second_choice)
+                # swap first and second choice of target team
+                lucky_team = sample_team(tied_teams)
+                print "lucky team", lucky_team
+                temp_lucky = pref[lucky_team][0]
+                pref[lucky_team][0] = pref[lucky_team][1]
+                pref[lucky_team][1] = temp_lucky
+    for k in sorted(pref):
+        print k, pref[k]
     return pref
 
 
-def export_to_file(data):
+def reiterate(pref, full_pref):
+    # check that top choices are unique
+    already_assigned_tasks = [pref[t][0] for t in pref]
+    c = Counter(already_assigned_tasks)
+    for t in c:
+        if c[t] > 1:
+            print "----error!"
+    # update full ranking list
+    reduced_pref = full_pref
+    for team in full_pref:
+        reduced_pref[team][0] = pref[team][0]
+        reduced_pref[team][1] = pref[team][1]
+        reduced_pref[team].remove(reduced_pref[team][0])
+    print ""
+    for k in sorted(reduced_pref):
+        print k, reduced_pref[k]
+    return pref
+
+
+def print_to_file(data):
     pass
 
 
@@ -144,9 +167,9 @@ if __name__ == "__main__":
     preferences = load_preferences(file)
     top_choice = init_top_choices(preferences)
     ss = set_second_choice(top_choice)
-    double_ties(ss)
-
-
-    print ""
-    print "Team      Tasks"
-    print "-----------------------"
+    first_set = double_ties(ss)
+    reiterate(first_set, preferences)
+    #
+    # print ""
+    # print "Team      Tasks"
+    # print "-----------------------"
