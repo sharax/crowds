@@ -66,7 +66,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Total calories consumed	Predict the total amount of calories earned from a set of food items	159
 0	Predicting that who's research will pe published. 	Many students have participated for the research paper to be published.Survyed will be done among the participated students.	6
 0	Guess the number of times a word is repeated	Guess the number of times a particular word is being repeated in lyrics of a song	81
-0	Predict if a Youtube video will go viral	"Given some video, the person has to predict if there are chances of it becoming viral"	125
+1	Predict if a Youtube video will go viral	"Given some video, the person has to predict if there are chances of it becoming viral"	125
 0	Predict the guitar chords used in a song	The song is played and crowd is asked to identify which chords match the chords used in the song	167
 0	Metaquestion on a question.	"Given certain outreach information, the respondent must answer ""How many people would be answering this question?"""	97
 0	Guessing the height of buildings	Guessing the height of popular buildings. Enter an integer in meters.	80
@@ -83,12 +83,12 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Guessing the age of a person	"Given an image of a persong, identifying his/her age"	141
 0	Predict whether the stock of a company will increase/decrease	"Given the name of company, predict whether its stocks value will increase or decrease"	124
 0	Which advertisement suits best to a video	Given a video guess the most appropriate ad for it.	19
-0	Predict the cities based on old photographs	"The crowd is shown some old images of the cities with correct city names, now crowd has to predict the city names based on current images of the cities"	177
+1	Predict the cities based on old photographs	"The crowd is shown some old images of the cities with correct city names, now crowd has to predict the city names based on current images of the cities"	177
 0	Predict the no of people who use mobile data	Given the no of people who have phones that can acccesss internet	74
 0	Estimate time for a line of traffic to clear	Given a traffic camera image	129
 0	Highest run scorer in a cricket match	Predict the highest run scorer in a particular cricket match	99
 0	Bubble Sort	First ask to choose an O(n^2) sorting algorithm. Then ask to predict the percentage of people who would do a Bubble Sort if asked to implement an O(n^2) sorting algorithm.	7
-0	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
+1	Pedict the beauty competition/ body building competition winners based on photographs	"Shown a set of pictures of participants from some beauty/body building competition, predict the winner"	150
 0	"given a picture of a stadium, estimate the number of people it can hold"	an image of a stadium or theatre will be displayed and the crowd will have to guess the number of people it can hold	59
 0	estimating the age of Celestial bodies	"given a photograph of a celestial body,  the user will be asked to estimate the age of the planet ,stars ,galxies "	44
 0	Resource allocation and government spending.	"Given some background information about a country, like its population, life expectancy, literacy rate, GDP, allocate a fixed government budget to various fields of health, education, defence, etc."	58
@@ -110,7 +110,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predicting whether the metro coming next to the station will be crowded or not	People standing on the platforms will be surveyed for this and the answer will be in binary.	4
 0	Guess the time difference between in two cities	"given two cities, the user will guess the time difference between two cities. for eg + 9hrs , - 10 hrs etc"	115
 0	Individual wisdom vs Crowd wisdom	"Quora users can be presented with an answer without the number of upvotes shown. Now, the user will have to make the decision of upvoting an answer independently without any knowledge about its popularity. Then, then the number of upvotes received (without prior knowledge about upvotes ie the answer's popularity) can be compared to the actual number of upvotes( Crowd wisdom)."	60
-0	Predicting the ICC cricket worldcup Finalists	The users will be asked to predict the winners and runners of ICC cricket world cup	140
+1	Predicting the ICC cricket worldcup Finalists	The users will be asked to predict the winners and runners of ICC cricket world cup	140
 0	Predict the direction of penalty shot.	Present subjects a picture of a footballer(soccer player) and his previous three attempted penalty kick directions	12
 0	Predict the complexity of a task	"Given a computing task and an algorithm to solve it, predict the complexity of the task without actually looking at the code"	70
 0	Word Origin	"Given a word, guess its origin."	120
@@ -137,7 +137,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Predicting the damage after any disaster	Observe the site of disaster and estimate the damage cost	131
 0	Number of online users	Predict the number of online users at a given website at a particular time.	134
 0	Guess the winner of elections	"Given a list of candidates contesting in elections and their previous track records, predict who is going to win the elections"	123
-0	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
+1	Guess the price range of the suite	"Given an image of a hotel suite and location, guess the price range of it"	158
 0	Predicting the number of placements of a college that will b done in the coming year	Given the list of various students of a college and later predicting the package of each of them using their details	64
 0	Find out the age of a tree	Guess the number of growth rings / annual rings present in the trunk of a tree 	46
 0	Estimate the winner of a singing contest	Estimate the winner of a singing contest	156
@@ -152,7 +152,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Spam mail detection	Given a particular email determine if its a spam mail	90
 0	Increasing TRP/Viewership of television ads 	preferences of the crowd with respect to time slot given an ad category	83
 0	Predict who will win the best actor award in the next Oscar	"Among all the nominess, who will win the best actor award"	94
-0	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
+1	Word Connotation	"Given an unknown word, tell if it has a positive or a negative connotation"	48
 0	Identify the disease	"Give list of symptoms, ask to identify the disease"	161
 0	Predicting the depth of underground water 	people should be gven the population and environmental stats and should be asked to predct the ground water level in the particular area at that period of time 	107
 0	Frontpage Headline Guesser	Predict which headline appear on the front page of a particular newspaper. 	137
@@ -168,7 +168,7 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Box office collection	Guessing the box office collection of a popular movie. Enter an integer in million usd/inr. 	112
 0	Predict the number of rooms required to accomodate given number of people	"Given some number of people,tell how many rooms will be needed to handle them in a given area"	34
 0	Predict the number of friends of a person On social networking profile	"Given social media information(his/her image, detailed description) about the person, predict the number of friends he would have on Facebook"	170
-0	Predicting the success or failure of a product pitch	Present participants with the pitch of a product and guage the success of the product pre-production.	8
+1	Predicting the success or failure of a product pitch	Present participants with the pitch of a product and guage the success of the product pre-production.	8
 0	Primary Health Prediction	"Predicting the state of health of a person based on the symptoms, and probably suggest the disease"	181
 0	Identify the nation 	"Given an image of nations currency, identify the nation"	128
 0	Stock Market Prediction	The crowd shall guess the next ups and downs in the stock market which usually be close to the actual observations	182
@@ -186,5 +186,5 @@ Rating[0-1]	Short Description	Description	Task-ID
 0	Guess the life span of a person	"Provided the medical history of a person, predict the life-span."	22
 0	Classification of Dog breeds	"Give images of dogs, ask to classify according to breed"	50
 0	Guessing the age of a celebrity	Given the face of a celebrity. User has to enter the age.	78
-0	Prediction of Influencers	"Predicting influencers on a social networking platform(facebook,twitter,instagram) based on number of followers"	28
-0	Predict the manufacture year	Present subjects a picture of a car and ask them to predict the year in which the car was manufactured	114
+1	Prediction of Influencers	"Predicting influencers on a social networking platform(facebook,twitter,instagram) based on number of followers"	28
+1	Predict the manufacture year	Present subjects a picture of a car and ask them to predict the year in which the car was manufactured	114
