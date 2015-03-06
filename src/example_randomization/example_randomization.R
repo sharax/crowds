@@ -3,12 +3,9 @@ library(XML)
 # TASK: Given a country, guess its capital city.
 
 # Download the country information as a table
-doc <- readHTMLTable(
-  doc="http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population#cite_note-8")
+url <- "http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population#cite_note-8"
+doc <- readHTMLTable(url)
 
-# Get  and clean the countries and population table 
-# I also taking away China's,UK's, US's and India's flags (It would not make any sense to ask this)
-countries.info<-doc[[1]][-c(1,2,3,22,),2:3]
 # Clean the country and population table 
 countries.info<-doc[[1]][2:3]
 names(countries.info) <- c('Country','Population')
