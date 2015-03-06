@@ -32,11 +32,12 @@ if 'tasks.tsv' not in files:
 # Check the 'tasks.tsv' file.
 if condition:
     with open(path+'/tasks.tsv') as tasks:
-        q = 1
-        flag = True
+        tasks.readline()
+	q = 1
         read_file = True
         for line in tasks:
-            print 'Question ' + str(q)
+            flag = True
+	    print 'Question ' + str(q)
             try:
                 task = line.split('\t')
                 n = len(task)
@@ -61,8 +62,8 @@ if condition:
             else:
                 if task[2] in ['video','image','audio']:
                     if task[3] not in assets:
-                        print 'Can not find ' + task[2] + ' in assets folder for question ' + str(q)
-                        flag  = False
+                        print 'Can not find ' + task[3] + ' in assets folder for question ' + str(q)
+			flag  = False
             if task[4] != 'no answers':
                 multiple = task[4].split(',')
                 if multiple <2:
@@ -72,11 +73,10 @@ if condition:
             if task[5] not in ['true','false']:
                 'The sixth column should be either: true or false'
                 flag =False
-            
             if flag:
-                'Question ' +str(q)+' appears to be correct.'
+                print 'Question ' +str(q)+' appears to be correct.'
             else:
-                'Fix problems with question ' +str(q)
+                print 'Fix problems with question ' +str(q)
             q+=1
             
     if read_file and q!=21:

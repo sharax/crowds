@@ -1,0 +1,21 @@
+correct_answer	answer type	asset type	asset file	possible_answers	randomize answers
+Egypt	multiple choice	image	country_shape_egypt.png	Guatemala,Canada,Turkey,Panama	true
+France	multiple choice	image	country_shape_france.png	Turkey,Libya,China,Greece	true
+Philipines	multiple choice	image	country_shape_phillipines.png	The Bahamas,Cuba,Russia,Portugal	true
+Iceland	multiple choice	image	country_shape_iceland.png	Cameroon,Togo,Uganda,Burma	true
+Panama	multiple choice	image	country_shape_panama.png	Oman,Poland,Ghana,Sudan	true
+USA	multiple choice	image	country_shape_usa.png	United States,Jamaica,Argentina,Saudi Arabia	true
+Vietnam	multiple choice	image	country_shape_vietnam.png	Malawi,Pakistan,Spain,Belgium	true
+Cuba	multiple choice	image	country_shape_cuba.png	Iran,Mali,Peru,South,Sudan	true
+Mexico	multiple choice	image	country_shape_mexico.png	Haiti,Ghana,Sierra Leone,Russia	true
+Saudi Arabia	multiple choice	image	country_shape_saudiarabia.png	Pakistan,Finland,Syria,Pakistan	true
+Spain	multiple choice	image	country_shape_spain.png	Australia,Kazakhstan,Tunisia,United Kingdom	true
+Turkey	multiple choice	image	country_shape_turkey.png	Peru,Paraguay,United States,Switzerland	true
+Greece	multiple choice	image	country_shape_greece.png	India,Venezuela,Angola ,Colombia	true
+Canada	multiple choice	image	country_shape_canada.png	Uganda,Rwanda,Colombia,France	true
+Norway	multiple choice	image	country_shape_norway.png	Colombia,Cameroon,Madagascar,Nigeria	true
+South Africa	multiple choice	image	country_shape_south_africa.png	Denmark,Yemen,Iran,Brazil	true
+Iraq	multiple choice	image	country_shape_iraq.png	Venezuela,Brazil,Zimbabwe,Ireland	true
+Indonesia	multiple choice	image	country_shape_indonesia.png	China,Armenia,Mexico,Thailand	true
+Japan	multiple choice	image	country_shape_japan.png	Uzbekistan,Italy,France,Austria	true
+New Zealand	multiple choice	image	country_shape_newzealand.png	Algeria,Bangladesh,Nigeria,Morocco	true
