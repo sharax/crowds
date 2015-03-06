@@ -10,13 +10,13 @@ DESCRIPTION. You will be shown 20 images outlining the shape of a country
              and asked to guess the name of the country it corresponds to.
 
 CORPUS: The complete set of country names was extracted from:
-		http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population#cite_note-8 
+	http://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population#cite_note-8 
 		
-		A set of 32 images was collected from the following websites. 
+	A set of 32 images was collected from the following websites. 
         The corpus was chosen as it has a standardized set of images 
-		which ensures consistency across the 20 tasks.
-		http://www.jetpunk.com/quizzes/guess-the-country-shape.php
-		http://www.jetpunk.com/quizzes/guess-the-country-shape-2.php
+	which ensures consistency across the 20 tasks.
+	http://www.jetpunk.com/quizzes/guess-the-country-shape.php
+	http://www.jetpunk.com/quizzes/guess-the-country-shape-2.php
 		
 		
 METHODOLOGY: 
