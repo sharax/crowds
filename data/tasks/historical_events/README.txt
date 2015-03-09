@@ -12,7 +12,7 @@ DESCRIPTION: We will provide you with a list of five events that have occurred i
 
 INPUT TYPE: List of five events that have occurred in history.
 
-CORPUS: The corpus for this task is available at  the webpage             delong.typepad.com/sdj/2009/09/100-events-in-twentieth-century-world-history-berkeley-undergraduates-really-should-now.html. This webpage contains a list of top 50 historical events that occurred in the last century. We have restricted ourselves to only the last century so that many events may likely to be known by the general population.
+CORPUS: The corpus for this task is available at  the webpage             [delong.typepad.com/sdj/2009/09/100-events-in-twentieth-century-world-history-berkeley-undergraduates-really-should-now.html](delong.typepad.com/sdj/2009/09/100-events-in-twentieth-century-world-history-berkeley-undergraduates-really-should-now.html). This webpage contains a list of top 50 historical events that occurred in the last century. We have restricted ourselves to only the last century so that many events may likely to be known by the general population.
 
 
 METHODOLOGY:       
