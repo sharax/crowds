@@ -5,7 +5,7 @@ bhargav.rao448@gmail.com
 chiraagsumanth@gmail.com
 ramesharvind1994@gmail.com
 
-TASK: Guess the order of historical events 
+TASK: Word Meaning
 
 
 DESCRIPTION: We will provide you with a sentence containing a highlighted word. We will also provide you with 4 options which may be the synonym of the current word. However only one of the four options is the correct synonym. We would like you to select that option from the given set of options, which you feel is the most accurate meaning of the given list, as the correct one.
