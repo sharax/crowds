@@ -15,6 +15,6 @@ METHODOLOGY:
 			ANSWERS
 			The possible answer choices are:
 			1. Left cup 
-			2. Right cup
-			3. Middle cup
-			4. I don’t know
+			2. Middle cup
+			3. Right cup
+		
