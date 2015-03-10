@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+400	Point Estimate	image	__Amazon-AC-1.jpg	No Answers	FALSE
+519	Point Estimate	image	__Amazon-AC-2.jpg	No Answers	FALSE
+117.3	Point Estimate	image	__Amazon-Camera-1.jpg	No Answers	FALSE
+399	Point Estimate	image	__Amazon-Camera-2.jpg	No Answers	FALSE
+219	Point Estimate	image	__Amazon-Dish-1.jpg	No Answers	FALSE
+899	Point Estimate	image	__Amazon-Dish-2.jpg	No Answers	FALSE
+144	Point Estimate	image	__Amazon-Fridge-1.jpg	No Answers	FALSE
+"2,370"	Point Estimate	image	__Amazon-Fridge-2.jpg	No Answers	FALSE
+250	Point Estimate	image	__Amazon-Laptop-1.jpg	No Answers	FALSE
+360	Point Estimate	image	__Amazon-Laptop-2.jpg	No Answers	FALSE
+59	Point Estimate	image	__Amazon-Mobile-1.jpg	No Answers	FALSE
+115	Point Estimate	image	__Amazon-Mobile-2.jpg	No Answers	FALSE
+75	Point Estimate	image	__Amazon-Printer-1.jpg	No Answers	FALSE
+47	Point Estimate	image	__Amazon-Printer-2.jpg	No Answers	FALSE
+157	Point Estimate	image	__Amazon-Tab-1.jpg	No Answers	FALSE
+80	Point Estimate	image	__Amazon-Tab-2.jpg	No Answers	FALSE
+557	Point Estimate	image	__Amazon-TV-1.jpg	No Answers	FALSE
+241.5	Point Estimate	image	__Amazon-TV-2.jpg	No Answers	FALSE
+"2,270"	Point Estimate	image	__Amazon-Washer-1.jpg	No Answers	FALSE
+899	Point Estimate	image	__Amazon-Washer-2.jpg	No Answers	FALSE
