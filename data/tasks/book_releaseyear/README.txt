@@ -7,7 +7,7 @@ varshini1993@gmail.com
 
 TASK: Given the name and author of the book, identify the year the book was published.
 
-DESCRIPTION: You will be shown 20 questions where the name of the book and the respective author will be specified and you will be asked 			  to guess the release year of the book.
+DESCRIPTION: You will be shown 20 questions where the name of the book and the respective author will be specified and you will be asked to guess the release year of the book.
 
 
 CORPUS: The set of books was extracted from :
@@ -22,4 +22,4 @@ METHODOLOGY:
 	A random sample of 20 books was chosen from the corpus.
 	
 	ANSWERS
-	For each task, four random samples of 20 different years from the corpus was chosen. 
+	For each task, a numeric answer representing the guessed date is expected.
