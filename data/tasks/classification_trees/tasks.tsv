@@ -1,21 +1,2 @@
-correct_answer    answer_type   asset_type    asset   possible_answers    randomization
-DECIDUOUS   tiple_choice   None   None		  No Answers		       True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answer                 True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answer            True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-DECIDUOUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True   
-CONIFEROUSMultiple choice   None    None    No Answers                  True
-CONIFEROUSMultiple choice   None    None    No Answers                  True
+correct_answer		answer_type		asset_type		asset		possible_answers		randomization
+DECIDUOUS		Multiple_choice		None		No		No Answer		True
