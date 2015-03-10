@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	 randomize_answers
+1955	multiple choice	image	Ford_img1.jpg	"1992,1955,1987,1975,1999"	TRUE
+1993	multiple choice	image	Ford_img2.jpg	"1996,1998,1993,1989,2002"	TRUE
+1994	multiple choice	image	Ford_img3.jpg	"1994,2000,1990,2004,2006"	TRUE
+1996	multiple choice	image	Ford_img4.jpg	"1990,1993,1996,2000,2003"	TRUE
+1997	multiple choice	image	Ford_img5.jpg	"2003,2006,1991,1997,2001"	TRUE
+1998	multiple choice	image	Ford_img6.jpg	"1989,1998,2005,2011,2015"	TRUE
+2003	multiple choice	image	Ford_img7.jpg	"1991,1999,2003,2009,2013"	TRUE
+2005	multiple choice	image	Ford_img8.jpg	"1978,1996,2010,2015,2005"	TRUE
+2006	multiple choice	image	Ford_img9.jpg	"2015,2011,2006,2000,1995"	TRUE
+2011	multiple choice	image	Ford_img10.jpg	"2000,2005,2011,2014,2016"	TRUE
+2014	multiple choice	image	Ford_img11.jpg	"1995,2000,2009,2014,2016"	TRUE
+2015	multiple choice	image	Ford_img12.jpg	"1994,1999,2004,2010,2015"	TRUE
+2015	multiple choice	image	Ford_img13.jpg	"2002,2007,2011,2015,1997"	TRUE
+2015	multiple choice	image	Ford_img14.jpg	"1998,2004,2009,2012,2015"	TRUE
+2015	multiple choice	image	Ford_img15.jpg	"2001,2005,2011,2015,2016"	TRUE
+2015	multiple choice	image	Ford_img16.jpg	"1999,2003,2006,2013,2015"	TRUE
+2015	multiple choice	image	Ford_img17.jpg	"2015,2010,2004,2001,2000"	TRUE
+2015	multiple choice	image	Ford_img18.jpg	"1999,2003,2006,2012,2015"	TRUE
+2016	multiple choice	image	Ford_img19.jpg	"2001,2004,2009,2011,2016"	TRUE
+2016	multiple choice	image	Ford_img20.jpg	"2002,2005,2010,2013,2016"	TRUE
