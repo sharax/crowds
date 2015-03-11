@@ -1,5 +1,9 @@
 Task 20: Number of retweets of a specific person
 
+kanirudh54@gmail.com or saianirudhkondaveeti@gmail.com
+praveen619619619@gmail.com
+venkatneehar83@gmail.com 
+
 Task:  Predict the number of retweets of a specific tweet.
 
 Detailed Description shown to participants:  
