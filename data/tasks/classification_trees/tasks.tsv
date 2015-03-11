@@ -18,7 +18,7 @@ elder		Multiple choice		Image		tree_elder.png		elder,beech,hawthorn,plum,oak		Tr
 beech trees		Multiple choice		Image		tree_beechtree.png		beech tree, plum, snowbell,redbud,ivy		True
 poplars		Multiple choice		Image		tree_poplar.png		sycamore,poplar,elm,pine,snowbell		True
 sycamore		Multiple choice		Image		tree_sycamore.png		sycamore,elder,elm,silver birches,redbud		True
-weeping willow		Multiple choice   Image		tree_weeping.png		weeping willow, hawthorn,redbud, dogwood,oak		True
+weeping willow		Multiple choice		Image		tree_weeping.png		weeping willow, hawthorn,redbud, dogwood,oak		True
 
 
 
