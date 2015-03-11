@@ -1,0 +1,22 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+10000	point estimate	Asset1.png	Asset1.txt	none	false
+10000000	point estimate	Asset2.png	Asset2.txt	none	false
+968531	point estimate	Asset3.png	Asset3.txt	none	false
+2260000	point estimate	Asset4.png	Asset4.txt	none	false
+573568	point estimate	Asset5.jpg	Asset5.txt	none	false
+2537588	point estimate	Asset6.png	Asset6.txt	none	false
+2390248	point estimate	Asset7.png	Asset7.txt	none	false
+37500	point estimate	Asset8.jpg	Asset8.txt	none	false
+7553854	point estimate	Asset9.png	Asset9.txt	none	FALSE
+1306578	point estimate    	Asset10.png	Asset10.txt	 none	FALSE
+11606258	point estimate	Asset11.png	Asset11.txt	none	false
+10254394	point estimate	Asset12.png	Asset12.txt	none	FALSE
+45711471	point estimate	Asset13.png	Asset13.txt	none	FALSE
+293198	point estimate	Asset14.png	Asset14.txt	none	FALSE
+636939	point estimate	Asset15.png	Asset15.txt	none	FALSE
+437969	point estimate	Asset16.png	Asset16.txt	none	FALSE
+552518	point estimate	Asset17.png	Asset17.txt	none	FALSE
+1505000	point estimate	Asset18.jpg	Asset18.txt	none	FALSE
+2225000	point estimate	Asset19.jpg	Asset19.txt	none	FALSE
+749000	point estimate	Asset20.jpg	Asset20.txt	none	FALSE
+

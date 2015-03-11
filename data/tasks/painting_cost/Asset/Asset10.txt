@@ -1,0 +1,5 @@
+Artist name  :  BALTHASAR VAN DER AST
+Painting name: STILL LIFE OF VARIEGATED TULIPS IN A CERAMIC VASE, WITH A WASP, A DRAGONFLY, A BUTTERFLY AND A LIZARD
+Material Used: oil on oak panel
+Year		 :1625BCE
+Predict the  cost of the painting.
