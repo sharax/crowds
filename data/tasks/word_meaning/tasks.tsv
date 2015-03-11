@@ -1,4 +1,4 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+correct_answer  answer_type asset_type  asset_file  possible_answers  randomize_answers
 divergence	multiple choice	text	question1.txt divergence,imperfection,heterogeneity,unorthodox,error	TRUE
 accede	multiple choice	text	question2.txt	fulfill,accede,respect,acquire,clone	TRUE
 pacify	multiple choice	text	question3.txt	diminish,mitigate,pacify,humour,thrill	TRUE
