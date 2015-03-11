@@ -1,5 +1,5 @@
 correct_answer		answer_type		asset_typesset		possible_answers		randomization
-oak		Multiple_choice		Image		tree_oak	oak,pine,eucalyptus,chestnut,poplar		True
+oak		Multiple choice		Image		tree_oak		oak,pine,eucalyptus,chestnut,poplar		True
 silver birches		Multiple choice		Image		tree_silverbirch		apple,maple norway, pine,silver birches,oak		True
 Horse chestnut		Multiple choice		Image		tree_horsechestnut		sycamore,serviceberry,horse chestnut,ivy		True
 sweet chestnut		Multiple choice		Image		tree_sweetchestnut		ivy,holly,shantung,sweetchestnut,diamond chestnut		True 
