@@ -14,4 +14,11 @@ silver birches		Multiple choice		Image		tree_silverbirch.png		apple,maple norway
 Horse chestnut		Multiple choice		Image		tree_horsechestnut.png		sycamore,serviceberry,horse chestnut,ivy		True
 sweet chestnut		Multiple choice		Image		tree_sweetchestnut.png		ivy,holly,shantung,sweetchestnut,diamond chestnut		True 
 elm		Multiple choice		Image		tree_elm.png		elm,elder,pine, oak, poplar		True
+elder		Multiple choice		Image		tree_elder.png		elder,beech,hawthorn,plum,oak		True
+beech trees		Multiple choice		Image		tree_beechtree.png		beech tree, plum, snowbell,redbud,ivy		True
+poplars		Multiple choice		Image		tree_poplar.png		sycamore,poplar,elm,pine,snowbell		True
+sycamore		Multiple choice		Image		tree_sycamore.png		sycamore,elder,elm,silver birches,redbud		True
+weeping willow		Multiple choice   Image		tree_weeping.png		weeping willow, hawthorn,redbud, dogwood,oak		True
+
+
 
