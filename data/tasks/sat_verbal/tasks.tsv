@@ -1,21 +1,21 @@
 correct_answer		answer_type		asset		asset_type		possible_answers		randomization
-Abhor		Multiple choice		NONE		NONE		hinder; Hate, forgiveness; pardon; release		TRUE
-Bigot		Multiple choice		NONE		NONE		desist; go without; withdraw, narrow-minded, hinder		TRUE   
-Counterfeit		Multiple choice		NONE		NONE		Fake, lucky charm, cause, can be believed; reasonable		TRUE
-Enfranchise		Multiple choice		NONE		NONE		flimsy; not solid ,give voting rights, a maze, improve		TRUE
-Hamper		Multiple choice		NONE		NONE		to agree to; give in to, to cut short, arrogant, hinder		TRUE
-Kindle		Multiple choice		NONE		NONE		to start a fire, noise, maze, full, empty		TRUE
-Noxious		Multiple choice		NONE		NONE		harmful; free-spirited; carefree, unbiased, free		TRUE
-Placid		Multiple choice		NONE		NONE		Calm, arrogant, haughty, supersede, sulk		TRUE
-Remuneration		Multiple choice		NONE		NONE		payment for work done, harm, threat , robbery, fop		TRUE
-Talisman		Multiple choice		NONE		NONE		hurry; accelerate; lucky charm,  rush, obvious		TRUE
-Abrasive		Multiple choice		NONE		NONE		Rough, smooth, of little value, gaudy, cheap		TRUE
-Bilk		Multiple choice		NONE		NONE		pillory, clear pronunciation; accent; Cheat, articulation		TRUE
-Covert		Multiple choice		NONE		NONE		indirect; slanting, flinch, shy away, hidden		TRUE
-Engender		Multiple choice		NONE		NONE		Cause, shun; eschew, tearful, sad		TRUE
-Hangar		Multiple choice		NONE		NONE		storage area, simple, rude, offensive, plural		TRUE
-Knotty		Multiple choice		NONE		NONE		easy, Complex, meticulous, spin, move		TRUE
-Nuance		Multiple choice		NONE		NONE		using few words, brief; to the point, recoil, something subtle		TRUE
-Plagiarism		Multiple choice		NONE		NONE		coy, strew, taking credit for someone else's writing,  mortgage, plumb		TRUE
-Renown		Multiple choice		NONE		NONE		Fame, can be believed; reasonable, noun, haze		TRUE
-Billowing		Multiple choice		NONE		NONE		dull; monotonous; bland, rush, swelling		TRUE
+Hate		Multiple choice		NONE		NONE		hinder; Hate, forgiveness; pardon; release		TRUE
+narrow-minded		Multiple choice		NONE		NONE		desist; go without; withdraw, narrow-minded, hinder		TRUE   
+Fake		Multiple choice		NONE		NONE		Fake, lucky charm, cause, can be believed; reasonable		TRUE
+give voting rights		Multiple choice		NONE		NONE		flimsy; not solid ,give voting rights, a maze, improve		TRUE
+hinder		Multiple choice		NONE		NONE		to agree to; give in to, to cut short, arrogant, hinder		TRUE
+to start a fire		Multiple choice		NONE		NONE		to start a fire, noise, maze, full, empty		TRUE
+harmful		Multiple choice		NONE		NONE		harmful; free-spirited; carefree, unbiased, free		TRUE
+Calm		Multiple choice		NONE		NONE		Calm, arrogant, haughty, supersede, sulk		TRUE
+payment for work done		Multiple choice		NONE		NONE		payment for work done, harm, threat , robbery, fop		TRUE
+lucky charm		Multiple choice		NONE		NONE		hurry; accelerate; lucky charm,  rush, obvious		TRUE
+Rough		Multiple choice		NONE		NONE		Rough, smooth, of little value, gaudy, cheap		TRUE
+Cheat		Multiple choice		NONE		NONE		pillory, clear pronunciation; accent; Cheat, articulation		TRUE
+hidden		Multiple choice		NONE		NONE		indirect; slanting, flinch, shy away, hidden		TRUE
+Cause		Multiple choice		NONE		NONE		Cause, shun; eschew, tearful, sad		TRUE
+storage area		Multiple choice		NONE		NONE		storage area, simple, rude, offensive, plural		TRUE
+Complex		Multiple choice		NONE		NONE		easy, Complex, meticulous, spin, move		TRUE
+something subtle		Multiple choice		NONE		NONE		using few words, brief; to the point, recoil, something subtle		TRUE
+taking credit for someone else's writing		Multiple choice		NONE		NONE		coy, strew, taking credit for someone else's writing,  mortgage, plumb		TRUE
+Fame		Multiple choice		NONE		NONE		Fame, can be believed; reasonable, noun, haze		TRUE
+swelling		Multiple choice		NONE		NONE		dull; monotonous; bland, rush, swelling		TRUE
