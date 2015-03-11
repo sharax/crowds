@@ -1,6 +1,6 @@
 correct_answer		answer_type		asset_type		asset		possible_answers		randomization
 hawthorn		Multiple choice		Image		tree_hawthorn.png		hawthorn,horse chestnut,seviceberry,pine,plum		True
-holly		Multiple choice		Image		tree_holly		holly,ivy,redbud,dogwood,plum		True
-
-
+holly		Multiple choice		Image		tree_holly.png		holly,ivy,redbud,dogwood,plum		True
+ivy		Multiple choice		Image		tree_ivy.png		silver birches, oak, ivy,pine, sycamore		True
+apple serviceberry		Multiple choice		Image	 tree_apple,png		apple serviceberry, japanese maple, poplar,elder, elm		True
 
