@@ -4,16 +4,14 @@ rahul.hphatak@gmail.com
 aayushattri.95@gmail.com
 mandarpradhan20@gmail.com
 
-TASK: Given the specifications of the product along with the price of a related product guess the Amazon price of the product.
+TASK: Given the specifications and image of the product guess the Amazon price of the product.
 
-DESCRIPTION. You will be shown 20 images and specifications of different products along with the price and specification of a related product and you will have
+DESCRIPTION. You will be shown 20 images and specifications of different products and you will have
 		to guess the Amazon price of that product in USD.
 
 CORPUS: The complete set of products was extracted from:
 	https://amazon.com
-		
-	The related product was extracted from the suggestions given by Amazon.
-		
+				
 		
 METHODOLOGY: 
 	TASKS
