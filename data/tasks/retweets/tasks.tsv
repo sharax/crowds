@@ -1,4 +1,4 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	extra_information
+correct_answer  answer_type asset_type  asset_file  possible_answers  randomize_answers extra_information
 41302	point estimate	image	stephen-colbert__iphone_640.jpg	no answers	false	7.56M		
 85042	point estimate	image	simon-cowell__iphone_640.jpg	no answers	false	11.5M		
 93257	point estimate	image	tj-lang__iphone_640.jpg	no answers	false	181K		
