@@ -12,5 +12,6 @@ Corpus:
 Representative Tasks Methodology:  
 A random sample of 20 countries chosen using a one dimensional weighted sampling technique, with the dimension being the population of a country. 
 We kept in mind that most countries belonging to the European Union have Euro as their currency, and hence avoided sampling those countries. 
+Answers- Generate 4 other options randomly from the complete list of countries
 
 
