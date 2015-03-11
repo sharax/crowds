@@ -3,24 +3,29 @@ sid.salwanian11@gmail.com
 priya.901garg@gmail.com
 
 
+TASK: Given the image of a tree, guess the name of the tree shown.
 
+DESCRIPTION. You will be shown 20 images representing various trees and 
+             asked to guess the name of the tree it corresponds to.
 
-Task 4: Classification of trees into categories.
+CORPUS: The complete set of trees was extracted from:
 
-Detailed Description shown to participants:  “We will now ask you a series of multiple-choice questions. For each question, we will name a tree, and ask you to identify the category it belongs to”
-
-Input Type: Tree Name 
-
-Corpus
+http://bhort.bh.cornell.edu/tree/list.htm
 http://typeslist.com/different-types-of-trees/
 
- 
-Representative tasks methodology
-Sample 20 trees each from the list of Deciduous and Coniferous trees from the above given link.
+	A set of images was collected from the following websites. The corpus was chosen as it has a standardized set of images 
+	which ensures consistency across the 20 tasks.
+	http://www.telegraph.co.uk/news/picturegalleries/uknews/5325200/Can-you-name-these-common-trees.html?image=2
+	http://www.ci.everett.wa.us/Get_PDF.aspx?pdfID=2883
 
-Answer type: multiple-choice  (Deciduous/ Coniferous)
 
-
+METHODOLOGY: 
+	TASKS
+	A random sample of 20 trees was chosen from the corrpus.
+	
+	ANSWERS
+	For each task, four random samples of 20 trees was chosen 
+	from the complete list of trees. 
 
 
 

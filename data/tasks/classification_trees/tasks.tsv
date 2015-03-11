@@ -1,23 +1,23 @@
 correct_answer		answer_type		asset_type		asset		possible_answers		randomization
-DECIDUOUS		Multiple_choice		None		No		No Answer		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None 		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice   		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice   		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-DECIDUOUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True   
-CONIFEROUS		Multiple choice		None		None		No Answers		True
-CONIFEROUS		Multiple choice		None		None		No Answers		True
+oak		Multiple_choice		Image		No		No Answer		True
+silver birches		Multiple choice		Image		tree_silverbirch				True
+Horse chestnut		Multiple choice		Image 		tree_horsechestnut		No Answers		True
+sweet chestnut		Multiple choice		Image		sweet_chestnut		No Answers		True
+elm		Multiple choice		Image		tree_elm		No Answers		True
+elder		Multiple choice   Image		tree_elder		No Answers		True
+beech trees		Multiple choice		Image		tree_beechtree		No Answers		True
+poplars		Multiple choice		Image		tree_poplar		No Answers		True
+sycamore		Multiple choice		Image		tree_sycamore		No Answers		True
+weeping willow		Multiple choice   Image		tree_weeping		No Answers		True
+hawthorn		Multiple choice		Image		tree_hawthorn		No Answers		True
+holly		Multiple choice		Image		tree_holly		No Answers		True
+ivy		Multiple choice		Image		tree_ivy		No Answers		True
+apple serviceberry		Multiple choice		Image	 tree_apple		No Answers		True
+plum		Multiple choice		Image		tree_plum				True
+eastern redbud		Multiple choice		Image		tree_redbud		No Answers		True
+snowbell		Multiple choice		Image		tree_snowbell		No Answers		True
+norway maple		Multiple choice		Image		tree_maple		No Answers		True   
+dogwood		Multiple choice		Image		tree_dogwood		No Answers		True
+pine		Multiple choice		Image		tree_pine		No Answers		True
 
 
