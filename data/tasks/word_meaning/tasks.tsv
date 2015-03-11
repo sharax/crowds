@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-divergence	multiple choice	none	In 1974, Poland won the World Cup, but the success turned out to be an *aberration*, and Poland have not won a World Cup since	divergence,imperfection,heterogeneity,unorthodox,error	TRUE
-accede	multiple choice	none	Though Mr. Pospieszny wanted to stay outside and work in his garage, when his wife told him that he had better come in to dinner, he *acquiesced* to her demands.	fulfill,accede,respect,acquire,clone	TRUE
-pacify	multiple choice	none	When Jerry cries, his mother gives him chocolate to *appease* him.	diminish,mitigate,pacify,humour,thrill	TRUE
-blatant	multiple choice	none	Critics condemned the writer’s *brazen* attempt to plagiarise Frankow-Czerwonko’s work.	blatant,abusive,nosy,bold,flaring	TRUE
-coax	multiple choice	none	Magda's friends *cajoled* her into drinking too much.	coax,betray,hook,test,acccess	TRUE
-frankness	multiple choice	none	We were surprised by the *candor* of the politician’s speech because she is usually rather evasive.	artlessness,accurcy,frankness,exactness,plainness	TRUE
-acquaintance	multiple choice	none	Shortly after we met, he became my chief *confidant*.	bold,native,companion,expectant,acquaintance	TRUE
-cheapen	multiple choice	none	The large raise that he gave himself *debased* his motives for running the charity.	confuse,incapacitate,cheapen,tire,settle	TRUE
-careful	multiple choice	none	The *diligent* researcher made sure to double check her measurements.	careful,active,busy,strenous,tenacious,academic	TRUE
-loot	multiple choice	none	The accountant was fired for *embezzling* €10,000 of the company’s funds.	convinient,lift,appropriate,harm,loot	TRUE
-knowledgeable	multiple choice	none	My English teacher is such an *erudite* scholar that he has translated some of the most difficult and abstruse Old English poetry.	cultured,knowledgeable,thoughtful,familiarized,polished	TRUE
-ferocious	multiple choice	none	That beast looks so *feral* that I would fear being alone with it.	ferocious,relentless,bent,rude,primitive	TRUE
-craving	multiple choice	none	Helen’s fried chicken tastes so divine, I don’t know how anyone can call *gluttony* a sin.	appeal,craving,avidity,affection,ability	TRUE
-discourteous	multiple choice	none	Most of your comments are so *impertinent* that I don’t wish to dignify them with an answer.	discourteous,forward,analytical,snooping,fresh	TRUE
-lazy	multiple choice	none	Why should my *indolent* children, who can’t even pick themselves up off the sofa to pour their own juice, be rewarded with a trip to Burger King?	careless,lazy,slow,useless,creeping	TRUE
-addicted	multiple choice	none	I’m the first to admit that I’m an *inveterate* cider drinker—I drink four pints a day.	rooted,addicted,devoted,constant,lasting	TRUE
-bell	multiple choice	none	Echoing throughout our village, the funeral *knell* made the grey day even more grim.	arena,bell,toll,vigorous,recall	TRUE
-flexible	multiple choice	none	Although the dancers were all outstanding, Joanna’s control of her *lithe* body was particularly impressive.	jovial,docile,scanty,flexible,plastic	TRUE
-cranky	multiple choice	none	David’s *morose* nature made him very unpleasant to talk to.	cranky,bluff,clashing,small,flat	TRUE
-top	multiple choice	none	I was too nice to tell Emily that she had reached the absolute *zenith* of her career with that one top 10 hit of hers.	top,altitude,vertex,head,noon	TRUE
+divergence	multiple choice	text	In 1974, Poland won the World Cup, but the success turned out to be an *aberration*, and Poland have not won a World Cup since	divergence,imperfection,heterogeneity,unorthodox,error	TRUE
+accede	multiple choice	text	Though Mr. Pospieszny wanted to stay outside and work in his garage, when his wife told him that he had better come in to dinner, he *acquiesced* to her demands.	fulfill,accede,respect,acquire,clone	TRUE
+pacify	multiple choice	text	When Jerry cries, his mother gives him chocolate to *appease* him.	diminish,mitigate,pacify,humour,thrill	TRUE
+blatant	multiple choice	text	Critics condemned the writer’s *brazen* attempt to plagiarise Frankow-Czerwonko’s work.	blatant,abusive,nosy,bold,flaring	TRUE
+coax	multiple choice	text	Magda's friends *cajoled* her into drinking too much.	coax,betray,hook,test,acccess	TRUE
+frankness	multiple choice	text	We were surprised by the *candor* of the politician’s speech because she is usually rather evasive.	artlessness,accurcy,frankness,exactness,plainness	TRUE
+acquaintance	multiple choice	text	Shortly after we met, he became my chief *confidant*.	bold,native,companion,expectant,acquaintance	TRUE
+cheapen	multiple choice	text	The large raise that he gave himself *debased* his motives for running the charity.	confuse,incapacitate,cheapen,tire,settle	TRUE
+careful	multiple choice	text	The *diligent* researcher made sure to double check her measurements.	careful,active,busy,strenous,tenacious,academic	TRUE
+loot	multiple choice	text	The accountant was fired for *embezzling* €10,000 of the company’s funds.	convinient,lift,appropriate,harm,loot	TRUE
+knowledgeable	multiple choice	text	My English teacher is such an *erudite* scholar that he has translated some of the most difficult and abstruse Old English poetry.	cultured,knowledgeable,thoughtful,familiarized,polished	TRUE
+ferocious	multiple choice	text	That beast looks so *feral* that I would fear being alone with it.	ferocious,relentless,bent,rude,primitive	TRUE
+craving	multiple choice	text	Helen’s fried chicken tastes so divine, I don’t know how anyone can call *gluttony* a sin.	appeal,craving,avidity,affection,ability	TRUE
+discourteous	multiple choice	text	Most of your comments are so *impertinent* that I don’t wish to dignify them with an answer.	discourteous,forward,analytical,snooping,fresh	TRUE
+lazy	multiple choice	text	Why should my *indolent* children, who can’t even pick themselves up off the sofa to pour their own juice, be rewarded with a trip to Burger King?	careless,lazy,slow,useless,creeping	TRUE
+addicted	multiple choice	text	I’m the first to admit that I’m an *inveterate* cider drinker—I drink four pints a day.	rooted,addicted,devoted,constant,lasting	TRUE
+bell	multiple choice	text	Echoing throughout our village, the funeral *knell* made the grey day even more grim.	arena,bell,toll,vigorous,recall	TRUE
+flexible	multiple choice	text	Although the dancers were all outstanding, Joanna’s control of her *lithe* body was particularly impressive.	jovial,docile,scanty,flexible,plastic	TRUE
+cranky	multiple choice	text	David’s *morose* nature made him very unpleasant to talk to.	cranky,bluff,clashing,small,flat	TRUE
+top	multiple choice	text	I was too nice to tell Emily that she had reached the absolute *zenith* of her career with that one top 10 hit of hers.	top,altitude,vertex,head,noon	TRUE
