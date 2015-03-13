@@ -7,7 +7,7 @@ ramesharvind1994@gmail.com
 
 TASK: Classification of Dog breeds
 
-DESCRIPTION: We will provide you with a picture of a dog of a particular breed. We will also provide you with 4 options, one of which is the correct breed of the dog. The other three would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct breed of the dog shown in the picture.
+DESCRIPTION: We will provide you with a picture of a dog of a particular breed. We will also provide you with 5 options, one of which is the correct breed of the dog. The other 4 would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct breed of the dog shown in the picture.
  
 INPUT TYPE: A picture showing a dog of a particular breed. The picture may contain more than one dog of the same breed.
 
@@ -20,7 +20,7 @@ From the corpus, we randomly choose 20 most popular dogs from the top 40 dogs in
 
 ANSWERS:
 
-Multiple Choice - The participant is given 4 different options of a dog breed. The participant has to choose the option which he/she thinks is the correct breed of the dog according to the picture shown for the question.
+Multiple Choice - The participant is given 5 different options of a dog breed. The participant has to choose the option which he/she thinks is the correct breed of the dog according to the picture shown for the question.
 
 
-Multiple Choice Option Selection - We first choose one option to be the correct breed corresponding to an included dog picture. The other three options will be randomly selected from the list of the remaining popular dog breeds in the corpus. The order of the options will be randomized as well.
+Multiple Choice Option Selection - We first choose one option to be the correct breed corresponding to an included dog picture. The other 4 options will be randomly selected from the list of the remaining popular dog breeds in the corpus. The order of the options will be randomized as well.

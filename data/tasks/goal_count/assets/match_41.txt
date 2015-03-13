@@ -1,0 +1,4 @@
+#HOME_TEAM Seattle
+#AWAY_TEAM Portland
+#DATE_TIME 2015-04-26 21:30
+#VENUE CenturyLink Field

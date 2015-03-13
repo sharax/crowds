@@ -1,4 +1,4 @@
-TASK #42
+TASK #24
 alok.shankar94@gmail.com
 arvind.s01994@gmail.com
 bhargav.rao448@gmail.com
@@ -8,7 +8,7 @@ ramesharvind1994@gmail.com
 TASK: Word Meaning
 
 
-DESCRIPTION: We will provide you with a sentence containing a highlighted word. We will also provide you with 4 options which may be the synonym of the current word. However only one of the four options is the correct synonym. We would like you to select that option from the given set of options, which you feel is the most accurate meaning of the given list, as the correct one.
+DESCRIPTION: We will provide you with a sentence containing a highlighted word. We will also provide you with 5 options which may be the synonym of the current word. However only one of the five options is the correct synonym. We would like you to select that option from the given set of options, which you feel is the most accurate meaning of the given list, as the correct one.
 
 CORPUS: The corpus of the task is available at http://www.world-english.org/improve_vocabulary.htm. Quoting from the web page: 
 
