@@ -15,7 +15,7 @@ TASKS
 
 ANSWERS
 
-For each task, the four wrong answers were selected by random sampling in a range of 15 years in order to avoid completely impossible answer choices.
+For each task, the four wrong answers were selected by random sampling in a range of 15 years in order to avoid completely impossible answer choices. Also we have sampled years and chosen cars to get a uniformly distributed representative sample.
 
 
 

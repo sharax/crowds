@@ -1,0 +1,4 @@
+#HOME_TEAM New England
+#AWAY_TEAM Chicago
+#DATE_TIME 2015-04-15 19:30
+#VENUE Gillette Stadium
