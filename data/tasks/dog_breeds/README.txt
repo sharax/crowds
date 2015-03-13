@@ -7,7 +7,7 @@ ramesharvind1994@gmail.com
 
 TASK: Classification of Dog breeds
 
-DESCRIPTION: We will provide you with a picture of a dog of a particular breed. We will also provide you with 5 options, one of which is the correct breed of the dog. The other three would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct breed of the dog shown in the picture.
+DESCRIPTION: We will provide you with a picture of a dog of a particular breed. We will also provide you with 5 options, one of which is the correct breed of the dog. The other 4 would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct breed of the dog shown in the picture.
  
 INPUT TYPE: A picture showing a dog of a particular breed. The picture may contain more than one dog of the same breed.
 
