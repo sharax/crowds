@@ -1,0 +1,4 @@
+#HOME_TEAM Vancouver
+#AWAY_TEAM D.C. United
+#DATE_TIME 2015-04-25 00:00
+#VENUE BC Place

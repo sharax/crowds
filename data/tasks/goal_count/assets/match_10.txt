@@ -1,0 +1,4 @@
+#HOME_TEAM Vancouver
+#AWAY_TEAM Columbus
+#DATE_TIME 2015-04-08 00:00
+#VENUE BC Place
