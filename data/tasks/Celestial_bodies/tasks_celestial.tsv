@@ -1,4 +1,4 @@
-correct answer	answr type	asset_type	asset_file	possible answer	randomize answer
+correct answer	answer_type	asset_type	asset_file	possible answer	randomize answer
 9000000000	point estimate	image	Andromeda Galaxy.jpg	no answer	FALSE
 10500000000	point estimate	image	Black Eye Galaxy.jpg	no answer	FALSE
 10000000000	point estimate	image	Cartwheel Galaxy.jpg	no answer	FALSE
