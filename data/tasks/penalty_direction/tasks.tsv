@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	extra_information
-left	multiple choice	video	Pen1.mp4	left,right	true	right,left
-right	multiple choice	video	Pen2.mp4	left,right	true	left,left
-right	multiple choice	video	Pen3.mp4	left,right	true	left,left
-left	multiple choice	video	Pen4.mp4	left,right	true	right,right
-right	multiple choice	video	Pen5.mp4	left,right	true	right,right
-left	multiple choice	video	Pen6.mp4	left,right	true	right,left
-right	multiple choice	video	Pen7.mp4	left,right	true	left,left
-left	multiple choice	video	Pen8.mp4	left,right	true	right,left
-right	multiple choice	video	Pen9.mp4	left,right	true	left,right
-right	multiple choice	video	Pen10.mp4	left,right	true	left,left
-left	multiple choice	video	Pen11.mp4	left,right	true	right,left
-left	multiple choice	video	Pen12.mp4	left,right	true	left,right
-left	multiple choice	video	Pen13.mp4	left,right	true	right,left
-left	multiple choice	video	Pen14.mp4	left,right	true	left,left
-left	multiple choice	video	Pen15.mp4	left,right	true	left,left
-left	multiple choice	video	Pen16.mp4	left,right	true	right,left
-right	multiple choice	video	Pen17.mp4	left,right	true	left,center
-right	multiple choice	video	Pen18.mp4	left,right	true	right,left
-left	multiple choice	video	Pen19.mp4	left,right	true	right,right
-right	multiple choice	video	Pen20.mp4	left,right	true	left,left
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+left	multiple choice	video	Pen1.mp4	left,right	false
+right	multiple choice	video	Pen2.mp4	left,right	false
+right	multiple choice	video	Pen3.mp4	left,right	false
+left	multiple choice	video	Pen4.mp4	left,right	false
+right	multiple choice	video	Pen5.mp4	left,right	false
+left	multiple choice	video	Pen6.mp4	left,right	false
+right	multiple choice	video	Pen7.mp4	left,right	false
+left	multiple choice	video	Pen8.mp4	left,right	false
+right	multiple choice	video	Pen9.mp4	left,right	false
+right	multiple choice	video	Pen10.mp4	left,right	false
+left	multiple choice	video	Pen11.mp4	left,right	false
+left	multiple choice	video	Pen12.mp4	left,right	false
+left	multiple choice	video	Pen13.mp4	left,right	false
+left	multiple choice	video	Pen14.mp4	left,right	false
+left	multiple choice	video	Pen15.mp4	left,right	false
+left	multiple choice	video	Pen16.mp4	left,right	false
+right	multiple choice	video	Pen17.mp4	left,right	false
+right	multiple choice	video	Pen18.mp4	left,right	false
+left	multiple choice	video	Pen19.mp4	left,right	false
+right	multiple choice	video	Pen20.mp4	left,right	false
