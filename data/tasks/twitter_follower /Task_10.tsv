@@ -1,5 +1,5 @@
 Correct Answer	Answer Type	Asset Type	Asset File	Possible Answers	Randomize Answers
-"295,40,000"	Multiple Choice	text file	Question1.txt	"1500/17600/42,580,000"	TRUE
+"295,40,000"	Multiple Choice	text file	Question1.txt	"1500,17600,42580000"	TRUE
 "534,00,000"	Multiple Choice	text file	Question2.txt	"2000/42145/38,150,000"	TRUE
 "168,13,610"	Multiple Choice	text file	Question3.txt	"5005/30,000/45,258,123"	TRUE
 "135,70,860"	Multiple Choice	text file	Question4.txt	"3000/18,000/26,428,741"	TRUE
