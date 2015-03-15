@@ -1,0 +1,4 @@
+#HOME_TEAM New York City
+#AWAY_TEAM Portland
+#DATE_TIME 2015-04-19 19:00
+#VENUE Yankee Stadium

@@ -8,9 +8,9 @@ Task:  Predict the distance between two cities
 
 Detailed Description shown to participants:  
 
-“ We will give you a series of  questions with a map. In each of them two cities will be marked. For each question, your task is to try and correctly guess the distance between those two cities(in kilometres). Here the distance is the surface displacement ”
+“We will give you a series of questions in which two cities along with their corresponding countries. For each question, your task is to try and correctly guess the distance between those two cities(in kilometres). Here the distance is the surface displacement ”
 
-Input Type:  Image(map+cities) 
+Input Type: Text 
 
 Corpus:
 
