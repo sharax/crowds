@@ -1,0 +1,5 @@
+Printrbot: Your First 3D Printer
+A desktop 3D printer you can build in a couple hours.  Print plastic parts you design or download - even parts for another printer.
+We assemble the electronics, we assemble the hotend, and we put the connectors on all the motors and components... no soldering required! 
+
+Thank you for your support! Please, help us change the world. Every little bit helps. This kickstarter will do more than fund a single project.  This project will launch a business in pursuit of the dream of "a printer in every home".  We have reduced the complexity of these printers, but will soon focus solely on pushing the price of these printers to the absolute lowest sustainable retail price for kits and fully assembled printers.
