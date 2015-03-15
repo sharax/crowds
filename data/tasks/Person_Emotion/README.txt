@@ -29,4 +29,4 @@ ANSWERS:
 Multiple Choice - The participant is given 5 different option with different emotions. The participant has to choose the option which he/she thinks is the correct emotion of the expressor shown in the picture for the question.
 
 
-Multiple choice Option Selection - We first choose 1 option to be the correct emotion depicted by an expressor in the picture. The other 4 options will be the remaining 4 emotions which are incorrect for that particular picture. For all questions, since the 5 options will remain the same, the order of options appearing to the user need not be randomized for every question and will be in the order shown in the sample question below.
+Multiple choice Option Selection - We first choose 1 option to be the correct emotion depicted by an expressor in the picture. The other 4 options will be the remaining 4 emotions which are incorrect for that particular picture. For all questions, since the 5 options will remain the same, the order of options appearing to the user need not be randomized for every question as it might unnecessarily confuse the user who if the order of the same 5 options are randomized in every question.
