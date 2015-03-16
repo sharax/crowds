@@ -16,13 +16,13 @@ And their respective construction Years were taken from:
 http://www.greatbuildings.com/
 
 Sampling and crawling methodology:
-For sampling,from the Buildings referred in above 2 links in corpus ,we can sample out 2-3 MOST FAMOUS BUILDINGS from the MAJOR REGIONS of the world,which are Asia ,North America, South America ,Carrebean ,Oceania ,Middle East  ,Europe,Africa,Australia  and thus then a List of 20 can be maintained .
+For sampling,from the Buildings referred in above 2 links in corpus ,we can sample out 2-3 MOST FAMOUS BUILDINGS from the MAJOR REGIONS of the world, which are Asia, North America, South America, Carrebean, Oceania, Middle East, Europe and Africa and then a list of 20 is made.
 For this purpose, http://www.travellerspoint.com/guide/Famous_Buildings/ is used.
-
+To select the top two monuments, we chose the monuments/buildings which were most architecturally brilliant as well as famous. This would make it more known to the crowds, and them being architecturally complex or great, will give an interesting and different stats for the answers of the question "What time did it take yo build this?"
 
 Answer type: 
 Integer
 
 Multiple choice option selection:
-N/a
+N/A
 
