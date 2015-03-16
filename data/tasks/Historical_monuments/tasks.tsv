@@ -1,6 +1,6 @@
 Correct_Answer	Answer_Type	Asset_type	Asset_File	Possible_Answers	Randomize_Answers
 France	multiple choice	image	eiffel-tower.png	South Korea,South Africa,Malaysia,Algeria,France	true
-Italy  multiple choice image tower_of_pisa.jpgIsrael,Italy,Egypt,Mexico,Uganda  true
+Italy multiple choice image tower_of_pisa.jpgIsrael,Italy,Egypt,Mexico,Uganda  true
 United States	multiple choice	image	new-york-city-statue-of-liberty.jpg	United States,Jordan,Austria,Japan,France	true
 Spain	multiple choice	image	Park-Guell.jpg	Austria,France,Spain,Indonesia,Japan	true
 China	multiple choice	image	The Great Chinese Wall.jpg	Malaysia,Indonesia,China,Tunisia,Canada	true
