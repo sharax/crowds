@@ -1,21 +1,21 @@
 Correct Answer	Answer Type	Asset Type	Asset File	Possible Answers	Randomized Answers	
-1	Binary	txt	Question1.txt	no answers	TRUE	
-1	Binary	txt	Question2.txt	no answers	TRUE	
-1	Binary	txt	Question3.txt	no answers	TRUE	
-0	Binary	txt	Question4.txt	no answers	TRUE	
-1	Binary	txt	Question5.txt	no answers	TRUE	
-0	Binary	txt	Question6.txt	no answers	TRUE	
-1	Binary	txt	Question7.txt	no answers	TRUE	
-1	Binary	txt	Question8.txt	no answers	TRUE	
-1	Binary	txt	Question9.txt	no answers	TRUE	
-0	Binary	txt	Question10.txt	no answers	TRUE	
-0	Binary	txt	Question11.txt	no answers	TRUE	
-1	Binary	txt	Question12.txt	no answers	TRUE	
-1	Binary	txt	Question13.txt	no answers	TRUE	
-0	Binary	txt	Question14.txt	no answers	TRUE	
-1	Binary	txt	Question15.txt	no answers	TRUE	
-1	Binary	txt	Question16.txt	no answers	TRUE	
-1	Binary	txt	Question17.txt	no answers	TRUE	
-0	Binary	txt	Question18.txt	no answers	TRUE	
-1	Binary	txt	Question19.txt	no answers	TRUE	
-1	Binary	txt	Question20.txt	no answers	TRUE	
+1	Binary	text file	Question1.txt	no answers	False	
+1	Binary	text file	Question2.txt	no answers	False	
+1	Binary	text file	Question3.txt	no answers	False	
+0	Binary	text file	Question4.txt	no answers	False	
+1	Binary	text file	Question5.txt	no answers	False	
+0	Binary	text file	Question6.txt	no answers	False	
+1	Binary	text file	Question7.txt	no answers	False	
+1	Binary	text file	Question8.txt	no answers	False	
+1	Binary	text file	Question9.txt	no answers	False	
+0	Binary	text file	Question10.txt	no answers	False	
+0	Binary	text file	Question11.txt	no answers	False	
+1	Binary	text file	Question12.txt	no answers	False	
+1	Binary	text file	Question13.txt	no answers	False	
+0	Binary	text file	Question14.txt	no answers	False	
+1	Binary	text file	Question15.txt	no answers	False	
+1	Binary	text file	Question16.txt	no answers	False	
+1	Binary	text file	Question17.txt	no answers	False	
+0	Binary	text file	Question18.txt	no answers	False	
+1	Binary	text file	Question19.txt	no answers	False	
+1	Binary	text file	Question20.txt	no answers	False	
