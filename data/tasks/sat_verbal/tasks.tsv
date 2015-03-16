@@ -1,21 +1,21 @@
-correct_answer		answer_type		asset		asset_type		possible_answers		randomization
-Hate		Multiple choice		NONE		NONE		hinder; Hate, forgiveness; pardon; release		TRUE
-narrow-minded		Multiple choice		NONE		NONE		desist; go without; withdraw, narrow-minded, hinder		TRUE   
-Fake		Multiple choice		NONE		NONE		Fake, lucky charm, cause, can be believed; reasonable		TRUE
-give voting rights		Multiple choice		NONE		NONE		flimsy; not solid ,give voting rights, a maze, improve		TRUE
-hinder		Multiple choice		NONE		NONE		to agree to; give in to, to cut short, arrogant, hinder		TRUE
-to start a fire		Multiple choice		NONE		NONE		to start a fire, noise, maze, full, empty		TRUE
-harmful		Multiple choice		NONE		NONE		harmful; free-spirited; carefree, unbiased, free		TRUE
-Calm		Multiple choice		NONE		NONE		Calm, arrogant, haughty, supersede, sulk		TRUE
-payment for work done		Multiple choice		NONE		NONE		payment for work done, harm, threat , robbery, fop		TRUE
-lucky charm		Multiple choice		NONE		NONE		hurry; accelerate; lucky charm,  rush, obvious		TRUE
-Rough		Multiple choice		NONE		NONE		Rough, smooth, of little value, gaudy, cheap		TRUE
-Cheat		Multiple choice		NONE		NONE		pillory, clear pronunciation; accent; Cheat, articulation		TRUE
-hidden		Multiple choice		NONE		NONE		indirect; slanting, flinch, shy away, hidden		TRUE
-Cause		Multiple choice		NONE		NONE		Cause, shun; eschew, tearful, sad		TRUE
-storage area		Multiple choice		NONE		NONE		storage area, simple, rude, offensive, plural		TRUE
-Complex		Multiple choice		NONE		NONE		easy, Complex, meticulous, spin, move		TRUE
-something subtle		Multiple choice		NONE		NONE		using few words, brief; to the point, recoil, something subtle		TRUE
-taking credit for someone else's writing		Multiple choice		NONE		NONE		coy, strew, taking credit for someone else's writing,  mortgage, plumb		TRUE
-Fame		Multiple choice		NONE		NONE		Fame, can be believed; reasonable, noun, haze		TRUE
-swelling		Multiple choice		NONE		NONE		dull; monotonous; bland, rush, swelling		TRUE
+correct_answer		answer_type		asset		asset_type		possible_answers		randomization		asset_file
+Hate		Multiple choice		NONE		NONE		hinder; Hate, forgive; pardon; release		TRUE		ques1.txt
+narrow-minded		Multiple choice		NONE		NONE		desist; aloof; withdraw, narrow-minded, hinder		TRUE		ques2.txt   
+Suffrage		Multiple choice		NONE		NONE		flimsy; kindle ,suffrage, a maze, improve		TRUE		ques3.txt
+ignite		Multiple choice		NONE		NONE		ignite, noise, maze, full, empty		TRUE		ques4.txt
+harmful		Multiple choice		NONE		NONE		harmful; free-spirited; carefree, unbiased, free		TRUE		ques5.txt
+calm		Multiple Choice		NONE		NONE		calm, kindle, fake, hard, threat		TRUE		ques6.txt
+payment		Multiple choice		NONE		NONE		payment, harm, threat , robbery, fop		TRUE		ques7.txt
+lucky charm		Multiple choice		NONE		NONE		hurry; accelerate; lucky charm,  rush, obvious		TRUE		ques8.txt
+Cheat		Multiple choice		NONE		NONE		pillory, clarity; accent; Cheat, articulation		TRUE		ques9.txt
+Complex		Multiple choice		NONE		NONE		easy, Complex, meticulous, spin, move		TRUE		ques10.txt
+swelling		Multiple choice		NONE		NONE		dull; monotonous; bland, rush, swelling		TRUE		ques11.txt
+fulmination		Multiple choice		NONE		NONE		respite; postpone, flimsy, fulmination , sloven		TRUE		ques12.txt
+petitioner		Multiple choice		NONE		NONE		petitioner, hurry; accelerate; rush, butch		TRUE		ques13.txt
+appropriate		Multiple choice		NONE		NONE			opportunity,opportune,flimsy,placid,kindle		TRUE		ques14.txt
+refractory		Multiple choice		NONE		NONE		talisman, asinine, nincompoop, refractory, knotty		TRUE		ques15.txt
+garble		Multiple choice		NONE		NONE		ignite, noise,garble,refractory, swell		TRUE		ques16.txt
+pleasure-seeking		Multiple choice		NONE		NONE		glutton, flimsy, hinder, pleasure-seeking, sadist		TRUE		ques17.txt
+annihilate		Multiple choice		NONE		NONE		annihilate, placid, stentorian, hedonist, abhor		TRUE		ques18.txt
+erratic		Multiple choice		NONE		NONE		placid, steady,erratic, extreme, accent		TRUE		ques19.txt
+callow		Multiple choice		NONE		NONE		callow, trial, placid, knotty, ignoble		TRUE		ques20.txt
