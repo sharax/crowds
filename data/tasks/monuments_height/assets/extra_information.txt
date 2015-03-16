@@ -1,0 +1,20 @@
+1. Statue of Liberty, New York, USA
+2. Eiffel Tower, Paris, France
+3. St. Marks Campanile, Venice, Italy
+4. Burj Khalifa, Dubai, UAE
+5. Capitol Hill, Washington, USA
+6. Big Ben, London, England
+7. St. Peter's Cathedral, Vatican City
+8. Wumen Gate Building, Forbidden City, China
+9. The Piramids of Giza, Egypt
+10. Basilica of Our Lady of Guadalupe, Mexico City, Mexico
+11. Taj Mahal, Agra, India
+12. CN Tower, Ontario, Canada
+13. The Colosseum, Rome, Italy
+14. Opera House, Sydney, Australia
+15. The Prophet’s Mosque, Medina, Saudi Arabia
+16. Leaning Tower of Pisa, Italy
+17. Brandenburg Gate, Berlin, Germany
+18. Acropolis, Athens, Greece
+19. Hagia Sophia, Istanbul, Germany
+20. The Palace of Parliament, Bucharest, Romania

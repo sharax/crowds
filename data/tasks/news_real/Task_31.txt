@@ -1,0 +1,21 @@
+Correct Answer	Answer Type	Asset Type	No.of Channels	Randomized Answer	Asset File
+1	Binary	txt	4	TRUE	Question1.txt
+1	Binary	txt	5	TRUE	Question2.txt
+1	Binary	txt	3	TRUE	Question3.txt
+0	Binary	txt	2	TRUE	Question4.txt
+1	Binary	txt	5	TRUE	Question5.txt
+0	Binary	txt	0	TRUE	Question6.txt
+1	Binary	txt	2	TRUE	Question7.txt
+1	Binary	txt	4	TRUE	Question8.txt
+1	Binary	txt	6	TRUE	Question9.txt
+0	Binary	txt	3	TRUE	Question10.txt
+0	Binary	txt	2	TRUE	Question11.txt
+1	Binary	txt	10	TRUE	Question12.txt
+1	Binary	txt	12	TRUE	Question13.txt
+0	Binary	txt	2	TRUE	Question14.txt
+1	Binary	txt	6	TRUE	Question15.txt
+1	Binary	txt	9	TRUE	Question16.txt
+1	Binary	txt	5	TRUE	Question17.txt
+0	Binary	txt	0	TRUE	Question18.txt
+1	Binary	txt	4	TRUE	Question19.txt
+1	Binary	txt	7	TRUE	Question20.txt
