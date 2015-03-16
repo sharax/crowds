@@ -1,0 +1,7 @@
+EZ Alert
+This alert system would be used by the user to receive emergency help as fast as possible.
+ 
+
+ 
+
+ Perhaps with some updates later and tweaking the app could include the sensing of a heart attack or seizure. Basically the app is for iOS and implements the use of the Apple Watch to monitor your heart rate and movement. The app would be considered active if electrical signals are being received and no heart rate is sensed. The sensors in the watch that monitors your heart rate and movement would create a panic button on your watch and call for emergency help with an automated voice message. You could also have the option to call a set list of emergency contacts instead of calling 911.
