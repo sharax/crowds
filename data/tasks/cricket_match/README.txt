@@ -1,4 +1,8 @@
-﻿Task: 10
+#Group members: naman13141@iiitd.ac.in
+		nawazish13061@iiitd.ac.in
+		pushkin13076@iiitd.ac.in
+
+Task: 35
 
 	Predict the result of a cricket match
 
