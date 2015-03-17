@@ -6,7 +6,7 @@ sha.gokhale@gmail.com
 
 TASK: Box office collection of a given movie.
 
-DESCRIPTION. You will now be shown a series of integer answer questions. For each question, we will display the name of a movie and ask you to predict its international box office collection in millions of USD.
+DESCRIPTION. You will now be shown a series of real number answer type questions. For each question, we will display the name of a movie and ask you to predict its international box office collection in millions of USD.
 
 CORPUS: The complete set of highest grossing movies was extracted from:
 	    http://www.boxofficemojo.com/alltime/world/ 
