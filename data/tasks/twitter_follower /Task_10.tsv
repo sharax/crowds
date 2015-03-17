@@ -1,4 +1,4 @@
-Correct Answer	Answer Type	Asset Type	Asset File	Possible Answers	Randomize Answers
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
 "29540000"	Multiple Choice	text file	Question1.txt	"29540000,1500,17600,42580000"	TRUE
 "53400000"	Multiple Choice	text file	Question2.txt	"53400000,2000,42145,38150000"	TRUE
 "16813610"	Multiple Choice	text file	Question3.txt	"16813610,5005,30000,45258123"	TRUE
