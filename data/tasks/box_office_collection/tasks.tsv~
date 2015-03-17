@@ -1,5 +1,5 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-1215.4	float	text	iron_man_3.txt	no answers	false
+1,215.4	float	text	iron_man_3.txt	no answers	false
 987.5	float	text	the_lion_king.txt	no answers	false
 890.9	float	text	spiderman_3.txt	no answers	false
 879.0	float	text	harry_potter_and_the_chamber_of_secrets.txt	no answers	false
