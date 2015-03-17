@@ -1,0 +1,21 @@
+Correct Answer,Answer Type,Asset Type,Asset file,Possible Answers,Randomize Answers
+IND,Multiple choice,None,ind_vs_pak.txt,PAK  Draw  N/R,TRUE
+WI,Multiple choice,None,wi_vs_pak.txt,PAK  Draw  N/R,TRUE
+SA,Multiple choice,None,sa_vs_aus.txt,AUS  Draw  N/R,TRUE
+NZ,Multiple choice,None,nz_vs_sa.txt,SA  Draw  N/R,TRUE
+IRE,Multiple choice,None,ire_vs_uae.txt,UAE  Draw  N/R,TRUE
+AUS,Multiple choice,None,ind_vs_aus.txt,IND  Draw  N/R,TRUE
+NZ,Multiple choice,None,ind_vs_nz.txt,IND  Draw  N/R,TRUE
+IND,Multiple choice,None,ind_vs_uae.txt,UAE  Draw  N/R,TRUE
+IND,Multiple choice,None,wi_vs_ind.txt,WI  Draw  N/R,TRUE
+NZ,Multiple choice,None,nz_vs_ire.txt,NZ  Draw  N/R,TRUE
+PAK,Multiple choice,None,pak_vs_uae.txt,UAE  Draw  N/R,TRUE
+NZ,Multiple choice,None,nz_vs_aus.txt,AUS  Draw  N/R,TRUE
+N/R,Multiple choice,None,aus_vs_ire.txt,AUS  Draw  N/R,TRUE
+AUS,Multiple choice,None,pak_vs_aus.txt,PAK  Draw  N/R,TRUE
+PAK,Multiple choice,None,sa_vs_pak.txt,SA  Draw  N/R,TRUE
+SA,Multiple choice,None,uae_vs_sa.txt,UAE  Draw  N/R,TRUE
+IND,Multiple choice,None,ire_vs_ind.txt,IRE  Draw  N/R,TRUE
+IRE,Multiple choice,None,wi_vs_ire.txt,WI  Draw  N/R,TRUE
+N/R,Multiple choice,None,aus_vs_wi.txt,WI  Draw AUS,TRUE
+DRAW,Multiple choice,None,nz_vs_wi.txt,WI  NZ  N/R ,TRUE
