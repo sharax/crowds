@@ -1,0 +1,21 @@
+correct_answer,answer_type,asset_type,asset_file,possible_answers,extra_information
+2.5,point estimate,image,object_weight_1.jpg,no answers,object_weight_1.txt
+5,point estimate,image,object_weight_2.jpg,no answers,object_weight_2.txt
+23,point estimate,image,object_weight_3.jpg,no answers,object_weight_3.txt
+8.5,point estimate,image,object_weight_4.jpg,no answers,object_weight_4.txt
+0.56,point estimate,image,object_weight_5.jpg,no answers,object_weight_5.txt
+15,point estimate,image,object_weight_6.jpg,no answers,object_weight_6.txt
+72,point estimate,image,object_weight_7.jpg,no answers,object_weight_7.txt
+1995,point estimate,image,object_weight_8.jpg,no answers,object_weight_8.txt
+950,point estimate,image,object_weight_9.jpg,no answers,object_weight_9.txt
+113,point estimate,image,object_weight_10.jpg,no answers,object_weight_10.txt
+2.38,point estimate,image,object_weight_11.jpg,no answers,object_weight_11.txt
+5,point estimate,image,object_weight_12.jpg,no answers,object_weight_12.txt
+14.8,point estimate,image,object_weight_13.jpg,no answers,object_weight_13.txt
+0.9,point estimate,image,object_weight_14.jpg,no answers,object_weight_14.txt
+45,point estimate,image,object_weight_15.jpg,no answers,object_weight_15.txt
+1.78,point estimate,image,object_weight_16.jpg,no answers,object_weight_16.txt
+20,point estimate,image,object_weight_17.jpg,no answers,object_weight_17.txt
+64.4,point estimate,image,object_weight_18.jpg,no answers,object_weight_18.txt
+7.5,point estimate,image,object_weight_19.jpg,no answers,object_weight_19.txt
+129,point estimate,image,object_weight_20.jpg,no answers,object_weight_20.txt
