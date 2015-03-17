@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-1215.4	float	none	Iron Man 3	no answers	false
-987.5	float	none	The Lion King	no answers	false
-890.9	float	none	Spider-Man 3	no answers	false
-879.0	float	none	Harry Potter and the Chamber of Secrets	no answers	false
-751.8	float	none	The Hunger Games: Mockingjay - Part 1	no answers	false
-694.7	float	none	Mission: Impossible - Ghost Protocol	no answers	false
-672.5	float	none	Interstellar	no answers	false
-631.7	float	none	Kung Fu Panda	no answers	false
-609.8	float	none	Mamma Mia!	no answers	false
-550.5	float	none	King Kong	no answers	false
-549.4	float	none	Ted	no answers	false
-528.7	float	none	Godzilla (2014)	no answers	false
-484.4	float	none	Shrek	no answers	false
-441.3	float	none	The Exorcist	no answers	false
-441.3	float	none	Mrs. Doubtfire	no answers	false
-361.3	float	none	Alvin and the Chipmunks	no answers	false
-268.2	float	none	Neighbors	no answers	false
-255.0	float	none	Cliffhanger	no answers	false
-250.6	float	none	Enemy of the State	no answers	false
-237.2	float	none	Gone in 60 Seconds	no answers	false
+1,215.4	float	text	iron_man_3.txt	no answers	false
+987.5	float	text	the_lion_king.txt	no answers	false
+890.9	float	text	spiderman_3.txt	no answers	false
+879.0	float	text	harry_potter_and_the_chamber_of_secrets.txt	no answers	false
+751.8	float	text	the_hunger_games_mockingjay_part_1.txt	no answers	false
+694.7	float	text	mission_impossible_ghost_protocol.txt	no answers	false
+672.5	float	text	interstellar.txt	no answers	false
+631.7	float	text	kung_fu_panda.txt	no answers	false
+609.8	float	text	mamma_mia.txt	no answers	false
+550.5	float	text	king_kong.txt	no answers	false
+549.4	float	text	ted.txt	no answers	false
+528.7	float	text	godzilla_2014.txt	no answers	false
+484.4	float	text	shrek.txt	no answers	false
+441.3	float	text	the_exorcist.txt	no answers	false
+441.3	float	text	mrs_doubtfire.txt	no answers	false
+361.3	float	text	alvin_and_the_chipmunks.txt	no answers	false
+268.2	float	text	neighbors.txt	no answers	false
+255.0	float	text	cliffhanger.txt	no answers	false
+250.6	float	text	enemy_of_the_state.txt	no answers	false
+237.2	float	text	gone_in_60_seconds.txt	no answers	false
