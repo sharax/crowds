@@ -1,7 +1,7 @@
 #Group members: naman13141@iiitd.ac.in
                 nawazish13061@iiitd.ac.in
                 pushkin13076@iiitd.ac.in
-Task: 
+Task31: 
 Predict whether a news headline is real.
 Detailed Description shown to participants: 
 We will ask you a single question whether the news is real or not. 
