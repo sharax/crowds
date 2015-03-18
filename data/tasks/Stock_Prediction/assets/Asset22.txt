@@ -1,0 +1,1 @@
+The change in price of 1 barrel of crude oil in the past month on an average was -0.08% .Predict the change of price of crude oil in percent after 15 days.

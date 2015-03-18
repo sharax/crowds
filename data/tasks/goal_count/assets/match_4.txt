@@ -1,0 +1,4 @@
+#HOME_TEAM Chicago
+#AWAY_TEAM Toronto FC
+#DATE_TIME 2015-04-04 15:00
+#VENUE Toyota Park

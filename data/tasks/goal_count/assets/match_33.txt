@@ -1,0 +1,4 @@
+#HOME_TEAM Colorado
+#AWAY_TEAM FC Dallas
+#DATE_TIME 2015-04-24 20:00
+#VENUE Dick's Sporting Goods Park

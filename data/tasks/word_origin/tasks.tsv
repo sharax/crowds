@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+French	multiple choice	text	crass.txt	French, Latin, Germanic, Italian, Nordic 	true
+Latin	multiple choice	text	excerpt.txt	French, Latin, Germanic, Italian, Nordic 	true
+Germanic	multiple choice	text	farm.txt	French, Latin, Germanic, Italian, Nordic 	true
+Italian	multiple choice	text	novel.txt	French, Latin, Germanic, Italian, Nordic 	true
+Germanic	multiple choice	text	creep.txt	French, Latin, Germanic, Italian, Nordic 	true
+Nordic	multiple choice	text	gap.txt	French, Latin, Germanic, Italian, Nordic 	true
+Latin	multiple choice	text	ignite.txt	French, Latin, Germanic, Italian, Nordic 	true
+French	multiple choice	text	protectionism.txt	French, Latin, Germanic, Italian, Nordic 	true
+Italian	multiple choice	text	grotesque.txt	French, Latin, Germanic, Italian, Nordic 	true
+French	multiple choice	text	sulphur.txt	French, Latin, Germanic, Italian, Nordic 	true
+Latin	multiple choice	text	recumbent.txt	French, Latin, Germanic, Italian, Nordic 	true
+Nordic	multiple choice	text	viking.txt	French, Latin, Germanic, Italian, Nordic 	true
+Germanic	multiple choice	text	airborne.txt	French, Latin, Germanic, Italian, Nordic 	true
+French	multiple choice	text	retail.txt	French, Latin, Germanic, Italian, Nordic 	true
+Italian	multiple choice	text	mezzanine.txt	French, Latin, Germanic, Italian, Nordic 	true
+Nordic	multiple choice	text	muck.txt	French, Latin, Germanic, Italian, Nordic 	true
+Nordic	multiple choice	text	raft.txt	French, Latin, Germanic, Italian, Nordic 	true
+Latin	multiple choice	text	deceptive.txt	French, Latin, Germanic, Italian, Nordic 	true
+Germanic	multiple choice	text	charcoal.txt	French, Latin, Germanic, Italian, Nordic 	true
+Italian	multiple choice	text	sonata.txt	French, Latin, Germanic, Italian, Nordic 	true

@@ -1,0 +1,4 @@
+#HOME_TEAM Vancouver
+#AWAY_TEAM LA Galaxy
+#DATE_TIME 2015-04-04 00:00
+#VENUE BC Place

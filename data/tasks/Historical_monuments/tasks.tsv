@@ -1,21 +1,21 @@
 Correct_Answer	Answer_Type	Asset_type	Asset_File	Possible_Answers	Randomize_Answers
-France	multiple choice	image	The-Eiffel-Tower.jpg	South Korea,South Africa,Malaysia,Algeria,France	true
-United States	multiple choice	image	The Statue of Liberty.jpg	United States,Jordan,Austria,Japan,France	true
+France	multiple choice	image	The-Eiffel-Tower.png	South Korea,South Africa,Malaysia,Algeria,France	true
+United States	multiple choice	image	The Statue Of Liberty.jpg	United States,Jordan,Austria,Japan,France	true
 Spain	multiple choice	image	Parc Guell.jpg	Austria,France,Spain,Indonesia,Japan	true
 China	multiple choice	image	The Great Chinese Wall.jpg	Malaysia,Indonesia,China,Tunisia,Canada	true
 Italy	multiple choice	image	The Colosseum.jpg	France,Peru,Austria,Lebanon,Italy	true
 Turkey	multiple choice	image	Agia Sophia.jpg	Zimbabwe,Israel,Egypt,France,Turkey	true
 Germany	multiple choice	image	Brandenburg-Gate.jpg	England,United States,Lebanon,Germany,Morocco	true
 England	multiple choice	image	Big Ben.jpg	France,Brazil,Italy,Singapore,England	true
-Russia	multiple choice	image	St. Basil’s Cathedral.jpg	United States,Chile,Spain,Kenya,Russia	true
-South Africa	multiple choice	image	Cape of Good Hope.jpg	Greece,Italy,Egypt,China,South Africa	true	
+Russia	multiple choice	image	St Basils Cathedral.jpg	United States,Chile,Spain,Kenya,Russia	true
+Italy	multiple choice	image	pompeii.jpg	Greece,South Africa,Egypt,China,Indonesia	true
 Saudi Arabia	multiple choice	image	Mecca.jpg	Kenya,Austria,Algeria,Saudi Arabia,China	true
 Egypt	multiple choice	image	Luxor Temple.jpg	Morocco,Egypt,Turkey,Spain,Jordan	true
 Mexico	multiple choice	image	Chichen Itza.jpg	Mexico,Indonesia,Singapore,Brazil,Russia	true
-Japan	multiple choice	image	The Great Buddha of Kamakura.jpg	Japan,South Africa,Jordan,Singapore,Saudi Arabia	true
+Japan	multiple choice	image	The Great Buddha Of Kamakura.jpg	Japan,South Africa,Jordan,Singapore,Saudi Arabia	true
 Indonesia	multiple choice	image	Temple of Besakih.jpg	Indonesia,Ukraine,Malaysia,Egypt,Chile	true
 Greece	multiple choice	image	Acropolis of Athens.jpg	Egypt,Greece,Malaysia,Turkey,Algeria	true
-Peru	multiple choice	image	Machu Picchu.jpg	China,Indonesia,Kenya,Peru,France	true
+Peru	multiple choice	image	Machu Picchu.png	China,Indonesia,Kenya,Peru,France	true
 India	multiple choice	image	Taj mahal.jpg	Lebanon,Canada,Argentina,Uganda,India	true
 Egypt	multiple choice	image	The Pyramids of Giza.jpg	Brazil,Jordan,Egypt,India,Lebanon	true
-Italy	multiple choice	image	Tower of Pisa.jpg	Israel,Italy,Egypt,Mexico,Uganda	true
+Italy	multiple choice	image	Tower Of Pisa.jpg	Israel,Italy,Egypt,Mexico,Uganda	true
