@@ -1,0 +1,4 @@
+Company_name             :  Microsoft
+Stock price on 03/02/2015: 43.88
+Sector                   :Technology
+Indrustry				 :Software,Prepackaged software

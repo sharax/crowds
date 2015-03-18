@@ -1,0 +1,4 @@
+Company_name             : Walmart
+Stock price on 03/02/2015: 83.96,Department/Specialty Retail Stores
+Sector                   : Consumer Services
+Indrustry				 : Department/Specialty Retail Stores

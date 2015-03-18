@@ -1,5 +1,0 @@
-Artist name  :Zhang Xiaogang
-Painting name:Forever Lasting Love
-Material Used:Oil Painting
-Year		 :2010
-Predict the  cost of the painting.

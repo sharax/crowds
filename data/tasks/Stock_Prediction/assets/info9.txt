@@ -1,0 +1,4 @@
+Company_name             : Pepsico Inc
+Stock price on 03/02/2015: 99
+Sector                   : Consumer Non-Durables
+Indrustry				 : Beverages (Production/Distribution)
