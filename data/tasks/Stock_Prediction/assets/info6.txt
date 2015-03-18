@@ -1,0 +1,4 @@
+Company_name             : General Electric Company ,GE
+Stock price on 03/02/2015: 26.11
+Sector                   : Energy
+Indrustry				 : Consumer Electronics/Appliances
