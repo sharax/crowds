@@ -1,4 +1,4 @@
-correct_answer		answer_type		asset_type		asset		possible_answers		randomization
+correct_answer		answer_type		asset_type		asset_file		possible_answers		randomization
 hawthorn		Multiple choice		Image		tree_hawthorn.png		hawthorn,balsam fir,apple seviceberry,pine,plum		True
 holly		Multiple choice		Image		tree_holly.png		holly,gray birch ,redbud,dogwood,plum		True
 balsam fir		Multiple choice		Image		tree_balsamfir.png		silver birches, oak, balsam fir,pine, sycamore		True
