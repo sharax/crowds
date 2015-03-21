@@ -1,4 +1,4 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answer
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
 Hate	Multiple choice	Text file	ques1.txt	hinder,Hate,forgive,pardon,release	TRUE
 Narrow minded	Multiple choice	Text file	ques2.txt	desist,aloof,withdraw,narrow minded,hinder	TRUE 
 Suffrage	Multiple choice	Text file	ques3.txt	flimsy,kindle,suffrage,maze,improve	TRUE
