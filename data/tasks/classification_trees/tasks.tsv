@@ -1,24 +1,24 @@
-correct_answer		answer_type		asset_type		asset_file		possible_answers		randomization
-hawthorn		Multiple choice		Image		tree_hawthorn.png		hawthorn,balsam fir,apple seviceberry,pine,plum		True
-holly		Multiple choice		Image		tree_holly.png		holly,gray birch ,redbud,dogwood,plum		True
-balsam fir		Multiple choice		Image		tree_balsamfir.png		silver birches, oak, balsam fir,pine, sycamore		True
-apple serviceberry		Multiple choice		Image		tree_apple.png		apple serviceberry, japanese maple, poplar,elder, elm		True
-plum		Multiple choice		Image		tree_plum.png		plum,pine,oak,elm,werty		True
-eastern redbud		Multiple choice		Image		tree_redbund.png		dogwood,norway maple, poplar,eastern redwood, loboneir		True
-snowbell		Multiple choice		Image		tree_snowden.png		snowball, maple, sycamore, laboneir, hawthorn		True
-norway maple		Multiple choice		Image		tree_maple.png		japanese maple, norway maple, oak, plum, elm		True   
-dogwood		Multiple choice		Image		tree_dogwood.png		dogwood,snowball, plum,beech tree, elm		True
-pine		Multiple choice		Image		tree_pine.png		pine,plum,oak,redwood,weeping willow		True
-oak		Multiple choice		Image		tree_oak.png		oak,pine,eucalyptus,chestnut,poplar		True
-silver birches		Multiple choice		Image		tree_silverbirches.png		apple,maple norway, pine,silver birches,oak		True
-gray birch		Multiple choice		Image		tree_graybirch.png		sycamore,serviceberry,graybirch,ivy		True
-black locust		Multiple choice		Image		tree_blacklocust.png		graybirch,holly,shantung,black locust,balsam fir		True 
-elm		Multiple choice		Image		tree_elm.png		elm,elder,pine, oak, poplar		True
-elder		Multiple choice		Image		tree_elder.png		elder,beech,hawthorn,plum,oak		True
-beech trees		Multiple choice		Image		tree_beechtree.png		beech tree, plum, snowbell,redbud,ivy		True
-poplars		Multiple choice		Image		tree_poplar.png		sycamore,poplar,elm,pine,snowbell		True
-sycamore		Multiple choice		Image		tree_sycamore.png		sycamore,elder,elm,silver birches,redbud		True
-weeping willow		Multiple choice		Image		tree_weepingwillow.png		weeping willow, hawthorn,redbud, dogwood,oak		True
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomization
+hawthorn	Multiple choice	Image	tree_hawthorn.png	hawthorn,balsam fir,apple seviceberry,pine,plum	True
+holly	Multiple choice	Image	tree_holly.png	holly,gray birch,redbud,dogwood,plum	True
+balsam fir	Multiple choice	Image	tree_balsamfir.png	silver birches, oak,balsam fir,pine,sycamore	True
+apple serviceberry	Multiple choice	Image	tree_apple.png	apple serviceberry,japanese maple,poplar,elder,elm	True
+plum	Multiple choice	Image	tree_plum.png	plum,pine,oak,elm,werty	True
+eastern redbud	Multiple choice	Image	tree_redbund.png	dogwood,norway maple,poplar,eastern redwood,loboneir	True
+snowbell	Multiple choice	Image	tree_snowden.png	snowball,maple,sycamore,laboneir,hawthorn	True
+norway maple	Multiple choice	Image	tree_maple.png	japanese maple,norway maple,oak,plum,elm	True   
+dogwood	Multiple choice	Image	tree_dogwood.png	dogwood,snowball,plum,beech tree,elm	True
+pine	Multiple choice	Image	tree_pine.png	pine,plum,oak,redwood,weeping willow	True
+oak	Multiple choice	Image	tree_oak.png	oak,pine,eucalyptus,chestnut,poplar	True
+silver birches	Multiple choice	Image	tree_silverbirches.png	apple,maple norway,pine,silver birches,oak	True
+gray birch	Multiple choice	Image	tree_graybirch.png	sycamore,serviceberry,graybirch,ivy	True
+black locust	Multiple choice	Image	tree_blacklocust.png	graybirch,holly,shantung,black locust,balsam fir	True 
+elm	Multiple choice	Image	tree_elm.png	elm,elder,pine,oak,poplar	True
+elder	Multiple choice	Image	tree_elder.png	elder,beech,hawthorn,plum,oak	True
+beech trees	Multiple choice	Image	tree_beechtree.png	beech tree,plum,snowbell,redbud,ivy	True
+poplars	Multiple choice	Image	tree_poplar.png	sycamore,poplar,elm,pine,snowbell	True
+sycamore	Multiple choice	Image	tree_sycamore.png	sycamore,elder,elm,silver birches,redbud	True
+weeping willow	Multiple choice	Image	tree_weepingwillow.png	weeping willow, hawthorn,redbud, dogwood,oak	True
 
 
 
