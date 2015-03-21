@@ -1,4 +1,4 @@
-correct_answer  answer_type asset_type  asset_file  possible_answers  randomize_answers
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
 10337	point estimate	image	KP 1.png	no answers	false
 9909	point estimate	image	KP 2.png	no answers	false
 10405	point estimate	image	KP 3.png	no answers	false
