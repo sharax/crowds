@@ -4,15 +4,12 @@ renukarule12@gmail.com
 TASK: Predict change in price of a stock/gold/oil.
 
 
-DESCRIPTION: Few Company’s name its domain and past one month performance of the company’s stock will be shown to you,For each company you have to answer the questions. 		     At last similar question has to be answered for gold and oil
+DESCRIPTION: Few Company’s name its domain and past one month performance of the company’s stock will be shown to you,For each company you have to answer the questions.At last similar question has to be answered for gold and oil
 
-CORPUS: The corpus for this task is manually sampled from www.nasdaq.com by sampling the companies based on market capital all the companies are Mid Cap.Market Capital  	range from 800 million to 12 billion dollars.Median of the change in percentage of the company’s stock for past 30
-       days e.g. on day 1 it was=+2.6%(stock value was up by 2.6) day 2 = -0.5%(stock value got down by .5 ) day3 =+1.2%.So Median{day 1 ,day 2 ,day 3 ,....,day 30 } is 	calculated.Similarly mean value of change in prices of gold and oil is calculated from the chart obtained from http://www.livecharts.co.uk which has 	          data from NYSE
+CORPUS: The corpus is selected from NASDAQ for stock prices and NYSE for gold/crude oil prices.
 METHODOLOGY:     
-Companies were selected based on the mrket capital.Mid capital companies were choosen in where market capital ranged from $800 million to 12 billion.
-Then whole list was refined based on the sectors in which companies do buisness.The stock price record was again obtained from source individualy, and the Median of the change in percentage of the company’s stock was calculated.
-For gold and oil we calculated the mean from the commodities based on NYSE, data from http://www.livecharts.co.uk and mean was calculated.
-
+Most profitable companies were seleted and there stock price value of the Mar 02 2015 has been recorded similarly Gold/Oil prices for Mar 02 2015 has been taken.The crowd will be asked to guess the prices on Mar 1 2016 .
+extra_info in the task.tsv is the details of the companies which will be shown to the crowd based on which the crowd will make a guess.
 
 
 ANSWERS: 

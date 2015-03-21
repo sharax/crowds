@@ -1,5 +1,0 @@
-Artist name  : Syed Hyder Raza
-Painting name: La terre
-Material Used: Acrylic on Canvas 
-Year		 :1973
-Predict the  cost of the painting.

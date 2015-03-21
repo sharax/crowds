@@ -1,5 +1,0 @@
-Artist name  : M.F.Hussain
-Painting name: Clinq Sens 
-Material Used: Oil Painting 
-Year		 :1954
-Predict the  cost of the painting.

@@ -1,0 +1,16 @@
+To: samba-cvs@samba.org
+From: metze@samba.org
+Subject: svn commit: samba r22993 - in
+        branches/SAMBA_4_0/source/scripting/ejs: .
+Body:
+WebSVN: http://websvn.samba.org/cgi-bin/viewcvs.cgi?view=rev&root=samba&rev=22993
+
+Log:
+- make it possible to load a dsdb_schema from ldif via the ejs bindings
+- make it possible to set ntds_objectGUID and ntds_invocationId via the ejy bindings
+
+metze
+Modified:
+   branches/SAMBA_4_0/source/scripting/ejs/config.mk
+   branches/SAMBA_4_0/source/scripting/ejs/smbcalls_ldb.c
+

@@ -1,0 +1,4 @@
+Company_name             : AT&T Inc.
+Stock price on 03/02/2015: 34.64
+Sector                   : public utilities
+Indrustry				 : Telecommunications Equipment
