@@ -1,0 +1,9 @@
+From: ""CBS SportsLine.com""<cbssportsline@sportsline.cbs-communications.com>
+To: ktwarwic@flax9.uwaterloo.ca
+Subject: CBS SportsLine Daily Sports Report
+Body:
+</a></td>
+    <td>&nbsp;<img src=""http://images.sportsline.com/images/home/gn_divider.gif"" width=""2"" height=""18"" border=""0"" alt="""" hspace=""0"" vspace=""0"" align=""middle"">&nbsp;</td>
+    <td><a style=""font-size:11px;color:#525252;font-weight:bold;text-decoration:none"" href=""http://sportsline.cbs-communications.com/cgi-bin4/DM/y/hBAZ50LpHeh0S5s0E5Yu0GV""><font face=""Arial,sans-serif"">MLB</font></a></td>
+    <td>&nbsp;<img src=""http://images.sportsline.com/images/home/gn_divider.gif"" width=""2"" height=""18"" border=""0"" alt="""" hspace=""0"" vspace=""0"" align=""middle"">&nbsp;</td>
+    <td><a style=""font-size:11px;color:#525252;font-weight:bold;text-decoration:none"" href=""http://sportsline.cbs-communications.com/cgi-bin4/DM/y/hBAZ50LpHeh0S5s0FDOn0GU""><font face=""Arial,sans-serif"">NHL</font></a></td>

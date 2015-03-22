@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+The Guardian	multiple choice	text	Question1.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question2.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question3.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question4.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question5.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question6.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question7.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question8.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question9.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question10.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question11.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question12.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question13.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question14.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question15.txt	TIME, The Guardian, WIRED, The Economist	true
+The Economist	multiple choice	text	Question16.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question17.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question18.txt	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question19.txt	TIME, The Guardian, WIRED, The Economist	true
+WIRED	multiple choice	text	Question20.txt	TIME, The Guardian, WIRED, The Economist	true

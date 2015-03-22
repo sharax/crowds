@@ -1,0 +1,4 @@
+Company_name             : The Goldman Sachs Group Inc.
+Stock price on 03/02/2015: 191.79
+Sector                   : Finance
+Indrustry				 : Investment Bankers/Brokers/Service

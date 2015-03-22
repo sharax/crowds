@@ -1,1 +1,0 @@
-The change in price of 1 ounce of gold in the past month on an average was -0.46%.Predict the change of price of gold in percent after 15 days.
