@@ -17,4 +17,4 @@ METHODOLOGY:
 	A random sample of 20 headlines and the corresponding newspaper/magazine are chosen from the constructed Corpus. Headline is displayed as input text and corresponding magazine/newspaper is recorded as the correct answer.
 	
 	ANSWERS
-	For all the tasks, four magazines/newspapers i.e TIME, WIRED, The Guardian, The Economist are provided as possible options, out of which one stands as the correct answer
+	For all the tasks, four magazines/newspapers i.e The Economist, The Guardian, TIME, WIRED are provided in alphabetical order as possible options, out of which one stands as the correct answer
