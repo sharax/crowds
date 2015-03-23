@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Friday, July 3, 2015 9:00PM EDT
+Home_Team: Houston
+Away_Team: Chicago
+Stadium: BBVA Compass Stadium

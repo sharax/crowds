@@ -1,4 +1,5 @@
-#HOME_TEAM Columbus
-#AWAY_TEAM Philadelphia
-#DATE_TIME 2015-04-25 19:30
-#VENUE Crew Stadium
+Match Details
+Match_Time: Saturday, April 25, 2015 7:30PM EDT
+Home_Team: Columbus
+Away_Team: Philadelphia
+Stadium: Crew Stadium

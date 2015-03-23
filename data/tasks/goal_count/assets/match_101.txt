@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Friday, June 5, 2015 9:00PM EDT
+Home_Team: Houston
+Away_Team: NY Red Bulls
+Stadium: BBVA Compass Stadium

@@ -1,4 +1,5 @@
-#HOME_TEAM Portland
-#AWAY_TEAM FC Dallas
-#DATE_TIME 2015-04-04 20:30
-#VENUE Providence Park
+Match Details
+Match_Time: Saturday, April 4, 2015 10:30PM EDT
+Home_Team: Portland
+Away_Team: FC Dallas
+Stadium: Providence Park

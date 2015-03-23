@@ -1,4 +1,5 @@
-#HOME_TEAM Vancouver
-#AWAY_TEAM Columbus
-#DATE_TIME 2015-04-08 00:00
-#VENUE BC Place
+Match Details
+Match_Time: Wednesday, April 8, 2015 TBD
+Home_Team: Vancouver
+Away_Team: Columbus
+Stadium: BC Place

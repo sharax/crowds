@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, July 25, 2015 TBD
+Home_Team: Montreal
+Away_Team: Seattle
+Stadium: Stade Saputo

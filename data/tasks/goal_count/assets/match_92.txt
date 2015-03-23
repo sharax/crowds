@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 30, 2015 7:00PM EDT
+Home_Team: D.C. United
+Away_Team: Philadelphia
+Stadium: RFK Stadium

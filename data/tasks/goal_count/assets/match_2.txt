@@ -1,4 +1,5 @@
-#HOME_TEAM Seattle
-#AWAY_TEAM Houston
-#DATE_TIME 2015-04-04 00:00
-#VENUE CenturyLink Field
+Match Details
+Match_Time: Saturday, April 4, 2015 TBD
+Home_Team: Seattle
+Away_Team: Houston
+Stadium: CenturyLink Field

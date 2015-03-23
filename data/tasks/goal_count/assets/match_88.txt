@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Friday, May 29, 2015 9:00PM EDT
+Home_Team: Sporting KC
+Away_Team: FC Dallas
+Stadium: Sporting Park

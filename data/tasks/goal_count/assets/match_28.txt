@@ -1,4 +1,5 @@
-#HOME_TEAM Real Salt Lake
-#AWAY_TEAM Vancouver
-#DATE_TIME 2015-04-18 21:30
-#VENUE Rio Tinto Stadium
+Match Details
+Match_Time: Saturday, April 18, 2015 9:30PM EDT
+Home_Team: Real Salt Lake
+Away_Team: Vancouver
+Stadium: Rio Tinto Stadium

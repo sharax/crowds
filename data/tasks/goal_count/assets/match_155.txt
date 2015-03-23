@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, July 12, 2015 TBD
+Home_Team: Vancouver
+Away_Team: Sporting KC
+Stadium: BC Place

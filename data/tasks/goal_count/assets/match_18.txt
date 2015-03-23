@@ -1,4 +1,5 @@
-#HOME_TEAM Portland
-#AWAY_TEAM Orlando
-#DATE_TIME 2015-04-12 17:00
-#VENUE Providence Park
+Match Details
+Match_Time: Sunday, April 12, 2015 5:00PM EDT
+Home_Team: Portland
+Away_Team: Orlando
+Stadium: Providence Park
