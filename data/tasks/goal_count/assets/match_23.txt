@@ -1,4 +1,5 @@
-#HOME_TEAM Montreal
-#AWAY_TEAM Chicago
-#DATE_TIME 2015-04-18 00:00
-#VENUE Stade Saputo
+Match Details
+Match_Time: Saturday, April 18, 2015 TBD
+Home_Team: Montreal
+Away_Team: Chicago
+Stadium: Stade Saputo

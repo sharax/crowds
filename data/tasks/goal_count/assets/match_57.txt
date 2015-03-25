@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 9, 2015 3:00PM EDT
+Home_Team: Chicago
+Away_Team: Real Salt Lake
+Stadium: Toyota Park

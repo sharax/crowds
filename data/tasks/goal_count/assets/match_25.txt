@@ -1,4 +1,5 @@
-#HOME_TEAM Columbus
-#AWAY_TEAM Orlando
-#DATE_TIME 2015-04-18 19:30
-#VENUE Crew Stadium
+Match Details
+Match_Time: Saturday, April 18, 2015 7:30PM EDT
+Home_Team: Columbus
+Away_Team: Orlando
+Stadium: Crew Stadium

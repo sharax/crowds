@@ -8,11 +8,11 @@ Task:  Predict the number of retweets of a specific tweet.
 
 Detailed Description shown to participants:  
 
-“ We will give you a series of questions. In each question an Image of tweet the number of followers will be given.You have to predict the number of retweets it will get. ”
+“ We will give you a series of tweets from Katy Perry, an american singer and songwriter. You have to predict the number of retweets it will get depending on the content of tweet. ”
 
-Input Type:  Image of the tweet + no of followers
+Input Type:  Image of the tweet
 
-Corpus: 
+Corpus:
 
 List of top 100 people with highest number of followers in the world.
 http://twittercounter.com/pages/100
@@ -23,6 +23,6 @@ http://perezhilton.com/galleries/the-most-retweets-ever-what-celebs-are-sharing-
 
 Representative Tasks methodology: 
 
-We select the randomly the 20 people and their tweets as the questions. So there is randomness in the questions. For people who don’t have much idea on retweets we are also providing the number of followers so that they can make an educated guess depending on the content of tweet rather than pure guessing. Our team felt this as the right amount of information which can be given to the participant. This is neither excess or meager for a participant to guess. It will be interesting to see when the ‘No of followers’ information is not provided to participant.
+We select randomly the 20 tweets of Katy Perry as the questions. So there is randomness in the questions. The tweets are from the same celebrity, so that there is some baseline for comparision when guessing the number of retweets.
 
 Answer Type: Fill in the blank (Integer)

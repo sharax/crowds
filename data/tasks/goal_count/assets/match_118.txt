@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, June 20, 2015 TBD
+Home_Team: Toronto FC
+Away_Team: New York City
+Stadium: BMO Field

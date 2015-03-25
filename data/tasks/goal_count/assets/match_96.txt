@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, May 31, 2015 5:00PM EDT
+Home_Team: Seattle
+Away_Team: NY Red Bulls
+Stadium: CenturyLink Field

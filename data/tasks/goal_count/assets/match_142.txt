@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, July 4, 2015 TBD
+Home_Team: Montreal
+Away_Team: New York City
+Stadium: Stade Saputo

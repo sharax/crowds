@@ -1,4 +1,5 @@
-#HOME_TEAM San Jose
-#AWAY_TEAM Vancouver
-#DATE_TIME 2015-04-11 20:30
-#VENUE Avaya Stadium
+Match Details
+Match_Time: Saturday, April 11, 2015 10:30PM EDT
+Home_Team: San Jose
+Away_Team: Vancouver
+Stadium: Avaya Stadium

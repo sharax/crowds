@@ -1,4 +1,5 @@
-#HOME_TEAM Colorado
-#AWAY_TEAM FC Dallas
-#DATE_TIME 2015-04-24 20:00
-#VENUE Dick's Sporting Goods Park
+Match Details
+Match_Time: Friday, April 24, 2015 10:00PM EDT
+Home_Team: Colorado
+Away_Team: FC Dallas
+Stadium: Dick's Sporting Goods Park

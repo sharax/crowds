@@ -1,4 +1,5 @@
-#HOME_TEAM Colorado
-#AWAY_TEAM New England
-#DATE_TIME 2015-04-04 19:00
-#VENUE Dick's Sporting Goods Park
+Match Details
+Match_Time: Saturday, April 4, 2015 7:00PM EDT
+Home_Team: Colorado
+Away_Team: New England
+Stadium: Dick's Sporting Goods Park
