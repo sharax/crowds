@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, April 4, 2015 3:00PM EDT
+Home_Team: Chicago
+Away_Team: Toronto FC
+Stadium: Toyota Park

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, April 26, 2015 9:30PM EDT
+Home_Team: Seattle
+Away_Team: Portland
+Stadium: CenturyLink Field

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, July 4, 2015 9:00PM EDT
+Home_Team: Colorado
+Away_Team: Vancouver
+Stadium: Dick's Sporting Goods Park

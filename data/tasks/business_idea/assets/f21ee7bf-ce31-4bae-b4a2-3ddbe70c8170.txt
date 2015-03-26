@@ -1,0 +1,3 @@
+Ring : Shortcut Everything.
+Wearable Input Device that lets you control anything. Gesture control, text transmission, payment, and more!
+Utilizing Ring’s precise letter recognition software (Ring Font), you can type letters anywhere, anytime. There have been countless studies and development efforts spent on this technology to make the gesture recognition within Ring a reality. We were particularly focused on the improvement of the accuracy of recognition and power saving features, with Ring’s development. Techcrunch -  "The Ring Input Device Puts Gesture Control And Home Automation On Your Finger..." . For the first phase, we focused on creating sensors that can detect even the smallest movement, in order to enhance the accuracy of our gesture recognition software.

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, July 11, 2015 7:00PM EDT
+Home_Team: Philadelphia
+Away_Team: Portland
+Stadium: PPL Park

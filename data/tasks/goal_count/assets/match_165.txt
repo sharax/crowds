@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, July 18, 2015 10:00PM EDT
+Home_Team: Real Salt Lake
+Away_Team: Houston
+Stadium: Rio Tinto Stadium

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, April 4, 2015 7:00PM EDT
+Home_Team: NY Red Bulls
+Away_Team: Montreal
+Stadium: Red Bull Arena

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, April 26, 2015 5:00PM EDT
+Home_Team: NY Red Bulls
+Away_Team: LA Galaxy
+Stadium: Red Bull Arena

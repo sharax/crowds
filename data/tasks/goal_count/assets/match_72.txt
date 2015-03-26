@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, May 17, 2015 5:00PM EDT
+Home_Team: Orlando
+Away_Team: LA Galaxy
+Stadium: Citrus Bowl

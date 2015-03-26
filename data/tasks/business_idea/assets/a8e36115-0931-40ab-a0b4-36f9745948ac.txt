@@ -1,0 +1,3 @@
+Marketlend
+Marketlend offers a supply chain finance solution using peer to peer lending.
+Marketlend charges an administration fee to get the loan and service it. Marketlend has 7.1M loans listed for investment at this time and a number of investors have placed funds with Marketlend to bid on the loans. This fee 2-3% is the main revenue earner plus the administration fees to the borrower for any additional task and the application fees. We also offer the ability to trade the loans afterwards so there is liquidity for the investors. It is an automated process, where we credit check, rate and list the loan.

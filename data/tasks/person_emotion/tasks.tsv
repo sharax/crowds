@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-Boredome	multiple choice	image	emotion_boredome1.jpg	Boredome,Can't say,Confusion,Anger,Happiness	true
+Boredom	multiple choice	image	emotion_boredom1.jpg	Boredom,Can't say,Confusion,Anger,Happiness	true
 Friendship	multiple choice	image	emotion_friendship3.jpg	Friendship,Can't say,Joy,Surprise,Fun	true
 Confidence	multiple choice	image	emotion_confidence3.jpg	Confidence,Can't say,Surprise,Thought,Trust	true
-Sadness	multiple choice	image	emotion_sadness1.jpg	Sadness,Can't say,Lonely,Ambition,Boredome	true
+Sadness	multiple choice	image	emotion_sadness1.jpg	Sadness,Can't say,Lonely,Ambition,Boredom	true
 Trust	multiple choice	image	emotion_trust2.jpg	Trust,Can't say,Confusion,Confidence,Fun	true
-Surprise	multiple choice	image	emotion_surprise2.jpg	Surprise,Can't say,Thought,Love,Boredome	true
+Surprise	multiple choice	image	emotion_surprise2.jpg	Surprise,Can't say,Thought,Love,Boredom	true
 Stress	multiple choice	image	emotion_stress3.jpg	Stress,Can't say,Sadness,Anger,Ambition	true
-Confidence	multiple choice	image	emotion_confidence1.jpg	Confidence,Can't say,Surprise,Friendship,Thought		true
+Confidence	multiple choice	image	emotion_confidence1.jpg	Confidence,Can't say,Surprise,Friendship,Though	true
 Joy	multiple choice	image	emotion_joy2.jpg	Joy,Can't say,Love,Fun,Confusion	true
-Confusion Arabia	multiple choice	image	emotion_confusion2.jpg	Confusion,Can't say,Boredome,Fun,Trust	true
-Loneliness	multiple choice	image	emotion_loneliness3.jpg	Thought,Sadness,Can't say,Boredome,Loneliness		true
-Thought	multiple choice	image	emotion_thought2.jpg	Loneliness,Boredome,Thought,Can't say,Trust	true
-Love	multiple choice	image	emotion_love3.png	Love,Friendship,Can't say,Ambition,Trust	true
-Happiness	multiple choice	image	emotion_happiness1.png	Joy,Fun,Love,Can't say,Happiness		true
-Fun	multiple choice	image	image_fun2.jpg		Friendship,Joy,Happiness,Fun,Can't say	true
+Confusion 	multiple choice	image	emotion_confusion2.jpg	Confusion,Can't say,Boredom,Fun,Trust	true
+Loneliness	multiple choice	image	emotion_loneliness3.jpg	Thought,Sadness,Can't say,Boredom,Loneliness	true
+Thought	multiple choice	image	emotion_thought2.jpg	Loneliness,Boredom,Thought,Can't say,Trust	true
+Love	multiple choice	image	emotion_love3.jpg	Love,Friendship,Can't say,Ambition,Trust	true
+Happiness	multiple choice	image	emotion_happiness1.jpg	Joy,Fun,Love,Can't say,Happiness	true
+Fun	multiple choice	image	emotion_fun2.jpg	Friendship,Joy,Happiness,Fun,Can't say	true
 Anger	multiple choice	image	emotion_anger2.jpg	Stress,Anger,Sadness,Can't say,Surprise	true
 Love	multiple choice	image	emotion_love2.jpg	Happiness,Love,Ambition,Fun,Can't say	true
-Ambition	multiple choice	image	emotion_ambition2.jpg		Thought,Confusion,Confidence,Ambition,Can't say		true
-Joy	multiple choice	image	emotion_joy1.png	Fun,Happiness,Joy,Can't say,Ambition	true
-Boredome	multiple choice	image	emotion_boredome2.jpg	Loneliness,Sadness,Stress,Boredome,Can't say	true
+Ambition	multiple choice	image	emotion_ambition2.jpg	Thought,Confusion,Confidence,Ambition,Can't say	true
+Joy	multiple choice	image	emotion_joy1.jpg	Fun,Happiness,Joy,Can't say,Ambition	true
+Boredom	multiple choice	image	emotion_boredom2.jpg	Loneliness,Sadness,Stress,Boredom,Can't say	true

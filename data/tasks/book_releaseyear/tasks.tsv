@@ -1,21 +1,21 @@
-correct_answer,answer_type,asset_type,asset_file,possible_answers,randomize_answers
-1929,point estimate,text,A Farewell To Arms.txt,no answer,false
-1962,point estimate,text,Pale Fire.txt,no answer,false
-1903,point estimate,text,The Call Of The Wild.txt,no answer,false
-1919,point estimate,text,"Winesburg , Ohio.txt",no answer,false
-1929,point estimate,text,The sound and the fury.txt,no answer,false
-1908,point estimate,text,A Room With a View.txt,no answer,false
-1953,point estimate,text,The Adventures of Augie March.txt,no answer,false
-1920,point estimate,text,Women In Love.txt,no answer,false
-1925,point estimate,text,The Great Gatsby.txt,no answer,false
-1913,point estimate,text,Sons and Lovers.txt,no answer,false
-1920,point estimate,text,Sons and Lovers.txt,no answer,false
-1954,point estimate,text,Sons and Lovers.txt,no answer,false
-1922,point estimate,text,Ulysses.txt,no answer,false
-1957,point estimate,text,On the Road.txt,no answer,false
-1930,point estimate,text,As I Lay Dying.txt,no answer,false
-1981,point estimate,text,Midnight's Children.txt,no answer,false
-1916,point estimate,text,A Portrait Of the Artist As A Young Man.txt,no answer,false
-1902,point estimate,text,The Wings Of the Dove.txt,no answer,false
-1924,point estimate,text,A Passage To India.txt,no answer,false
-1931,point estimate,text,Brave New World.txt,no answer,false
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+1929	point estimate	text	question1.txt	no answer	false
+1962	point estimate	text	question2.txt	no answer	false
+1903	point estimate	text	question3.txt	no answer	false
+1919	point estimate	text	question4.txt	no answer	false
+1929	point estimate	text	question5.txt	no answer	false
+1908	point estimate	text	question6.txt	no answer	false
+1953	point estimate	text	question7.txt	no answer	false
+1920	point estimate	text	question8.txt	no answer	false
+1925	point estimate	text	question9.txt	no answer	false
+1913	point estimate	text	question10.txt	no answer	false
+1920	point estimate	text	question11.txt	no answer	false
+1954	point estimate	text	question12.txt	no answer	false
+1922	point estimate	text	question13.txt	no answer	false
+1957	point estimate	text	question14.txt	no answer	false
+1930	point estimate	text	question15.txt	no answer	false
+1981	point estimate	text	question16.txt	no answer	false
+1916	point estimate	text	question17.txt	no answer	false
+1902	point estimate	text	question18.txt	no answer	false
+1924	point estimate	text	question19.txt	no answer	false
+1931	point estimate	text	question20.txt	no answer	false

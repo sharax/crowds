@@ -1,0 +1,4 @@
+Company_name             : The Coca-Cola Company
+Stock price on 03/02/2015: 43.2
+Sector                   : Consumer Non-Durables
+Indrustry				 : Beverages (Production/Distribution)

@@ -1,0 +1,3 @@
+NINJA SPHERE: Next Generation Control of Your Environment
+Next generation control of your environment with accurate in-home location data and a gesture control interface.
+This essentially future proofs your Ninja Sphere, giving you peace of mind that as new devices come onto the market, your Ninja Sphere can support them. We’ve developed a mechanism for gesture control that, at a glance, allows you to measure and control your environment - energy use, weather, or even the state of your plants. By using data from your devices, environment, and location your sphere is able to advise you intelligently and give you control only when you need it. Your Ninja Sphere learns about you, and your environment. The Spheramid is the gateway that enables the Ninja Sphere.

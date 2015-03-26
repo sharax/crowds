@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Friday, April 17, 2015 7:00PM EDT
+Home_Team: NY Red Bulls
+Away_Team: San Jose
+Stadium: Red Bull Arena

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, April 25, 2015 TBD
+Home_Team: Vancouver
+Away_Team: D.C. United
+Stadium: BC Place

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 16, 2015 TBD
+Home_Team: Vancouver
+Away_Team: Seattle
+Stadium: BC Place

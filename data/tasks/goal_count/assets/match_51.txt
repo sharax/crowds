@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Tuesday, May 5, 2015 8:30PM EDT
+Home_Team: Houston
+Away_Team: San Jose
+Stadium: BBVA Compass Stadium
