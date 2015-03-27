@@ -13,9 +13,11 @@ The news headlines will be taken from famous fields like sports, weather, politi
 Input Type: 
 	String.
 Corpus: 
-	List of some news headlines:
+	List of some original news headlines:
 	http://timesofindia.indiatimes.com/home/headlines
-
+        List of some fake news headlines:
+        http://www.theonion.com/
+        
 Representative tasks methodology: 
 	From the sample of some news weighted by the number of channels showing it. 
 	Here, the answer is also going to be based on human intuition. 
