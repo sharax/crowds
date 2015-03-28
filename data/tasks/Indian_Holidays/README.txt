@@ -1,8 +1,5 @@
 TASK #48 
 akshanshgreat@gmail.com
-ltuteja7@gmail.com
-shashank.joshi30@gmail.com
-sehgalvibhor@gmail.com
 
 
 
