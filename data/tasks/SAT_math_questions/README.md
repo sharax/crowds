@@ -9,7 +9,7 @@ kishankedia68@gmail.com
 
 TASK: SAT Math Questions
 
-DESCRIPTION: “A set of 20 questions will be given one by one. You will not be given any pen/pencil or paper to solve the questions. You will 		      have 30s per questions and no options.”
+DESCRIPTION: “A set of 20 questions will be given one by one. You will not be given any pen/pencil or paper to solve the questions. You will have 30s per questions and no options.”
 
 INPUT TYPE – Text Questions
 
