@@ -8,7 +8,7 @@ correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answ
 2003	multiple choice	image	Ford_img7.jpg	1991,1999,2003,2009,2013	FALSE
 2005	multiple choice	image	Ford_img8.jpg	1978,1996,2005,2010,2015	FALSE
 2006	multiple choice	image	Ford_img9.jpg	1995,2000,2006,2011,2015	FALSE
-2011	multiple choice	image	Ford_img10.jpg 2000,2005,2011,2014,2016	FALSE
+2011	multiple choice	image	Ford_img10.jpg 2000,2005,2011,2014,2016	 FALSE
 2014	multiple choice	image	Ford_img11.jpg	1995,2000,2009,2014,2016	FALSE
 2015	multiple choice	image	Ford_img12.jpg	1994,1999,2004,2010,2015	FALSE
 1950	multiple choice	image	Ford_img13.jpg	1950,1965,1983,1997,2003	FALSE
