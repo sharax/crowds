@@ -5,7 +5,7 @@ sehgalvibhor@gmail.com
 
 
 
-TASK: Given the name and year of an International Festival, Estimate the of date of that event.
+TASK: Given the name of a holiday, estimate the of date of it will occur in 2016
 
 DESCRIPTION. We will now ask you a series of questions. 
 		For each question, we will give you a name of a holiday and ask you to predict the date (DD-MM-YYYY)  on which the holidays falls in the year 2016.
