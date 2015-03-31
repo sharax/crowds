@@ -1,20 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-The Guardian	multiple choice	none	Edward Snowden: the whistleblower behind the NSA surveillance revelations	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	'Can anyone stop Narendra Modi?'	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	Charlie Sheen v Muammar Gaddafi: whose line is it anyway?	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	iPhone 4S launch: as it happened	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	The tragedy of the Arabs	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	'Get a life!' Facebook is bad for you	TIME, The Guardian, WIRED, The Economist	true
-WIRED	multiple choice	none	'How Elon Musk turned Tesla into the car company of the future'	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	No, Samsung did not try to pay Apple its $1bn fine in nickels	TIME, The Guardian, WIRED, The Economist	true
-WIRED	multiple choice	none	How Apple Got Everything Right By Doing Everything Wrong	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	'The hits keep coming' A comet headed for Mars	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	Microsoft handed the NSA access to encrypted messages	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	Stephen Hawking: 'There is no heaven; it's a fairy story'	TIME, The Guardian, WIRED, The Economist	true
-WIRED	multiple choice	none	'Why the future doesn't need us'	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	'The third industrial revolution : Manufacturing'	TIME, The Guardian, WIRED, The Economist	true
-The Economist	multiple choice	none	'What''s wrong with America's economy?'	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	US embassy cables leak sparks global diplomatic crisis	TIME, The Guardian, WIRED, The Economist	true
-WIRED	multiple choice	none	Art of the Steal: On the Trail of World's most ingenious thief	TIME, The Guardian, WIRED, The Economist	true
-The Guardian	multiple choice	none	Optic Nerve: millions of Yahoo webcam images intercepted by GCHQ	TIME, The Guardian, WIRED, The Economist	true
-WIRED	multiple choice	none	Gone Forever: What does it really take to disappear?	TIME, The Guardian, WIRED, The Economist	true
+The Guardian	multiple choice	text	Question1.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question2.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question3.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question4.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question5.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question6.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question7.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question8.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question9.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question10.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question11.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question12.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question13.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question14.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question15.txt	The Economist, The Guardian, TIME, WIRED	false
+The Economist	multiple choice	text	Question16.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question17.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question18.txt	The Economist, The Guardian, TIME, WIRED	false
+The Guardian	multiple choice	text	Question19.txt	The Economist, The Guardian, TIME, WIRED	false
+WIRED	multiple choice	text	Question20.txt	The Economist, The Guardian, TIME, WIRED	false

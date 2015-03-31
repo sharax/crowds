@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Friday, May 8, 2015 8:00PM EDT
+Home_Team: Orlando
+Away_Team: New England
+Stadium: Citrus Bowl

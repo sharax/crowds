@@ -20,6 +20,8 @@ Sample 20 matches from this list using ‚ÄùWeighted Sampling without replacement‚
 
 Weighted Sampling where weights are more for matches nearer to current date is used to generate a set of representative tasks. This approach will also eliminate the chances of random guessing for later matches. The weighted sampling is based on http://epubs.siam.org/doi/abs/10.1137/0209009
 
+Note: Since the sampling needs to be done just before the survey, tasks.tsv has 178 matches listed in it.
+
 MULTIPLE CHOICE OPTIONS:
 Not Applicable
 

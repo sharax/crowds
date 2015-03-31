@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Wednesday, May 6, 2015 9:30PM EDT
+Home_Team: Real Salt Lake
+Away_Team: LA Galaxy
+Stadium: Rio Tinto Stadium

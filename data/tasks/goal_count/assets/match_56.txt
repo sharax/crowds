@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 9, 2015 TBD
+Home_Team: Vancouver
+Away_Team: Philadelphia
+Stadium: BC Place

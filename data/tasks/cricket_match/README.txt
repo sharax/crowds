@@ -20,7 +20,7 @@ Sample top 10 cricket playing nations including both the playing nations.
 
 Answer type:
 Multiple-choice
-The options provided will be   1. Team A wins   2. Team B wins   3. Draw   4. N/R
+The options provided will be   1. Team A wins   2. Team B wins   3. Draw
 
 Multiple choice option selection
 One of the given options will be correct.

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, July 26, 2015 TBD
+Home_Team: Vancouver
+Away_Team: San Jose
+Stadium: BC Place

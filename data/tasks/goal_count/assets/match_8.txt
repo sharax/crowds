@@ -1,4 +1,5 @@
-#HOME_TEAM San Jose
-#AWAY_TEAM Real Salt Lake
-#DATE_TIME 2015-04-05 17:00
-#VENUE Avaya Stadium
+Match Details
+Match_Time: Sunday, April 5, 2015 5:00PM EDT
+Home_Team: San Jose
+Away_Team: Real Salt Lake
+Stadium: Avaya Stadium

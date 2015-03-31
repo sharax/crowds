@@ -3,9 +3,9 @@ sandeepkonam@gmail.com
 
 
 
-TASK: Given the headline of an article and title of the respective magazine/newspaper, guess the month and year of publication.
+TASK: Given the headline of an article and title of the respective magazine/newspaper, guess the year of publication.
 
-DESCRIPTION. We will now ask you 20 multiple-choice questions. For each question, we will give you the headline of an article and title of the respective magazine/newspaper, and ask you to guess the month and year of publication.
+DESCRIPTION. We will now ask you 20 multiple-choice questions. For each question, we will give you the headline of an article and title of the respective magazine/newspaper, and ask you to guess the year of publication.
 
 CORPUS: Headlines were chosen from the archives of respective magazines/newspapers. Care was taken such that articles corresponding to headlines are most read online. Three renowned media (The Economist, The Guardian, WIRED) are chosen for building the corpus.
 	Ex: 1. WIRED headlines from the archives of http://archive.wired.com/wired/archive/14.01/
@@ -14,7 +14,7 @@ CORPUS: Headlines were chosen from the archives of respective magazines/newspape
 
 METHODOLOGY: 
 	TASKS
-	A random sample of 20 headlines and the corresponding newspaper/magazine are chosen from the constructed Corpus. Headline and the name of magazine/newspaper are displayed as input text and corresponding month and year of publication is recorded as the correct answer.
+	A random sample of 20 headlines and the corresponding newspaper/magazine are chosen from the constructed Corpus. Headline and the name of magazine/newspaper are displayed as input text and corresponding year of publication is recorded as the correct answer.
 	
 	ANSWERS
-	For all the tasks, one option would be the correct answer. Rest of the options are built based on the correct answer. Two answers would show the same year and the other two answers show the previous year. Out of the two options showing the same year, month is reduced by 6 if it is greater than 6, else it is increased by 6.
+	For all the tasks, one option would be the correct answer. Rest of the options are built based on the correct answer. If the correct answer is an odd number, two options constitute the consecutive years and the other option would be the previous year. If the correct answer is an even number, one option would be consecutive year and the other two would be previous years. For example, 2014 is the correct answer, since its an even number, one option would be consecutive number i.e 2015 and the rest two options would be 2012 and 2013.

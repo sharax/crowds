@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, June 6, 2015 8:30PM EDT
+Home_Team: Sporting KC
+Away_Team: Seattle
+Stadium: Sporting Park

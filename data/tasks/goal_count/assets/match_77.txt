@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 23, 2015 TBD
+Home_Team: Seattle
+Away_Team: Sporting KC
+Stadium: CenturyLink Field

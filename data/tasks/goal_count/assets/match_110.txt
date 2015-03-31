@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, June 7, 2015 7:00PM EDT
+Home_Team: San Jose
+Away_Team: FC Dallas
+Stadium: Avaya Stadium

@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, June 28, 2015 5:00PM EDT
+Home_Team: New York City
+Away_Team: NY Red Bulls
+Stadium: Yankee Stadium

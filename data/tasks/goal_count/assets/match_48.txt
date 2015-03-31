@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Saturday, May 2, 2015 10:30PM EDT
+Home_Team: LA Galaxy
+Away_Team: Colorado
+Stadium: Stubhub Center

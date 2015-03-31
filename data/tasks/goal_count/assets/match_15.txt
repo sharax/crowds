@@ -1,4 +1,5 @@
-#HOME_TEAM Sporting KC
-#AWAY_TEAM Real Salt Lake
-#DATE_TIME 2015-04-11 20:30
-#VENUE Sporting Park
+Match Details
+Match_Time: Saturday, April 11, 2015 8:30PM EDT
+Home_Team: Sporting KC
+Away_Team: Real Salt Lake
+Stadium: Sporting Park

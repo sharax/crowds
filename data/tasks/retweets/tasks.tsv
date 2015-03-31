@@ -1,21 +1,21 @@
-correct_answer  answer_type asset_type  asset_file  possible_answers  randomize_answers extra_information
-41302	point estimate	image	stephen-colbert__iphone_640.jpg	no answers	false	7.56M
-85042	point estimate	image	simon-cowell__iphone_640.jpg	no answers	false	11.5M
-93257	point estimate	image	tj-lang__iphone_640.jpg	no answers	false	181K
-200424	point estimate	image	seth-rogenjpg__iphone_640.jpg	no answers	false	2.64M
-202894	point estimate	image	ariana-grandejpg__iphone_640.jpg	no answers	false	26.2M
-222243	point estimate	image	liam-paynejpg__iphone_640.jpg	no answers	false	19.5M
-233336	point estimate	image	louis-tomlinsonjpg__iphone_640.jpg	no answers	false	18.8M
-288798	point estimate	image	justin-bieber-mug-shot__iphone_640.jpg	no answers	false	61.3M
-302332	point estimate	image	drake-belljpg__iphone_640.jpg	no answers	false	3.19M
-351704	point estimate	image	zayn-malikjpg__iphone_640.jpg	no answers	false	14.1M
-363070	point estimate	image	harry-stylesjpg__iphone_640.jpg	no answers	false	23.9M
-363327	point estimate	image	niall-horan__iphone_640.jpg	no answers	false	21.6M
-389052	point estimate	image	paul-walker__iphone_640.jpg	no answers	false	2.35M
-393012	point estimate	image	justin-bieber__iphone_640.jpg	no answers	false	61.3M
-394805	point estimate	image	lea-michelejpg__iphone_640.jpg	no answers	false	4.57M
-781690	point estimate	image	barack-obamajpg__iphone_640.jpg	no answers	false	56.2M
-3306440	point estimate	image	ellen-degeneresjpg__iphone_640.jpg	no answers	false	40.5M
-10404	point estimate	image	Katy Perry.png	no answers	false	66.5M
-34065	point estimate	image	Taylor Swift.png	no answers	false	54M
-45941	point estimate	image	Cristiano Ronaldo.png	no answers	false	34.1M
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+10337	point estimate	image	KP 1.png	no answers	false
+9909	point estimate	image	KP 2.png	no answers	false
+10405	point estimate	image	KP 3.png	no answers	false
+7505	point estimate	image	KP 4.png	no answers	false
+41120	point estimate	image	KP 5.png	no answers	false
+9519	point estimate	image	KP 6.png	no answers	false
+128482	point estimate	image	KP 7.png	no answers	false
+14555	point estimate	image	KP 8.png	no answers	false
+7915	point estimate	image	KP 9.png	no answers	false
+13880	point estimate	image	KP 10.png	no answers	false
+7884	point estimate	image	KP 11.png	no answers	false
+10045	point estimate	image	KP 12.png	no answers	false
+39172	point estimate	image	KP 13.png	no answers	false
+105160	point estimate	image	KP 14.png	no answers	false
+26396	point estimate	image	KP 15.png	no answers	false
+3356	point estimate	image	KP 16.png	no answers	false
+36116	point estimate	image	KP 17.png	no answers	false
+8095	point estimate	image	KP 18.png	no answers	false
+23080	point estimate	image	KP 19.png	no answers	false
+7516	point estimate	image	KP 20.png	no answers	false

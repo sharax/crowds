@@ -1,0 +1,5 @@
+Match Details
+Match_Time: Sunday, July 26, 2015 2:30PM EDT
+Home_Team: New York City
+Away_Team: Orlando
+Stadium: Yankee Stadium
