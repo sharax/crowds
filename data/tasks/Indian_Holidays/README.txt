@@ -1,9 +1,10 @@
 TASK #48 
 akshanshgreat@gmail.com
+sehgalvibhor@gmail.com
 
 
 
-TASK: Given the name and year of an Indian Holiday, Estimate the of date Indian holidays.
+TASK: Given the name of a holiday, estimate the of date of it will occur in 2016.
 
 DESCRIPTION. We will now ask you a series of questions. 
 		For each question, we will give you a name of a holiday and year and ask you to predict the date (DD/MM/YYYY)  of that holiday.
