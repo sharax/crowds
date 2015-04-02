@@ -1,21 +1,21 @@
 Correct_Answer	Answer_Type	Asset_Type	Asset_File	Possible_Answers	Randomize_Answers
-29540000	Multiple Choice	text 	Question1.txt	29540000,1500,17600,42580000	FALSE
-53400000	Multiple Choice	text 	Question2.txt	53400000,2000,42145,38150000	FALSE
-16813610	Multiple Choice	text 	Question3.txt	16813610,5005,30000,45258123	FALSE
-13570860	Multiple Choice	text 	Question4.txt	13570860,3000,18000,26428741	FALSE
-11786148	Multiple Choice	text 	Question5.txt	11786148,500,25000,25000010	FALSE
-10589110	Multiple Choice	text 	Question6.txt	10589110,1800,35200,25600101	FALSE
-56151420	Multiple Choice	text 	Question7.txt	56151420,9000,50000,35254159	FALSE
-44812405	Multiple Choice	text 	Question8.txt	44812405,1000,25000,60854714	FALSE
-9104333 	Multiple Choice	text 	Question9.txt	9104333,2500,21140,20258845	FALSE
-9104333	  Multiple Choice	text 	Question10.txt	9104333,2500,21140,35147845	FALSE
-66443172	Multiple Choice	text 	Question11.txt	66443172,1200,39000,85582147	FALSE
-49500847	Multiple Choice	text 	Question12.txt	49500847,9200,29250,60285741	FALSE
-20553995	Multiple Choice	text 	Question13.txt	20553995,9000,50000,35254159	FALSE
-17256993	Multiple Choice	text 	Question14.txt	17256993,1400,80258,35365178	FALSE
-13908427	Multiple Choice	text 	Question15.txt	13908427,1000,27500,26854714	FALSE
-9493256	  Multiple Choice	text 	Question16.txt	9493256,1550,17800,25847753	FALSE
-6895459	  Multiple Choice	text 	Question17.txt	6895459,650,18000,15485235	FALSE
-54001250	Multiple Choice	text 	Question18.txt	54001250,9200,29250,60285741	FALSE
-19985127	Multiple Choice	text 	Question19.txt	19985127,1440,36005,45823631	FALSE
-15634258	Multiple Choice	text 	Question20.txt	15634258,1788,18457,35568954	FALSE
+29540000	Point Estimate	text 	Question1.txt	No Answers	FALSE
+53400000	Point Estimate	text 	Question2.txt	No Answers	FALSE
+16813610	Point Estimate	text 	Question3.txt	No Answers	FALSE
+13570860	Point Estimate	text 	Question4.txt	No Answers	FALSE
+11786148	Point Estimate	text 	Question5.txt	No Answers	FALSE
+10589110	Point Estimate	text 	Question6.txt	No Answers	FALSE
+56151420	Point Estimate	text 	Question7.txt	No Answers	FALSE
+44812405	Point Estimate	text 	Question8.txt	No Answers	FALSE
+9104333 	Point Estimate	text 	Question9.txt	No Answers	FALSE
+9104333	  Point Estimate	text 	Question10.txt	No Answers	FALSE
+66443172	Point Estimate	text 	Question11.txt	No Answers	FALSE
+49500847	Point Estimate	text 	Question12.txt	No Answers	FALSE
+20553995	Point Estimate	text 	Question13.txt	No Answers	FALSE
+17256993	Point Estimate	text 	Question14.txt	No Answers	FALSE
+13908427	Point Estimate	text 	Question15.txt	No Answers	FALSE
+9493256	  Point Estimate	text 	Question16.txt	No Answers	FALSE
+6895459	  Point Estimate	text 	Question17.txt	No Answers	FALSE
+54001250	Point Estimate	text 	Question18.txt	No Answers	FALSE
+19985127	Point Estimate	text 	Question19.txt	No Answers	FALSE
+15634258	Point Estimate	text 	Question20.txt	No Answers	FALSE
