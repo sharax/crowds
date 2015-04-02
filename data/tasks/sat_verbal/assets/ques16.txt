@@ -1,1 +1,1 @@
-Synonym of OBFUSCATE is : 
+OBFUSCATE 
