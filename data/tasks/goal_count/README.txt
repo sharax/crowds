@@ -24,7 +24,8 @@ MULTIPLE CHOICE OPTIONS:
 Not Applicable
 
 NOTE:
-We are also adding the assets in xml format. They can be used if possible. Same data in txt format is also added.
+Explaination for Correct_answer column in tasks.tsv:
+Email from Imanol dated March 13, 2015: "In the correct answer you should write TBD since there is no correct answer yet."
 
 
 

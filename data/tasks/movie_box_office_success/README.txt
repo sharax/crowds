@@ -20,5 +20,10 @@ Sample 20 movies from this list randomly. Since the box office budget or some ot
 MULTIPLE CHOICE OPTIONS:
 Yes, No
 
+NOTE:
+Explaination for Correct_answer column in tasks.tsv: Email from Imanol dated March 13, 2015 regarding goal_count task: 
+"In the correct answer you should write TBD since there is no correct answer yet."
+Since the same is applicable for this task, we have used the same format.
+
 
 
