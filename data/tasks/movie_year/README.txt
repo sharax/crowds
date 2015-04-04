@@ -1,7 +1,5 @@
 TASK #15
 technopreneur.pulkit@gmail.com
-abhayawesome@gmail.com
-special8688@gmail.com
 
 TASK: Predict Movie Release Year.
 

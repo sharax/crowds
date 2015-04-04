@@ -1,7 +1,5 @@
 TASK #46
 technopreneur.pulkit@gmail.com
-abhayawesome@gmail.com
-special8688@gmail.com
 
 TASK: Goals Prediction in a Match.
 
