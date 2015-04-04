@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Sunday, May 24, 2015 5:00PM EDT
-Home_Team: NY Red Bulls
-Away_Team: Philadelphia
-Stadium: Red Bull Arena

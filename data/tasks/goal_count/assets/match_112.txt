@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, June 13, 2015 TBD
-Home_Team: New York City
-Away_Team: Montreal
-Stadium: Yankee Stadium

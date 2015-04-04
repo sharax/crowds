@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, June 20, 2015 TBD
-Home_Team: Seattle
-Away_Team: San Jose
-Stadium: CenturyLink Field

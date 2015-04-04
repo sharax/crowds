@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, July 11, 2015 8:30PM EDT
-Home_Team: Chicago
-Away_Team: Seattle
-Stadium: Toyota Park

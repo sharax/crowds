@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Wednesday, April 15, 2015 7:30PM EDT
-Home_Team: New England
-Away_Team: Chicago
-Stadium: Gillette Stadium

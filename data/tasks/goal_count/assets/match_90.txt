@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, May 30, 2015 TBD
-Home_Team: Toronto FC
-Away_Team: San Jose
-Stadium: BMO Field

@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, June 6, 2015 7:00PM EDT
-Home_Team: Philadelphia
-Away_Team: New York City
-Stadium: PPL Park
