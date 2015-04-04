@@ -1,4 +1,0 @@
-Company_name             : Philip Morris International Inc
-Stock price on 03/02/2015: 82.95
-Sector                   : Consumer Non-Durables
-Indrustry				 : Farming/Seeds/Milling

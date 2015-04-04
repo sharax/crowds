@@ -1,4 +1,0 @@
-Company_name             : Procter & Gamble Company (The)
-Stock price on 03/02/2015: 85.41
-Sector                   : Basic Indrustries
-Indrustry				 : Package Goods/Cosemetics

@@ -1,4 +1,0 @@
-Company_name             : Nike Inc.
-Stock price on 03/02/2015: 98.75
-Sector                   : Consumer Non-Durables
-Indrustry				 : Shoe Manufacturing

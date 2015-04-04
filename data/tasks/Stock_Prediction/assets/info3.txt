@@ -1,4 +1,0 @@
-Company_name             : J P Morgan Chase & Co
-Stock price on 03/02/2015: 7.54
-Sector                   : Finance
-Indrustry				 : Major Banks
