@@ -7,7 +7,7 @@ sameeksha.khillan@gmail.com
 
 TASK: Given a state in the USA, predict whether residents will predominantly vote for the Republican party, or the Democratic party, in the 2016 presidential elections.
 
-DESCRIPTION: We will now ask you a series of questions. For each question we will give you the name of a city in the US and ask you to predict whether the residents of that state will predominantly vote for the Republican party, or the Democratic party.
+DESCRIPTION: We will now ask you a series of questions. For each question we will give you the name of a state in the US and ask you to predict whether the residents of that state will predominantly vote for the Republican party, or the Democratic party.
 
 CORPUS: We will use the following Wikipedia link which classifies each state into the red or blue category.
 		Red: States carried by the Republican in all four elections (2000, 2004, 2008, and 2012)
