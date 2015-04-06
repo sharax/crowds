@@ -1,7 +1,11 @@
-Task Name:  
+parasgupta301@gmail.com
+agarwalhimani7@gmail.com
+sonali.parashar29@gmail.com
+
+TASK NAME:  
 Estimate the Number of Years required  to construct a Famous Building
 
-Short Description of Domain: 
+TASK DESCRIPTION: 
 In this task of wisdom of crowd, each MCQ will contain an  image of Famous Building with five options, in which one will be the correct one and rest 4will be incorrect .You are needed to guess the Time(in number of years) required to Construct the Building.
 
 Input Type: 
