@@ -3,7 +3,7 @@ technopreneur.pulkit@gmail.com
 
 TASK: Goals Prediction in a Match.
 
-SHORT DESCRIPTION: Given the league name, league ranking of teams before the match, predict the number of goals that will be scored during the match
+SHORT DESCRIPTION: Given the league name, current league ranking of teams, predict the number of goals that will be scored during the match
 
 DETAILED DESCRIPTION shown to participants: "We will now ask you a series of questions. For each question, we will show the details of a soccer match from MLS Regular Season, and ask you to predict the number of goals that will be scored in that match. You will have to fill your prediction in the box provided. Please note that you can find the current league standings here: http://www.mlssoccer.com/standings/2015”
 

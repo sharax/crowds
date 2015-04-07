@@ -5,7 +5,7 @@ TASK: Predict Movie Release Year.
 
 SHORT DESCRIPTION: Given a movie poster, predict its year of release.
 
-DETAILED DESCRIPTION shown to participants: "We will now ask you a series of questions. For each question, we will show you a movie poster and you will have to predict the year in which movie was released."
+DETAILED DESCRIPTION shown to participants: "We will now ask you a series of questions. For each question, we will show you a movie poster and you will have to guess the year in which movie was released."
 
 INPUT TYPE: Image and Text
 
