@@ -48,6 +48,8 @@ if condition:
                 break
                 
             if not n== 6:
+                print n
+                print task[0]
                 print ('The number of columns is wrong. There should be six columns')
                 read_file = False                
                 break
