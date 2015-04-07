@@ -1,27 +1,21 @@
 Correct_Answer	Answer_Type	Asset_type	Asset_File		Possible_Answers	Randomize_Answers
-Democratic Republic Of Congo	multiple choice	image	congo.png	Burma,Democratic Republic Of Congo,Mexico,Russia,Ukraine	true
-Indonesia	multiple choice	image	indonesia.png	Angola,Democratic Republic of Congo,Indonesia,Mexico,Thailand	true
-Algeria	multiple choice	image	algeria.png	Algeria,Australia,Ethiopia,Spain,Turkey	true
-Iran	multiple choice	image	iran.png	Algeria,Chad,Columbia,Iran,Turkmenistan	true
-Mongolia	multiple choice	image	mongolia.png	Libya,Mongolia,Nigeria,Poland,Spain	true
-
-Libya	multiple choice	image	libya.png	Afghanistan,Columbia,Indonesia,Libya,Venezuela	true
-
-United States Of America	multiple choice	image	usa.png	Australia,France,Ukraine,United States Of America,Yemen	true
-
-Russia	multiple choice	image	russia.png		Egypt,Iraq,Russia,Spain,Sudan	true
-India	multiple choice	image	india.png	Botswana,Democratic Republic of Congo,India,Mozambique,Vietnam	true
-
-Saudi Arabia	multiple choice	image	saudi arabia.png	Afghanistan,Burkina Faso,Italy,Pakistan,Saudi Arabia	true
-Argentina	multiple choice	image	argentina.png	Kenya,Mali,Argentina,Poland,India	true
-Brazil	multiple choice	image	brazil.png	Brazil,Libya,Morocco,Sweden,Uganda	true
-Mexico	multiple choice	image	mexico.png	Bolivia,Kenya,Mexico,Norway,Peru	true
-
-Sudan	multiple choice	image	sudan.png	Gabon,Iran,Iraq,South Africa,Sudan	true
-Chad	multiple choice	image	chad.png	Chad,Chile,Egypt,Indonesia,Yemen	true
-Kazakhstan	multiple choice	image	kazakhstan.png	Botswana,Burkina Faso,Egypt,Kazakhstan,Sweden	true
-Peru	multiple choice	image	peru.png	China,France,India,Indonesia,Peru	true
-
-Brazil	multiple choice	image	brazil.png	Brazil,Ecuador,France,Oman,Philippines	true
-Canada	multiple choice	image	canada.png	Canada,Chad,Madagascar,Saudi Arabia,Somalia	true
-Australia	multiple choice	image	australia.png	Algeria,Angola,Australia,Mauritania,Poland	true
+Democratic Republic Of Congo	multiple choice	image	Congo.png	Burma,Democratic Republic Of Congo,Mexico,Russia,Ukraine	true
+Indonesia	multiple choice	image	Indonesia.png	Angola,Democratic Republic of Congo,Indonesia,Mexico,Thailand	true
+Algeria	multiple choice	image	Algeria.png	Algeria,Australia,Ethiopia,Spain,Turkey	true
+Iran	multiple choice	image	Iran.png	Algeria,Chad,Columbia,Iran,Turkmenistan	true
+Mongolia	multiple choice	image	Mongolia.png	Libya,Mongolia,Nigeria,Poland,Spain	true
+Libya	multiple choice	image	Libya.png	Afghanistan,Columbia,Indonesia,Libya,Venezuela	true
+United States Of America	multiple choice	image	USA.png	Australia,France,Ukraine,United States Of America,Yemen	true
+Russia	multiple choice	image	Russia.png	Egypt,Iraq,Russia,Spain,Sudan	true
+India	multiple choice	image	India.png	Botswana,Democratic Republic of Congo,India,Mozambique,Vietnam	true
+Saudi Arabia	multiple choice	image	Saudi Arabia.png	Afghanistan,Burkina Faso,Italy,Pakistan,Saudi Arabia	true
+Argentina	multiple choice	image	Argentina.png	Kenya,Mali,Argentina,Poland,India	true
+Brazil	multiple choice	image	Brazil.png	Brazil,Libya,Morocco,Sweden,Uganda	true
+Mexico	multiple choice	image	Mexico.png	Bolivia,Kenya,Mexico,Norway,Peru	true
+Sudan	multiple choice	image	Sudan.png	Gabon,Iran,Iraq,South Africa,Sudan	true
+Chad	multiple choice	image	Chad.png	Chad,Chile,Egypt,Indonesia,Yemen	true
+Kazakhstan	multiple choice	image	Kazakhstan.png	Botswana,Burkina Faso,Egypt,Kazakhstan,Sweden	true
+Peru	multiple choice	image	Peru.png	China,France,India,Indonesia,Peru	true
+Brazil	multiple choice	image	Brazil.png	Brazil,Ecuador,France,Oman,Philippines	true
+Canada	multiple choice	image	Canada.png	Canada,Chad,Madagascar,Saudi Arabia,Somalia	true
+Australia	multiple choice	image	Australia.png	Algeria,Angola,Australia,Mauritania,Poland	true
