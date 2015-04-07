@@ -1,4 +1,0 @@
-#HOME_TEAM Orlando
-#AWAY_TEAM D.C. United
-#DATE_TIME 2015-04-03 19:00
-#VENUE Citrus Bowl

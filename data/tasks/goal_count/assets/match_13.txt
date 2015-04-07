@@ -1,4 +1,0 @@
-#HOME_TEAM New England
-#AWAY_TEAM Columbus
-#DATE_TIME 2015-04-11 15:00
-#VENUE Gillette Stadium

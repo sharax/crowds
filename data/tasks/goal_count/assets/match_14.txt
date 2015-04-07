@@ -1,4 +1,0 @@
-#HOME_TEAM D.C. United
-#AWAY_TEAM NY Red Bulls
-#DATE_TIME 2015-04-11 19:00
-#VENUE RFK Stadium

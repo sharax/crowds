@@ -1,0 +1,3 @@
+How many numbers between 200 and 400 meet one or both of the conditions given in the two statements below?
+Statement 1: The number begins with 3
+Statement 2: The number ends with 3

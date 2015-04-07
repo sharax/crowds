@@ -1,4 +1,0 @@
-Company_name             : International Business Machines Corporation
-Stock price on 03/02/2015: 160.48
-Sector                   : Technology
-Indrustry				 : Computer Manufacturing

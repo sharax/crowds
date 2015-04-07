@@ -1,4 +1,0 @@
-#HOME_TEAM FC Dallas
-#AWAY_TEAM Colorado
-#DATE_TIME 2015-04-10 19:00
-#VENUE Toyota Stadium

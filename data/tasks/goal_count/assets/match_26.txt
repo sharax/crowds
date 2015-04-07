@@ -1,4 +1,0 @@
-#HOME_TEAM FC Dallas
-#AWAY_TEAM Toronto FC
-#DATE_TIME 2015-04-18 20:30
-#VENUE Toyota Stadium

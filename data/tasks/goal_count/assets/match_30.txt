@@ -1,4 +1,0 @@
-#HOME_TEAM Philadelphia
-#AWAY_TEAM New England
-#DATE_TIME 2015-04-19 17:00
-#VENUE PPL Park

@@ -1,4 +1,0 @@
-Company_name             : Mastercard Incorporated
-Stock price on 03/02/2015: 92.02
-Sector                   : Miscellaneous
-Indrustry				 : Business Services

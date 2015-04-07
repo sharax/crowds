@@ -1,15 +1,18 @@
-TASK #14
-
+﻿TASK #14
+ltuteja7@gmail.com
+akshanshgreat@gmail.com
+sehgalvibhor@gmail.com
+shashank.joshi30@gmail.com
 
 TASK:	Estimating the age of Celestial bodies
 
-DESCRIPTION: For each task a picture of celstial body will be shown and you will be asked to predict its age
-
-Input Type: Universe Map
+DESCRIPTION: You will be shown 20 images  of a celestial body one after another
+             and asked to guess its age(unit in years).
+Input Type: Image of a Celestial body.
 
 Corpus:
 
-Wikipedia�s list of Celestial bodies with their ages: https://en.wikipedia.org/wiki/Draft:Age_of_Celestial_bodies
+Wikipedia’s list of Celestial bodies with their ages: https://en.wikipedia.org/wiki/Draft:Age_of_Celestial_bodies
 
 A set of images was collected from the following set of websites...
 
@@ -23,7 +26,8 @@ http://science.nationalgeographic.com/science/photos/galaxies-gallery/#/cartwhee
 METHODOLOGY:
 
 TASKS:
-A random sample of 20(10 galaxies,5 stars,5 planets) celestial bodies was choosen from the corpus
+A random sample of 20(10 galaxies,5 stars,5 planets) celestial bodies was choosen from the corpus.
 
 ANSWER:
-A random sample of a body is choosen and an estimation of its age is to be provided
+A point estimate answer.
+Age(in years).

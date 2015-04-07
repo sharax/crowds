@@ -1,4 +1,0 @@
-Company_name             : Citigroup Inc
-Stock price on 03/02/2015: 53.49
-Sector                   : Finance
-Indrustry				 : Major Bank

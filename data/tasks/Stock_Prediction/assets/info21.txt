@@ -1,3 +1,0 @@
-Commodity                 : Gold
-Stock price on 03/02/2015 : 1208.2
-Quantity                  :1 ounce

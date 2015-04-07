@@ -1,0 +1,777 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.4
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Apr 02, 2015 at 02:14 PM
+-- Server version: 5.6.12-log
+-- PHP Version: 5.4.16
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `crowd`
+--
+CREATE DATABASE IF NOT EXISTS `crowd` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `crowd`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin_users`
+--
+
+CREATE TABLE IF NOT EXISTS `admin_users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(60) COLLATE utf8_unicode_ci NOT NULL,
+  `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `users_email_unique` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `answers`
+--
+
+CREATE TABLE IF NOT EXISTS `answers` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `task_id` int(10) unsigned NOT NULL,
+  `user_id` int(10) unsigned NOT NULL,
+  `data` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `time_taken` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `confidence` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `answers_task_id_user_id_unique` (`task_id`,`user_id`),
+  KEY `answers_user_id_foreign` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `domains`
+--
+
+CREATE TABLE IF NOT EXISTS `domains` (
+  `id` int(10) unsigned NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `description` longtext COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `domains`
+--
+
+INSERT INTO `domains` (`id`, `name`, `created_at`, `updated_at`, `description`) VALUES
+(3, 'Find where the ball is in the trick', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'The subjects are presented with a video of '),
+(6, 'Given the name, image and place of a famous world landmark, guess the height of famous landmarks of the world.', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will ask you a series of 20 questions. For each question the name, place and image of a famous landmark will be shown and you will be asked to enter the height in meters of the particular landmark in the textbox provided.'),
+(7, 'Identify  the country to which the Historical Monument/Landmark belongs to', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You go through the series of  multiple choice questions, each consists of an image of one of the famous landmarks of the world and will require you to identify the country which it belongs to.'),
+(8, 'Box office collection of a given movie', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will now be shown a series of real number answer type questions. For each question, we will display the name of a movie and ask you to predict its international box office collection in millions of USD.'),
+(10, 'Identify the number of Twitter follower of a particular (famous) person', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Detailed Description shown to participants: We will now ask you a series of multiple-choice questions. For each question, we will give you some discrete numbers (which is number of followers) and ask you to identify the person which it belongs. The person in each question will not be any unknown personality instead we are giving you some famous and known personality.'),
+(11, 'Predict manufacture year of a car', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'The subjects are presented with an image of a Ford car and they have to identify the year of manufacture of the car.'),
+(12, 'Predict the direction of penalty shot', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will now ask you a series of binary response questions. For each question, we will show you a video of a footballer (soccer player) taking a penalty kick and his last two attempted penalty directions (prior to the one being shown). You have to guess the direction in which he would have kicked the ball in the penalty being shown.'),
+(14, 'Estimating the age of Celestial bodies', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'For each task a picture of celstial body will be shown and you will be asked to predict its age'),
+(17, 'Identify the age of a given tree', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'For each question, we will show you a picture of a tree, and ask you to identify the age of the tree. Input the age in the text field'),
+(18, 'Given the picture of a container, identify the capacity in litres', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown a series of images of containers. For each picture, identify the capacity of the specific container in litres.'),
+(19, 'Given a food item, guess its number of calories', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown 20 food items with their images and asked to guess its number of calories.'),
+(20, 'Predict the number of retweets of a specific tweet', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will give you a series of tweets from Katy Perry, an american singer and songwriter. You have to predict the number of retweets it will get depending on the content of tweet.'),
+(23, 'Word Origin', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will now be shown a series of multiple choice questions. For each question, we will display a word and ask you to predict its origin.'),
+(24, 'Word Meaning', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will provide you with a sentence containing a highlighted word. We will also provide you with 5 options which may be the synonym of the current word. However only one of the five options is the correct synonym. We would like you to select that option from the given set of options, which you feel is the most accurate meaning of the given list, as the correct one.'),
+(25, 'Classification of Dog breeds', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will provide you with a picture of a dog of a particular breed. We will also provide you with 5 options, one of which is the correct breed of the dog. The other 4 would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct breed of the dog shown in the picture.'),
+(30, 'Given an audio clip of a song, identify the primary artist/band', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will hear a 15-second audio clip of a song, after which you have to guess the primary artist/band of the song'),
+(31, 'Predict whether a news headline is real', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will ask you a single question whether the news is real or not. We will provide some news headlines which also include fake news. The news headlines will be taken from famous fields like sports, weather, politicians, celebrities, etc.'),
+(34, 'Name the constellation', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown pictures of 20 constellations and asked to guess their name from the given options'),
+(35, 'Predict the result of a cricket match', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will ask the viewers a question stating the result of the match. For the question, we will provide few options stating the result of the match.  All the viewers will be knowing the current score, the players playing, the venue, weather conditions, both the teams last 5 meetings and according to their views of the team, they will choose an option'),
+(39, 'Given the specifications and image of the product guess the Amazon price of the product', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown 20 images and specifications of different products and you will have to guess the Amazon price of that product in USD'),
+(41, 'Identify The Flag Of The Country', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will be showing you a series of 20 Flags of Different Countries. With each flag, you will be given a choice of 5 probable country names to which the flag may belong to. You have to choose the right country name'),
+(45, 'Estimate the Number of Years required  to construct a Famous Building', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'In this task of wisdom of crowd, each MCQ will contain an  image of Famous Building with five options, in which one will be the correct one and rest 4will be incorrect .You are needed to guess the Time(in number of years) required to Construct the Building'),
+(47, 'Guessing the emotion of a person', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will provide you with a picture of a person expressing a certain emotion. We will also provide you with 5 options, one of which is the correct emotion being expressed. The other 4 would be incorrect options. We would like you to select that option from the given set of options, which you feel is the correct emotion being expressed by the person in the picture.'),
+(50, 'Given the outline and name of a country, guess the landmass of the country', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown 20 images outlining the shape of a country and asked to guess the landmass of the country it corresponds to (units in sq km)'),
+(51, 'Given the name of the country predict its population', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'You will be shown the name of a country and asked to guess the population of that country'),
+(53, 'Given the theme song of a famous movie, guess the movie', '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'We will ask a series of 20 multiple choice questions. For each question the audio file containing the theme of a movie will be played and you will be asked to choose the right movie name from the given options.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `migrations`
+--
+
+CREATE TABLE IF NOT EXISTS `migrations` (
+  `migration` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `batch` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `migrations`
+--
+
+INSERT INTO `migrations` (`migration`, `batch`) VALUES
+('2014_10_12_000000_create_users_table', 1),
+('2014_10_12_100000_create_password_resets_table', 1),
+('2015_03_11_200022_create_domains_table', 1),
+('2015_03_12_101932_rename_users', 1),
+('2015_03_12_104023_create_users', 1),
+('2015_03_12_110210_create_tasks', 1),
+('2015_03_12_110236_create_answers', 1),
+('2015_03_12_204719_edit_users', 1),
+('2015_03_15_183052_unique_userid_taskid_in_answers_table', 1),
+('2015_03_16_154905_edit_tasks_table_fk', 1),
+('2015_03_16_154928_edit_answers_table_fk', 1),
+('2015_03_16_162440_edit_task_buffer_table_after_stupid_mistake', 1),
+('2015_03_16_191331_edit_task_buffer_table_name', 1),
+('2015_03_16_204804_move_confidence_score_to_task_buffers', 1),
+('2015_03_18_130628_unique_userid_domainid_in_task_buffers', 1),
+('2015_03_25_112231_edit_columns_userstable', 1),
+('2015_03_27_080113_add_description_in_domains_table', 1),
+('2015_03_27_080929_add_confidence_in_answers_table', 1),
+('2015_03_28_184025_users_experiment_status', 1),
+('2015_03_30_063440_add_token_to_user_table', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `password_resets`
+--
+
+CREATE TABLE IF NOT EXISTS `password_resets` (
+  `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  KEY `password_resets_email_index` (`email`),
+  KEY `password_resets_token_index` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tasks`
+--
+
+CREATE TABLE IF NOT EXISTS `tasks` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `domain_id` int(10) unsigned NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `data` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `answer_type` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `answer_data` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `correct_answer` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`),
+  KEY `tasks_domain_id_foreign` (`domain_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=521 ;
+
+--
+-- Dumping data for table `tasks`
+--
+
+INSERT INTO `tasks` (`id`, `domain_id`, `title`, `type`, `data`, `answer_type`, `answer_data`, `correct_answer`, `created_at`, `updated_at`) VALUES
+(1, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-AC-1.jpg', 'float', '', '400', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(2, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-AC-2.jpg', 'float', '', '519', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(3, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Camera-1.jpg', 'float', '', '117.3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(4, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Camera-2.jpg', 'float', '', '399', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(5, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Dish-1.jpg', 'float', '', '219', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(6, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Dish-2.jpg', 'float', '', '899', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(7, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Fridge-1.jpg', 'float', '', '144', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(8, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Fridge-2.jpg', 'float', '', '2370', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(9, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Laptop-1.jpg', 'float', '', '250', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(10, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Laptop-2.jpg', 'float', '', '360', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(11, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Mobile-1.jpg', 'float', '', '59', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(12, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Mobile-2.jpg', 'float', '', '115', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(13, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Printer-1.jpg', 'float', '', '75', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(14, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Printer-2.jpg', 'float', '', '47', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(15, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Tab-1.jpg', 'float', '', '157', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(16, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Tab-2.jpg', 'float', '', '80', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(17, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-TV-1.jpg', 'float', '', '557', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(18, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-TV-2.jpg', 'float', '', '241.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(19, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Washer-1.jpg', 'float', '', '2270', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(20, 39, 'Guess the price of following product', 'image', 'images/task_39/__Amazon-Washer-2.jpg', 'float', '', '899', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(21, 51, 'Guess the population of', 'text', 'Algeria', 'int', '', '39928947', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(22, 51, 'Guess the population of', 'text', 'Russia', 'int', '', '142467651', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(23, 51, 'Guess the population of', 'text', 'Kazakhstan', 'int', '', '16606878', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(24, 51, 'Guess the population of', 'text', 'India', 'int', '', '1267401849', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(25, 51, 'Guess the population of', 'text', 'China', 'int', '', '1393783836', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(26, 51, 'Guess the population of', 'text', 'USA', 'int', '', '322583006', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(27, 51, 'Guess the population of', 'text', 'Iran', 'int', '', '78470222', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(28, 51, 'Guess the population of', 'text', 'Chile', 'int', '', '17772871', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(29, 51, 'Guess the population of', 'text', 'Mexico', 'int', '', '123799215', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(30, 51, 'Guess the population of', 'text', 'Saudi Arabia', 'int', '', '29369428', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(31, 51, 'Guess the population of', 'text', 'Guatemala', 'int', '', '15859714', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(32, 51, 'Guess the population of', 'text', 'Argentina', 'int', '', '41803125', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(33, 51, 'Guess the population of', 'text', 'Greece', 'int', '', '11128404', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(34, 51, 'Guess the population of', 'text', 'Canada', 'int', '', '35524732', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(35, 51, 'Guess the population of', 'text', 'Australia', 'int', '', '23630169', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(36, 51, 'Guess the population of', 'text', 'Brazil', 'int', '', '202033670', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(37, 51, 'Guess the population of', 'text', 'Tanzania', 'int', '', '50757459', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(38, 51, 'Guess the population of', 'text', 'Indonesia', 'int', '', '252812245', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(39, 51, 'Guess the population of', 'text', 'Ethiopia', 'int', '', '96506031', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(40, 51, 'Guess the population of', 'text', 'Colombia', 'int', '', '48929706', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(41, 35, 'Predict the result of the cricket match', 'text', 'IND VS PAK\nWho would win the match?\n\nIndia won the toss and chose to bat\nFormat: ODI\nCurrent Score: Ind 34/1 Overs 7.3\nVenue: Adelaide Oval, Adelaide\nTeams: Pakistan (From): Ahmed Shehzad, Younis Khan, Misbah-ul-Haq(c), Nasir Jamshed, Haris Sohail, Umar A', 'select', 'IND,PAK,Draw', 'IND', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(42, 35, 'Predict the result of the cricket match', 'text', 'WI VS PAK\nWho would win the match?\n\nPAK won the toss and chose to field\nFormat: ODI\nCurrent Score: WI 310/6 Overs 50.0\nVenue: Hagley Oval, Australia\n\nTeams: Pakistan (From): Ahmed Shehzad, Younis Khan, Misbah-ul-Haq(c), Nasir Jamshed, Haris Sohail, Umar A', 'select', 'WI,PAK,Draw', 'WI', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(43, 35, 'Predict the result of the cricket match', 'text', 'SA VS AUS\nWho would win the match?\n\nSA won the toss and chose to field\nFormat: ODI\nCurrent Score: AUS 319/7 Overs 45.0\nVenue: Hagley Oval, Australia\n\nTeams: \n\nAUS\nMitchell Starc, Aaron Finch,David Warner,Xavier Doherty,Pat Cummins,Brad Haddin,James Faulkn', 'select', 'SA,AUS,Draw', 'SA', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(44, 35, 'Predict the result of the cricket match', 'text', 'NZ VS SA\nWho would win the match?\n\nNZ won the toss and chose to bat\nFormat: ODI\nCurrent Score: NZ 110/2 Overs 15.2\nVenue: Cape Town\n\nTeams: NZ\nTim Southee\nNathan McCullum\nBrendon McCullum\nRoss Taylor\nKyle Mills\nDaniel Vettori\nAdam Milne\nTrent Boult\nTom La', 'select', 'NZ,SA,Draw', 'NZ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(45, 35, 'Predict the result of the cricket match', 'text', 'IRE VS UAE\nWho would win the match?\n\nUAE won the toss and chose to bowl\nFormat: ODI\nCurrent Score: IRE 210/6 Overs 45.2\nVenue: Lords, England\n\nTeams: UAE\nShaiman Anwar\nMohammad Tauqir\nManjula Guruge\nAmjad Javed\nAmjad Ali\nKhurram Khan\nRohan Mustafa\nSwapnil', 'select', 'IRE,UAE,Draw', 'IRE', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(46, 35, 'Predict the result of the cricket match', 'text', 'IND VS AUS\nWho would win the match?\n\nAUS won the toss and chose to bat\nFormat: ODI\nCurrent Score: AUS 319/7 Overs 45.0\nVenue: Hagley Oval, Australia\n\nTeams: AUS\n Mitchell Starc, Aaron Finch,David Warner,Xavier Doherty,Pat Cummins,Brad Haddin,James Faulkne', 'select', 'AUS,IND,Draw', 'AUS', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(47, 35, 'Predict the result of the cricket match', 'text', 'IND VS NZ\nWho would win the match?\n\nAUS won the toss and chose to bat\nFormat: ODI\nCurrent Score: AUS 319/7 Overs 45.0\nVenue: Hagley Oval, Australia\n\nTeams: INDIA:\nShikhar Dhawan, Rohit Sharma, Virat Kohli, Ajinkya Rahane, Suresh Raina, MS Dhoni(c & w), Ra', 'select', 'NZ,IND,Draw', 'NZ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(48, 35, 'Predict the result of the cricket match', 'text', 'IND VS UAE\nWho would win the match?\n\nIND won the toss and chose to bowl\nFormat: ODI\nCurrent Score: UAE 119/7 Overs 35.0\nVenue: Auckland, New Zealand\n\nTeams: \nINDIA:\nShikhar Dhawan, Rohit Sharma, Virat Kohli, Ajinkya Rahane, Suresh Raina, MS Dhoni(c & w), ', 'select', 'IND,UAE,Draw', 'IND', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(49, 35, 'Predict the result of the cricket match', 'text', 'IND VS WI\nWho would win the match?\n\nIND won the toss and chose to bowl\nFormat: ODI\nCurrent Score: WI 219/10 Overs 35.0\n      IND 114/5 Overs 19.3\nVenue: Auckland, New Zealand\n\nTeams: \nINDIA:\nShikhar Dhawan, Rohit Sharma, Virat Kohli, Ajinkya Rahane, Sures', 'select', 'WI,IND,Draw', 'IND', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(50, 35, 'Predict the result of the cricket match', 'text', 'NZ VS IRE\nWho would win the match?\n\nNZ won the toss and chose to bowl\nFormat: ODI\nCurrent Score: IRE 119/7 Overs 33.0\nVenue: Hagley Oval, Australia\n\nTeams: \nIRE:\nAlex Cusack\nPaul Stirling\nKevin O''Brien\nGeorge Dockrell\nStuart Thompson\nGary Wilson\nEd Joyce\n', 'select', 'NZ,IRE,Draw', 'NZ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(51, 35, 'Predict the result of the cricket match', 'text', 'UAE VS PAK\nWho would win the match?\n\nPAK won the toss and chose to bat\nFormat: ODI\nCurrent Score: PAK 34/1 Overs 7.3\nVenue: Adelaide Oval, Adelaide\nTeams: Pakistan (From): Ahmed Shehzad, Younis Khan, Misbah-ul-Haq(c), Nasir Jamshed, Haris Sohail, Umar Akm', 'select', 'PAK,UAE,Draw', 'PAK', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(52, 35, 'Predict the result of the cricket match', 'text', 'NZ VS AUS\nWho would win the match?\n\nAUS won the toss and chose to bat\nFormat: ODI\nCurrent Score: AUS 219/7 Overs 43.0\nVenue: Hagley Oval, Australia\n\nTeams: AUS\n Mitchell Starc, Aaron Finch,David Warner,Xavier Doherty,Pat Cummins,Brad Haddin,James Faulkner', 'select', 'NZ,AUS,Draw', 'NZ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(53, 35, 'Predict the result of the cricket match', 'text', 'AUS VS IRE\nWho would win the match?\n\nIRE won the toss and chose to bat\nFormat: ODI\nCurrent Score: IRE 159/7 Overs 33.0\nVenue: Hagley Oval, Australia\n\nTeams: \nIRE:\nAlex Cusack\nPaul Stirling\nKevin O''Brien\nGeorge Dockrell\nStuart Thompson\nGary Wilson\nEd Joyce', 'select', 'IRE,AUS,Draw', 'N/R', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(54, 35, 'Predict the result of the cricket match', 'text', 'AUS VS PAK\nWho would win the match?\n\nPAK won the toss and chose to bat\nFormat: ODI\nCurrent Score: PAK 34/1 Overs 7.3\nVenue: Adelaide Oval, Adelaide\nTeams: Pakistan (From): Ahmed Shehzad, Younis Khan, Misbah-ul-Haq(c), Nasir Jamshed, Haris Sohail, Umar Akm', 'select', 'AUS,PAK,Draw', 'AUS', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(55, 35, 'Predict the result of the cricket match', 'text', 'SA VS PAK\nWho would win the match?\n\nPAK won the toss and chose to bat\nFormat: ODI\nCurrent Score: PAK 34/1 Overs 7.3\nVenue: Adelaide Oval, Adelaide\nTeams: Pakistan (From): Ahmed Shehzad, Younis Khan, Misbah-ul-Haq(c), Nasir Jamshed, Haris Sohail, Umar Akma', 'select', 'PAK,SA,Draw', 'PAK', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(56, 35, 'Predict the result of the cricket match', 'text', 'SA VS UAE\nWho would win the match?\n\nSA won the toss and chose to bat\nFormat: ODI\nCurrent Score: SA 34/1 Overs 3.3\nVenue: Cape Town\nTeams: \nUAE\nShaiman Anwar\nMohammad Tauqir\nManjula Guruge\nAmjad Javed\nAmjad Ali\nKhurram Khan\nRohan Mustafa\nSwapnil Patil\nMoha', 'select', 'SA,UAE,Draw', 'SA', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(57, 35, 'Predict the result of the cricket match', 'text', 'IND VS IRE\nWho would win the match?\n\nIND won the toss and chose to bowl\nFormat: ODI\nCurrent Score: IRE 119/7 Overs 35.0\nVenue: Auckland, New Zealand\n\nTeams: \nINDIA:\nShikhar Dhawan, Rohit Sharma, Virat Kohli, Ajinkya Rahane, Suresh Raina, MS Dhoni(c & w), ', 'select', 'IND,IRE,Draw', 'IND', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(58, 35, 'Predict the result of the cricket match', 'text', 'IRE VS WI\nWho would win the match?\n\nIRE won the toss and chose to bowl\nFormat: ODI\nCurrent Score: WI 329/10 Overs 45.4\n      IRE 114/3 Overs 19.3\nVenue: Adelaide, Australia\n\nTeams: \nIRE:\nAlex Cusack\nPaul Stirling\nKevin O''Brien\nGeorge Dockrell\nStuart Thomp', 'select', 'IRE,WI,Draw', 'IRE', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(59, 35, 'Predict the result of the cricket match', 'text', 'AUS VS WI\nWho would win the match?\n\nAUS won the toss and chose to bat\nFormat: ODI\nCurrent Score: AUS 259/7 Overs 50.0\n      WI 5/0    Overs 2.0\nVenue: Carribean, WI\n\nTeams: \nWest Indies (From):  Jason Holder (c), Marlon Samuels, Denesh Ramdin (wk), Kemar ', 'select', 'WI,Draw,AUS', 'WI', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(60, 35, 'Predict the result of the cricket match', 'text', 'NZ VS WI\nWho would win the match?\n\nNZ won the toss and chose to bat\nFormat: ODI\nCurrent Score: NZ 359/7 Overs 50.0\n      WI 15/0    Overs 2.0\nVenue: Carribean, WI\n\nTeams: \nWest Indies (From):  Jason Holder (c), Marlon Samuels, Denesh Ramdin (wk), Kemar Ro', 'select', 'Draw,WI,NZ', 'DRAW', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(61, 31, 'Predict whether this news headline is real', 'text', 'Nine new dwarf galaxies found orbiting Milky Way', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(62, 31, 'Predict whether this news headline is real', 'text', 'Nude, Ash-Streaked Dick Vitale Proclaims This What March Madness All About', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(63, 31, 'Predict whether this news headline is real', 'text', 'Cuba gives ''unconditional support'' to venezuela against US', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(64, 31, 'Predict whether this news headline is real', 'text', 'Fewer NBA Players Choosing To Learn Unborn Child', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(65, 31, 'Predict whether this news headline is real', 'text', 'England knocked out of WC 2015; Bangla qualifies for QF', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(66, 31, 'Predict whether this news headline is real', 'text', 'Congressman Knows Regular Lobbyist', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(67, 31, 'Predict whether this news headline is real', 'text', 'H1N1 reaches toll 971 in India', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(68, 31, 'Predict whether this news headline is real', 'text', 'Moto E-second generation launched in India: Hands-on', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(69, 31, 'Predict whether this news headline is real', 'text', 'Apple launches thinnest, lightiest macbook @ RS 99,900', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(70, 31, 'Predict whether this news headline is real', 'text', 'Hillary Clinton Hints At Presidential Ambitions By Concealing Information From American People', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(71, 31, 'Predict whether this news headline is real', 'text', 'Michelle Obama Renovates Van Buren Workout Room', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(72, 31, 'Predict whether this news headline is real', 'text', 'HK plane makes emergency landing after false bomb threat', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(73, 31, 'Predict whether this news headline is real', 'text', 'French sports stars die in Argentenian chopper clashes', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(74, 31, 'Predict whether this news headline is real', 'text', 'Catching Up On 2 Seasons Of ', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(75, 31, 'Predict whether this news headline is real', 'text', 'Arsenal beat Man U 2-1 to reach FA semis', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(76, 31, 'Predict whether this news headline is real', 'text', 'Viv Richards pips Sachin Tendulkar as greatest ODI player in a poll', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(77, 31, 'Predict whether this news headline is real', 'text', 'TCS Europe''s top employer third time in a row', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(78, 31, 'Predict whether this news headline is real', 'text', 'Busy Woman Keeps Best-Dressed Oscar Slideshow Tab Open To Be Savored As Sumptuous Feast At Her Leisure', 'select', 'yes, no', 'no', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(79, 31, 'Predict whether this news headline is real', 'text', 'Mohammed Shami has been impressive in WC 2015', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(80, 31, 'Predict whether this news headline is real', 'text', 'Wild elephants wreaking havoc in Koraput villages', 'select', 'yes, no', 'yes', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(81, 10, 'Guess the number of Twitter followers of', 'text', 'Shakira', 'select', '29540000,1500,17600,42580000', '29540000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(82, 10, 'Guess the number of Twitter followers of', 'text', 'Sachin R. Tendulkar', 'select', '53400000,2000,42145,38150000', '53400000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(83, 10, 'Guess the number of Twitter followers of', 'text', 'Emma Watson', 'select', '16813610,5005,30000,45258123', '16813610', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(84, 10, 'Guess the number of Twitter followers of', 'text', 'Amitabh Bachchan', 'select', '13570860,3000,18000,26428741', '13570860', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(85, 10, 'Guess the number of Twitter followers of', 'text', 'Ricky Martin', 'select', '11786148,500,25000,25000010', '11786148', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(86, 10, 'Guess the number of Twitter followers of', 'text', 'Narendra Modi', 'select', '10589110,1800,35200,25600101', '10589110', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(87, 10, 'Guess the number of Twitter followers of', 'text', 'Barack Obama', 'select', '56151420,9000,50000,35254159', '56151420', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(88, 10, 'Guess the number of Twitter followers of', 'text', 'Lady Gaga', 'select', '44812405,1000,25000,60854714', '44812405', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(89, 10, 'Guess the number of Twitter followers of', 'text', 'Justin Bieber', 'select', '9104333,2500,21140,20258845', '9104333', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(90, 10, 'Guess the number of Twitter followers of', 'text', 'Rihanna', 'select', '9104333,2500,21140,35147845', '9104333', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(91, 10, 'Guess the number of Twitter followers of', 'text', 'Katy Perry', 'select', '66443172,1200,39000,85582147', '66443172', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(92, 10, 'Guess the number of Twitter followers of', 'text', 'Britney Spears', 'select', '49500847,9200,29250,60285741', '49500847', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(93, 10, 'Guess the number of Twitter followers of', 'text', 'Bill Gates', 'select', '20553995,9000,50000,35254159', '20553995', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(94, 10, 'Guess the number of Twitter followers of', 'text', 'Cristiano Ronaldo', 'select', '17256993,1400,80258,35365178', '17256993', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(95, 10, 'Guess the number of Twitter followers of', 'text', 'Aamir Khan', 'select', '13908427,1000,27500,26854714', '13908427', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(96, 10, 'Guess the number of Twitter followers of', 'text', 'Tom Hanks', 'select', '9493256,1550,17800,25847753', '9493256', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(97, 10, 'Guess the number of Twitter followers of', 'text', 'John Cena', 'select', '6895459,650,18000,15485235', '6895459', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(98, 10, 'Guess the number of Twitter followers of', 'text', 'Taylor Swift', 'select', '54001250,9200,29250,60285741', '54001250', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(99, 10, 'Guess the number of Twitter followers of', 'text', 'Pitbull', 'select', '19985127,1440,36005,45823631', '19985127', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(100, 10, 'Guess the number of Twitter followers of', 'text', 'Wayne Rooney', 'select', '15634258,1788,18457,35568954', '15634258', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(101, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The-Eiffel-Tower.png', 'select', 'South Korea,South Africa,Malaysia,Algeria,France', 'France', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(102, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The Statue Of Liberty.jpg', 'select', 'United States,Jordan,Austria,Japan,France', 'United States', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(103, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Parc Guell.jpg', 'select', 'Austria,France,Spain,Indonesia,Japan', 'Spain', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(104, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The Great Chinese Wall.jpg', 'select', 'Malaysia,Indonesia,China,Tunisia,Canada', 'China', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(105, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The Colosseum.jpg', 'select', 'France,Peru,Austria,Lebanon,Italy', 'Italy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(106, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Agia Sophia.jpg', 'select', 'Zimbabwe,Israel,Egypt,France,Turkey', 'Turkey', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(107, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Brandenburg-Gate.jpg', 'select', 'England,United States,Lebanon,Germany,Morocco', 'Germany', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(108, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Big Ben.jpg', 'select', 'France,Brazil,Italy,Singapore,England', 'England', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(109, 7, 'Guess the country of this landmark', 'image', 'images/task_7/St Basils Cathedral.jpg', 'select', 'United States,Chile,Spain,Kenya,Russia', 'Russia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(110, 7, 'Guess the country of this landmark', 'image', 'images/task_7/pompeii.jpg', 'select', 'Greece,South Africa,Egypt,China,Indonesia', 'Italy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(111, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Mecca.jpg', 'select', 'Kenya,Austria,Algeria,Saudi Arabia,China', 'Saudi Arabia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(112, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Luxor Temple.jpg', 'select', 'Morocco,Egypt,Turkey,Spain,Jordan', 'Egypt', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(113, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Chichen Itza.jpg', 'select', 'Mexico,Indonesia,Singapore,Brazil,Russia', 'Mexico', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(114, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The Great Buddha Of Kamakura.jpg', 'select', 'Japan,South Africa,Jordan,Singapore,Saudi Arabia', 'Japan', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(115, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Temple of Besakih.jpg', 'select', 'Indonesia,Ukraine,Malaysia,Egypt,Chile', 'Indonesia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(116, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Acropolis of Athens.jpg', 'select', 'Egypt,Greece,Malaysia,Turkey,Algeria', 'Greece', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(117, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Machu Picchu.png', 'select', 'China,Indonesia,Kenya,Peru,France', 'Peru', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(118, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Taj mahal.jpg', 'select', 'Lebanon,Canada,Argentina,Uganda,India', 'India', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(119, 7, 'Guess the country of this landmark', 'image', 'images/task_7/The Pyramids of Giza.jpg', 'select', 'Brazil,Jordan,Egypt,India,Lebanon', 'Egypt', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(120, 7, 'Guess the country of this landmark', 'image', 'images/task_7/Tower Of Pisa.jpg', 'select', 'Israel,Italy,Egypt,Mexico,Uganda', 'Italy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(121, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Congo.png', 'select', 'Mexico,Burma,Democratic Republic Of Congo,Russia,Ukraine', 'Democratic Republic Of Congo', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(122, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Indonesia.png', 'select', 'Mexico,Angola,Indonesia,Thailand,Democratic Republic of Congo', 'Indonesia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(123, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Algeria.png', 'select', 'Turkey,Algeria,Ethiopia,Spain,Australia', 'Algeria', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(124, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Iran.png', 'select', 'Iran,Columbia,Algeria,Turkmenistan,Chad', 'Iran', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(125, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Mongolia.png', 'select', 'Libya,Mongolia,Spain,Nigeria,Poland', 'Mongolia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(126, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Libya.png', 'select', 'Afghanistan,Libya,Indonesia,Columbia,Venezuela', 'Libya', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(127, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/USA.png', 'select', 'Yemen,United States Of America,France,Australia,Ukraine', 'United States Of America', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(128, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Russia.png', 'select', 'Egypt,Spain,Sudan,Russia,Iraq', 'Russia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(129, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/India.png', 'select', 'Democratic Republic of Congo,India,Botswana,Mozambique,Vietnam', 'India', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(130, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Saudi Arabia.png', 'select', 'Pakistan,Saudi Arabia,Italy,Afghanistan,Burkina Faso', 'Saudi Arabia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(131, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Argentina.png', 'select', 'Kenya,Mali,Argentina,Poland,India', 'Argentina', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(132, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Brazil.png', 'select', 'Brazil,Uganda,Sweden,Morocco,Libya', 'Brazil', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(133, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Mexico.png', 'select', 'Norway,Kenya,Mexico,Peru,Bolivia', 'Mexico', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(134, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Sudan.png', 'select', 'Iraq,Sudan,South Africa,Gabon,Iran', 'Sudan', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(135, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Mongolia.png', 'select', 'Indonesia,Mongolia,Yemen,Egypt,Chile', 'Mongolia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(136, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Kazakhstan.png', 'select', 'Kazakhstan,Egypt,Sweden,Burkina Faso,Botswana', 'Kazakhstan', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(137, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Peru.png', 'select', 'China,India,Indonesia,Peru,France', 'Peru', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(138, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Brazil.png', 'select', 'Ecuador,Brazil,Oman,Philippines,France', 'Brazil', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(139, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Canada.png', 'select', 'Chad,Madagascar,Somalia,Saudi Arabia,Canada', 'Canada', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(140, 41, 'Identify the country this flag belongs to', 'image', 'images/task_41/Australia.png', 'select', 'Angola,Poland,Australia,Algeria,Mauritania', 'Australia', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(141, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/pisa.jpg', 'int', '', '300', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(142, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/The Shard.jpg', 'int', '', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(143, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/StBasilCathedral.jpg', 'int', '', '6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(144, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/EmpireStateBuilding.jpg', 'int', '', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(145, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Colosseum.jpg', 'int', '', '8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(146, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/tajmahal.jpg', 'int', '', '22', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(147, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/SydneyOperaHouse.jpg', 'int', '', '16', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(148, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Space Needle.jpg', 'int', '', '0.6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(149, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Burj Khalifa.jpg', 'int', '', '6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(150, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Sky Tower.jpg', 'int', '', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(151, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Teatro Amazonas.jpg', 'int', '', '17', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(152, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Kuwait Towers.jpg', 'int', '', '5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(153, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Eiffel Tower.jpg', 'int', '', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(154, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/El Capitolio.jpg', 'int', '', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(155, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Petronas Twin Towers.jpg', 'int', '', '4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(156, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Lloyds Building.jpg', 'int', '', '8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(157, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Chrysler Building.jpg', 'int', '', '2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(158, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/HassanIIMosque.jpg', 'int', '', '7', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(159, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/Willis Tower.jpg', 'int', '', '3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(160, 45, 'Estimate the time taken (in years) to construct this building', 'image', 'images/task_45/whitehouse.jpg', 'int', '', '8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(161, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=R6akfA7UC2A', 'select', 'Left,Middle,Right', 'Right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(162, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=fUKLK49cgUM', 'select', 'Left,Middle,Right', 'Left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(163, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=cXDW-NL0RJQ', 'select', 'Left,Middle,Right', 'Right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(164, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=nuOpW1DWNQ0', 'select', 'Left,Middle,Right', 'Right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(165, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=iM4U4Bh06Qo', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(166, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=JqozFGpJpfk', 'select', 'Left,Middle,Right', 'Left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(167, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=xkpERNXfO6M', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(168, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=na9_2IRYuYs', 'select', 'Left,Middle,Right', 'Right ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(169, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=z6HH6b5SF_0', 'select', 'Left,Middle,Right', 'Right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(170, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=5pNpzitWVUs', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(171, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=CLWj0vG6S8M', 'select', 'Left,Middle,Right', 'Left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(172, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=kwEZmSqmcGo', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(173, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=bpY9RszOZA0', 'select', 'Left,Middle,Right', 'Left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(174, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=52DP-1dUpq0', 'select', 'Left,Middle,Right', 'Right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(175, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=MYT9F76ECXE', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(176, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=NW3Lt8iJoTQ', 'select', 'Left,Middle,Right', 'Left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(177, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=H1eeP6VM-P4', 'select', 'Left,Middle,Right', 'Right ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(178, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=NfdUd3RLNxE', 'select', 'Left,Middle,Right', 'Right ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(179, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=Wlyu1pqVNHs', 'select', 'Left,Middle,Right', 'Right ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(180, 3, 'Where is the ball in this trick?', 'video', 'https://www.youtube.com/watch?v=Cau6IxKR3gU', 'select', 'Left,Middle,Right', 'Middle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(181, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img1.jpg', 'select', '1955,1975,1987,1992,1999', '1955', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(182, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img2.jpg', 'select', '1989,1993,1996,1998,2002', '1993', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(183, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img3.jpg', 'select', '1990,1994,2000,2004,2006', '1994', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(184, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img4.jpg', 'select', '1990,1993,1996,2000,2003', '1996', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(185, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img5.jpg', 'select', '1991,1997,2001,2003,2006', '1997', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(186, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img6.jpg', 'select', '1989,1998,2005,2011,2015', '1998', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(187, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img7.jpg', 'select', '1991,1999,2003,2009,2013', '2003', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(188, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img8.jpg', 'select', '1978,1996,2005,2010,2015', '2005', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(189, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img9.jpg', 'select', '1995,2000,2006,2011,2015', '2006', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(190, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img10.jpg', 'select', '2000,2005,2011,2014,2016', '2011', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(191, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img11.jpg', 'select', '1995,2000,2009,2014,2016', '2014', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(192, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img12.jpg', 'select', '1994,1999,2004,2010,2015', '2015', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(193, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img13.jpg', 'select', '1950,1965,1983,1997,2003', '1950', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(194, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img14.jpg', 'select', '1960,1975,1985,1995,2000', '1975', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(195, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img15.jpg', 'select', '1960,1975,1985,1995,2000', '1975', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(196, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img16.jpg', 'select', '1999,2003,2006,2013,2015', '2015', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(197, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img17.jpg', 'select', '1960,1970,1980,1990,2000', '1980', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(198, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img18.jpg', 'select', '1969,1980,1990,2000,2010', '1990', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(199, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img19.jpg', 'select', '2001,2004,2009,2011,2016', '2016', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(200, 11, 'Predict the manufacture year of this car', 'image', 'images/task_11/Ford_img20.jpg', 'select', '1930,1950,1970,1990,2000', '1930', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(201, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 1.png', 'int', '', '10337', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(202, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 2.png', 'int', '', '9909', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(203, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 3.png', 'int', '', '10405', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(204, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 4.png', 'int', '', '7505', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(205, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 5.png', 'int', '', '41120', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(206, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 6.png', 'int', '', '9519', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(207, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 7.png', 'int', '', '128482', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(208, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 8.png', 'int', '', '14555', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(209, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 9.png', 'int', '', '7915', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(210, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 10.png', 'int', '', '13880', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(211, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 11.png', 'int', '', '7884', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(212, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 12.png', 'int', '', '10045', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(213, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 13.png', 'int', '', '39172', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(214, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 14.png', 'int', '', '105160', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(215, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 15.png', 'int', '', '26396', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(216, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 16.png', 'int', '', '3356', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(217, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 17.png', 'int', '', '36116', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(218, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 18.png', 'int', '', '8095', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(219, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 19.png', 'int', '', '23080', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(220, 20, 'Guess the number of retweets', 'image', 'images/task_20/KP 20.png', 'int', '', '7516', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(221, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Andromeda Galaxy.jpg', 'int', '', '9000000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(222, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Black Eye Galaxy.jpg', 'int', '', '10500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(223, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Cartwheel Galaxy.jpg', 'int', '', '10000000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(224, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Cigar Galaxy.jpg', 'int', '', '10300000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(225, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Earth.jpg', 'int', '', '4500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(226, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Kaptyen star.jpg', 'int', '', '10000000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(227, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Large Magellanic Cloud.jpg', 'int', '', '10300000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(228, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Mars.jpg', 'int', '', '4500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(229, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Sirius.jpg', 'int', '', '200000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(230, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Proxima Centauri.jpg', 'int', '', '4850000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(231, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Neptune.jpg', 'int', '', '4500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(232, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Small Magellanic Cloud Galaxy 1600.jpg', 'int', '', '11000000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(233, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Triangulum Galaxy.jpg', 'int', '', '10100000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(234, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Whirpool Galaxy.jpg', 'int', '', '10100000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(235, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Uranus.jpg', 'int', '', '4500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(236, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/The Sombrero Galaxy.jpg', 'int', '', '10000000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(237, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Sun.jpg', 'int', '', '4570000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(238, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Scholzs-Star.jpg', 'int', '', '70000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(239, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Milky Way Galaxy.jpg', 'int', '', '13200000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(240, 14, 'Guess the age of this celestial body', 'image', 'images/task_14/Mercury.jpg', 'int', '', '4500000000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(241, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_abuelo.jpg', 'int', '', '3,643', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(242, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_arbol.jpg', 'int', '', '1,433', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(243, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_banyantree.jpg', 'int', '', '5,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(244, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_bodhi.jpg', 'int', '', '2,302', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(245, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_fortingall.jpg', 'int', '', '2,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(246, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_granit.jpg', 'int', '', '1,700', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(247, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_henrykow.jpg', 'int', '', '1,270', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(248, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_horses.jpg', 'int', '', '4,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(249, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_houki.jpg', 'int', '', '2,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(250, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_juniper.jpg', 'int', '', '1,500', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(251, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_llangrerntw.jpg', 'int', '', '4,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(252, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_methuselah.jpg', 'int', '', '4,846', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(253, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_prometheus.jpg', 'int', '', '4,844', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(254, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_sarveabarkuh.jpg', 'int', '', '4,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(255, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_sisteroak.jpg', 'int', '', '1,500', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(256, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_sozzastro.jpg', 'int', '', '3,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(257, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_staramaslina.jpg', 'int', '', '2,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(258, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_stelmuze.jpg', 'int', '', '1,500', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(259, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_tjikko.jpg', 'int', '', '9,550', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(260, 17, 'Guess the age of this tree', 'image', 'images/task_17/tree_age_zoroastrian.jpg', 'int', '', '4,000', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `tasks` (`id`, `domain_id`, `title`, `type`, `data`, `answer_type`, `answer_data`, `correct_answer`, `created_at`, `updated_at`) VALUES
+(261, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_argentina.png', 'int', '', '27,36,690', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(262, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_australia.png', 'int', '', '76,33,565', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(263, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_bangladesh.png', 'int', '', '1,30,168', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(264, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_brazil.png', 'int', '', '84,60,415', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(265, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_canada.png', 'int', '', '90,93,507', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(266, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_chile.png', 'int', '', '7,43,812', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(267, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_china.png', 'int', '', '93,26,410', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(268, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_france.png', 'int', '', '6,40,427', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(269, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_germany.png', 'int', '', '3,48,672', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(270, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_india.png', 'int', '', '28,64,021', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(271, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_ireland.png', 'int', '', '68,883', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(272, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_italy.png', 'int', '', '2,94,140', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(273, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_japan.png', 'int', '', '3,64,485', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(274, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_mexico.png', 'int', '', '19,43,945', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(275, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_pakistan.png', 'int', '', '8,56,692', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(276, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_russia.png', 'int', '', '163,77,742', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(277, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_south_africa.png', 'int', '', '12,14,470', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(278, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_sri_lanka.png', 'int', '', '62,732', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(279, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_turkey.png', 'int', '', '7,69,632', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(280, 50, 'Guess the country landmass', 'image', 'images/task_50/country_landmass_usa.png', 'int', '', '91,61,966', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(281, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Orion.jpg', 'select', 'Orion, Horologium, Aquarius, Virgo, Apus', 'Orion', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(282, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Cygnus.jpg', 'select', 'Cygnus,Taurus,Sextans, Aries, Aquila', 'Cygnus', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(283, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Sagittarius.jpg', 'select', 'Saggitarius, Octans, Mensa, Aquila,Scorpius', 'Sagittarius', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(284, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Leo.jpg', 'select', 'Leo, Lupus, Apus, Columba, Gemini', 'Leo', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(285, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Aries.jpg', 'select', 'Aries, Norma, Scorpius, Pictor, Aquarius', 'Aries', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(286, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Scorpius.jpg', 'select', 'Scorpius,  Scutum, Vulpecula, Virgo, Apus', 'Scorpius ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(287, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Lyra.jpg', 'select', 'Lyra, Triangulum, Scorpius, Octans, Scutum', 'Lyra', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(288, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Hercules.jpg', 'select', 'Hercules, Grus, Ursa Minor, Aquila, Volans', 'Hercules', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(289, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Taurus.jpg', 'select', 'Taurus,  Norma, Pavo, Chamaeleon, Cepheus', 'Taurus ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(290, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Cassiopeia.jpg', 'select', 'Cassiopeia,  Lupus, Indus, Crater, Lacerta', 'Cassiopeia ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(291, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Pegasus.jpg', 'select', 'Pegasus, Sagittarius, Serpens, Ara, Aries', 'Pegasus', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(292, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Draco.jpg', 'select', 'Draco,  Crux, Phoenix, Piscis Austrinus, Cepheus', 'Draco ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(293, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Libra.jpg', 'select', 'Libra, Tucana, Gemini, Reticulum, Norma', 'Libra', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(294, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Capricornus.jpg', 'select', 'Capricornus,  Carina, Andromeda, Monoceros, Equuleus', 'Capricornus ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(295, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Virgo.jpg', 'select', 'Virgo,  Hercules, Crater, Vela, Canes Venatici', 'Virgo ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(296, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Ursa_Major.jpg', 'select', 'Ursa Major,  Antlia, Andromeda, Camelopardalis, Indus', 'Ursa Major ', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(297, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Gemini.jpg', 'select', 'Gemini, Triangulum, Coma Berenices, Draco, Grus', 'Gemini', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(298, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Aquarius.jpg', 'select', 'Aquarius, Puppis, Telescopium, Crater, Lepus', 'Aquarius', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(299, 34, 'Name the constellation', 'image', 'images/task_34/constellation_Aquila.jpg', 'select', 'Aquila, Eridanus, Vulpecula, Serpens, Aquarius', 'Aquila', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(300, 34, 'Name the constellation', 'image', 'images/task_34/constellation_CanisMajor.jpg', 'select', 'Canis Major, Scorpius, Crater, Columba, Gemini', 'Canis Major', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(301, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770869', 'select', 'Avicii, Jason Derulo, Charli XCX, Tove Lo, Calvin Harris', 'Avicii', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(302, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770866', 'select', 'Lady Antebellum, Charli XCX, Imagine Dragons, Drake, Sam Smith, Beyonce', 'Lady Antebellum', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(303, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770862', 'select', 'American Authors, Lee Brice, Miley Cyrus, Wiz Khalifa, Juicy J', 'American Authors', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(304, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770860', 'select', 'Beyonce, Jessie J, Ariana Grande, Nicki Minaj, Bobby Shmurda', 'Beyonce', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(305, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770856', 'select', 'Imagine Dragons, Zedd featuring Hayley Williams, Sam Smith, Avicii, Lorde, ', 'Imagine Dragons', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(306, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770853', 'select', 'Florida, Miley Cyrus, Jason Derulo, Michael Jackson, Justin Timberlake', 'Florida', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(307, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770850', 'select', 'Dierks Bentley, DJ Snake and Lil Jon, Lorde, Jake Owen, Imagine Dragons', 'Dierks Bentley', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(308, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770845', 'select', 'Lee Brice, One Direction, KONGOS, OneRepublic, Drake featuring Majid Jordan', 'Lee Brice', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(309, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770843', 'select', 'Jason Derulo, Imagine Dragons, Nico & Vinz, Eminem featuring Rihanna, OneRepublic', 'Jason Derulo', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(310, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770841', 'select', 'Katy Perry, Sam Smith, Nico & Vinz, Iggy Azalea featuring Charli XCX, Sia', 'Katy Perry', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(311, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770836', 'select', 'Kid Ink, Passenger, Brantley Gilbert, Robin Thicke, John Legend', 'Kid Ink', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(312, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770832', 'select', 'Lil Wayne, Bastille, Taylor Swift, Coldplay, Idina Menzel', 'Lil Wayne', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(313, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770830', 'select', 'Aloe Blacc, Sia, Rixton, 5 Seconds of Summer, Lorde', 'Aloe Blacc', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(314, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770827', 'select', 'Naughty Boy, Kid Ink featuring Chris Brown, Taylor Swift, 5 Seconds of Summer, John Legend', 'Naughty Boy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(315, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770825', 'select', 'One Direction, Maroon 5, Trey Songz, Aloe Blacc, Brantley Gilbert', 'One Direction', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(316, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770824', 'select', 'One Republic, Lorde, MAGIC!, Jason Aldean, T.I. featuring Iggy Azalea', 'One Republic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(317, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770820', 'select', 'Pharell Williams, Drake, Imagine Dragons, Naughty Boy featuring Sam Smith, Paramore', 'Pharell Williams', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(318, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770815', 'select', 'Bastille, Jake Owen, Avicii, Lil Wayne featuring Drake, One Direction', 'Bastille', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(319, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770811', 'select', 'Trey Songz, Nico & Vinz, Sara Bareilles, Avicii, Pitbull', 'Trey Songz', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(320, 30, 'Identify artist by song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198770809', 'select', 'Calvin Harris, Kenny Chesney, KONGOS, MAGIC!, Becky G', 'Calvin Harris', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(321, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/1_9.jpg', 'float', '', '1.9', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(322, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/3_8.jpg', 'float', '', '3.8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(323, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/3_78.jpg', 'float', '', '3.8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(324, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/13_2.jpg', 'float', '', '13.2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(325, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/60ml.jpg', 'float', '', '0.06', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(326, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/120.jpg', 'float', '', '0.12', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(327, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/120a.jpg', 'float', '', '0.12', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(328, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/210m.jpg', 'float', '', '0.21', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(329, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/240.jpg', 'float', '', '0.24', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(330, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/240a.jpg', 'float', '', '0.24', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(331, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/250B.jpg', 'float', '', '0.24', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(332, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/250b.png', 'float', '', '0.25', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(333, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/250m.jpg', 'float', '', '0.25', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(334, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/250ml.jpg', 'float', '', '0.25', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(335, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/480.jpg', 'float', '', '0.48', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(336, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/480b.jpg', 'float', '', '0.48', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(337, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/500ma.jpg', 'float', '', '0.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(338, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/500mB.jpg', 'float', '', '0.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(339, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/500ml.jpg', 'float', '', '0.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(340, 18, 'Guess the capacity of container (in litres)', 'image', 'images/task_18/950ml.jpg', 'float', '', '0.95', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(341, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_coffee.jpg', 'int', '', '0', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(342, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_spinach.jpg', 'int', '', '18', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(343, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_1_glass_milk.png', 'int', '', '105', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(344, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_1_glass_beer.jpeg', 'int', '', '105', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(345, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_1_glass_cola.jpg', 'int', '', '110', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(346, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_1_apple.jpg', 'int', '', '75', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(347, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_1_banana.jpg', 'int', '', '110', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(348, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_grilled_fish.jpg', 'int', '', '109', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(349, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_rice.jpg', 'int', '', '110', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(350, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_120g_wine.jpg', 'int', '', '165', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(351, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_chicken_breast.jpgfood_calories_chicken_breast.jpg', 'int', '', '195', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(352, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_dominos_vegetarian_supreme_medium_classic_crust_pizza.jpg', 'int', '', '1360', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(353, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_whisky.jpg', 'int', '', '250', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(354, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_6_slices_wheat_bread.jpg', 'int', '', '400', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(355, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_honey.jpg', 'int', '', '304', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(356, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_3_eggs.jpg', 'int', '', '353', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(357, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_french_fries.png', 'int', '', '300', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(358, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_100g_chocolate.jpg', 'int', '', '529', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(359, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_20_almonds.jpg', 'int', '', '900', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(360, 19, 'Guess the calories in this food item', 'image', 'images/task_19/food_calories_500ml_olive_oil.jpg', 'int', '', '4066', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(361, 23, 'Guess the origin of the word', 'text', 'crass', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'French', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(362, 23, 'Guess the origin of the word', 'text', 'excerpt', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Latin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(363, 23, 'Guess the origin of the word', 'text', 'farm', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Germanic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(364, 23, 'Guess the origin of the word', 'text', 'novel', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Italian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(365, 23, 'Guess the origin of the word', 'text', 'creep', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Germanic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(366, 23, 'Guess the origin of the word', 'text', 'gap', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Nordic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(367, 23, 'Guess the origin of the word', 'text', 'ignite', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Latin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(368, 23, 'Guess the origin of the word', 'text', 'protectionism', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'French', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(369, 23, 'Guess the origin of the word', 'text', 'grotesque', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Italian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(370, 23, 'Guess the origin of the word', 'text', 'sulphur', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'French', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(371, 23, 'Guess the origin of the word', 'text', 'recumbent', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Latin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(372, 23, 'Guess the origin of the word', 'text', 'viking', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Nordic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(373, 23, 'Guess the origin of the word', 'text', 'airborne', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Germanic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(374, 23, 'Guess the origin of the word', 'text', 'retail', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'French', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(375, 23, 'Guess the origin of the word', 'text', 'mezzanine', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Italian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(376, 23, 'Guess the origin of the word', 'text', 'muck', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Nordic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(377, 23, 'Guess the origin of the word', 'text', 'raft', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Nordic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(378, 23, 'Guess the origin of the word', 'text', 'deceptive', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Latin', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(379, 23, 'Guess the origin of the word', 'text', 'charcoal', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Germanic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(380, 23, 'Guess the origin of the word', 'text', 'sonata', 'select', 'French, Latin, Germanic, Italian, Nordic ', 'Italian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(381, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Iron Man 3', 'float', '', '1215.4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(382, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'The Lion King', 'float', '', '987.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(383, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Spiderman 3', 'float', '', '890.9', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(384, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Harry Potter and The Chamber of Secrets', 'float', '', '879', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(385, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'The Hunger Games - Mockingjay part 1', 'float', '', '751.8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(386, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Mission Impossible - Ghost Protocol', 'float', '', '694.7', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(387, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Interstellar', 'float', '', '672.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(388, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Kung Fu Panda', 'float', '', '631.7', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(389, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Mamma Mia', 'float', '', '609.8', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(390, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'King Kong', 'float', '', '550.5', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(391, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Ted', 'float', '', '549.4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(392, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Godzilla (2014)', 'float', '', '528.7', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(393, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Shrek', 'float', '', '484.4', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(394, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'The Exorcist', 'float', '', '441.3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(395, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Mrs Doubtfire', 'float', '', '441.3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(396, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Alvin and The Chipmunks', 'float', '', '361.3', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(397, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Neighbors', 'float', '', '268.2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(398, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Cliffhanger', 'float', '', '255', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(399, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Enemy of The State', 'float', '', '250.6', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(400, 8, 'Guess the box office collection of this movie (in million USD)', 'text', 'Gone In 60 Seconds', 'float', '', '237.2', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(401, 24, 'Guess the meaning of the marked word', 'text', 'In 1974, Poland won the World Cup, but the success turned out to be an *aberration*, and Poland have not won a World Cup since.', 'select', 'divergence,imperfection,heterogeneity,unorthodox,erro', 'divergence', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(402, 24, 'Guess the meaning of the marked word', 'text', 'Though Mr. Pospieszny wanted to stay outside and work in his garage, when his wife told him that he had better come in to dinner, he *acquiesced* to her demands.', 'select', 'fulfill,accede,respect,acquire,clone', 'accede', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(403, 24, 'Guess the meaning of the marked word', 'text', 'When Jerry cries, his mother gives him chocolate to *appease* him.', 'select', 'diminish,mitigate,pacify,humour,thrill', 'pacify', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(404, 24, 'Guess the meaning of the marked word', 'text', 'Critics condemned the writer', 'select', 'blatant,abusive,nosy,bold,flaring', 'blatant', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(405, 24, 'Guess the meaning of the marked word', 'text', 'Magda''s friends *cajoled* her into drinking too much.', 'select', 'coax,betray,hook,test,acccess', 'coax', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(406, 24, 'Guess the meaning of the marked word', 'text', 'We were surprised by the *candor* of the politician', 'select', 'artlessness,accurcy,frankness,exactness,plainness', 'frankness', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(407, 24, 'Guess the meaning of the marked word', 'text', 'Shortly after we met, he became my chief *confidant*.', 'select', 'bold,native,companion,expectant,acquaintance', 'acquaintance', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(408, 24, 'Guess the meaning of the marked word', 'text', 'The large raise that he gave himself *debased* his motives for running the charity.', 'select', 'confuse,incapacitate,cheapen,tire,settle', 'cheapen', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(409, 24, 'Guess the meaning of the marked word', 'text', 'The *diligent* researcher made sure to double check her measurements.', 'select', 'careful,active,busy,strenous,tenacious,academic', 'careful', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(410, 24, 'Guess the meaning of the marked word', 'text', 'The accountant was fired for *embezzling* ', 'select', 'convinient,lift,appropriate,harm,loot', 'loot', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(411, 24, 'Guess the meaning of the marked word', 'text', 'My English teacher is such an *erudite* scholar that he has translated some of the most difficult and abstruse Old English poetry.', 'select', 'cultured,knowledgeable,thoughtful,familiarized,polished', 'knowledgeable', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(412, 24, 'Guess the meaning of the marked word', 'text', 'That beast looks so *feral* that I would fear being alone with it.', 'select', 'ferocious,relentless,bent,rude,primitive', 'ferocious', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(413, 24, 'Guess the meaning of the marked word', 'text', 'Helen', 'select', 'appeal,craving,avidity,affection,ability', 'craving', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(414, 24, 'Guess the meaning of the marked word', 'text', 'Most of your comments are so *impertinent* that I don', 'select', 'discourteous,forward,analytical,snooping,fresh', 'discourteous', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(415, 24, 'Guess the meaning of the marked word', 'text', 'Why should my *indolent* children, who can', 'select', 'careless,lazy,slow,useless,creeping', 'lazy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(416, 24, 'Guess the meaning of the marked word', 'text', 'I', 'select', 'rooted,addicted,devoted,constant,lasting', 'addicted', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(417, 24, 'Guess the meaning of the marked word', 'text', 'Echoing throughout our village, the funeral *knell* made the grey day even more grim.', 'select', 'arena,bell,toll,vigorous,recall', 'bell', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(418, 24, 'Guess the meaning of the marked word', 'text', 'Although the dancers were all outstanding, Joanna', 'select', 'jovial,docile,scanty,flexible,plastic', 'flexible', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(419, 24, 'Guess the meaning of the marked word', 'text', 'David', 'select', 'cranky,bluff,clashing,small,flat', 'cranky', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(420, 24, 'Guess the meaning of the marked word', 'text', 'I was too nice to tell Emily that she had reached the absolute *zenith* of her career with that one top 10 hit of hers.', 'select', 'top,altitude,vertex,head,noon', 'top', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(421, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog1.jpg', 'select', 'Labrador Retriever, Golden Retreiver, Jack Russell Terrier, Brittany, Bullmastiff', 'Labrador Retriever', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(422, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog2.jpg', 'select', 'Maltese, Weimaraner, Bichon Frise, Pomeranian, Griffon Bruxellois ', 'Maltese', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(423, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog3.jpg', 'select', 'Cocker Spaniel, Shetland Sheepdog, Dalmatian, Boston Terrier, German Shorthaired Pointer', 'Cocker Spaniel', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(424, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog4.jpg', 'select', 'German Shepherd, Mastiff, Great Dane, Rottweiler, Curly Coated Retriever', 'German Shepherd', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(425, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog5.jpg', 'select', 'Yorkshire Terrier, Labrador Retriever, Bloodhound, Havanese, Maltese', 'Yorkshire Terrier', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(426, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog6.jpg', 'select', 'Doberman, Rottweiler,  German Shepherd, Dachshund, Fox Terrier', 'Doberman', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(427, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog7.jpg', 'select', 'Great Dane, St. Bernard, Bullmastiff, Cairn Terrier, Havanese', 'Great Dane', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(428, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog8.jpg', 'select', 'Dachshund, Collie, Basset Hound, Boxer, Norwich Terrier', 'Dachshund', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(429, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog9.jpg', 'select', 'Golden Retriever, Labrador Retriever, English Springer Spaniel, Bloodhound, Chow Chow', 'Golden Retriever', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(430, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog10.jpg', 'select', 'Poodle, Maltese, Pomeranian, Lhasa Apso, Chow Chow', 'Poodle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(431, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog11.jpg', 'select', 'Pug, Boxer, Chihuahua, Bulldog, Tibetan Spaniel', 'Pug', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(432, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog12.jpg', 'select', 'Pomeranian, Lhasa Apso, Pekingese, Portuguese Water Dog, Bichon Fris', 'Pomeranian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(433, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog13.jpg', 'select', 'Rottweiler, Doberman, Great Dane, Mastiff, Anatolian Shepherd', 'Rottweiler', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(434, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog14.jpg', 'select', 'St. Bernard, Labrador Retriever, Whippet, Boston Terrier, Collie', 'St. Bernard', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(435, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog15.jpg', 'select', 'Beagle, Boxer, Basset Hound, Miniature Schnauzer, Bernese Mountain Dog', 'Beagle', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(436, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog16.jpg', 'select', 'Chihuahua, Miniature Schnauzer, Vizslas, Miniature Pinscher, Shih Tzu', 'Chihuahua', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(437, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog17.jpg', 'select', 'Boxer, Boston Terrier, Bichon Frise, English Springer Spaniel, English Mastiff', 'Boxer', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(438, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog18.jpg', 'select', 'Siberian Husky, German Shepherd, Alaskan Malamute, St. Bernard, Dachshund', 'Siberian Husky', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(439, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog19.jpg', 'select', 'Dalmatian, Great Dane, Irish Wolfhound, Silky Terrier, Belgian Shepherd', 'Dalmatian', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(440, 25, 'Classification of Dog breeds', 'image', 'images/task_25/dog20.jpg', 'select', 'Bulldog, Boxer, Boston Terrier, Bull Terrier, Irish Wolfhound', 'Bulldog', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(441, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset0.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Happy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(442, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset1.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Angry', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(443, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset2.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Surprise', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(444, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset3.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Angry', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(445, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset4.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Distress', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(446, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset5.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Sad', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(447, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset6.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Surprise', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(448, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset7.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Sad', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(449, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset8.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Surprise', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(450, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset9.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Happy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(451, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset10.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Distress', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(452, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset11.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Angry', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(453, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset12.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Distress', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(454, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset13.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Sad', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(455, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset14.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Surprise', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(456, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset15.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Happy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(457, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset16.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Angry', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(458, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset17.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Distress', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(459, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset18.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Happy', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(460, 47, 'Identify the emotion in the picture', 'image', 'images/task_47/asset19.jpg', 'select', 'Angry , Distress , Happy , Sad , Surprise', 'Sad', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(461, 6, 'What is the height of this building?', 'image', 'images/task_6/1.jpg', 'int', '', '93', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(462, 6, 'What is the height of this building?', 'image', 'images/task_6/2.jpg', 'int', '', '301', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(463, 6, 'What is the height of this building?', 'image', 'images/task_6/67.jpg', 'int', '', '99', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(464, 6, 'What is the height of this building?', 'image', 'images/task_6/19.jpg', 'int', '', '830', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(465, 6, 'What is the height of this building?', 'image', 'images/task_6/22.jpg', 'int', '', '88', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(466, 6, 'What is the height of this building?', 'image', 'images/task_6/9.jpg', 'int', '', '96', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(467, 6, 'What is the height of this building?', 'image', 'images/task_6/39.jpg', 'int', '', '137', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(468, 6, 'What is the height of this building?', 'image', 'images/task_6/42.jpg', 'int', '', '36', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(469, 6, 'What is the height of this building?', 'image', 'images/task_6/5.jpg', 'int', '', '139', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(470, 6, 'What is the height of this building?', 'image', 'images/task_6/69.jpg', 'int', '', '42', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(471, 6, 'What is the height of this building?', 'image', 'images/task_6/7.jpg', 'int', '', '73', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(472, 6, 'What is the height of this building?', 'image', 'images/task_6/64.jpg', 'int', '', '553', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(473, 6, 'What is the height of this building?', 'image', 'images/task_6/44.jpg', 'int', '', '48', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(474, 6, 'What is the height of this building?', 'image', 'images/task_6/40.jpg', 'int', '', '65', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(475, 6, 'What is the height of this building?', 'image', 'images/task_6/55.jpg', 'int', '', '105', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(476, 6, 'What is the height of this building?', 'image', 'images/task_6/65.jpg', 'int', '', '56', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(477, 6, 'What is the height of this building?', 'image', 'images/task_6/15.jpg', 'int', '', '26', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(478, 6, 'What is the height of this building?', 'image', 'images/task_6/48.jpg', 'int', '', '70', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(479, 6, 'What is the height of this building?', 'image', 'images/task_6/14.jpg', 'int', '', '55', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(480, 6, 'What is the height of this building?', 'image', 'images/task_6/61.jpg', 'int', '', '84', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(481, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771523', 'select', 'My Fair Lady, Mary Poppins, The Sound of Music, Oliver, The Wizard of Oz', 'The Sound Of Music', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(482, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771330', 'select', 'Mary Poppins, The Sound of Music, Chitty Chitty Bang Bang, The Jungle Book, My Fair Lady', 'Mary Poppins', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(483, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771445', 'select', 'Goodfellas, The Godfather, Chinatown, Scarface, The Shawshank Redemption', 'The Godfather', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(484, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771346', 'select', 'Raiders of the Lost Ark, Jaws, Jurassic Park, Alien, Close Encounters of the Third Kind', 'Jaws', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(485, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771448', 'select', 'Star Wars, Raiders of the Lost Ark, Back to the Future, Star Trek, E.T. Extra Terrestrial', 'Star Wars', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(486, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771214', 'select', 'E.T. Extra Terrestrial, Jurassic Park, Close Encounters of the Third Kind, Alien, Aliens', 'E.T. Extra Terrestrial', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(487, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771531', 'select', 'Beauty and the Beast, Aladdin, Peter Pan, The Little Mermaid, Cinderella', 'The Little Mermaid', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(488, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771452', 'select', 'Cry Freedom, Empire of the Sun, The Untouchables, A Passage to India, The Last Emperor', 'The Last Emperor', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(489, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771546', 'select', 'Apollo 13, The Right Stuff, 2001: A Space Odyssey, Chariots of Fire, Full Metal Jacket', 'The Right Stuff', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(490, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771218', 'select', 'The Little Mermaid, Sleeping Beauty, Beauty and the Beast, Snow White and the Seven Dwarfs, The Lion King', 'Beauty and the Beast', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(491, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771313', 'select', 'Forest Gump, The Shawshank Redemption, Braveheart, Schindler''s List, Saving Private Ryan', 'Schindler''s List', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(492, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771597', 'select', 'The English Patient, Titanic, Shakespeare in Love, American Beauty, Emma', 'Titanic', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(493, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771516', 'select', 'Aladdin, Toy Story, Shrek, Ice Age, The Lion King', 'The Lion King', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(494, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771328', 'select', 'The Pianist, Forest Gump, Saving Private Ryan, Schindle''s List, Life is Beautiful', 'Life is Beautiful', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(495, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771520', 'select', 'Matrix, Star Wars: Episode 1 The Phantom Menace, The Lord of the Rings, Hobbit, Gladiator', 'The Lord of the Rings: The Fellowship of the Ring', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(496, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771450', 'select', 'Slumdog Millionaire, Life of Pi, Crouching Tiger Hidden Dragon, The Darjeeling Limited, A Passage through India', 'Slumdog Millionaire', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(497, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771631', 'select', 'Finding Nemo, Toy Story, Up, Monsters Inc., Shrek', 'Up', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(498, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771348', 'select', 'Slumdog Millionaire, Life of Pi, Anna Karenina, The Darjeeling Limited, A Passage through India', 'Life of Pi', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(499, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771215', 'select', 'Interstellar, Apollo 13, The Theory of Everything, Inception, Gravity', 'Gravity', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(500, 53, 'Guess the name of the movie from this song', 'audio', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/198771414', 'select', 'Birdman, The Darjeeling Limited, The Artist, The Grand Budapest Hotel, Moonrise Kingdom', 'The Grand Budapest Hotel', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(501, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=NALBTNUj61k', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(502, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=1CYfxxbr8q8', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(503, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=T1HE1bHQpgY', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(504, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=aWJgtDTUaFo', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(505, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=ioIEjPASEHM', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(506, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=aYNQq0__Vio', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(507, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=O9EJosmANos', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+INSERT INTO `tasks` (`id`, `domain_id`, `title`, `type`, `data`, `answer_type`, `answer_data`, `correct_answer`, `created_at`, `updated_at`) VALUES
+(508, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=DNeEMyPmGrY', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(509, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=LuTRJu3Senc', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(510, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=_ADHRJUQToc', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(511, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=Pr7HKDHh8DU', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(512, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=rhS_CL-Bguk', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(513, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=cq6Qc8j-was', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(514, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=398iApyH6yM', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(515, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=fXXTJ9qrijY', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(516, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=AoRikvMrxYU', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(517, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=miohO-zMHjs', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(518, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=CEsZ5n3Ktgs', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(519, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=qnfq6QrKzdI', 'select', 'left,right', 'left', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
+(520, 12, 'Predict the direction of penalty shot', 'video', 'https://www.youtube.com/watch?v=kBkGo8ETTYY', 'select', 'left,right', 'right', '0000-00-00 00:00:00', '0000-00-00 00:00:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `task_buffers`
+--
+
+CREATE TABLE IF NOT EXISTS `task_buffers` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `domain_id` int(10) unsigned NOT NULL,
+  `task_id_list` text COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `pre_confidence_value` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `post_confidence_value` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `task_buffers_user_id_domain_id_unique` (`user_id`,`domain_id`),
+  KEY `task_buffer_domain_id_foreign` (`domain_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `experimental_condition` enum('social','control') COLLATE utf8_unicode_ci NOT NULL,
+  `age` int(11) NOT NULL,
+  `gender` enum('M','F') COLLATE utf8_unicode_ci NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `updated_at` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `education` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `employment` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  `status` int(11) NOT NULL DEFAULT '0',
+  `token` varchar(255) COLLATE utf8_unicode_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `users_token_index` (`token`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `answers`
+--
+ALTER TABLE `answers`
+  ADD CONSTRAINT `answers_task_id_foreign` FOREIGN KEY (`task_id`) REFERENCES `tasks` (`id`),
+  ADD CONSTRAINT `answers_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
+
+--
+-- Constraints for table `tasks`
+--
+ALTER TABLE `tasks`
+  ADD CONSTRAINT `tasks_domain_id_foreign` FOREIGN KEY (`domain_id`) REFERENCES `domains` (`id`);
+
+--
+-- Constraints for table `task_buffers`
+--
+ALTER TABLE `task_buffers`
+  ADD CONSTRAINT `task_buffer_domain_id_foreign` FOREIGN KEY (`domain_id`) REFERENCES `domains` (`id`),
+  ADD CONSTRAINT `task_buffer_user_id_foreign` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

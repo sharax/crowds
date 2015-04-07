@@ -1,4 +1,0 @@
-#HOME_TEAM Houston
-#AWAY_TEAM Montreal
-#DATE_TIME 2015-04-11 20:30
-#VENUE BBVA Compass Stadium

@@ -1,4 +1,0 @@
-#HOME_TEAM Sporting KC
-#AWAY_TEAM Philadelphia
-#DATE_TIME 2015-04-05 19:00
-#VENUE Sporting Park

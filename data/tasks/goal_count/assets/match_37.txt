@@ -1,4 +1,0 @@
-#HOME_TEAM Houston
-#AWAY_TEAM Sporting KC
-#DATE_TIME 2015-04-25 20:30
-#VENUE BBVA Compass Stadium

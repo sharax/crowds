@@ -1,0 +1,1 @@
+If pqr = 1 , rst = 0 , and spr = 0, which of the following must be zero?

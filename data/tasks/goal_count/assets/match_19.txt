@@ -1,4 +1,0 @@
-#HOME_TEAM LA Galaxy
-#AWAY_TEAM Seattle
-#DATE_TIME 2015-04-12 19:00
-#VENUE Stubhub Center

@@ -1,4 +1,0 @@
-#HOME_TEAM LA Galaxy
-#AWAY_TEAM Sporting KC
-#DATE_TIME 2015-04-18 20:30
-#VENUE Stubhub Center
