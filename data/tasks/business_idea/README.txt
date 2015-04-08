@@ -14,7 +14,7 @@ CORPUS: A list of Kickstarter’s business ideas is prepared with funded project
 	3. The deadline for funding has not been reached, and project is funded: Include in the Corpus as Successful.
 	4. The deadline for funding has been passed, and is funded: Include in the Corpus as Successful.
 
-	We have written a Python Spider that has generated this revised tsv file. The code is at [1].
+	We have written a Python Spider that has generated this revised tsv file. The code is at https://github.com/PrashntS/shadow-fort/tree/master/projects/stanford-crowds.
 		
 METHODOLOGY: 
 	TASKS
@@ -22,5 +22,3 @@ METHODOLOGY:
 	
 	ANSWERS
 	For each task, the participant answers whether they think it is going to be a success or not, answered in form of “Successful”, or “Unsuccessful”,
-
-[1]: https://github.com/PrashntS/shadow-fort/tree/master/projects/stanford-crowds
