@@ -1,4 +1,4 @@
-correct answer	answer type	asset type	asset file	possible answer	randomize answer
+correct_answer	answer_type	asset_type	asset_file	possible_answer	randomize_answer
 b	multiple choice	SAT Math question	1.txt	1,2,3,4,5	FALSE
 d	multiple choice	SAT Math question	2.txt	6,7,8,9,10	FALSE
 b	multiple choice	SAT Math question	3.txt	8,9,10,11,12	FALSE
