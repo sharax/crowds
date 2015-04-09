@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-1	binary	text	1.tsv	No answers	NA
-1	binary	text	2.tsv	No answers	NA
-1	binary	text	3.tsv	No answers	NA
-0	binary	text	4.tsv	No answers	NA
-1	binary	text	5.tsv	No answers	NA
-0	binary	text	6.tsv	No answers	NA
-1	binary	text	7.tsv	No answers	NA
-1	binary	text	8.tsv	No answers	NA
-0	binary	text	9.tsv	No answers	NA
-1	binary	text	10.tsv	No answers	NA
-0	binary	text	11.tsv	No answers	NA
-0	binary	text	12.tsv	No answers	NA
-1	binary	text	13.tsv	No answers	NA
-0	binary	text	14.tsv	No answers	NA
-1	binary	text	15.tsv	No answers	NA
-0	binary	text	16.tsv	No answers	NA
-1	binary	text	17.tsv	No answers	NA
-0	binary	text	18.tsv	No answers	NA
-1	binary	text	19.tsv	No answers	NA
-1	binary	text	20.tsv	No answers	NA
+1	binary	text	1.tsv	0,1	N/A
+1	binary	text	2.tsv	0,1	N/A
+1	binary	text	3.tsv	0,1	N/A
+0	binary	text	4.tsv	0,1	N/A
+1	binary	text	5.tsv	0,1	N/A
+0	binary	text	6.tsv	0,1	N/A
+1	binary	text	7.tsv	0,1	N/A
+1	binary	text	8.tsv	0,1	N/A
+0	binary	text	9.tsv	0,1	N/A
+1	binary	text	10.tsv	0,1	N/A
+0	binary	text	11.tsv	0,1	N/A
+0	binary	text	12.tsv	0,1	N/A
+1	binary	text	13.tsv	0,1	N/A
+0	binary	text	14.tsv	0,1	N/A
+1	binary	text	15.tsv	0,1	N/A
+0	binary	text	16.tsv	0,1	N/A
+1	binary	text	17.tsv	0,1	N/A
+0	binary	text	18.tsv	0,1	N/A
+1	binary	text	19.tsv	0,1	N/A
+1	binary	text	20.tsv	0,1	N/A
