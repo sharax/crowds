@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-China	multiple choice	Image	1_China.jpg	Taiwan,Mongolia,Burma,Laos	yes
-India	multiple choice	Image	2_India.jpg	Maldives,South Africa,Sri Lanka,Argentina	yes
-United States of America	multiple choice	Image	3_UnitedStatesOfAmerica.jpg	Cameroon,Macau,Chile,Ecuador	yes
-Indonesia	multiple choice	Image	4_Indonesia.jpg	Malaysia,Yemen,Nepal,Romania	yes
-Brazil	multiple choice	Image	5_Brazil.jpg	Chile,Guyana,Bolivia,Argentina	yes
-Pakistan	multiple choice	Image	6_Pakistan.jpg	Afghanistan,Kazakhstan,Burkina Faso,Qatar	yes
-Nigeria	multiple choice	Image	7_Nigeria.jpg	Zimbabwe,Suriname,Uruguay,Egypt	yes
-Bangladesh	multiple choice	Image	8_Bangladesh.jpg	Burma,Tajikistan,Iran,Kuwait	yes
-Russia	multiple choice	Image	9_Russia.jpg	Romania,Ukraine,Belarus,Switzerland	yes
-Japan	multiple choice	Image	10_Japan.jpg	China,Malawi,Benin,Haiti	yes
-Mexico	multiple choice	Image	11_Mexico.jpg	Columbia,Guyana,Cuba,Honduras	yes
-Philippines	multiple choice	Image	12_Philippines.jpg	Coasta Rica,Peru,Indonesia,Albania	yes
-Ethiopia	multiple choice	Image	13_Ethiopia.jpg	Sudan,Kenya,Somalia,Zimbabwe	yes
-Vietnam	multiple choice	Image	14_Vietnam.jpg	Venezuela,Panama,El Salvador,Combodia	yes
-Egypt	multiple choice	Image	15_Egypt.jpg	Canada,Israel,Russia,Paraguay	yes
-Iran	multiple choice	Image	16_Iran.jpg	Iraq,Malaysia,Haiti,Hong Kong	yes
-Turkey	multiple choice	Image	17_Turkey.jpg	Peru,Russia,Singapore,Mexico	yes
-Democratic Republic of Congo	multiple choice	Image	18_DemocraticRepublicOfCongo.jpg	Bahamas,Jamaica,Barbados,Oman	yes
-Thailand	multiple choice	Image	19_Thailand.jpg	El Salvador, Combodia, Laos, Chile	yes
-United Kingdom	multiple choice	Image	20_UnitedKingdom.jpg	French Guiana,Canada,Panama,Saint Lucia	yes
+China	multiple choice	Image	1_China.jpg	Burma,Laos,Mongolia,Taiwan	true
+India	multiple choice	Image	2_India.jpg	Argentina,Maldives,South Africa,Sri Lanka	true
+United States of America	multiple choice	Image	3_UnitedStatesOfAmerica.jpg	Cameroon,Chile,Ecuador,Macau	true
+Indonesia	multiple choice	Image	4_Indonesia.jpg	Malaysia,Nepal,Romania,Yemen	true
+Brazil	multiple choice	Image	5_Brazil.jpg	Argentina,Bolivia,Chile,Guyana	true
+Pakistan	multiple choice	Image	6_Pakistan.jpg	Afghanistan,Burkina Faso,Kazakhstan,Qatar	true
+Nigeria	multiple choice	Image	7_Nigeria.jpg	Egypt,Suriname,Uruguay,Zimbabwe	true
+Bangladesh	multiple choice	Image	8_Bangladesh.jpg	Burma,Iran,Kuwait,Tajikistan	true
+Russia	multiple choice	Image	9_Russia.jpg	Belarus,Romania,Switzerland,Ukraine	true
+Japan	multiple choice	Image	10_Japan.jpg	Benin,China,Haiti,Malawi	true
+Mexico	multiple choice	Image	11_Mexico.jpg	Columbia,Cuba,Guyana,Honduras	true
+Philippines	multiple choice	Image	12_Philippines.jpg	Albania,Coasta Rica,Indonesia,Peru	true
+Ethiopia	multiple choice	Image	13_Ethiopia.jpg	Kenya,Somalia,Sudan,Zimbabwe	true
+Vietnam	multiple choice	Image	14_Vietnam.jpg	Combodia,El Salvador,Panama,Venezuela	true
+Egypt	multiple choice	Image	15_Egypt.jpg	Canada,Israel,Paraguay,Russia	true
+Iran	multiple choice	Image	16_Iran.jpg	Haiti,Hong Kong,Iraq,Malaysia	true
+Turkey	multiple choice	Image	17_Turkey.jpg	Mexico,Peru,Russia,Singapore	true
+Democratic Republic of Congo	multiple choice	Image	18_DemocraticRepublicOfCongo.jpg	Bahamas,Barbados,Jamaica,Oman	true
+Thailand	multiple choice	Image	19_Thailand.jpg	Chile,Combodia,El Salvador,Laos	true
+United Kingdom	multiple choice	Image	20_UnitedKingdom.jpg	Canada,French Guiana,Panama,Saint Lucia	true
