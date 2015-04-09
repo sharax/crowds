@@ -8,7 +8,7 @@ kasyap.vv1993@gmail.com
 Task: Identify the currency of a country
 
 Detailed Description: 
-	You will be given a series of multiple choice questions. For each question you will be shown a picture of a nation’s currency and asked to identify the nation to which the currency belongs to.
+	You will be given a series of multiple choice questions. For each question you will be shown a picture of a nation’s currency and asked to identify the nation to which the currency belongs.
 
 Input type: 
 	Image of the country’s currency note. For validity of the experiment, we have blurred parts of the image of the currency note that has the country’s name written on it
