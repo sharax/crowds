@@ -1,4 +1,0 @@
-The distance from town A to town B is five miles. C is six miles from B. Which of the following could be the distance from A to C?
-I	11
-II	1
-III	7
