@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Wednesday, July 15, 2015 8:30PM EDT
-Home_Team: Chicago
-Away_Team: Columbus
-Stadium: Toyota Park

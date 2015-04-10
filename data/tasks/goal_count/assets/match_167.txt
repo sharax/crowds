@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Sunday, July 19, 2015 5:00PM EDT
-Home_Team: Columbus
-Away_Team: Chicago
-Stadium: Crew Stadium

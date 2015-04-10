@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, April 11, 2015 TBD
-Home_Team: Philadelphia
-Away_Team: New York City
-Stadium: PPL Park

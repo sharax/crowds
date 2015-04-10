@@ -1,6 +1,0 @@
-From: Groupe Desjardins / AccesD <services.de.cartes@scd.desjardins.com>
-To: smiles@speedy.uwaterloo.ca
-Subject: Avis Important et Personnel
-Body:
-Desjardins tient à vous signaler que votre dernière transaction n'a pas été automatiquement enregistré dû à un nombre elevé de transaction simultanée. Le département de vérification comptable du Groupe Desjardins à corriger le problème dans les comptes concernés. Si toutefois vous notez une différence, nous vous prions de nous en aviser. Si vous constatez une autre erreur, communiquez avec votre institution durant les heures de http://www.desjardins.com/fr/votre_caisse/index.jsp votre caisse
-

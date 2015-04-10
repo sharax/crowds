@@ -1,4 +1,0 @@
-Company_name             : Johnson & Johnson
-Stock price on 03/02/2015: 103.22
-Sector                   : Healthcare
-Indrustry				 : Major Pharmaceuticals

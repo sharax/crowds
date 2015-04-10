@@ -1,4 +1,0 @@
-Company_name             : Pfizer Inc
-Stock price on 03/02/2015: 34.77
-Sector                   : Healthcare
-Indrustry				 : Major Pharmaceuticals

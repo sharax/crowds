@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Friday, April 24, 2015 8:00PM EDT
-Home_Team: Chicago
-Away_Team: New York City
-Stadium: Toyota Park

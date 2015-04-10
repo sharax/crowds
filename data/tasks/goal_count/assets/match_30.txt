@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Sunday, April 19, 2015 5:00PM EDT
-Home_Team: Philadelphia
-Away_Team: New England
-Stadium: PPL Park

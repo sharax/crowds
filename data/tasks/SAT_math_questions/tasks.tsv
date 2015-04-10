@@ -1,4 +1,5 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answer	randomize_answer
+<<<<<<< HEAD
 2	multiple choice	Image	1.jpg	1,2,3,4,5	false
 9	multiple choice	Image	2.jpg	6,7,8,9,10	false
 9	multiple choice	Image	3.jpg	8,9,10,11,12	false
@@ -19,3 +20,25 @@ S	multiple choice	Image	16.jpg	P,Q,R,S,T	false
 I only	multiple choice	Image	18.jpg	I only ,I and II only ,II and III only ,I and III only ,I, II and III 	false
 51	multiple choice	Image	19.jpg	48, 49, 50, 51, 52	false
 11/P + 6	multiple choice	Image	20.jpg	11/P + 6 ,P/11 +6 ,17 - P/6 ,17/P ,11.5P	false
+=======
+b	multiple choice	SAT Math question	1.txt	1,2,3,4,5	FALSE
+d	multiple choice	SAT Math question	2.txt	6,7,8,9,10	FALSE
+b	multiple choice	SAT Math question	3.txt	8,9,10,11,12	FALSE
+d	multiple choice	SAT Math question	4.txt	20, 60, 100, 110, 120	FALSE
+c	multiple choice	SAT Math question	5.txt	4x+3,2x^2+3,2x^2-x,4x-3,5x+2	FALSE
+e	multiple choice	SAT Math question	6.txt	76,65,59.5,49,38.5	FALSE
+a	multiple choice	SAT Math question	7.txt	Vr / (12 - V) ,Vr + V /12 ,Vr - 12 ,V / r - 12 ,V (r + 1) /12	FALSE
+e	multiple choice	SAT Math question	8.txt	both x and y are integers ,x is an integer ,either x or y is negative ,y / x is an integer ,x = ny where n is an integer	FALSE
+d	multiple choice	SAT Math question	9.txt	25002 ,2502 ,0.225 ,0.2025 ,0.02025 	FALSE
+b	multiple choice	SAT Math question	10.txt	y = -3x + 2 ,y = -3x - 2 ,y = 3x - 2 ,y = -1/3x - 5 ,y = -1/3x + 5	FALSE
+b	multiple choice	SAT Math question	11.txt	2.5,3,5,25,50	FALSE
+a	multiple choice	SAT Math question	12.txt	5,8,9,10,11	FALSE
+a	multiple choice	SAT Math question	13.txt	16, 15, 14, 13, 12	FALSE
+c	multiple choice	SAT Math question	14.txt	0.2,0.3,0.4,05,0.6	FALSE
+e	multiple choice	SAT Math question	15.txt	I only ,II only ,I and II only ,II and III only ,I, II, or III.	FALSE
+d	multiple choice	SAT Math question	16.txt	P,Q,R,S,T	FALSE
+e	multiple choice	SAT Math question	17.txt	0 ,200 ,440 ,668 ,762	FALSE
+a	multiple choice	SAT Math question	18.txt	I only ,I and II only ,II and III only ,I and III only ,I, II and III 	FALSE
+c	multiple choice	SAT Math question	19.txt	48, 49, 50, 51, 52	FALSE
+a	multiple choice	SAT Math question	20.txt	11/P + 6 ,P/11 +6 ,17 - P/6 ,17/P ,11.5P	FALSE
+>>>>>>> d116a372470b44a9cacfc9eadaeaabde78ea68fb
