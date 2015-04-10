@@ -5,7 +5,7 @@ sonali.parashar29@gmail.com
 
 TASK:  Estimate the Number of Years required  to construct a Famous Building
 
-DESCRIPTION: In this task of wisdom of crowd, each MCQ will contain an  image of Famous Building with five options, in which one will be the correct one and rest 4will be incorrect .You are needed to guess the Time(in number of years) required to Construct the Building.
+DESCRIPTION: In this task of wisdom of crowd, each question will contain an image of Famous Building. You are needed to guess the Time(in number of years) required to Construct the Building.
 
 Input Type: An image of the Building will serve as an Input.
 
