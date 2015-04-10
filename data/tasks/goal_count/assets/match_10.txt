@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Wednesday, April 8, 2015 TBD
-Home_Team: Vancouver
-Away_Team: Columbus
-Stadium: BC Place

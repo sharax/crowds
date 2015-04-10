@@ -1,4 +1,0 @@
-Company_name             : Oracle Corporation
-Stock price on 03/02/2015: 44.03
-Sector                   : Technology
-Indrustry				 : Computer Software,Prepackaged Software

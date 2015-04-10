@@ -1,7 +1,5 @@
 TASK #49
 technopreneur.pulkit@gmail.com
-abhayawesome@gmail.com
-special8688@gmail.com
 
 TASK: Estimate rivers by length.
 

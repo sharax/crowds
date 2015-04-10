@@ -1,3 +1,0 @@
-Commodity                 : Crude Oil
-Stock price on 03/03/2015 : 50.08
-Quantity                  : 1 barrel

@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Thursday, April 16, 2015 TBD
-Home_Team: New York City
-Away_Team: Philadelphia
-Stadium: Yankee Stadium

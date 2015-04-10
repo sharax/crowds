@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Sunday, July 5, 2015 5:00PM EDT
-Home_Team: Portland
-Away_Team: San Jose
-Stadium: Providence Park

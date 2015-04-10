@@ -1,5 +1,0 @@
-Match Details
-Match_Time: Saturday, May 2, 2015 10:30PM EDT
-Home_Team: Portland
-Away_Team: Vancouver
-Stadium: Providence Park
