@@ -1,0 +1,24 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+hawthorn	Multiple choice	Image	tree_hawthorn.png	hawthorn,balsam fir,apple seviceberry,pine,plum	true
+holly	Multiple choice	Image	tree_holly.png	holly,gray birch,redbud,dogwood,plum	true
+balsam fir	Multiple choice	Image	tree_balsamfir.png	silver birches, oak,balsam fir,pine,sycamore	true
+apple serviceberry	Multiple choice	Image	tree_apple.png	apple serviceberry,japanese maple,poplar,elder,elm	true
+plum	Multiple choice	Image	tree_plum.png	plum,pine,oak,elm,werty	true
+eastern redbud	Multiple choice	Image	tree_redbund.png	dogwood,norway maple,poplar,eastern redwood,loboneir	true
+snowbell	Multiple choice	Image	tree_snowden.png	snowball,maple,sycamore,laboneir,hawthorn	true
+norway maple	Multiple choice	Image	tree_maple.png	japanese maple,norway maple,oak,plum,elm	true   
+dogwood	Multiple choice	Image	tree_dogwood.png	dogwood,snowball,plum,beech tree,elm	true
+pine	Multiple choice	Image	tree_pine.png	pine,plum,oak,redwood,weeping willow	true
+oak	Multiple choice	Image	tree_oak.png	oak,pine,eucalyptus,chestnut,poplar	true
+silver birches	Multiple choice	Image	tree_silverbirches.png	apple,maple norway,pine,silver birches,oak	true
+gray birch	Multiple choice	Image	tree_graybirch.png	sycamore,serviceberry,graybirch,ivy	true
+black locust	Multiple choice	Image	tree_blacklocust.png	graybirch,holly,shantung,black locust,balsam fir	true 
+elm	Multiple choice	Image	tree_elm.png	elm,elder,pine,oak,poplar	true
+elder	Multiple choice	Image	tree_elder.png	elder,beech,hawthorn,plum,oak	true
+beech trees	Multiple choice	Image	tree_beechtree.png	beech tree,plum,snowbell,redbud,ivy	true
+poplars	Multiple choice	Image	tree_poplar.png	sycamore,poplar,elm,pine,snowbell	true
+sycamore	Multiple choice	Image	tree_sycamore.png	sycamore,elder,elm,silver birches,redbud	true
+weeping willow	Multiple choice	Image	tree_weepingwillow.png	weeping willow, hawthorn,redbud, dogwood,oak	true
+
+
+

@@ -1,0 +1,5 @@
+Label	Value
+From	Paul Cochrane (via RT) <parrotbug-followup@parrotcode.org>
+To	bugs-bitbucket@netlabs.develooper.com
+Subject	[perl #42382] [TODO] imcc - delete quotes and emit pbc
+Body	# New Ticket Created by  Paul Cochrane # Please include the string:  [perl #42382]# in the subject line of all future correspondence about this issue. # <URL: http://rt.perl.org/rt3/Ticket/Display.html?id=42382 > In the file compilers/imcc/imcc.l, there is the todo item: ""delete quotes, -> emit, pbc"" This needs to be implemented
