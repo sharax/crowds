@@ -1,1 +1,0 @@
-For how many integer values of n will the value of the expression 4n + 7 be an integer greater than 1 and less than 200?
