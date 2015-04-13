@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answer	randomize_answer
-2	multiple choice	Image	1.jpg	1,2,3,4,5	false
-9	multiple choice	Image	2.jpg	6,7,8,9,10	false
-9	multiple choice	Image	3.jpg	8,9,10,11,12	false
-110	multiple choice	Image	4.jpg	20, 60, 100, 110, 120	false
-2x^2-x	multiple choice	Image	5.jpg	4x+3,2x^2+3,2x^2-x,4x-3,5x+2	false
-38.5	multiple choice	Image	6.jpg	76,65,59.5,49,38.5	false
-Vr / (12 - V)	multiple choice	Image	7.jpg	Vr / (12 - V) ,Vr + V /12 ,Vr - 12 ,V / r - 12 ,V (r + 1) /12	false
-x = ny where n is an integer	multiple choice	Image	8.jpg	both x and y are integers ,x is an integer ,either x or y is negative ,y / x is an integer ,x = ny where n is an integer	false
-0.2025	multiple choice	Image	9.jpg	25002 ,2502 ,0.225 ,0.2025 ,0.02025 	false
-y = -3x - 2	multiple choice	Image	10.jpg	y = -3x + 2 ,y = -3x - 2 ,y = 3x - 2 ,y = -1/3x - 5 ,y = -1/3x + 5	false
-3.5	multiple choice	Image	11.jpg	2.5,3,5,25,50	false
-5	multiple choice	Image	12.jpg	5,8,9,10,11	false
-16	multiple choice	Image	13.jpg	16, 15, 14, 13, 12	false
-0.4	multiple choice	Image	14.jpg	0.2,0.3,0.4,05,0.6	false
-I, II, or III	multiple choice	Image	15.jpg	I only ,II only ,I and II only ,II and III only ,I, II, or III	false
-S	multiple choice	Image	16.jpg	P,Q,R,S,T	false
-762	multiple choice	Image	17.jpg	0 ,200 ,440 ,668 ,762	false
-I only	multiple choice	Image	18.jpg	I only ,I and II only ,II and III only ,I and III only ,I, II and III 	false
-51	multiple choice	Image	19.jpg	48, 49, 50, 51, 52	false
-11/P + 6	multiple choice	Image	20.jpg	11/P + 6 ,P/11 +6 ,17 - P/6 ,17/P ,11.5P	false
+2	multiple choice	Image	1.pdf	1,2,3,4,5	false
+9	multiple choice	Image	2.pdf	6,7,8,9,10	false
+9	multiple choice	Image	3.pdf	8,9,10,11,12	false
+110	multiple choice	Image	4.pdf	20, 60, 100, 110, 120	false
+2x^2-x	multiple choice	Image	5.pdf	4x+3,2x^2+3,2x^2-x,4x-3,5x+2	false
+38.5	multiple choice	Image	6.pdf	76,65,59.5,49,38.5	false
+Vr / (12 - V)	multiple choice	Image	7.pdf	Vr / (12 - V) ,Vr + V /12 ,Vr - 12 ,V / r - 12 ,V (r + 1) /12	false
+x = ny where n is an integer	multiple choice	Image	8.pdf	both x and y are integers ,x is an integer ,either x or y is negative ,y / x is an integer ,x = ny where n is an integer	false
+0.2025	multiple choice	Image	9.pdf	25002 ,2502 ,0.225 ,0.2025 ,0.02025 	false
+y = -3x - 2	multiple choice	Image	10.pdf	y = -3x + 2 ,y = -3x - 2 ,y = 3x - 2 ,y = -1/3x - 5 ,y = -1/3x + 5	false
+3.5	multiple choice	Image	11.pdf	2.5,3,5,25,50	false
+5	multiple choice	Image	12.pdf	5,8,9,10,11	false
+16	multiple choice	Image	13.pdf	16, 15, 14, 13, 12	false
+0.4	multiple choice	Image	14.pdf	0.2,0.3,0.4,05,0.6	false
+I, II, or III	multiple choice	Image	15.pdf	I only ,II only ,I and II only ,II and III only ,I, II, or III	false
+S	multiple choice	Image	16.pdf	P,Q,R,S,T	false
+762	multiple choice	Image	17.pdf	0 ,200 ,440 ,668 ,762	false
+I only	multiple choice	Image	18.pdf	I only ,I and II only ,II and III only ,I and III only ,I, II and III 	false
+51	multiple choice	Image	19.pdf	48, 49, 50, 51, 52	false
+11/P + 6	multiple choice	Image	20.pdf	11/P + 6 ,P/11 +6 ,17 - P/6 ,17/P ,11.5P	false
