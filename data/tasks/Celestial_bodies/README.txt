@@ -6,8 +6,8 @@ shashank.joshi30@gmail.com
 
 TASK:	Estimating the age of Celestial bodies
 
-DESCRIPTION: You will be shown 20 images  of a celestial body one after another
-             and asked to guess its age(unit in years).
+DESCRIPTION: We will now ask you a series of questions. For each question, we will show you an image of a celestial body and you will have to guess the its age (in years).
+
 Input Type: Image of a Celestial body.
 
 Corpus:
