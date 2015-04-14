@@ -1,21 +1,21 @@
- Correct answer	 Asset Type	 Asset File	 Possible answers	Extra Information(country name)	 Randomize answers
-Cadbury Dairy Milk	 Image	1.jpg	Cadbury Dairy Milk,Kitkat	India	FALSE
-Jack Wills	 Image	 2.jpg	Gap,Jack Wills	United Kingdom	FALSE
-Starbucks	 Image	3.jpg	Starbucks,Nescafe	United States	FALSE
-Dove	 Image	 4.jpg	Dove,Loreal	India	FALSE
-Crest	 Image	5.jpg	Colgate,Crest	Canada	FALSE
-Coca cola	 Image	6.jpg	Coca cola, Crush	Brazil	FALSE
-Dominos Pizza	 Image	7.jpg	 Dominos Pizza,Pizza Hut	Australia	FALSE
-Pantene	 Image	8.jpg	 Garnier, Pantene	Pakistan	FALSE
-Nike	 Image	9.jpg	Nike,Puma	Slovakia	FALSE
-Adidas	Image	10.jpg	Adidas,Asics	Germany	FALSE
-Reebok	 Image	11.jpg	Reebok,Under Armour	Iceland	FALSE
-Hugo Boss	 Image	12.jpg	Tommy Hilfiger, Hugo Boss	Austria	FALSE
-Versace	 Image	13.jpg	Versace, Louis Vuitton	Italy	FALSE
-Guess	 Image	14.jpg	Lacoste, Guess	France	FALSE
-Burberry	 Image	15.jpg	Calvin Klein, Burberry	Singapore	FALSE
-Armani	 Image	16.jpg	Armani, Ralph Lauren	Lebanon	FALSE
-KFC	 Image	17.jpg	KFC, Popeyes	Malaysia	FALSE
-McDonald's	 Image	18.jpg	McDonald's, Burger King 	Singapore	FALSE
-Nat Sherman	 Image	19.jpg	Davidoff, Nat Sherman	United States	FALSE
-Acer	 Image	20.jpg	Acer,Hewlett Packard	Cuba	FALSE
+"Correct answer"	"Asset Type"	" Asset File"	"Possible answers"	"Extra Information(country name)"	"Randomize answers"
+"Cadbury Dairy Milk"	"image"	"1.jpg"	"Cadbury Dairy Milk,Kitkat"	"India"	"false"
+"Jack Wills"	"image"	"2.jpg"	"Gap,Jack Wills"	"United Kingdom"	"false"
+"Starbucks"	"image"	"3.jpg"	"Starbucks,Nescafe"	"United States"	"false"
+"Dove"	"image"	"4.jpg"	"Dove,Loreal"	"India"	"false"
+"Crest"	"image"	"5.jpg"	"Colgate,Crest"	"Canada"	"false"
+"Coca cola"	"image"	"6.jpg"	"Coca cola, Crush"	"Brazil"	"false"
+"Dominos Pizza"	"image"	"7.jpg"	"Dominos Pizza,Pizza Hut"	"Australia"	"false"
+"Pantene"	"image"	"8.jpg"	"Garnier, Pantene"	"Pakistan"	"false"
+"Nike"	"image"	"9.jpg"	"Nike,Puma"	"Slovakia"	"false"
+"Adidas"	"image"	"10.jpg"	"Adidas,Asics"	"Germany"	"false"
+"Reebok"	"image"	"11.jpg"	"Reebok,Under Armour"	"Iceland"	"false"
+"Hugo Boss"	"image"	"12.jpg"	"Tommy Hilfiger, Hugo Boss"	"Austria"	"false"
+"Versace"	"image"	"13.jpg"	"Versace, Louis Vuitton"	"Italy"	"false"
+"Guess"	"image"	"14.jpg"	"Lacoste, Guess"	"France"	"false"
+"Burberry"	"image"	"15.jpg"	"Calvin Klein, Burberry"	"Singapore"	"false"
+"Armani"	"image"	"16.jpg"	"Armani, Ralph Lauren"	"Lebanon"	"false"
+"KFC"	"image"	"17.jpg"	"KFC, Popeyes"	"Malaysia"	"false"
+"McDonald's"	"image"	"18.jpg"	"McDonald's, Burger King "	"Singapore"	"false"
+"Nat Sherman"	"image"	"19.jpg"	"Davidoff, Nat Sherman"	"United States"	"false"
+"Acer"	"image"	"20.jpg"	"Acer,Hewlett Packard"	"Cuba"	"false"
