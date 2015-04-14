@@ -8,7 +8,7 @@ mandarpradhan20@gmail.com
 TASK: Given the name of the country predict its population.
 
 DESCRIPTION. You will be shown the name of a country 
-             and asked to guess the population of that country.
+             and asked to guess the population of that country as of 2014.
 CORPUS: The complete set of country names  and its population was extracted from:
 	http://www.worldometers.info/world-population/population-by-country/
 		

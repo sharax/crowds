@@ -3,9 +3,9 @@ parasgupta301@gmail.com
 sonali.parashar29@gmail.com
 agarwalhimani7@gmail.com
 
-TASK: Identify  the country to which the Historical Monument/Landmark belongs to.
+TASK: Identify  the country to which the Historical Monument/Landmark belongs.
 
-SHORT DESCRIPTION: You go through the series of  multiple choice questions, each consists of an image of one of the famous landmarks of the world and will require you to identify the country which it belongs to.  
+DESCRIPTION: You go through the series of  multiple choice questions, each consists of an image of one of the famous landmarks of the world and will require you to identify the country which it belongs to.  
 
 INPUT TYPE: Image
 

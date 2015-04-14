@@ -1,1 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answersOrion	multiple choice	image	constellation_Orion.jpg	"Orion, Horologium, Aquarius, Virgo, Apus"	TRUECygnus	multiple choice	image	constellation_Cygnus.jpg	"Cygnus,Taurus,Sextans, Aries, Aquila"	TRUESagittarius	multiple choice	image	constellation_Sagittarius.jpg	"Saggitarius, Octans, Mensa, Aquila,Scorpius"	TRUELeo	multiple choice	image	constellation_Leo.jpg	"Leo, Lupus, Apus, Columba, Gemini"	TRUEAries	multiple choice	image	constellation_Aries.jpg	"Aries, Norma, Scorpius, Pictor, Aquarius"	TRUEScorpius 	multiple choice	image	constellation_Scorpius.jpg	"Scorpius,  Scutum, Vulpecula, Virgo, Apus"	TRUELyra	multiple choice	image	constellation_Lyra.jpg	"Lyra, Triangulum, Scorpius, Octans, Scutum"	TRUEHercules	multiple choice	image	constellation_Hercules.jpg	"Hercules, Grus, Ursa Minor, Aquila, Volans"	TRUETaurus 	multiple choice	image	constellation_Taurus.jpg	"Taurus,  Norma, Pavo, Chamaeleon, Cepheus"	TRUECassiopeia 	multiple choice	image	constellation_Cassiopeia.jpg	"Cassiopeia,  Lupus, Indus, Crater, Lacerta"	TRUEPegasus	multiple choice	image	constellation_Pegasus.jpg	"Pegasus, Sagittarius, Serpens, Ara, Aries"	TRUEDraco 	multiple choice	image	constellation_Draco.jpg	"Draco,  Crux, Phoenix, Piscis Austrinus, Cepheus"	TRUELibra	multiple choice	image	constellation_Libra.jpg	"Libra, Tucana, Gemini, Reticulum, Norma"	TRUECapricornus 	multiple choice	image	constellation_Capricornus.jpg	"Capricornus,  Carina, Andromeda, Monoceros, Equuleus"	TRUEVirgo 	multiple choice	image	constellation_Virgo.jpg	"Virgo,  Hercules, Crater, Vela, Canes Venatici"	TRUEUrsa Major 	multiple choice	image	constellation_Ursa_Major.jpg	"Ursa Major,  Antlia, Andromeda, Camelopardalis, Indus"	TRUEGemini	multiple choice	image	constellation_Gemini.jpg	"Gemini, Triangulum, Coma Berenices, Draco, Grus"	TRUEAquarius	multiple choice	image	constellation_Aquarius.jpg	"Aquarius, Puppis, Telescopium, Crater, Lepus"	TRUEAquila	multiple choice	image	constellation_Aquila.jpg	"Aquila, Eridanus, Vulpecula, Serpens, Aquarius"	TRUECanis Major	multiple choice	image	constellation_CanisMajor.jpg	"Canis Major, Scorpius, Crater, Columba, Gemini"	TRUE
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+Orion	multiple choice	image	constellation_Orion.jpg	Orion, Horologium, Aquarius, Virgo, Apus	true
+Cygnus	multiple choice	image	constellation_Cygnus.jpg	Cygnus,Taurus,Sextans, Aries, Aquila	true
+Sagittarius	multiple choice	image	constellation_Sagittarius.jpg	Saggitarius, Octans, Mensa, Aquila,Scorpius	true
+Leo	multiple choice	image	constellation_Leo.jpg	Leo, Lupus, Apus, Columba, Gemini	true
+Aries	multiple choice	image	constellation_Aries.jpg	Aries, Norma, Scorpius, Pictor, Aquarius	true
+Scorpius 	multiple choice	image	constellation_Scorpius.jpg	Scorpius,  Scutum, Vulpecula, Virgo, Apus	true
+Lyra	multiple choice	image	constellation_Lyra.jpg	Lyra, Triangulum, Scorpius, Octans, Scutum	true
+Hercules	multiple choice	image	constellation_Hercules.jpg	Hercules, Grus, Ursa Minor, Aquila, Volans	true
+Taurus 	multiple choice	image	constellation_Taurus.jpg	Taurus,  Norma, Pavo, Chamaeleon, Cepheus	true
+Cassiopeia 	multiple choice	image	constellation_Cassiopeia.jpg	Cassiopeia,  Lupus, Indus, Crater, Lacerta	true
+Pegasus	multiple choice	image	constellation_Pegasus.jpg	Pegasus, Sagittarius, Serpens, Ara, Aries	true
+Draco 	multiple choice	image	constellation_Draco.jpg	Draco,  Crux, Phoenix, Piscis Austrinus, Cepheus	true
+Libra	multiple choice	image	constellation_Libra.jpg	Libra, Tucana, Gemini, Reticulum, Norma	true
+Capricornus 	multiple choice	image	constellation_Capricornus.jpg	Capricornus,  Carina, Andromeda, Monoceros, Equuleus	true
+Virgo 	multiple choice	image	constellation_Virgo.jpg	Virgo,  Hercules, Crater, Vela, Canes Venatici	true
+Ursa Major 	multiple choice	image	constellation_Ursa_Major.jpg	Ursa Major,  Antlia, Andromeda, Camelopardalis, Indus	true
+Gemini	multiple choice	image	constellation_Gemini.jpg	Gemini, Triangulum, Coma Berenices, Draco, Grus	true
+Aquarius	multiple choice	image	constellation_Aquarius.jpg	Aquarius, Puppis, Telescopium, Crater, Lepus	true
+Aquila	multiple choice	image	constellation_Aquila.jpg	Aquila, Eridanus, Vulpecula, Serpens, Aquarius	true
+Canis Major	multiple choice	image	constellation_CanisMajor.jpg	Canis Major, Scorpius, Crater, Columba, Gemini	true

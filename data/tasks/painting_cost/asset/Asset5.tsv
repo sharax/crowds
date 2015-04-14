@@ -1,6 +1,10 @@
 Label	Value
 Artist	FRANS FRANCKEN THE YOUNGER
+<<<<<<< HEAD:data/tasks/painting_cost/asset/Asset5.tsv
 Painting Name	THE ISRAELITES,AFTER CROSSING THE RED SEA,AT THE TOMB OF THE PATRIARCH JOSEPH
+=======
+Painting Name	THE ISRAELITES, AFTER CROSSING THE RED SEA, AT THE TOMB OF THE PATRIARCH JOSEPH
+>>>>>>> 33650e7b83e9799226c58dccbcc763e4006ec8f5:data/tasks/painting_cost/Asset/Asset5.tsv
 Year of Completion	Sixteen Hundred Twenty One to Sixteen Hundred Forty 
 Year of Sale	2014
 Image	Asset5.png
