@@ -1,11 +1,11 @@
-TASK #41
+﻿TASK #41
 parasgupta301@gmail.com
 sonali.parashar29@gmail.com
 agarwalhimani7@gmail.com
 
 TASK: Identify The Flag Of The Country 
 
-TASK DESCRIPTION: “We will be showing you a series of 20 Flags of Different Countries. With each flag, you will be given a choice of 5 probable country names to which the flag may belong to. You have to choose the right country name!” 
+TASK DESCRIPTION: “We will be showing you a series of 20 Flags of Different Countries. With each flag, you will be given a choice of 5 probable country names to which the flag may belong. You have to choose the right country name!” 
 
 INPUT TYPE: The input to these questions would be an IMAGE of a national flag  
 

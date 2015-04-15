@@ -7,9 +7,9 @@ kskrishnasangeeth@gmail.com
 techietomz@gmail.com
 
 
-TASK: Given the logo of two products of different brand, guess which is the most popular one.
+TASK: Given the logo of a product of two different brand, guess which is the most popular one.
 
-DESCRIPTION. You will be shown 2 images of products of different brands and asked to guess the most popular one.
+DESCRIPTION. You will be shown 2 images of a product of different brands.You have to guess the most popular one.
 
 CORPUS: The random set of 20 countries was extracted from:
         http://en.wikipedia.org/wiki/List_of_Asian_countries_by_GDP_per_capita

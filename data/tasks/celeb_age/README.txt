@@ -7,11 +7,11 @@ sameeksha.khillan@gmail.com
 
 TASK: Guessing the age of a celebrity, given the image.
 
-DESCRIPTION:We will now ask you aseries of questions.
+DESCRIPTION:We will now ask you a series of questions.
 	    For each question we will show you an image of a celebrity, 
 	    and ask you to estimate his/her current age.
 
-CORPUS: We will use Forbes Celebrities 100’s list of
+CORPUS: We will use Forbes Celebrity 100â€™s list of
 	celebrities. Link: http://www.forbes.com/celebrities/list/#tab:overall . 
 	Their ages and photographs are given on the same link.
 

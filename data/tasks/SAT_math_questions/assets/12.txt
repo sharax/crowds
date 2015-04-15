@@ -1,2 +1,0 @@
-(3x + 2) (2x - 5) = ax² + kx + n .
-What is the value of a - n + k ?

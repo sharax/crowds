@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset	possible_answers	randomize_answers
-Labrador Retriever	multiple choice	image	dog1.jpg	Labrador Retriever, Golden Retreiver, Jack Russell Terrier, Brittany, Bullmastiff	true
-Maltese	multiple choice	image	dog2.jpg	Maltese, Weimaraner, Bichon Frise, Pomeranian, Griffon Bruxellois 	true
-Cocker Spaniel	multiple choice	image	dog3.jpg	Cocker Spaniel, Shetland Sheepdog, Dalmatian, Boston Terrier, German Shorthaired Pointer	true
-German Shepherd	multiple choice	image	dog4.jpg	German Shepherd, Mastiff, Great Dane, Rottweiler, Curly Coated Retriever	true
-Yorkshire Terrier	multiple choice	image	dog5.jpg	Yorkshire Terrier, Labrador Retriever, Bloodhound, Havanese, Maltese	true
-Doberman	multiple choice	image	dog6.jpg	Doberman, Rottweiler,  German Shepherd, Dachshund, Fox Terrier	true
-Great Dane	multiple choice	image	dog7.jpg	Great Dane, St. Bernard, Bullmastiff, Cairn Terrier, Havanese	true
-Dachshund	multiple choice	image	dog8.jpg	Dachshund, Collie, Basset Hound, Boxer, Norwich Terrier	true
-Golden Retriever	multiple choice	image	dog9.jpg	Golden Retriever, Labrador Retriever, English Springer Spaniel, Bloodhound, Chow Chow	true
-Poodle	multiple choice	image	dog10.jpg	Poodle, Maltese, Pomeranian, Lhasa Apso, Chow Chow	true
-Pug	multiple choice	image	dog11.jpg	Pug, Boxer, Chihuahua, Bulldog, Tibetan Spaniel	true
-Pomeranian	multiple choice	image	dog12.jpg	Pomeranian, Lhasa Apso, Pekingese, Portuguese Water Dog, Bichon Frisé	true
-Rottweiler	multiple choice	image	dog13.jpg	Rottweiler, Doberman, Great Dane, Mastiff, Anatolian Shepherd	true
-St. Bernard	multiple choice	image	dog14.jpg	St. Bernard, Labrador Retriever, Whippet, Boston Terrier, Collie	true
-Beagle	multiple choice	image	dog15.jpg	Beagle, Boxer, Basset Hound, Miniature Schnauzer, Bernese Mountain Dog	true
-Chihuahua	multiple choice	image	dog16.jpg	Chihuahua, Miniature Schnauzer, Vizslas, Miniature Pinscher, Shih Tzu	true
-Boxer	multiple choice	image	dog17.jpg	Boxer, Boston Terrier, Bichon Frise, English Springer Spaniel, English Mastiff	true
-Siberian Husky	multiple choice	image	dog18.jpg	Siberian Husky, German Shepherd, Alaskan Malamute, St. Bernard, Dachshund	true
-Dalmatian	multiple choice	image	dog19.jpg	Dalmatian, Great Dane, Irish Wolfhound, Silky Terrier, Belgian Shepherd	true
-Bulldog	multiple choice	image	dog20.jpg	Bulldog, Boxer, Boston Terrier, Bull Terrier, Irish Wolfhound	true
+Labrador Retriever	multiple choice	image	dog1.jpg	 Brittany, Bullmastiff, Golden Retreiver, Jack Russell Terrier, Labrador Retriever	true
+Maltese	multiple choice	image	dog2.jpg	 Bichon Frise, Griffon Bruxellois , Maltese, Pomeranian, Weimaraner	true
+Cocker Spaniel	multiple choice	image	dog3.jpg	 Boston Terrier, Cocker Spaniel, Dalmatian, German Shorthaired Pointer, Shetland Sheepdog	true
+German Shepherd	multiple choice	image	dog4.jpg	 Curly Coated Retriever, German Shepherd, Great Dane, Mastiff, Rottweiler	true
+Yorkshire Terrier	multiple choice	image	dog5.jpg	 Bloodhound, Havanese, Labrador Retriever, Maltese, Yorkshire Terrier	true
+Doberman	multiple choice	image	dog6.jpg	 Dachshund, Doberman, Fox Terrier, German Shepherd, Rottweiler	true
+Great Dane	multiple choice	image	dog7.jpg	 Bullmastiff, Cairn Terrier, Great Dane, Havanese, St. Bernard	true
+Dachshund	multiple choice	image	dog8.jpg	 Basset Hound, Boxer, Collie, Dachshund, Norwich Terrier	true
+Golden Retriever	multiple choice	image	dog9.jpg	 Bloodhound, Chow Chow, English Springer Spaniel, Golden Retriever, Labrador Retriever	true
+Poodle	multiple choice	image	dog10.jpg	 Chow Chow, Lhasa Apso, Maltese, Pomeranian, Poodle	true
+Pug	multiple choice	image	dog11.jpg	 Boxer, Bulldog, Chihuahua, Pug, Tibetan Spaniel	true
+Pomeranian	multiple choice	image	dog12.jpg	 Bichon Frisé, Lhasa Apso, Pekingese, Pomeranian, Portuguese Water Dog	true
+Rottweiler	multiple choice	image	dog13.jpg	 Anatolian Shepherd, Doberman, Great Dane, Mastiff, Rottweiler	true
+St. Bernard	multiple choice	image	dog14.jpg	 Boston Terrier, Collie, Labrador Retriever, St. Bernard, Whippet	true
+Beagle	multiple choice	image	dog15.jpg	 Basset Hound, Beagle, Bernese Mountain Dog, Boxer, Miniature Schnauzer	true
+Chihuahua	multiple choice	image	dog16.jpg	 Chihuahua, Miniature Pinscher, Miniature Schnauzer, Shih Tzu, Vizslas	true
+Boxer	multiple choice	image	dog17.jpg	 Bichon Frise, Boston Terrier, Boxer, English Mastiff, English Springer Spaniel	true
+Siberian Husky	multiple choice	image	dog18.jpg	 Alaskan Malamute, Dachshund, German Shepherd, Siberian Husky, St. Bernard	true
+Dalmatian	multiple choice	image	dog19.jpg	 Belgian Shepherd, Dalmatian, Great Dane, Irish Wolfhound, Silky Terrier	true
+Bulldog	multiple choice	image	dog20.jpg	 Boston Terrier, Boxer, Bull Terrier, Bulldog, Irish Wolfhound	true
