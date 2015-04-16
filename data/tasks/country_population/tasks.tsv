@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-39928947	point estimate	text	Algeria.txt	no answers	FALSE
-142467651	point estimate	text	Russia.txt	no answers	FALSE
-16606878	point estimate	text	Kazakhstan.txt	no answers	FALSE
-1267401849	point estimate	text	India.txt	no answers	FALSE
-1393783836	point estimate	text	China.txt	no answers	FALSE
-322583006	point estimate	text	USA.txt	no answers	FALSE
-78470222	point estimate	text	Iran.txt	no answers	FALSE
-17772871	point estimate	text	Chile.txt	no answers	FALSE
-123799215	point estimate	text	Mexico.txt	no answers	FALSE
-29369428	point estimate	text	Saudi Arabia.txt	no answers	FALSE
-15859714	point estimate	text	Guatemala.txt	no answers	FALSE
-41803125	point estimate	text	Argentina.txt	no answers	FALSE
-11128404	point estimate	text	Greece.txt	no answers	FALSE
-35524732	point estimate	text	Canada.txt	no answers	FALSE
-23630169	point estimate	text	Australia.txt	no answers	FALSE
-202033670	point estimate	text	Brazil.txt	no answers	FALSE
-50757459	point estimate	text	Tanzania.txt	no answers	FALSE
-252812245	point estimate	text	Indonesia.txt	no answers	FALSE
-96506031	point estimate	text	Ethiopia.txt	no answers	FALSE
-48929706	point estimate	text	Colombia.txt	no answers	FALSE
+39928947	point estimate	text	Algeria.txt	no answers	false
+142467651	point estimate	text	Russia.txt	no answers	false
+16606878	point estimate	text	Kazakhstan.txt	no answers	false
+1267401849	point estimate	text	India.txt	no answers	false
+1393783836	point estimate	text	China.txt	no answers	false
+322583006	point estimate	text	USA.txt	no answers	false
+78470222	point estimate	text	Iran.txt	no answers	false
+17772871	point estimate	text	Chile.txt	no answers	false
+123799215	point estimate	text	Mexico.txt	no answers	false
+29369428	point estimate	text	Saudi Arabia.txt	no answers	false
+15859714	point estimate	text	Guatemala.txt	no answers	false
+41803125	point estimate	text	Argentina.txt	no answers	false
+11128404	point estimate	text	Greece.txt	no answers	false
+35524732	point estimate	text	Canada.txt	no answers	false
+23630169	point estimate	text	Australia.txt	no answers	false
+202033670	point estimate	text	Brazil.txt	no answers	false
+50757459	point estimate	text	Tanzania.txt	no answers	false
+252812245	point estimate	text	Indonesia.txt	no answers	false
+96506031	point estimate	text	Ethiopia.txt	no answers	false
+48929706	point estimate	text	Colombia.txt	no answers	false
