@@ -1,1 +1,0 @@
-What is the greatest of 3 consecutive integers whose sum is 24 ?

@@ -7,15 +7,13 @@ kskrishnasangeeth@gmail.com
 techietomz@gmail.com
 
 
-TASK: Given the image of a famous building guess the number of years taken to construct it..
+TASK: Given the image of a famous building guess the number of years taken to construct it.
 
-DESCRIPTION. You will be shown the image of 20 famous buildings and asked to guess the number of years required to construct it.
+DESCRIPTION. You will be shown the image of 20 famous buildings.You have to guess the number of years required to construct it.
 
 CORPUS: The set of names of the famous buildings was extracted from:
 	http://en.wikipedia.org/wiki/List_of_buildings_and_structures
 	http://www.e-architect.co.uk/famous-buildings
-		
-			
 		
 METHODOLOGY: 
 	TASKS

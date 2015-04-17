@@ -1,21 +1,21 @@
-correct answer	answer_type	asset_type	asset_file	possible answer	randomize answer
-9000000000	point estimate	image	Andromeda Galaxy.png	no answers	FALSE
-10500000000	point estimate	image	Black Eye Galaxy.png	no answers	FALSE
-10000000000	point estimate	image	Cartwheel Galaxy.png	no answers	FALSE
-10300000000	point estimate	image	Cigar Galaxy.png	no answers	FALSE
-4500000000	point estimate	image	Earth.png	no answers	FALSE
-10000000000	point estimate	image	Kaptyen star.png	no answers	FALSE
-10300000000	point estimate	image	Large Magellanic Cloud.png	no answers	FALSE
-4500000000	point estimate	image	Mars.png	no answers	FALSE
-200000000	point estimate	image	Sirius.png	no answers	FALSE
-4850000000	point estimate	image	Proxima Centauri.png	no answers	FALSE
-4500000000	point estimate	image	Neptune.png	no answers	FALSE
-11000000000	point estimate	image	Small Magellanic Cloud Galaxy 1600.png	no answers	FALSE
-10100000000	point estimate	image	Triangulum Galaxy.png	no answers	FALSE
-10100000000	point estimate	image	Whirpool Galaxy.png	no answers	FALSE
-4500000000	point estimate	image	Uranus.png	no answers	FALSE
-10000000000	point estimate	image	The Sombrero Galaxy.png	no answers	FALSE
-4570000000	point estimate	image	Sun.png	no answers	FALSE
-70000	point estimate	image	Scholzs-Star.png	no answers	FALSE
-13200000000	point estimate	image	Milky Way Galaxy.png	no answers	FALSE
-4500000000	point estimate	image	Mercury.png	no answers	FALSE
+"correct answer"	"answer_type"	"asset_type"	"asset_file"	"possible answer"	"randomize answer"
+9000000000	"point estimate"	"image"	"Andromeda_Galaxy.png"	"no answers"	"false"
+10500000000	"point estimate"	"image"	"Black_Eye_Galaxy.png"	"no answers"	"false"
+10000000000	"point estimate"	"image"	"Cartwheel_Galaxy.png"	"no answers"	"false"
+10300000000	"point estimate"	"image"	"Cigar_Galaxy.png"	"no answers"	"false"
+4500000000	"point estimate"	"image"	"Earth.png"	"no answers"	"false"
+10000000000	"point estimate"	"image"	"Kaptyen_Star.png"	"no answers"	"false"
+10300000000	"point estimate"	"image"	"Large_Magellanic_Cloud.png"	"no answers"	"false"
+4500000000	"point estimate"	"image"	"Mars.png"	"no answers"	"false"
+200000000	"point estimate"	"image"	"Sirius.png"	"no answers"	"false"
+4850000000	"point estimate"	"image"	"Proxima_Centuria.png"	"no answers"	"false"
+4500000000	"point estimate"	"image"	"Neptune.png"	"no answers"	"false"
+11000000000	"point estimate"	"image"	"Small_Magellanic_Cloud_Galaxy_1600.png"	"no answers"	"false"
+10100000000	"point estimate"	"image"	"Triangulum_Galaxy.png"	"no answers"	"false"
+10100000000	"point estimate"	"image"	"Whirpool_Galaxy.png"	"no answers"	"false"
+4500000000	"point estimate"	"image"	"Uranus.png"	"no answers"	"false"
+10000000000	"point estimate"	"image"	"The_Sombrero_Galaxy.png"	"no answers"	"false"
+4570000000	"point estimate"	"image"	"Sun.png"	"no answers"	"false"
+70000	"point estimate"	"image"	"Scholzs_Star.png"	"no answers"	"false"
+13200000000	"point estimate"	"image"	"Milky_Way_Galaxy.png"	"no answers"	"false"
+4500000000	"point estimate"	"image"	"Mercury.png"	"no answers"	"false"
