@@ -9,13 +9,13 @@ Correct answer	Answer Type	Asset Type	Asset File	Possible answers	Randomize answ
 0.21	point estimate	Image	210m.jpg	no answers	false
 0.24	point estimate	Image	240.jpg	no answers	false
 0.24	point estimate	Image	240a.jpg	no answers	false
-0.24	point estimate	Image	250B.jpg	no answers	false
-0.25	point estimate	Image	250b.png	no answers	false
+0.24	point estimate	Image	250b.jpg	no answers	false
+0.25	point estimate	Image	250c.jpg	no answers	false
 0.25	point estimate	Image	250m.jpg	no answers	false
 0.25	point estimate	Image	250ml.jpg	no answers	false
 0.48	point estimate	Image	480.jpg 	no answers	false
 0.48	point estimate	Image	480b.jpg	no answers	false
 0.5	point estimate	Image	500ma.jpg	no answers	false
-0.5	point estimate	Image	500mB.jpg	no answers	false
+0.5	point estimate	Image	500mb.jpg	no answers	false
 0.5	point estimate	Image	500ml.jpg	no answers	false
 0.95	point estimate	Image	950ml.jpg	no answers	false
