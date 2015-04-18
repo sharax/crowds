@@ -21,4 +21,4 @@ METHODOLOGY:
 	We have randomly sampled 20 states (falling into the red and blue categories only) from the above link. 
 	
 	ANSWERS:
-	Multiple choice type (Republican Party or Democratic Party)
+	Binary type (Republican Party or Democratic Party)
