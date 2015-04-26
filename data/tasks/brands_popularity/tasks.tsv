@@ -1,21 +1,21 @@
-"correct_answer"	"answer_type"	"asset_type"	"asset_file"	"extra_information"	"possible_answers"	"randomize_answers"
-"Cadbury Dairy Milk"	"binary"	"image"	"1.jpg"	"India"	"Cadbury Dairy Milk,Kitkat"	"false"
-"Jack Wills"	"binary"	"image"	"2.jpg"	"United Kingdom"	"Gap,Jack Wills"	"false"
-"Starbucks"	"binary"	"image"	"3.jpg"	"United States"	"Starbucks,Nescafe"	"false"
-"Dove"	"binary"	"image"	"4.jpg"	"India"	"Dove,Loreal"	"false"
-"Crest"	"binary"	"image"	"5.jpg"	"Canada"	"Colgate,Crest"	"false"
-"Coca cola"	"binary"	"image"	"6.jpg"	"Brazil"	"Coca cola, Crush"	"false"
-"Dominos Pizza"	"binary"	"image"	"7.jpg"	"Australia"	"Dominos Pizza,Pizza Hut"	"false"
-"Pantene"	"binary"	"image"	"8.jpg"	"Pakistan"	"Garnier, Pantene"	"false"
-"Nike"	"binary"	"image"	"9.jpg"	"Slovakia"	"Nike,Puma"	"false"
-"Adidas"	"binary"	"image"	"10.jpg"	"Germany"	"Adidas,Asics"	"false"
-"Reebok"	"binary"	"image"	"11.jpg"	"Iceland"	"Reebok,Under Armour"	"false"
-"Hugo Boss"	"binary"	"image"	"12.jpg"	"Austria"	"Tommy Hilfiger, Hugo Boss"	"false"
-"Versace"	"binary"	"image"	"13.jpg"	"Italy"	"Versace, Louis Vuitton"	"false"
-"Guess"	"binary"	"image"	"14.jpg"	"France"	"Lacoste, Guess"	"false"
-"Burberry"	"binary"	"image"	"15.jpg"	"Singapore"	"Calvin Klein, Burberry"	"false"
-"Armani"	"binary"	"image"	"16.jpg"	"Lebanon"	"Armani, Ralph Lauren"	"false"
-"KFC"	"binary"	"image"	"17.jpg"	"Malaysia"	"KFC, Popeyes"	"false"
-"McDonald's"	"binary"	"image"	"18.jpg"	"Singapore"	"McDonald's, Burger King "	"false"
-"Nat Sherman"	"binary"	"image"	"19.jpg"	"United States"	"Davidoff, Nat Sherman"	"false"
-"Acer"	"binary"	"image"	"20.jpg"	"Cuba"	"Acer,Hewlett Packard"	"false"
+correct_answer	answer_type	asset_type	asset_file	extra_information	possible_answers	randomize_answers
+Cadbury Dairy Milk	multiple choice	image	1.jpg	India	Cadbury Dairy Milk,Kitkat	false
+Jack Wills	multiple choice	image	2.jpg	United Kingdom	Gap,Jack Wills	false
+Starbucks	multiple choice	image	3.jpg	United States	Starbucks,Nescafe	false
+Dove	multiple choice	image	4.jpg	India	Dove,Loreal	false
+Crest	multiple choice	image	5.jpg	Canada	Colgate,Crest	false
+Coca cola	multiple choice	image	6.jpg	Brazil	Coca cola, Crush	false
+Dominos Pizza	multiple choice	image	7.jpg	Australia	Dominos Pizza,Pizza Hut	false
+Pantene	multiple choice	image	8.jpg	Pakistan	Garnier, Pantene	false
+Nike	multiple choice	image	9.jpg	Slovakia	Nike,Puma	false
+Adidas	multiple choice	image	10.jpg	Germany	Adidas,Asics	false
+Reebok	multiple choice	image	11.jpg	Iceland	Reebok,Under Armour	false
+Hugo Boss	multiple choice	image	12.jpg	Austria	Tommy Hilfiger, Hugo Boss	false
+Versace	multiple choice	image	13.jpg	Italy	Versace, Louis Vuitton	false
+Guess	multiple choice	image	14.jpg	France	Lacoste, Guess	false
+Burberry	multiple choice	image	15.jpg	Singapore	Calvin Klein, Burberry	false
+Armani	multiple choice	image	16.jpg	Lebanon	Armani, Ralph Lauren	false
+KFC	multiple choice	image	17.jpg	Malaysia	KFC, Popeyes	false
+McDonald's	multiple choice	image	18.jpg	Singapore	McDonald's, Burger King 	false
+Nat Sherman	multiple choice	image	19.jpg	United States	Davidoff, Nat Sherman	false
+Acer	multiple choice	image	20.jpg	Cuba	Acer,Hewlett Packard	false
