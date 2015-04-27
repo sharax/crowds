@@ -1,0 +1,101 @@
+id	domain_id	title	type	answer_type	answer_data	correct_answer	created_at	updated_at	data
+101	7	Guess the country of this landmark	image	select	South Korea,South Africa,Malaysia,Algeria,France	France	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The-Eiffel-Tower.png
+102	7	Guess the country of this landmark	image	select	United States,Jordan,Austria,Japan,France	United States	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The Statue Of Liberty.jpg
+103	7	Guess the country of this landmark	image	select	Austria,France,Spain,Indonesia,Japan	Spain	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Parc Guell.jpg
+104	7	Guess the country of this landmark	image	select	Malaysia,Indonesia,China,Tunisia,Canada	China	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The Great Chinese Wall.jpg
+105	7	Guess the country of this landmark	image	select	France,Peru,Austria,Lebanon,Italy	Italy	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The Colosseum.jpg
+106	7	Guess the country of this landmark	image	select	Zimbabwe,Israel,Egypt,France,Turkey	Turkey	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Agia Sophia.jpg
+107	7	Guess the country of this landmark	image	select	England,United States,Lebanon,Germany,Morocco	Germany	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Brandenburg-Gate.jpg
+108	7	Guess the country of this landmark	image	select	France,Brazil,Italy,Singapore,England	England	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Big Ben.jpg
+109	7	Guess the country of this landmark	image	select	United States,Chile,Spain,Kenya,Russia	Russia	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/St Basils Cathedral.jpg
+110	7	Guess the country of this landmark	image	select	Greece,South Africa,Egypt,China,Indonesia	Italy	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/pompeii.jpg
+111	7	Guess the country of this landmark	image	select	Kenya,Austria,Algeria,Saudi Arabia,China	Saudi Arabia	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Mecca.jpg
+112	7	Guess the country of this landmark	image	select	Morocco,Egypt,Turkey,Spain,Jordan	Egypt	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Luxor Temple.jpg
+113	7	Guess the country of this landmark	image	select	Mexico,Indonesia,Singapore,Brazil,Russia	Mexico	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Chichen Itza.jpg
+114	7	Guess the country of this landmark	image	select	Japan,South Africa,Jordan,Singapore,Saudi Arabia	Japan	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The Great Buddha Of Kamakura.jpg
+115	7	Guess the country of this landmark	image	select	Indonesia,Ukraine,Malaysia,Egypt,Chile	Indonesia	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Temple of Besakih.jpg
+116	7	Guess the country of this landmark	image	select	Egypt,Greece,Malaysia,Turkey,Algeria	Greece	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Acropolis of Athens.jpg
+117	7	Guess the country of this landmark	image	select	China,Indonesia,Kenya,Peru,France	Peru	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Machu Picchu.png
+118	7	Guess the country of this landmark	image	select	Lebanon,Canada,Argentina,Uganda,India	India	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Taj mahal.jpg
+119	7	Guess the country of this landmark	image	select	Brazil,Jordan,Egypt,India,Lebanon	Egypt	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/The Pyramids of Giza.jpg
+120	7	Guess the country of this landmark	image	select	Israel,Italy,Egypt,Mexico,Uganda	Italy	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_7/Tower Of Pisa.jpg
+161	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right	0000-00-00 00:00:00	0000-00-00 00:00:00	R6akfA7UC2A
+162	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Left	0000-00-00 00:00:00	0000-00-00 00:00:00	fUKLK49cgUM
+163	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right	0000-00-00 00:00:00	0000-00-00 00:00:00	cXDW-NL0RJQ
+164	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right	0000-00-00 00:00:00	0000-00-00 00:00:00	nuOpW1DWNQ0
+165	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	iM4U4Bh06Qo
+166	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Left	0000-00-00 00:00:00	0000-00-00 00:00:00	JqozFGpJpfk
+167	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	xkpERNXfO6M
+168	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right 	0000-00-00 00:00:00	0000-00-00 00:00:00	na9_2IRYuYs
+169	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right	0000-00-00 00:00:00	0000-00-00 00:00:00	z6HH6b5SF_0
+170	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	5pNpzitWVUs
+171	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Left	0000-00-00 00:00:00	0000-00-00 00:00:00	CLWj0vG6S8M
+172	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	kwEZmSqmcGo
+173	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Left	0000-00-00 00:00:00	0000-00-00 00:00:00	bpY9RszOZA0
+174	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right	0000-00-00 00:00:00	0000-00-00 00:00:00	52DP-1dUpq0
+175	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	MYT9F76ECXE
+176	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Left	0000-00-00 00:00:00	0000-00-00 00:00:00	NW3Lt8iJoTQ
+177	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right 	0000-00-00 00:00:00	0000-00-00 00:00:00	H1eeP6VM-P4
+178	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right 	0000-00-00 00:00:00	0000-00-00 00:00:00	NfdUd3RLNxE
+179	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Right 	0000-00-00 00:00:00	0000-00-00 00:00:00	Wlyu1pqVNHs
+180	3	Where is the ball in this trick?	video	select	Left,Middle,Right	Middle	0000-00-00 00:00:00	0000-00-00 00:00:00	Cau6IxKR3gU
+341	19	Guess the calories in this food item	image	int		0	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_coffee.jpg
+342	19	Guess the calories in this food item	image	int		18	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_spinach.jpg
+343	19	Guess the calories in this food item	image	int		105	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_1_glass_milk.png
+344	19	Guess the calories in this food item	image	int		105	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_1_glass_beer.jpeg
+345	19	Guess the calories in this food item	image	int		110	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_1_glass_cola.jpg
+346	19	Guess the calories in this food item	image	int		75	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_1_apple.jpg
+347	19	Guess the calories in this food item	image	int		110	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_1_banana.jpg
+348	19	Guess the calories in this food item	image	int		109	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_grilled_fish.jpg
+349	19	Guess the calories in this food item	image	int		110	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_rice.jpg
+350	19	Guess the calories in this food item	image	int		165	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_120g_wine.jpg
+351	19	Guess the calories in this food item	image	int		195	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_chicken_breast.jpg
+352	19	Guess the calories in this food item	image	int		1360	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_dominos_vegetarian_supreme_medium_classic_crust_pizza.jpg
+353	19	Guess the calories in this food item	image	int		250	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_whisky.jpg
+354	19	Guess the calories in this food item	image	int		400	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_6_slices_wheat_bread.jpg
+355	19	Guess the calories in this food item	image	int		304	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_honey.jpg
+356	19	Guess the calories in this food item	image	int		353	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_3_eggs.jpg
+357	19	Guess the calories in this food item	image	int		300	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_french_fries.png
+358	19	Guess the calories in this food item	image	int		529	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_100g_chocolate.jpg
+359	19	Guess the calories in this food item	image	int		900	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_20_almonds.jpg
+360	19	Guess the calories in this food item	image	int		4066	0000-00-00 00:00:00	0000-00-00 00:00:00	http://crowds.5harad.com/images/task_19/food_calories_500ml_olive_oil.jpg
+481	53	Guess the name of the movie from this song	audio	select	My Fair Lady, Mary Poppins, The Sound of Music, Oliver, The Wizard of Oz	The Sound Of Music	0000-00-00 00:00:00	0000-00-00 00:00:00	198771523
+482	53	Guess the name of the movie from this song	audio	select	Mary Poppins, The Sound of Music, Chitty Chitty Bang Bang, The Jungle Book, My Fair Lady	Mary Poppins	0000-00-00 00:00:00	0000-00-00 00:00:00	198771330
+483	53	Guess the name of the movie from this song	audio	select	Goodfellas, The Godfather, Chinatown, Scarface, The Shawshank Redemption	The Godfather	0000-00-00 00:00:00	0000-00-00 00:00:00	198771445
+484	53	Guess the name of the movie from this song	audio	select	Raiders of the Lost Ark, Jaws, Jurassic Park, Alien, Close Encounters of the Third Kind	Jaws	0000-00-00 00:00:00	0000-00-00 00:00:00	198771346
+485	53	Guess the name of the movie from this song	audio	select	Star Wars, Raiders of the Lost Ark, Back to the Future, Star Trek, E.T. Extra Terrestrial	Star Wars	0000-00-00 00:00:00	0000-00-00 00:00:00	198771448
+486	53	Guess the name of the movie from this song	audio	select	E.T. Extra Terrestrial, Jurassic Park, Close Encounters of the Third Kind, Alien, Aliens	E.T. Extra Terrestrial	0000-00-00 00:00:00	0000-00-00 00:00:00	198771214
+487	53	Guess the name of the movie from this song	audio	select	Beauty and the Beast, Aladdin, Peter Pan, The Little Mermaid, Cinderella	The Little Mermaid	0000-00-00 00:00:00	0000-00-00 00:00:00	198771531
+488	53	Guess the name of the movie from this song	audio	select	Cry Freedom, Empire of the Sun, The Untouchables, A Passage to India, The Last Emperor	The Last Emperor	0000-00-00 00:00:00	0000-00-00 00:00:00	198771452
+489	53	Guess the name of the movie from this song	audio	select	Apollo 13, The Right Stuff, 2001: A Space Odyssey, Chariots of Fire, Full Metal Jacket	The Right Stuff	0000-00-00 00:00:00	0000-00-00 00:00:00	198771546
+490	53	Guess the name of the movie from this song	audio	select	The Little Mermaid, Sleeping Beauty, Beauty and the Beast, Snow White and the Seven Dwarfs, The Lion King	Beauty and the Beast	0000-00-00 00:00:00	0000-00-00 00:00:00	198771218
+491	53	Guess the name of the movie from this song	audio	select	Forest Gump, The Shawshank Redemption, Braveheart, Schindler's List, Saving Private Ryan	Schindler's List	0000-00-00 00:00:00	0000-00-00 00:00:00	198771313
+492	53	Guess the name of the movie from this song	audio	select	The English Patient, Titanic, Shakespeare in Love, American Beauty, Emma	Titanic	0000-00-00 00:00:00	0000-00-00 00:00:00	198771597
+493	53	Guess the name of the movie from this song	audio	select	Aladdin, Toy Story, Shrek, Ice Age, The Lion King	The Lion King	0000-00-00 00:00:00	0000-00-00 00:00:00	198771516
+494	53	Guess the name of the movie from this song	audio	select	The Pianist, Forest Gump, Saving Private Ryan, Schindle's List, Life is Beautiful	Life is Beautiful	0000-00-00 00:00:00	0000-00-00 00:00:00	198771328
+495	53	Guess the name of the movie from this song	audio	select	Matrix, Star Wars: Episode 1 The Phantom Menace, The Lord of the Rings, Hobbit, Gladiator	The Lord of the Rings: The Fellowship of the Ring	0000-00-00 00:00:00	0000-00-00 00:00:00	198771520
+496	53	Guess the name of the movie from this song	audio	select	Slumdog Millionaire, Life of Pi, Crouching Tiger Hidden Dragon, The Darjeeling Limited, A Passage through India	Slumdog Millionaire	0000-00-00 00:00:00	0000-00-00 00:00:00	198771450
+497	53	Guess the name of the movie from this song	audio	select	Finding Nemo, Toy Story, Up, Monsters Inc., Shrek	Up	0000-00-00 00:00:00	0000-00-00 00:00:00	198771631
+498	53	Guess the name of the movie from this song	audio	select	Slumdog Millionaire, Life of Pi, Anna Karenina, The Darjeeling Limited, A Passage through India	Life of Pi	0000-00-00 00:00:00	0000-00-00 00:00:00	198771348
+499	53	Guess the name of the movie from this song	audio	select	Interstellar, Apollo 13, The Theory of Everything, Inception, Gravity	Gravity	0000-00-00 00:00:00	0000-00-00 00:00:00	198771215
+500	53	Guess the name of the movie from this song	audio	select	Birdman, The Darjeeling Limited, The Artist, The Grand Budapest Hotel, Moonrise Kingdom	The Grand Budapest Hotel	0000-00-00 00:00:00	0000-00-00 00:00:00	198771414
+501	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	NALBTNUj61k
+502	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	1CYfxxbr8q8
+503	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	T1HE1bHQpgY
+504	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	aWJgtDTUaFo
+505	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	ioIEjPASEHM
+506	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	aYNQq0__Vio
+507	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	O9EJosmANos
+508	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	DNeEMyPmGrY
+509	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	LuTRJu3Senc
+510	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	_ADHRJUQToc
+511	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	Pr7HKDHh8DU
+512	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	rhS_CL-Bguk
+513	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	cq6Qc8j-was
+514	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	398iApyH6yM
+515	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	fXXTJ9qrijY
+516	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	AoRikvMrxYU
+517	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	miohO-zMHjs
+518	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	CEsZ5n3Ktgs
+519	12	Predict the direction of penalty shot	video	select	left,right	left	0000-00-00 00:00:00	0000-00-00 00:00:00	qnfq6QrKzdI
+520	12	Predict the direction of penalty shot	video	select	left,right	right	0000-00-00 00:00:00	0000-00-00 00:00:00	kBkGo8ETTYY
