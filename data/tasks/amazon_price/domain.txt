@@ -1,0 +1,2 @@
+Guess the Amazon price in USD of the following products after looking at their image and specification.
+

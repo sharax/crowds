@@ -11,11 +11,11 @@ prediction <- function(agent.list,test){
   # Output:
   #   nxm matrix with predictions
   
-  n <- length(agents.list)
+  n <- length(agent.list)
   m <- dim(test)[1]
-  M <- matrix(rep(0,m*n),m,n) 
+  M <- matrix(rep(0,m*n),n,m) 
   for (i in 1:n){
-    M[i,] <- agent.list[i](test)
+    M[i,] <- as.numeric(as.character(agent.list[[i]](test)))
   }
   return(M)
 }
@@ -30,10 +30,10 @@ error <- function(prediction, test,distance){
   # Output:
   #   object with same dimension as prediction.
   
-  true.value<- test[,1]
+  true.value<- test$y
   m <- dim(prediction)[1]
   n <- dim(prediction)[2]
-  True.Value <- matrix(rep(true.value,m),m,n)
+  True.Value <- t(matrix(rep(true.value,m),n,m))
   Error <- distance(prediction,True.Value)
 }
 
@@ -42,7 +42,7 @@ error <- function(prediction, test,distance){
 
 ranking<- function(x,vector){
   # Computes in which percentail the value of x lies with respect to elements in vector
-  r <- sum(x>vector)/length(vector)
+  r <- sum(x<vector)/length(vector)
 }
 
 # Main function 
@@ -50,14 +50,14 @@ ranking<- function(x,vector){
 run<- function(train,test,agent.creator,aggregator, error.aggregator, distance,Lambda,
                n.agents,n.info){
   l = length(Lambda) 
-  m = dim(train)[2]
+  m = dim(train)[1]
   crowd.agg.error<-rep(0,l)
   best.agg.error<-rep(0,l)
   crowd.rank<-rep(0,l)
   for (k in 1:l){
     agent.list<- list()
     for (i in 1:n.agents){
-      agent.train<-train[sample(nrow(agent.train),n.info),]
+      agent.train<-train[sample(nrow(train),n.info),]
       agent.list[[i]]<-agent.creator(agent.train,Lambda[k])
     }
     best.agent<- agent.creator(train,Lambda[k])
@@ -72,12 +72,18 @@ run<- function(train,test,agent.creator,aggregator, error.aggregator, distance,L
     error.best <- error(pred.best,test,distance)
     
     # Aggregated errors
-    agents.agg.error<- error.aggregator(error.agents)
+    agents.agg.error<- apply(error.agents,1,error.aggregator)
     crowd.agg.error[k]<-error.aggregator(error.crowd)
     best.agg.error[k]<-error.aggregator(error.best)
     crowd.rank[k]<- ranking(crowd.agg.error[k],agents.agg.error)
-    
-    
   }
+  
+  info<-list()
+  info$crowd.agg.error<-crowd.agg.error
+  info$best.agg.error<-best.agg.error
+  info$crowd.rank<-crowd.rank
+  
+  return(info)
+  
 }
 
