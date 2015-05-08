@@ -1,82 +1,161 @@
 \documentclass[12pt]{article}
 \usepackage{rotating}
+\usepackage{graphicx, subfigure}
 \begin{document}
 
-\begin{table}[ht]
+\section{Exploratory Data Analysis}
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_age.png}
+            \label{madison_results}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_gender.png}
+           \label{phoenix_results}
+		}
+    \end{center}
+    \caption{Histogram of age and gender of participants. }
+\end{figure}
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_edu.png}
+            \label{madison_results}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_confidence.png}
+           \label{phoenix_results}
+		}
+    \end{center}
+    \caption{Histogram of education level and confidence level. }
+\end{figure}
+
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_user_perf_mc.png}
+\caption{Histogram of user performance on multiple choice tasks.}
+\end{center}	
+\end{figure}
+
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_user_perf_pe_tot.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/user_perf_pe_zoom.png}
+		}
+    \end{center}
+    \caption{Histogram of aggregate user performance for point estimate tasks.}
+\end{figure}
+
+
+\begin{table}[ht!]
+\centering
+\begin{tabular}{rlr}
+  \hline
+ & type & av\_score \\ 
+  \hline
+1 & audio & 0.10 \\ 
+  2 & image & 0.71 \\ 
+  3 & video & 0.65 \\ 
+   \hline
+\end{tabular}
+\caption{Average score by asset type for all domains.} 
+\end{table}
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{../../output/demo_analysis/scatter_edu.png}
+\caption{Scatter plot of accuracy by education level on multiple choice tasks.}
+\end{center}	
+\end{figure}
+
+
+\begin{table}[ht!]
 \centering
 \begin{tabular}{rlrr}
   \hline
- & Domain & Crowd Ranking & Correct Answers \\ 
+ & education & pct\_correct & av\_dist \\ 
   \hline
-1 & Ball Trick & 1.00 & 16.00 \\ 
-  2 & Historical Landmark & 0.91 & 18.00 \\ 
-  3 & Penalties & 0.81 & 12.00 \\ 
-  4 & Movie Song & 0.97 & 13.00 \\ 
+1 & Bachelor & 0.42 & 1.46 \\ 
+  2 & Master & 0.52 & 1.28 \\ 
+  3 & Primary education & 0.45 & 1.22 \\ 
+  4 & Secondary education & 0.40 & 1.42 \\ 
    \hline
 \end{tabular}
-\caption{Multiple Choice domains. The Crowd Ranking column 
-       contains the percentage of users the crowd performs equal or better than. Correct
-       Answers is the number of answers the crowd got right.} 
+\caption{Average score by education level all domains.} 
 \end{table}
+
+
+\clearpage
 
 \begin{table}[ht]
 \centering
-\begin{tabular}{rlrr}
+\begin{tabular}{rrrr}
   \hline
- & Domain & Crowd Ranking & Correct Answers \\ 
+ & confidence & pct\_correct & av\_dist \\ 
   \hline
-1 & Ball Trick & 0.73 & 16.00 \\ 
-  2 & Historical Landmark & 0.76 & 18.00 \\ 
-  3 & Penalties & 0.68 & 12.00 \\ 
-  4 & Movie Song & 0.87 & 13.00 \\ 
+1 &   1 & 0.23 & 1.35 \\ 
+  2 &   2 & 0.17 & 1.50 \\ 
+  3 &   3 & 0.31 & 1.33 \\ 
+  4 &   4 & 0.52 & 2.01 \\ 
+  5 &   5 & 0.75 & 0.66 \\ 
    \hline
 \end{tabular}
-\caption{Multiple Choice domains. The Crowd Ranking column 
-       contains the percentage of users the crowd performs strictly better than. Correct
-       Answers is the number of answers the crowd got right.} 
+\caption{Average score by confidence level all domains.} 
 \end{table}
 
-\begin{table}[ht]
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/plot_conf_pe.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/plot_conf_mc.png}
+		}
+    \end{center}
+    \caption{Scatter plot of percent accuracy by reported confidence level for point estimate and multiple choice quesions. }
+\end{figure}
+
+
+\clearpage
+
+\section{Crowd Rankings}
+
+\begin{table}[ht!]
 \centering
-\begin{tabular}{rlrrrrr}
+\begin{tabular}{rrlrr}
   \hline
- & Domain & Mean  & Median  & Geometric Mean  & Trunc Mean  & TruncGeomMean  \\ 
+ & domain\_id & domain\_name & crowd\_score & crowd\_rank \\ 
   \hline
-1 & Food Calories & 0.41 & 0.59 & 0.68 & 0.50 & 0.82 \\ 
+   & 3 & MagicTrick & 20.00 & 1.00 \\ 
+   & 7 & Landmarks & 18.00 & 0.92 \\ 
+   & 12 & Penalties & 12.00 & 0.82 \\ 
+   & 53 & MovieSong & 13.00 & 1.00 \\ 
    \hline
 \end{tabular}
-\caption{ Point estimate domains ranked according to relative performance.
-       Columns represent the ranking by using the corresponding method of aggregation. Relative 
-       performance of a user is the sum of the normalized errors.} 
+\caption{Multiple Choice domains. The Crowd Ranking column contains the percentage of users the crowd performs better than. Score is the number of answers the crowd got right.} 
 \end{table}
 
-\begin{table}[ht]
+
+\begin{table}[ht!]
 \centering
-\begin{tabular}{rlrrrrr}
+\begin{tabular}{rrrrrrl}
   \hline
- & Domain & Mean  & Median  & Geometric Mean  & Trun Mean  & Trunc GeomMean Ranking \\ 
+  & domain & mean & median & geom.mean & trunc.mean & trunc.geom.mean \\ 
   \hline
-1 & Food Calories & 0.47 & 0.68 & 0.62 & 0.61 & 0.45 \\ 
+ &  Calories & 0.45 & 0.68 & 0.63 & 0.58 &  0.78\\ 
    \hline
 \end{tabular}
-\caption{ Point estimate domains ranked according to average ranking.Columns represent the ranking by using the corresponding method of aggregation. Average ranking takes the mean of the crowd percentiles for each task.} 
+\caption{Point estimate rankings by domain according to average ranking. Columns represent the ranking by using the corresponding method of aggregation. Average ranking takes the mean of the crowd percentiles for each task.} 
 \end{table}
 
 
-% latex table generated in R 3.1.1 by xtable 1.7-4 package
-% Thu Apr 30 19:58:21 2015
-\begin{table}[ht]
-\centering
-\begin{tabular}{rlrrrrr}
-  \hline
- & Domain & Control & Median,IQR,Count & Recent 5 & First 5 & 5 Confident \\ 
-  \hline
-1 & Ball Trick & 1.00 & 1.00 & 1.00 & 0.75 & 1.00 \\ 
-  2 & Historical Landmark & 0.75 & 0.86 & 0.50 & 0.60 & 1.00 \\ 
-  3 & Penalties & 0.50 & 0.88 & 1.00 & 0.67 & 0.83 \\ 
-  4 & Movie Song & 0.91 & 1.00 & 1.00 & 0.75 & 0.62 \\ 
-   \hline
-\end{tabular}
-\caption{Social Condition Results for Multiple Choice}
-\end{table}
+
 \end{document}
