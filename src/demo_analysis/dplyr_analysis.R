@@ -128,6 +128,7 @@ rank <- function(v, x, TrueValue, na.rm=FALSE){
   p
 }
 
+
 ######################################################################################################
 
 # Load data
@@ -194,10 +195,10 @@ glimpse(crowd_data)
 # was the answer correct?
 # 
 # new columns
-#  got.correct: binary 0 or 1. 
+#  is_correct: binary 0 or 1. 
 #               For multiple choice quesitons only. 1 if correct, 0 if incorrect
-#  abs.error: the absolute difference between the individual answer and the correct answer
-#  rel.error: the relative difference between the individual answer and the correct answer
+#  abs_error: the absolute difference between the individual answer and the correct answer
+#  rel_error: the relative difference between the individual answer and the correct answer
 crowd_data <- crowd_data %>% 
   mutate(is_correct = ifelse(qn_type == "select" & as.character(answer) == as.character(correct_answer), TRUE, FALSE), 
          abs_error = ifelse(qn_type == "int", abs(as.numeric(answer)-as.numeric(correct_answer)), NA),
@@ -443,7 +444,7 @@ unique_domains <- unique(i_scores$domain_id)
 nr_domains <- length(unique_domains)
 domains <- iter(unique_domains)
 
-# individual scores by domain
+# scores for individuals by domain
 for (i in 1:nr_domains){
   domain_i <- nextElem(domains)
   print(domain_i)
@@ -453,7 +454,7 @@ for (i in 1:nr_domains){
 i_responses
 
 
-# crowd score by domain
+# crowd score by domain (taking the mode of the answers for each task)
 crowd_stats_mc <- crowd_data %>%
   filter(qn_type=="select") %>%
   group_by(task_id)  %>%
@@ -465,7 +466,7 @@ crowd_stats_mc <- crowd_data %>%
   summarise(crowd_score = sum(crowd_is_correct))
 
 
-
+# find crowd ranking
 results <- data.frame(matrix(NA, nr_domains, 4))
 names(results) <- c('domain_id', 'domain_name', 'crowd_score', 'crowd_rank')
 for (i in 1:nr_domains){
