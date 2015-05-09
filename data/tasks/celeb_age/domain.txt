@@ -1,0 +1,2 @@
+5
+estimate the celebrity’s age from looking at their picture.

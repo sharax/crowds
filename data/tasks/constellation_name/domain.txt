@@ -1,0 +1,3 @@
+34
+select the constellation’s name after looking at its image.
+

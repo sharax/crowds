@@ -1,1 +1,4 @@
-Guess the primary artist/band who interpreted a 15-second audio clip of a song
+30
+listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.
+
+

@@ -1,0 +1,3 @@
+40
+indicate if a certain product will be funded or not by Kickstarter, given its image and a short description.
+

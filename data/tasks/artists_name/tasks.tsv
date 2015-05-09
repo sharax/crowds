@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-Avicii	multiple choice	audio	Song01.mp3	Avicii, Jason Derulo, Charli XCX, Tove Lo, Calvin Harris	true
-Lady Antebellum	multiple choice	audio	Song02.mp3	Lady Antebellum, Charli XCX, Imagine Dragons, Drake, Sam Smith, Beyonce	true
-American Authors	multiple choice	audio	Song03.mp3	American Authors, Lee Brice, Miley Cyrus, Wiz Khalifa, Juicy J	true
-Beyonce	multiple choice	audio	Song04.mp3	Beyonce, Jessie J, Ariana Grande, Nicki Minaj, Bobby Shmurda	true
-Imagine Dragons	multiple choice	audio	Song05.mp3	Imagine Dragons, Zedd featuring Hayley Williams, Sam Smith, Avicii, Lorde, 	true
-Florida	multiple choice	audio	Song06.mp3	Florida, Miley Cyrus, Jason Derulo, Michael Jackson, Justin Timberlake	true
-Dierks Bentley	multiple choice	audio	Song07.mp3	Dierks Bentley, DJ Snake and Lil Jon, Lorde, Jake Owen, Imagine Dragons	true
-Lee Brice	multiple choice	audio	Song08.mp3	Lee Brice, One Direction, KONGOS, OneRepublic, Drake featuring Majid Jordan	true
-Jason Derulo	multiple choice	audio	Song09.mp3	Jason Derulo, Imagine Dragons, Nico & Vinz, Eminem featuring Rihanna, OneRepublic	true
-Katy Perry	multiple choice	audio	Song10.mp3	Katy Perry, Sam Smith, Nico & Vinz, Iggy Azalea featuring Charli XCX, Sia	true
-Kid Ink	multiple choice	audio	Song11.mp3	Kid Ink, Passenger, Brantley Gilbert, Robin Thicke, John Legend	true
-Lil Wayne	multiple choice	audio	Song12.mp3	Lil Wayne, Bastille, Taylor Swift, Coldplay, Idina Menzel	true
-Aloe Blacc	multiple choice	audio	Song13.mp3	Aloe Blacc, Sia, Rixton, 5 Seconds of Summer, Lorde	true
-Naughty Boy	multiple choice	audio	Song14.mp3	Naughty Boy, Kid Ink featuring Chris Brown, Taylor Swift, 5 Seconds of Summer, John Legend	true
-One Direction	multiple choice	audio	Song15.mp3	One Direction, Maroon 5, Trey Songz, Aloe Blacc, Brantley Gilbert	true
-One Republic	multiple choice	audio	Song16.mp3	One Republic, Lorde, MAGIC!, Jason Aldean, T.I. featuring Iggy Azalea	true
-Pharell Williams	multiple choice	audio	Song17.mp3	Pharell Williams, Drake, Imagine Dragons, Naughty Boy featuring Sam Smith, Paramore	true
-Bastille	multiple choice	audio	Song18.mp3	Bastille, Jake Owen, Avicii, Lil Wayne featuring Drake, One Direction	true
-Trey Songz	multiple choice	audio	Song19.mp3	Trey Songz, Nico & Vinz, Sara Bareilles, Avicii, Pitbull	true
-Calvin Harris	multiple choice	audio	Song20.mp3	Calvin Harris, Kenny Chesney, KONGOS, MAGIC!, Becky G	true
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+Avicii	multiple choice	audio	Song01.mp3	Avicii, Jason Derulo, Charli XCX, Tove Lo, Calvin Harris	true	listen to the audio clip and select the artist/band who interpreted the song
+Lady Antebellum	multiple choice	audio	Song02.mp3	Lady Antebellum, Charli XCX, Imagine Dragons, Drake, Sam Smith, Beyonce	true	listen to the audio clip and select the artist/band who interpreted the song
+American Authors	multiple choice	audio	Song03.mp3	American Authors, Lee Brice, Miley Cyrus, Wiz Khalifa, Juicy J	true	listen to the audio clip and select the artist/band who interpreted the song
+Beyonce	multiple choice	audio	Song04.mp3	Beyonce, Jessie J, Ariana Grande, Nicki Minaj, Bobby Shmurda	true	listen to the audio clip and select the artist/band who interpreted the song
+Imagine Dragons	multiple choice	audio	Song05.mp3	Imagine Dragons, Zedd featuring Hayley Williams, Sam Smith, Avicii, Lorde, 	true	listen to the audio clip and select the artist/band who interpreted the song
+Florida	multiple choice	audio	Song06.mp3	Florida, Miley Cyrus, Jason Derulo, Michael Jackson, Justin Timberlake	true	listen to the audio clip and select the artist/band who interpreted the song
+Dierks Bentley	multiple choice	audio	Song07.mp3	Dierks Bentley, DJ Snake and Lil Jon, Lorde, Jake Owen, Imagine Dragons	true	listen to the audio clip and select the artist/band who interpreted the song
+Lee Brice	multiple choice	audio	Song08.mp3	Lee Brice, One Direction, KONGOS, OneRepublic, Drake featuring Majid Jordan	true	listen to the audio clip and select the artist/band who interpreted the song
+Jason Derulo	multiple choice	audio	Song09.mp3	Jason Derulo, Imagine Dragons, Nico & Vinz, Eminem featuring Rihanna, OneRepublic	true	listen to the audio clip and select the artist/band who interpreted the song
+Katy Perry	multiple choice	audio	Song10.mp3	Katy Perry, Sam Smith, Nico & Vinz, Iggy Azalea featuring Charli XCX, Sia	true	listen to the audio clip and select the artist/band who interpreted the song
+Kid Ink	multiple choice	audio	Song11.mp3	Kid Ink, Passenger, Brantley Gilbert, Robin Thicke, John Legend	true	listen to the audio clip and select the artist/band who interpreted the song
+Lil Wayne	multiple choice	audio	Song12.mp3	Lil Wayne, Bastille, Taylor Swift, Coldplay, Idina Menzel	true	listen to the audio clip and select the artist/band who interpreted the song
+Aloe Blacc	multiple choice	audio	Song13.mp3	Aloe Blacc, Sia, Rixton, 5 Seconds of Summer, Lorde	true	listen to the audio clip and select the artist/band who interpreted the song
+Naughty Boy	multiple choice	audio	Song14.mp3	Naughty Boy, Kid Ink featuring Chris Brown, Taylor Swift, 5 Seconds of Summer, John Legend	true	listen to the audio clip and select the artist/band who interpreted the song
+One Direction	multiple choice	audio	Song15.mp3	One Direction, Maroon 5, Trey Songz, Aloe Blacc, Brantley Gilbert	true	listen to the audio clip and select the artist/band who interpreted the song
+One Republic	multiple choice	audio	Song16.mp3	One Republic, Lorde, MAGIC!, Jason Aldean, T.I. featuring Iggy Azalea	true	listen to the audio clip and select the artist/band who interpreted the song
+Pharell Williams	multiple choice	audio	Song17.mp3	Pharell Williams, Drake, Imagine Dragons, Naughty Boy featuring Sam Smith, Paramore	true	listen to the audio clip and select the artist/band who interpreted the song
+Bastille	multiple choice	audio	Song18.mp3	Bastille, Jake Owen, Avicii, Lil Wayne featuring Drake, One Direction	true	listen to the audio clip and select the artist/band who interpreted the song
+Trey Songz	multiple choice	audio	Song19.mp3	Trey Songz, Nico & Vinz, Sara Bareilles, Avicii, Pitbull	true	listen to the audio clip and select the artist/band who interpreted the song
+Calvin Harris	multiple choice	audio	Song20.mp3	Calvin Harris, Kenny Chesney, KONGOS, MAGIC!, Becky G	true	listen to the audio clip and select the artist/band who interpreted the song

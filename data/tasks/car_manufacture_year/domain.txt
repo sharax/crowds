@@ -1,0 +1,4 @@
+11
+estimate the manufacture year of each Ford car after looking at its image.
+
+
