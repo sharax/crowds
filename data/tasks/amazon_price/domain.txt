@@ -1,2 +1,4 @@
-Guess the Amazon price in USD of the following products after looking at their image and specification.
+39
+estimate the Amazon price in USD for 20 products, given their image and specifications.
+
 

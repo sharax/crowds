@@ -1,0 +1,3 @@
+45
+estimate the number of years it took to build the building shown in the image.
+
