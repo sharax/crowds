@@ -1,5 +1,3 @@
-Label	Value
-City1	Delhi
-Country1	India
-City2	Kolkata
-Country2	India
+Id	City	Country
+1	Delhi	India
+2	Kolkata	India

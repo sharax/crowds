@@ -1,24 +1,24 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-hawthorn	multiple choice	image	tree_hawthorn.png	hawthorn,balsam fir,apple seviceberry,pine,plum	true
-holly	multiple choice	image	tree_holly.png	holly,gray birch,redbud,dogwood,plum	true
-balsam fir	multiple choice	image	tree_balsamfir.png	silver birches, oak,balsam fir,pine,sycamore	true
-apple serviceberry	multiple choice	image	tree_apple.png	apple serviceberry,japanese maple,poplar,elder,elm	true
-plum	multiple choice	image	tree_plum.png	plum,pine,oak,elm,werty	true
-eastern redbud	multiple choice	image	tree_redbund.png	dogwood,norway maple,poplar,eastern redwood,loboneir	true
-snowbell	multiple choice	image	tree_snowden.png	snowball,maple,sycamore,laboneir,hawthorn	true
-norway maple	multiple choice	image	tree_maple.png	japanese maple,norway maple,oak,plum,elm	true   
-dogwood	multiple choice	image	tree_dogwood.png	dogwood,snowball,plum,beech tree,elm	true
-pine	multiple choice	image	tree_pine.png	pine,plum,oak,redwood,weeping willow	true
-oak	multiple choice	image	tree_oak.png	oak,pine,eucalyptus,chestnut,poplar	true
-silver birches	multiple choice	image	tree_silverbirches.png	apple,maple norway,pine,silver birches,oak	true
-gray birch	multiple choice	image	tree_graybirch.png	sycamore,serviceberry,graybirch,ivy	true
-black locust	multiple choice	image	tree_blacklocust.png	graybirch,holly,shantung,black locust,balsam fir	true 
-elm	multiple choice	image	tree_elm.png	elm,elder,pine,oak,poplar	true
-elder	multiple choice	image	tree_elder.png	elder,beech,hawthorn,plum,oak	true
-beech trees	multiple choice	image	tree_beechtree.png	beech tree,plum,snowbell,redbud,ivy	true
-poplars	multiple choice	image	tree_poplar.png	sycamore,poplar,elm,pine,snowbell	true
-sycamore	multiple choice	image	tree_sycamore.png	sycamore,elder,elm,silver birches,redbud	true
-weeping willow	multiple choice	image	tree_weepingwillow.png	weeping willow, hawthorn,redbud, dogwood,oak	true
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+hawthorn	multiple choice	image	tree_hawthorn.png	hawthorn,balsam fir,apple seviceberry,pine,plum	true	select the tree specie's name.
+holly	multiple choice	image	tree_holly.png	holly,gray birch,redbud,dogwood,plum	true	select the tree specie's name.
+balsam fir	multiple choice	image	tree_balsamfir.png	silver birches, oak,balsam fir,pine,sycamore	true	select the tree specie's name.
+apple serviceberry	multiple choice	image	tree_apple.png	apple serviceberry,japanese maple,poplar,elder,elm	true	select the tree specie's name.
+plum	multiple choice	image	tree_plum.png	plum,pine,oak,elm,werty	true	select the tree specie's name.
+eastern redbud	multiple choice	image	tree_redbund.png	dogwood,norway maple,poplar,eastern redwood,loboneir	true	select the tree specie's name.
+snowbell	multiple choice	image	tree_snowden.png	snowball,maple,sycamore,laboneir,hawthorn	true	select the tree specie's name.
+norway maple	multiple choice	image	tree_maple.png	japanese maple,norway maple,oak,plum,elm	true   	select the tree specie's name.
+dogwood	multiple choice	image	tree_dogwood.png	dogwood,snowball,plum,beech tree,elm	true	select the tree specie's name.
+pine	multiple choice	image	tree_pine.png	pine,plum,oak,redwood,weeping willow	true	select the tree specie's name.
+oak	multiple choice	image	tree_oak.png	oak,pine,eucalyptus,chestnut,poplar	true	select the tree specie's name.
+silver birches	multiple choice	image	tree_silverbirches.png	apple,maple norway,pine,silver birches,oak	true	select the tree specie's name.
+gray birch	multiple choice	image	tree_graybirch.png	sycamore,serviceberry,graybirch,ivy	true	select the tree specie's name.
+black locust	multiple choice	image	tree_blacklocust.png	graybirch,holly,shantung,black locust,balsam fir	true 	select the tree specie's name.
+elm	multiple choice	image	tree_elm.png	elm,elder,pine,oak,poplar	true	select the tree specie's name.
+elder	multiple choice	image	tree_elder.png	elder,beech,hawthorn,plum,oak	true	select the tree specie's name.
+beech trees	multiple choice	image	tree_beechtree.png	beech tree,plum,snowbell,redbud,ivy	true	select the tree specie's name.
+poplars	multiple choice	image	tree_poplar.png	sycamore,poplar,elm,pine,snowbell	true	select the tree specie's name.
+sycamore	multiple choice	image	tree_sycamore.png	sycamore,elder,elm,silver birches,redbud	true	select the tree specie's name.
+weeping willow	multiple choice	image	tree_weepingwillow.png	weeping willow, hawthorn,redbud, dogwood,oak	true	select the tree specie's name.
 
 
 

@@ -1,5 +1,3 @@
-Label	Value
-City1	Hong Kong
-Country1	China
-City2	Huston
-Country2	United States of America
+Id	City	Country
+1	Hong Kong	China
+2	Huston	United States of America

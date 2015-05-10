@@ -1,5 +1,3 @@
-Label	Value
-City1	Bangalore
-Country1	India
-City2	Seoul
-Country2	South Korea
+Id	City	Country
+1	Bangalore	India
+2	Seoul	South Korea

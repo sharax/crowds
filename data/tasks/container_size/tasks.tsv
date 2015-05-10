@@ -1,21 +1,21 @@
-Correct answer	Answer Type	Asset Type	Asset File	Possible answers	Randomize answers
-1.9	point estimate	Image	1_9.jpg	no answers	false
-3.8	point estimate	Image	3_8.jpg	no answers	false
-3.8	point estimate	Image	3_78.jpg	no answers	false
-13.2	point estimate	Image	13_2.jpg	no answers	false
-0.06	point estimate	Image	60ml.jpg	no answers	false
-0.12	point estimate	Image	120.jpg	no answers	false
-0.12	point estimate	Image	120a.jpg	no answers	false
-0.21	point estimate	Image	210m.jpg	no answers	false
-0.24	point estimate	Image	240.jpg	no answers	false
-0.24	point estimate	Image	240a.jpg	no answers	false
-0.24	point estimate	Image	250b.jpg	no answers	false
-0.25	point estimate	Image	250c.jpg	no answers	false
-0.25	point estimate	Image	250m.jpg	no answers	false
-0.25	point estimate	Image	250ml.jpg	no answers	false
-0.48	point estimate	Image	480.jpg 	no answers	false
-0.48	point estimate	Image	480b.jpg	no answers	false
-0.5	point estimate	Image	500ma.jpg	no answers	false
-0.5	point estimate	Image	500mb.jpg	no answers	false
-0.5	point estimate	Image	500ml.jpg	no answers	false
-0.95	point estimate	Image	950ml.jpg	no answers	false
+correct_ansewer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+1.9	point estimate	Image	1_9.jpg	no answers	false	estimate the capacity of the container shown next.
+3.8	point estimate	Image	3_8.jpg	no answers	false	estimate the capacity of the container shown next.
+3.8	point estimate	Image	3_78.jpg	no answers	false	estimate the capacity of the container shown next.
+13.2	point estimate	Image	13_2.jpg	no answers	false	estimate the capacity of the container shown next.
+0.06	point estimate	Image	60ml.jpg	no answers	false	estimate the capacity of the container shown next.
+0.12	point estimate	Image	120.jpg	no answers	false	estimate the capacity of the container shown next.
+0.12	point estimate	Image	120a.jpg	no answers	false	estimate the capacity of the container shown next.
+0.21	point estimate	Image	210m.jpg	no answers	false	estimate the capacity of the container shown next.
+0.24	point estimate	Image	240.jpg	no answers	false	estimate the capacity of the container shown next.
+0.24	point estimate	Image	240a.jpg	no answers	false	estimate the capacity of the container shown next.
+0.24	point estimate	Image	250b.jpg	no answers	false	estimate the capacity of the container shown next.
+0.25	point estimate	Image	250c.jpg	no answers	false	estimate the capacity of the container shown next.
+0.25	point estimate	Image	250m.jpg	no answers	false	estimate the capacity of the container shown next.
+0.25	point estimate	Image	250ml.jpg	no answers	false	estimate the capacity of the container shown next.
+0.48	point estimate	Image	480.jpg 	no answers	false	estimate the capacity of the container shown next.
+0.48	point estimate	Image	480b.jpg	no answers	false	estimate the capacity of the container shown next.
+0.5	point estimate	Image	500ma.jpg	no answers	false	estimate the capacity of the container shown next.
+0.5	point estimate	Image	500mb.jpg	no answers	false	estimate the capacity of the container shown next.
+0.5	point estimate	Image	500ml.jpg	no answers	false	estimate the capacity of the container shown next.
+0.95	point estimate	Image	950ml.jpg	no answers	false	estimate the capacity of the container shown next.
