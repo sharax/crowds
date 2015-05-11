@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-9160	point estimate	tsv	Philadelphia_Cairo.tsv	no answers	false
-2495	point estimate	tsv	Dallas_Boston.tsv	no answers	false
-1237	point estimate	tsv	Istanbul_Cairo.tsv	no answers	false
-5591	point estimate	tsv	Bangalore_Seoul.tsv	no answers	false
-4814	point estimate	tsv	Istanbul_Mumbai.tsv	no answers	false
-18494	point estimate	tsv	Buenos_Aires_Hong_Kong.tsv	no answers	false
-8114	point estimate	tsv	Glasgow_Kolkata.tsv	no answers	false
-8442	point estimate	tsv	Singapore_Durban.tsv	no answers	false
-13581	point estimate	tsv	Ahmedabad_Los_Angeles.tsv	no answers	false
-14670	point estimate	tsv	Brisbane_Brasilia.tsv	no answers	false
-7897	point estimate	tsv	Cape_Town_Colombo.tsv	no answers	false
-9135	point estimate	tsv	Sydney_Chennai.tsv	no answers	false
-11040	point estimate	tsv	Hong_Kong_Huston.tsv	no answers	false
-13313	point estimate	tsv	Bangalore_Toronto.tsv	no answers	false
-11068	point estimate	tsv	Beijing_Shanghai.tsv	no answers	false
-290	point estimate	tsv	Bangalore_Chennai.tsv	no answers	false
-1305	point estimate	tsv	Delhi_Kolkata.tsv	no answers	false
-17012	point estimate	tsv	Sydney_London.tsv	no answers	false
-9890	point estimate	tsv	San_Francisco_Shanghai.tsv	no answers	false
-16054	point estimate	tsv	Huston_Cape_Town.tsv	no answers	false
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+9160	point estimate	image	Philadelphia_Cairo.png	no answers	false	estimate the distance bewteen the two cities.
+2495	point estimate	image	Dallas_Boston.png	no answers	false	estimate the distance bewteen the two cities.
+1237	point estimate	image	Istanbul_Cairo.png	no answers	false	estimate the distance bewteen the two cities.
+5591	point estimate	image	Bangalore_Seoul.png	no answers	false	estimate the distance bewteen the two cities.
+4814	point estimate	image	Istanbul_Mumbai.png	no answers	false	estimate the distance bewteen the two cities.
+18494	point estimate	image	Buenos_Aires_Hong_Kong.png	no answers	false	estimate the distance bewteen the two cities.
+8114	point estimate	image	Glasgow_Kolkata.png	no answers	false	estimate the distance bewteen the two cities.
+8442	point estimate	image	Singapore_Durban.png	no answers	false	estimate the distance bewteen the two cities.
+13581	point estimate	image	Ahmedabad_Los_Angeles.png	no answers	false	estimate the distance bewteen the two cities.
+14670	point estimate	image	Brisbane_Brasilia.png	no answers	false	estimate the distance bewteen the two cities.
+7897	point estimate	image	Cape_Town_Colombo.png	no answers	false	estimate the distance bewteen the two cities.
+9135	point estimate	image	Sydney_Chennai.png	no answers	false	estimate the distance bewteen the two cities.
+11040	point estimate	image	Hong_Kong_Huston.png	no answers	false	estimate the distance bewteen the two cities.
+13313	point estimate	image	Bangalore_Toronto.png	no answers	false	estimate the distance bewteen the two cities.
+11068	point estimate	image	Beijing_Shanghai.png	no answers	false	estimate the distance bewteen the two cities.
+290	point estimate	image	Bangalore_Chennai.png	no answers	false	estimate the distance bewteen the two cities.
+1305	point estimate	image	Delhi_Kolkata.png	no answers	false	estimate the distance bewteen the two cities.
+17012	point estimate	image	Sydney_London.png	no answers	false	estimate the distance bewteen the two cities.
+9890	point estimate	image	San_Francisco_Shanghai.png	no answers	false	estimate the distance bewteen the two cities.
+16054	point estimate	image	Huston_Cape_Town.png	no answers	false	estimate the distance bewteen the two cities.

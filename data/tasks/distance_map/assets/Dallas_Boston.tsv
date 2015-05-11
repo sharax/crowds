@@ -1,5 +1,3 @@
-Label	Value
-City1	Dallas
-Country1	United States of America
-City2	Boston
-Country2	United States of America
+Id	City	Country
+1	Dallas	United States of America
+2	Boston	United States of America

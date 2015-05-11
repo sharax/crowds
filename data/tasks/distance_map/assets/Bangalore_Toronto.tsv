@@ -1,5 +1,3 @@
-Label	Value
-City1	Bangalore
-Country1	India
-City2	Toronto
-Country2	Canada
+Id	City	Country
+1	Bangalore	India
+2	Toronto	Canada

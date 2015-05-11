@@ -1,5 +1,3 @@
-Label	Value
-City1	Glasgow
-Country1	United Kingdom
-City2	Kolkata
-Country2	India
+Id	City	Country
+1	Glasgow	United Kingdom
+2	Kolkata	India

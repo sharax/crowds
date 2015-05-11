@@ -1,5 +1,3 @@
-Label	Value
-City1	Brisbane
-Country1	Australia
-City2	Brasilia
-Country2	Brazil
+Id	City	Country
+1	Brisbane	Australia
+2	Brasilia	Brazil

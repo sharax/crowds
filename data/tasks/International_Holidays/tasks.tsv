@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset	possible_answers	randomize_answers
-10-10-2016	point estimate	tsv	asset1.tsv	no answers	false
-18-01-2016	point estimate	tsv	asset2.tsv	no answers	false
-24-11-2016	point estimate	tsv	asset3.tsv	no answers	false
-05-09-2016	point estimate	tsv	asset4.tsv	no answers	false
-10-03-2016	point estimate	tsv	asset5.tsv	no answers	false
-08-02-2016	point estimate	tsv	asset6.tsv	no answers	false
-11-01-2016	point estimate	tsv	asset7.tsv	no answers	false
-09-06-2016	point estimate	tsv	asset8.tsv	no answers	false
-01-08-2016	point estimate	tsv	asset9.tsv	no answers	false
-21-04-2016	point estimate	tsv	asset10.tsv	no answers	false
-28-03-2016	point estimate	tsv	asset11.tsv	no answers	false
-04-03-2016	point estimate	tsv	asset12.tsv	no answers	false
-18-07-2016	point estimate	tsv	asset13.tsv	no answers	false
-11-10-2016	point estimate	tsv	asset14.tsv	no answers	false
-31-05-2016	point estimate	tsv	asset15.tsv	no answers	false
-30-11-2016	point estimate	tsv	asset16.tsv	no answers	false
-12-12-2016	point estimate	tsv	asset17.tsv	no answers	false
-16-05-2016	point estimate	tsv	asset18.tsv	no answers	false
-25-12-2016	point estimate	tsv	asset19.tsv	no answers	false
-24-03-2016	point estimate	tsv	asset20.tsv	no answers	false
+correct_answer	answer_type	asset_type	asset	possible_answers	randomize_answers	question
+10-10-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Colombus Day.
+18-01-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Martin Luther King Day.	
+24-11-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Thanksgiving Day.
+05-09-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Labour Day.
+10-03-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Zhonghe Festival.
+08-02-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Chinese New Year.
+11-01-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Coming of Age Day.
+09-06-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Dragon Boat Festival.
+01-08-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Kadooment Day.
+21-04-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Tiradentes Day.
+28-03-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Easter Monday.
+04-03-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Ascencion Day.
+18-07-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Nelson Mandela Day.
+11-10-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Yom Kippur.
+31-05-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Day of Castile-La Mancha.
+30-11-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's St. Andrews Day.
+12-12-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Muhammad's Birthday.
+16-05-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Whit Sunday.
+25-12-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Christmas.
+24-03-2016	date	no assets	no assets	no answers	false	estimate the date for 2016's Holi.
