@@ -1,5 +1,6 @@
 library(stats)
 library(dplyr)
+library(reshape)
 library(ggplot2)
 library(iterators)
 library(xtable)
@@ -62,19 +63,18 @@ crowd_data <- responses %>%
 # change type for the answer & correct_answer columns
 # takes the place of "stringsAsFactors = FALSE"
 crowd_data <- crowd_data %>% 
-  mutate(answer = as.character(answer), 
+  mutate(answer = trim(as.character(answer)), 
          correct_answer = trim(as.character(correct_answer)))
 
 # flag answers that "timedout" and "null" with NA
 crowd_data <- filter(crowd_data, answer!="timeout", answer!="null")
 
+
 # check
 dim(crowd_data)
 names(crowd_data)
 summary(crowd_data)
-
-# transposed view, similar to "strucutre" function
-glimpse(crowd_data)  
+glimpse(crowd_data)  # transposed view
 
 
 
@@ -96,7 +96,6 @@ crowd_data <- crowd_data %>%
 crowd_data <- crowd_data %>% 
   mutate(rel_error = ifelse(qn_type == "int" & rel_error=="Inf", 1, rel_error))
 
-head(crowd_data)
  
 ####################################################################################################
 # exploratory analysis
@@ -131,6 +130,7 @@ user_perf_mc <- crowd_data %>%
                                  geom="histogram", 
                                  stat="bin",
                                  binwidth = 0.05,
+                                 xlim = c(0,1),
                                  xlab = "average correct"))
 
 
@@ -155,7 +155,7 @@ score_by_asset <- crowd_data %>%
 xtable(score_by_asset, caption = "Average score by asset type for all domains.")
 
 #   type  av_score
-# 1 audio 0.1018364
+# 1 audio 0.3873122
 # 2 image 0.7067901
 # 3 video 0.5745423
 
@@ -164,13 +164,17 @@ xtable(score_by_asset, caption = "Average score by asset type for all domains.")
 # time to answer qn
 time_stats <- crowd_data %>% 
                   group_by(asset_type) %>%  
-                  summarise(av_time = mean(time), 
-                            median_time = median(time)) 
+                  summarise(min_time = min(time),
+                            mean_time = mean(time), 
+                            median_time = median(time),
+                            max_time = max(time)) 
 
-# asset_type  av_time   median_time
-# 1      audio 18.04174          16
-# 2      image 12.25598          11
-# 3      video 17.72799          17
+xtable(time_stats, caption = "Time to answer question by asset type for all domains.")
+
+# asset_type min_time  av_time median_time max_time
+# 1      audio        3 18.04174          16       45
+# 2      image        2 12.25598          11       44
+# 3      video        2 17.72799          17       45
 
 
 
@@ -189,10 +193,10 @@ score_by_edu <- group_by(crowd_data, education) %>%
 xtable(score_by_edu, caption = "Average score by education level all domains.")
 
 # education             pct_correct  av_dist
-# 1            Bachelor   0.3899791 1.456040
-# 2              Master   0.4800000 1.278620
-# 3   Primary education   0.4218750 1.215210
-# 4 Secondary education   0.3766578 1.424537
+# 1            Bachelor   0.4709812 1.456040
+# 2              Master   0.5400000 1.278620
+# 3   Primary education   0.5390625 1.215210
+# 4 Secondary education   0.4801061 1.424537
 
 
 
@@ -201,11 +205,11 @@ score_by_conf <- group_by(crowd_data, confidence) %>%
                   accuracy_by_group()
 
 # confidence pct_correct   av_dist
-# 1          1   0.2154341 1.3504182
-# 2          2   0.1599265 1.5002094
-# 3          3   0.3000000 1.3280794
-# 4          4   0.4785276 2.0073925
-# 5          5   0.6930295 0.6639404
+# 1          1   0.2604502 1.3504182
+# 2          2   0.2279412 1.5002094
+# 3          3   0.3505495 1.3280794
+# 4          4   0.5480573 2.0073925
+# 5          5   0.8579088 0.6639404
 xtable(score_by_conf, caption = "Average score by confidence level all domains.")
 
 
@@ -228,29 +232,25 @@ plot_conf <-  qplot(x=confidence,
 
 # time vs. relative error / confidence
 time_confidence <- crowd_data %>% 
-                      filter(qn_type=="int") %>%
+#                       filter(qn_type=="int") %>%
+                      filter(qn_type=="select") %>%
                       group_by(task_id, user_id) %>%  
-                      summarise(time = time, 
+                      summarise(domain_id = domain_id[1],
+                                time = time, 
                                 confidence = confidence, 
-                                rel_error = rel_error)
+                                is_correct = is_correct) %>%
+#                                 rel_error = rel_error) %>%
+                      group_by(task_id)  %>%
+                      summarise(av_time = mean(time),
+                                av_error = mean(is_correct))
 
 ggplot(data = time_confidence,
-       aes(x = time,
-           y = rel_error, 
-           color=confidence)) +
-  geom_point()
+       aes(x = av_time,
+           y = av_error)) +
+       geom_point() +
+       ylim(0,1) +
+       ggtitle("Time vs. average score grouped by task (MC)")
 
-
-
-
-# time vs. social condition
-time_social <- crowd_data %>% 
-                    group_by(experimental_condition) %>%  
-                    summarise(time = mean(time))
-
-# experimental_condition     time
-# 1                control 15.67757
-# 2                 social 15.26173
 
 
 
@@ -269,20 +269,30 @@ scatter_edu <- filter(crowd_data, qn_type=="select")  %>%
 
 
 # accuracy, confidence vs. social condition - MC
-crowd_data %>%
-  filter(qn_type == "select") %>%
-  group_by(task_id, experimental_condition) %>%
-  summarise(confidence = mean(confidence),
-            true_answer = correct_answer[1],
-            crowd_answer = Mode(answer),
-            is_correct = ifelse(true_answer == crowd_answer, TRUE, FALSE)) %>%
-  group_by(experimental_condition) %>%
-  summarise(av_confidence = mean(confidence),
-            av_score = mean(is_correct))
+exp_condition <- crowd_data %>%
+                    filter(qn_type == "select") %>%
+                    group_by(user_id, task_id, experimental_condition) %>%
+                    summarise(confidence = mean(confidence),
+                              true_answer = correct_answer[1],
+                              crowd_answer = Mode(answer),
+                              is_correct = ifelse(true_answer == crowd_answer, TRUE, FALSE), 
+                              time = mean(time)) %>%
+                    group_by(experimental_condition) %>%
+                    summarise(av_confidence = mean(confidence),
+                              time = mean(time),
+                              av_score = mean(is_correct))
 
-# experimental_condition av_confidence av_score
-# 1                control      3.284140   0.6625
-# 2                 social      3.541124   0.6750
+xtable(exp_condition, caption = "Statistics for experimental condition.")
+
+# experimental_condition av_confidence     time  av_score
+# 1                control      3.296006 16.23752 0.5863053
+# 2                 social      3.540323 16.08165 0.6149194
+
+# compare to:
+# time_social <- crowd_data %>% 
+#   group_by(experimental_condition) %>%  
+#   summarise()
+
 
 
 
@@ -306,27 +316,30 @@ crowd_data %>%
 # 1         3 MagicTrick          20
 # 2         7  Landmarks          18
 # 3        12  Penalties          12
-# 4        53 ThemeSongs           4
+# 4        53 ThemeSongs          12 * FIX: Lord of the rings
 
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 # domain / confidence & accuracy
-crowd_data %>%
-    group_by(task_id) %>%
-    summarise(domain_id = domain_id[1],
-              name = name[1],
-              confidence = mean(confidence), 
-              correct_answer = correct_answer[1],
-              crowd_answer = Mode(answer),
-              correct = ifelse(correct_answer == crowd_answer, TRUE, FALSE),
-              av_relerror = mean(rel_error), 
-              median_relerror = median(rel_error)) %>%
-    group_by(domain_id) %>%
-    summarise(name = name[1], 
-              confidence = median(confidence),
-              crowd_score_mc = sum(correct),
-              crowd_av_error = mean(av_relerror),
-              crowd_median_err = mean(median_relerror)) 
+conf_err <- crowd_data %>%
+                group_by(task_id) %>%
+                summarise(domain_id = domain_id[1],
+                          name = name[1],
+                          confidence = mean(confidence), 
+                          correct_answer = correct_answer[1],
+                          crowd_answer = Mode(answer),
+                          correct = ifelse(correct_answer == crowd_answer, TRUE, FALSE),
+                          av_relerror = mean(rel_error), 
+                          median_relerror = median(rel_error)) %>%
+                group_by(domain_id) %>%
+                summarise(name = name[1], 
+                          confidence = median(confidence),
+                          crowd_score_mc = sum(correct),
+                          crowd_av_error = mean(av_relerror),
+                          crowd_median_err = mean(median_relerror)) 
+
+xtable(conf_err, caption = "Confidence vs domain error.")
+
 
 # domain_id       name confidence crowd_score_mc crowd_av_error crowd_median_err
 # 1         3 MagicTrick   3.836667             20             NA               NA
@@ -430,10 +443,10 @@ results
 
 
 # domain_id crowd_score crowd_rank
-# 1         3          20  1.0000000
-# 2         7          18  0.9166667
-# 3        12          12  0.8235294
-# 4        53           4  1.0000000
+# 1         3  MagicTrick          20  1.0000000
+# 2         7   Landmarks          18  0.9166667
+# 3        12   Penalties          12  0.8235294
+# 4        53    Calories          12  0.8787879
 
 xtable(results, 
        caption = "Multiple Choice domains. The Crowd Ranking column contains
