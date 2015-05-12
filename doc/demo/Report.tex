@@ -9,11 +9,9 @@
      \begin{center}
         \subfigure[]{
             \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_age.png}
-            \label{madison_results}
         }
         \subfigure[]{
            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_gender.png}
-           \label{phoenix_results}
 		}
     \end{center}
     \caption{Histogram of age and gender of participants. }
@@ -23,11 +21,9 @@
      \begin{center}
         \subfigure[]{
             \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_edu.png}
-            \label{madison_results}
-        }
+      }
         \subfigure[]{
            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_confidence.png}
-           \label{phoenix_results}
 		}
     \end{center}
     \caption{Histogram of education level and confidence level. }
@@ -54,20 +50,16 @@
     \caption{Histogram of aggregate user performance for point estimate tasks.}
 \end{figure}
 
-%\textsc{
-%\begin{table}[ht!]
-%\centering
-%\begin{tabular}{rlr}
-%  \hline
-% & type & av\_score \\ 
-%  \hline
-%1 & audio & 0.10 \\ 
-%  2 & image & 0.71 \\ 
-%  3 & video & 0.65 \\ 
-%   \hline
-%\end{tabular}
-%\caption{Average score by asset type for all domains.} 
-%\end{table}
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=0.45\textwidth]{../../output/demo_analysis/hist_assets.png}
+\caption{Histogram of user performance on multiple choice tasks.}
+\end{center}	
+\end{figure}
+
+
+
 
 \begin{figure}[ht!]
 \begin{center}
@@ -79,21 +71,51 @@
 
 \begin{table}[ht!]
 \centering
+\begin{tabular}{rlr}
+  \hline
+ & type & av\_score \\ 
+  \hline
+   & audio & 0.39 \\ 
+   & image & 0.71 \\ 
+   & video & 0.65 \\ 
+   \hline
+\end{tabular}
+\caption{Average score by asset type for all domains.} 
+\end{table}
+
+
+\clearpage
+\begin{table}[ht!]
+\centering
 \begin{tabular}{rlrr}
   \hline
  & education & pct\_correct & av\_dist \\ 
   \hline
-1 & Bachelor & 0.42 & 1.46 \\ 
-  2 & Master & 0.52 & 1.28 \\ 
-  3 & Primary education & 0.45 & 1.22 \\ 
-  4 & Secondary education & 0.40 & 1.42 \\ 
+  & Bachelor & 0.47 & 1.46 \\ 
+  & Master & 0.54 & 1.28 \\ 
+  & Primary education & 0.54 & 1.22 \\ 
+  & Secondary education & 0.48 & 1.42 \\ 
    \hline
 \end{tabular}
 \caption{Average score by education level all domains.} 
 \end{table}
 
 
-\clearpage
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrr}
+  \hline
+ & asset\_type & min\_time & mean\_time & median\_time & max\_time \\ 
+  \hline
+  & audio & 3.00 & 18.04 & 16.00 & 45.00 \\ 
+  & image & 2.00 & 12.26 & 11.00 & 44.00 \\ 
+  & video & 2.00 & 17.73 & 17.00 & 45.00 \\ 
+   \hline
+\end{tabular}
+\caption{Time to answer question by asset type for all domains.} 
+\end{table}
+
 
 \begin{table}[ht]
 \centering
@@ -101,60 +123,182 @@
   \hline
  & confidence & pct\_correct & av\_dist \\ 
   \hline
-1 &   1 & 0.23 & 1.35 \\ 
-  2 &   2 & 0.17 & 1.50 \\ 
-  3 &   3 & 0.31 & 1.33 \\ 
-  4 &   4 & 0.52 & 2.01 \\ 
-  5 &   5 & 0.75 & 0.66 \\ 
+   &   1 & 0.26 & 1.35 \\ 
+   &   2 & 0.23 & 1.50 \\ 
+   &   3 & 0.35 & 1.33 \\ 
+   &   4 & 0.55 & 2.01 \\ 
+   &   5 & 0.86 & 0.66 \\ 
    \hline
 \end{tabular}
 \caption{Average score by confidence level all domains.} 
 \end{table}
 
+
+
 \begin{figure}[ht!]
      \begin{center}
         \subfigure[]{
-            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/plot_conf_pe.png}
+            \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/plot_conf_pe.png}
         }
         \subfigure[]{
-           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/plot_conf_mc.png}
+           \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/plot_conf_mc.png}
 		}
     \end{center}
     \caption{Scatter plot of percent accuracy by reported confidence level for point estimate and multiple choice quesions. }
 \end{figure}
 
 
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{../../output/demo_analysis/time_rel_error.png}
+\caption{Relative Error vs time taken to answer question. Colour indicates reported confidence.}
+\end{center}	
+\end{figure}
+
+
+
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/time_relerror_task.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/time_relerror_user.png}
+		}
+    \end{center}
+    \caption{Time vs. average score grouped by task (a) and users (b) (point estimate questions)}
+\end{figure}
+
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/time_task_mc.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.45\textwidth]{../../output/demo_analysis/time_user_mc.png}
+		}
+    \end{center}
+    \caption{Time vs. average score grouped by task (a) and users (b) (MC questions)}
+\end{figure}
+
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrr}
+  \hline
+ & experimental\_condition & av\_confidence & time & av\_score \\ 
+  \hline
+  & control & 3.30 & 16.24 & 0.59 \\ 
+  & social & 3.54 & 16.08 & 0.61 \\  
+   \hline
+\end{tabular}
+\caption{Statistics for experimental condition.} 
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrlrrrr}
+  \hline
+ & domain\_id & name & confidence & crowd\_score\_mc & crowd\_av\_error & crowd\_median\_err \\ 
+  \hline
+ &   3 & MagicTrick & 3.84 &  20 &  &  \\ 
+ &   7 & Landmarks & 3.88 &  18 &  &  \\ 
+ &  12 & Penalties & 2.75 &  12 &  &  \\ 
+ &  19 & Calories & 2.75 &   & 1.43 & 0.69 \\ 
+ &  53 & ThemeSongs & 2.82 &   12 &  &  \\ 
+   \hline
+\end{tabular}
+\caption{Confidence vs domain error.} 
+\end{table}
+
 \clearpage
 
 \section{Crowd Rankings}
 
-\begin{table}[ht!]
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rr}
+  \hline
+ & x \\ 
+  \hline
+domain & 19.00 \\ 
+  abs\_error\_mean & 458.63 \\ 
+  abs\_error\_median & 377.15 \\ 
+  rel\_error\_mean & 1.43 \\ 
+  rel\_error\_median & 0.69 \\ 
+  rank\_mean & 0.45 \\ 
+  rank\_median & 0.68 \\ 
+  rank.geom.mean & 0.63 \\ 
+  rank\_trunc\_mean & 0.58 \\ 
+  rank\_trunc\_geom\_mean & 0.64 \\ 
+   \hline
+\end{tabular}
+\caption{Point estimate domains ranked according to average ranking. Columns represent 
+       the ranking by using the corresponding method of aggregation. Average ranking takes the 
+       mean of the crowd percentiles for each task.} 
+\end{table}
+
+
+
+\begin{table}[ht]
 \centering
 \begin{tabular}{rrlrr}
   \hline
  & domain\_id & domain\_name & crowd\_score & crowd\_rank \\ 
   \hline
-   & 3 & MagicTrick & 20.00 & 1.00 \\ 
-   & 7 & Landmarks & 18.00 & 0.92 \\ 
-   & 12 & Penalties & 12.00 & 0.82 \\ 
-   & 53 & MovieSong & 13.00 & 1.00 \\ 
+  &   3 & MagicTrick & 20.00 & 1.00 \\ 
+  &   7 & Landmarks & 18.00 & 0.92 \\ 
+  &  12 & Penalties & 12.00 & 0.82 \\ 
+  &  53 & Calories &  12.00 & 0.88 \\ 
    \hline
 \end{tabular}
 \caption{Multiple Choice domains. The Crowd Ranking column contains the percentage of users the crowd performs better than. Score is the number of answers the crowd got right.} 
 \end{table}
 
 
-\begin{table}[ht!]
-\centering
-\begin{tabular}{rrrrrrl}
-  \hline
-  & domain & mean & median & geom.mean & trunc.mean & trunc.geom.mean \\ 
-  \hline
- &  Calories & 0.45 & 0.68 & 0.63 & 0.58 &  0.78\\ 
-   \hline
-\end{tabular}
-\caption{Point estimate rankings by domain according to average ranking. Columns represent the ranking by using the corresponding method of aggregation. Average ranking takes the mean of the crowd percentiles for each task.} 
-\end{table}
+
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/sample_size_landmarks.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/sample_size_magic.png}
+		}
+    \end{center}
+    \caption{Sample size vs accuracy for landmarks (a) and magic trick (b).}
+\end{figure}
+
+
+\begin{figure}[ht!]
+     \begin{center}
+        \subfigure[]{
+            \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/sample_size_penalties.png}
+        }
+        \subfigure[]{
+           \includegraphics[width=0.55\textwidth]{../../output/demo_analysis/sample_size_themesongs.png}
+		}
+    \end{center}
+    \caption{Sample size vs accuracy for penalties (a) and theme songs (b).}
+\end{figure}
+
+
+
+\begin{figure}[ht!]
+\begin{center}
+\includegraphics[width=0.95\textwidth]{../../output/demo_analysis/sample_size_calories.png}
+\caption{Sample size vs accuracy for calories.}
+\end{center}	
+\end{figure}
+
+
 
 
 

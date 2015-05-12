@@ -1,0 +1,9 @@
+Package: crowds
+Type: Package
+Title: Includes aggregation functions for crowd estimates.
+Version: 1.0
+Date: 2015-05-10
+Author: Camelia Simoiu
+Maintainer: Camelia Simoiu  <csimoiu@stanford.edu>
+Description: This is a library contains aggregation functions.
+License: MIT
