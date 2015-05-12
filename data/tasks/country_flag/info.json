@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of flags, and asked to identify the country of origin.", 
+    "domain_id": "41", 
+    "domain_name": "country_flag", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Congo.png", 
+            "correct_answer": "democratic republic of congo", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"burma,democratic republic of congo,mexico,russia,ukraine\""
+        }, 
+        "task 02": {
+            "asset_file": "Indonesia.png", 
+            "correct_answer": "indonesia", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"angola,democratic republic of congo,indonesia,mexico,thailand\""
+        }, 
+        "task 03": {
+            "asset_file": "Algeria.png", 
+            "correct_answer": "algeria", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"algeria,australia,ethiopia,spain,turkey\""
+        }, 
+        "task 04": {
+            "asset_file": "Iran.png", 
+            "correct_answer": "iran", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"algeria,chad,columbia,iran,turkmenistan\""
+        }, 
+        "task 05": {
+            "asset_file": "Mongolia.png", 
+            "correct_answer": "mongolia", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"libya,mongolia,nigeria,poland,spain\""
+        }, 
+        "task 06": {
+            "asset_file": "Libya.png", 
+            "correct_answer": "libya", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"afghanistan,columbia,indonesia,libya,venezuela\""
+        }, 
+        "task 07": {
+            "asset_file": "USA.png", 
+            "correct_answer": "united states of america", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"australia,france,ukraine,united states of america,yemen\""
+        }, 
+        "task 08": {
+            "asset_file": "Russia.png", 
+            "correct_answer": "russia", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"egypt,iraq,russia,spain,sudan\""
+        }, 
+        "task 09": {
+            "asset_file": "India.png", 
+            "correct_answer": "india", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"botswana,democratic republic of congo,india,mozambique,vietnam\""
+        }, 
+        "task 10": {
+            "asset_file": "Saudi Arabia.png", 
+            "correct_answer": "saudi arabia", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"afghanistan,burkina faso,italy,pakistan,saudi arabia\""
+        }, 
+        "task 11": {
+            "asset_file": "Argentina.png", 
+            "correct_answer": "argentina", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"kenya,mali,argentina,poland,india\""
+        }, 
+        "task 12": {
+            "asset_file": "Brazil.png", 
+            "correct_answer": "brazil", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"brazil,libya,morocco,sweden,uganda\""
+        }, 
+        "task 13": {
+            "asset_file": "Mexico.png", 
+            "correct_answer": "mexico", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"bolivia,kenya,mexico,norway,peru\""
+        }, 
+        "task 14": {
+            "asset_file": "Sudan.png", 
+            "correct_answer": "sudan", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"gabon,iran,iraq,south africa,sudan\""
+        }, 
+        "task 15": {
+            "asset_file": "Chad.png", 
+            "correct_answer": "chad", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"chad,chile,egypt,indonesia,yemen\""
+        }, 
+        "task 16": {
+            "asset_file": "Kazakhstan.png", 
+            "correct_answer": "kazakhstan", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"botswana,burkina faso,egypt,kazakhstan,sweden\""
+        }, 
+        "task 17": {
+            "asset_file": "Peru.png", 
+            "correct_answer": "peru", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"china,france,india,indonesia,peru\""
+        }, 
+        "task 18": {
+            "asset_file": "China.png", 
+            "correct_answer": "china", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"china,ecuador,france,oman,philippines\""
+        }, 
+        "task 19": {
+            "asset_file": "Canada.png", 
+            "correct_answer": "canada", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"canada,chad,madagascar,saudi arabia,somalia\""
+        }, 
+        "task 20": {
+            "asset_file": "Australia.png", 
+            "correct_answer": "australia", 
+            "description": "select from which country is the following flag from.", 
+            "possible_answers": "\"algeria,angola,australia,mauritania,poland\""
+        }
+    }, 
+    "time_limit": 30
+}

@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "audio", 
+    "domain_description": "You will be provided with 20 short audio files with theme songs from various movies, and asked to select the movie it was presented in.", 
+    "domain_id": "53", 
+    "domain_name": "song_movie", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "TheSoundOfMusic.mp3", 
+            "correct_answer": "the sound of music", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"my fair lady, mary poppins, the sound of music, oliver, the wizard of oz\""
+        }, 
+        "task 02": {
+            "asset_file": "MaryPoppins.mp3", 
+            "correct_answer": "mary poppins", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"mary poppins, the sound of music, chitty chitty bang bang, the jungle book, my fair lady\""
+        }, 
+        "task 03": {
+            "asset_file": "TheGodfather.mp3", 
+            "correct_answer": "the godfather", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"goodfellas, the godfather, chinatown, scarface, the shawshank redemption\""
+        }, 
+        "task 04": {
+            "asset_file": "Jaws.mp3", 
+            "correct_answer": "jaws", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"raiders of the lost ark, jaws, jurassic park, alien, close encounters of the third kind\""
+        }, 
+        "task 05": {
+            "asset_file": "StarWars.mp3", 
+            "correct_answer": "star wars", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"star wars, raiders of the lost ark, back to the future, star trek, e.t. extra terrestrial\""
+        }, 
+        "task 06": {
+            "asset_file": "ET.mp3", 
+            "correct_answer": "e.t. extra terrestrial", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"e.t. extra terrestrial, jurassic park, close encounters of the third kind, alien, aliens\""
+        }, 
+        "task 07": {
+            "asset_file": "TheLittleMermaid.mp3", 
+            "correct_answer": "the little mermaid", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"beauty and the beast, aladdin, peter pan, the little mermaid, cinderella\""
+        }, 
+        "task 08": {
+            "asset_file": "TheLastEmperor.mp3", 
+            "correct_answer": "the last emperor", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"cry freedom, empire of the sun, the untouchables, a passage to india, the last emperor\""
+        }, 
+        "task 09": {
+            "asset_file": "TheRightStuff.mp3", 
+            "correct_answer": "the right stuff", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"apollo 13, the right stuff, 2001: a space odyssey, chariots of fire, full metal jacket\""
+        }, 
+        "task 10": {
+            "asset_file": "BeautyAndTheBeast.mp3", 
+            "correct_answer": "beauty and the beast", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"the little mermaid, sleeping beauty, beauty and the beast, snow white and the seven dwarfs, the lion king\""
+        }, 
+        "task 11": {
+            "asset_file": "SchindlersList.mp3", 
+            "correct_answer": "schindler's list", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"forest gump, the shawshank redemption, braveheart, schindler's list, saving private ryan\""
+        }, 
+        "task 12": {
+            "asset_file": "Titanic.mp3", 
+            "correct_answer": "titanic", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"the english patient, titanic, shakespeare in love, american beauty, emma\""
+        }, 
+        "task 13": {
+            "asset_file": "TheLionKing.mp3", 
+            "correct_answer": "the lion king", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"aladdin, toy story, shrek, ice age, the lion king\""
+        }, 
+        "task 14": {
+            "asset_file": "LifeIsBeautiful.mp3", 
+            "correct_answer": "life is beautiful", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"the pianist, forest gump, saving private ryan, schindle's list, life is beautiful\""
+        }, 
+        "task 15": {
+            "asset_file": "TheLordOfTheRings.mp3", 
+            "correct_answer": "the lord of the rings: the fellowship of the ring", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"matrix, star wars: episode 1 the phantom menace, the lord of the rings, hobbit, gladiator\""
+        }, 
+        "task 16": {
+            "asset_file": "SlumdogMillionaire.mp3", 
+            "correct_answer": "slumdog millionaire", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"slumdog millionaire, life of pi, crouching tiger hidden dragon, the darjeeling limited, a passage through india\""
+        }, 
+        "task 17": {
+            "asset_file": "Up.mp3", 
+            "correct_answer": "up", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"finding nemo, toy story, up, monsters inc., shrek\""
+        }, 
+        "task 18": {
+            "asset_file": "LifeOfPi.mp3", 
+            "correct_answer": "life of pi", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"slumdog millionaire, life of pi, anna karenina, the darjeeling limited, a passage through india\""
+        }, 
+        "task 19": {
+            "asset_file": "Gravity.mp3", 
+            "correct_answer": "gravity", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"interstellar, apollo 13, the theory of everything, inception, gravity\""
+        }, 
+        "task 20": {
+            "asset_file": "TheGrandBudapestHotel.mp3", 
+            "correct_answer": "the grand budapest hotel", 
+            "description": "select the following song's movie.", 
+            "possible_answers": "\"birdman, the darjeeling limited, the artist, the grand budapest hotel, moonrise kingdom\""
+        }
+    }, 
+    "time_limit": 45
+}

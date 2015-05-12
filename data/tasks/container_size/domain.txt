@@ -1,3 +1,2 @@
 18
-estimate the capacity of the container shown to you in the following 20 images.
-
+You will shown 20 images of containers and asked to estimate its capacity.

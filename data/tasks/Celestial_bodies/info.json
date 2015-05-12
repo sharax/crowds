@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.", 
+    "domain_id": "14", 
+    "domain_name": "celestial_bodies", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Andromeda_Galaxy.png", 
+            "correct_answer": "andromeda galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"andromeda galaxy,black eye galaxy,cartwheel galaxy,cigar galaxy,milky way galaxy\""
+        }, 
+        "task 02": {
+            "asset_file": "Cartwheel_Galaxy.png", 
+            "correct_answer": "cartwheel galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"small magallanic cloud,cartwheel galaxy,the sombrero galaxy,cigar galaxy,milky way galaxy\""
+        }, 
+        "task 03": {
+            "asset_file": "Cigar_Galaxy.png", 
+            "correct_answer": "cigar galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"andromeda galaxy,whirpool galaxy galaxy,cartwheel galaxy,cigar galaxy,the sombrero galaxy\""
+        }, 
+        "task 04": {
+            "asset_file": "Phobos.png", 
+            "correct_answer": "phobos", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"phobos,vesta,europa,mercury,venus\""
+        }, 
+        "task 05": {
+            "asset_file": "Vesta.png", 
+            "correct_answer": "vesta", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"phobos,vesta,venus,mars,mercury\""
+        }, 
+        "task 06": {
+            "asset_file": "Large_Magellanic_Cloud.png", 
+            "correct_answer": "large magellanic cloud", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"large magallanic cloud,andromeda galaxy,milky way galaxy,the sombrero galaxy,proxima centauri\""
+        }, 
+        "task 07": {
+            "asset_file": "Mars.png", 
+            "correct_answer": "mars", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"phobos,europa,venus,mars,mercury\""
+        }, 
+        "task 08": {
+            "asset_file": "Sirius.png", 
+            "correct_answer": "sirius", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"sirius,proxima centauri,small magellanic cloud,vesta,phobos\""
+        }, 
+        "task 09": {
+            "asset_file": "Proxima_Centuria.png", 
+            "correct_answer": "proxima centuria", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"sirius,proxima centauri,phobos,large magellanic cloud,andromeda galaxy\""
+        }, 
+        "task 10": {
+            "asset_file": "Neptune.png", 
+            "correct_answer": "neptune", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"neptune,uranus,mars,vesta,phobos\""
+        }, 
+        "task 11": {
+            "asset_file": "Small_Magellanic_Cloud_Galaxy_1600.png", 
+            "correct_answer": "small magellanic cloud", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"small magallanic cloud,andromeda galaxy,milky way galaxy,the sombrero galaxy,proxima centauri\""
+        }, 
+        "task 12": {
+            "asset_file": "Triangulum_Galaxy.png", 
+            "correct_answer": "triangulum galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"triangulum galaxy,black eye galaxy,proxima centauri,the sombrero galaxy, small magallanic cloud\""
+        }, 
+        "task 13": {
+            "asset_file": "Whirpool_Galaxy.png", 
+            "correct_answer": "whirpool galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"whirlpool galaxy,triangulum galaxy,proxima centauri,andromeda galaxy, phobos\""
+        }, 
+        "task 14": {
+            "asset_file": "Uranus.png", 
+            "correct_answer": "uranus", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"uranus,neputne,proxima centauri,phobos,vesta\""
+        }, 
+        "task 15": {
+            "asset_file": "The_Sombrero_Galaxy.png", 
+            "correct_answer": "the sombrero galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"the sombrero galaxy,whirlpool galaxy,triangulum galaxy,cartwheel galaxy,andromeda galaxy\""
+        }, 
+        "task 16": {
+            "asset_file": "Europa.png", 
+            "correct_answer": "europa", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"europa,vesta,mercury,venus,mars\""
+        }, 
+        "task 17": {
+            "asset_file": "Venus.png", 
+            "correct_answer": "venus", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"venus,vesta,mercury,uranus,europa\""
+        }, 
+        "task 18": {
+            "asset_file": "Milky_Way_Galaxy.png", 
+            "correct_answer": "milky way galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"milky way galaxy,large magellanic cloud,andromeda galaxy,sirius,cigar galaxy\""
+        }, 
+        "task 19": {
+            "asset_file": "Mercury.png", 
+            "correct_answer": "mercury", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"mercury,phobos,venus,sirius,vesta\""
+        }, 
+        "task 20": {
+            "asset_file": "Black_Eye_Galaxy.png", 
+            "correct_answer": "black eye galaxy", 
+            "description": "indicate the name of the following celestial object.", 
+            "possible_answers": "\"black_eye_galaxy,sirius,proxima centauri,cigar galaxy,large magallanic cloud\""
+        }
+    }, 
+    "time_limit": 30
+}

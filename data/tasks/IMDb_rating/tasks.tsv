@@ -1,25 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-8.9	point estimate	image	FightClub.jpg	no answers	true	estimate the Imbd rating from 0-10 for Fight Club.
-9.1	point estimate	image	GodFather2.jpg	no answers	true	estimate the Imbd rating from 0-10 for the Godfather 2.
-9.1	point estimate	image	HouseOfCards.jpg	no answers	true	estimate the Imbd rating from 0-10 for House of Cards.
-8.7	point estimate	image	Inception.jpg	no answers	true	estimate the Imbd rating from 0-10 for Inception.
-8.6	point estimate	image	Whiplash.jpg	no answers	true	estimate the Imbd rating from 0-10 for Whiplash.
-9.3	point estimate	image	Sherlock.jpg	no answers	true	estimate the Imbd rating from 0-10 for Sherlock.
-8.2	point estimate	image	Kingsman.jpg	no answers	true	estimate the Imbd rating from 0-10 for Kingsman.
-8.8	point estimate	image	LordOfTheRings.jpg	no answers	true	estimate the Imbd rating from 0-10 for The Lord of the Rings.
-8.7	point estimate	image	Matrix.jpg	no answers	true	estimate the Imbd rating from 0-10 for Matrix.
-9.5	point estimate	image	BreakingBad.jpg	no answers	true	estimate the Imbd rating from 0-10 for Breaking Bad.
-8.6	point estimate	image	RaidersOfLostArk.jpg	no answers	true	estimate the Imbd rating from 0-10 for Raiders of the Lost Ark.
-8.6	point estimate	image	TheSilenceOfLambs.jpg	no answers	true	estimate the Imbd rating from 0-10 for The Silence of the Lambs.
-8.0	point estimate	image	TheVampireDiaries.jpg	no answers	true	estimate the Imbd rating from 0-10 for The Vampire Diaries.
-8.5	point estimate	image	PersonOfInterest.jpg	no answers	true	estimate the Imbd rating from 0-10 for Person of Interest.
-8.6	point estimate	image	SavingPrivateRyan.jpg	no answers	true	estimate the Imbd rating from 0-10 for Saving Private Ryan.
-9.3	point estimate	image	ShawshankRedemption.jpg	no answers	true	estimate the Imbd rating from 0-10 for Shawshank Redemption.
-8.9	point estimate	image	Dexter.jpg	no answers	true	estimate the Imbd rating from 0-10 for Dexter.
-8.5	point estimate	image	24.jpg	no answers	true	estimate the Imbd rating from 0-10 for 24.
-8.8	point estimate	image	Interstellar.jpg	no answers	true	estimate the Imbd rating from 0-10 for Interstellar.
-8.3	point estimate	image	TheGoodWife.jpg	no answers	true	estimate the Imbd rating from 0-10 for The Good Wife.
-
-
-
-
+8.9	point estimate	image	FightClub.png	no answers	true	estimate the Imbd rating from 0-10 for Fight Club.
+9.1	point estimate	image	GodFather2.png	no answers	true	estimate the Imbd rating from 0-10 for the Godfather 2.
+9.1	point estimate	image	HouseOfCards.png	no answers	true	estimate the Imbd rating from 0-10 for House of Cards.
+8.7	point estimate	image	Inception.png	no answers	true	estimate the Imbd rating from 0-10 for Inception.
+8.6	point estimate	image	Whiplash.png	no answers	true	estimate the Imbd rating from 0-10 for Whiplash.
+9.3	point estimate	image	Sherlock.png	no answers	true	estimate the Imbd rating from 0-10 for Sherlock.
+8.2	point estimate	image	Kingsman.png	no answers	true	estimate the Imbd rating from 0-10 for Kingsman.
+8.8	point estimate	image	LordOfTheRings.png	no answers	true	estimate the Imbd rating from 0-10 for The Lord of the Rings.
+8.7	point estimate	image	Matrix.png	no answers	true	estimate the Imbd rating from 0-10 for Matrix.
+9.5	point estimate	image	BreakingBad.png	no answers	true	estimate the Imbd rating from 0-10 for Breaking Bad.
+8.6	point estimate	image	RaidersOfLostArk.png	no answers	true	estimate the Imbd rating from 0-10 for Raiders of the Lost Ark.
+8.6	point estimate	image	TheSilenceOfLambs.png	no answers	true	estimate the Imbd rating from 0-10 for The Silence of the Lambs.
+8.0	point estimate	image	TheVampireDiaries.png	no answers	true	estimate the Imbd rating from 0-10 for The Vampire Diaries.
+8.5	point estimate	image	PersonOfInterest.png	no answers	true	estimate the Imbd rating from 0-10 for Person of Interest.
+8.6	point estimate	image	SavingPrivateRyan.png	no answers	true	estimate the Imbd rating from 0-10 for Saving Private Ryan.
+9.3	point estimate	image	ShawshankRedemption.png	no answers	true	estimate the Imbd rating from 0-10 for Shawshank Redemption.
+8.9	point estimate	image	Dexter.png	no answers	true	estimate the Imbd rating from 0-10 for Dexter.
+8.5	point estimate	image	24.png	no answers	true	estimate the Imbd rating from 0-10 for 24.
+8.8	point estimate	image	Interstellar.png	no answers	true	estimate the Imbd rating from 0-10 for Interstellar.
+8.3	point estimate	image	TheGoodWife.png	no answers	true	estimate the Imbd rating from 0-10 for The Good Wife.

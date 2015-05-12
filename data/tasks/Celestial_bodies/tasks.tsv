@@ -1,20 +1,21 @@
 correct answer	answer_type	asset_type	asset_file	possible answer	randomize answer	question
-Andromeda Galaxy	point estimate	image	Andromeda_Galaxy.png	Andromeda Galaxy,Black Eye Galaxy,Cartwheel Galaxy,Cigar Galaxy,Milky Way Galaxy	true	indicate the name of the following celestial object.
-Cartwheel Galaxy	point estimate	image	Cartwheel_Galaxy.png	Small Magallanic Cloud,Cartwheel Galaxy,The Sombrero Galaxy,Cigar Galaxy,Milky Way Galaxy	true	indicate the name of the following celestial object.
-Cigar Galaxy	point estimate	image	Cigar_Galaxy.png	Andromeda Galaxy,Whirpool Galaxy Galaxy,Cartwheel Galaxy,Cigar Galaxy,The Sombrero Galaxy	true	indicate the name of the following celestial object.
-Phobos	point estimate	image	Phobos.png	Phobos,Vesta,Europa,Mercury,Venus	true	indicate the name of the following celestial object.
-Vesta	point estimate	image	Vesta.png	Phobos,Vesta,Venus,Mars,Mercury	true	indicate the name of the following celestial object.
-Large Magellanic Cloud	point estimate	image	Large_Magellanic_Cloud.png	Large Magallanic Cloud,Andromeda Galaxy,Milky Way Galaxy,The Sombrero Galaxy,Proxima Centauri	true	indicate the name of the following celestial object.
-Mars	point estimate	image	Mars.png	Phobos,Europa,Venus,Mars,Mercury	true	indicate the name of the following celestial object.
-Sirius	point estimate	image	Sirius.png	Sirius,Proxima Centauri,Small Magellanic Cloud,Vesta,Phobos	true	indicate the name of the following celestial object.
-Proxima Centuria	point estimate	image	Proxima_Centuria.png	Sirius,Proxima Centauri,Phobos,Large Magellanic Cloud,Andromeda Galaxy	true	indicate the name of the following celestial object.
-Neptune	point estimate	image	Neptune.png	Neptune,Uranus,Mars,Vesta,Phobos	true	indicate the name of the following celestial object.
-Small Magellanic Cloud	point estimate	image	Small_Magellanic_Cloud_Galaxy_1600.png	Small Magallanic Cloud,Andromeda Galaxy,Milky Way Galaxy,The Sombrero Galaxy,Proxima Centauri	true	indicate the name of the following celestial object.
-Triangulum Galaxy	point estimate	image	Triangulum_Galaxy.png	Triangulum Galaxy,Black Eye Galaxy,Proxima Centauri,The Sombrero Galaxy, Small Magallanic Cloud	true	indicate the name of the following celestial object.
-Whirpool Galaxy	point estimate	image	Whirpool_Galaxy.png	Whirlpool Galaxy,Triangulum Galaxy,Proxima Centauri,Andromeda Galaxy, Phobos	true	indicate the name of the following celestial object.
-Uranus	point estimate	image	Uranus.png	Uranus,Neputne,Proxima Centauri,Phobos,Vesta	true	indicate the name of the following celestial object.
-The Sombrero Galaxy	point estimate	image	The_Sombrero_Galaxy.png	The Sombrero Galaxy,Whirlpool Galaxy,Triangulum Galaxy,Cartwheel Galaxy,Andromeda Galaxy	true	indicate the name of the following celestial object.
-Europa	point estimate	image	Europa.png	Europa,Vesta,Mercury,Venus,Mars	true	indicate the name of the following celestial object.
-Venus	point estimate	image	Venus.png	Venus,Vesta,Mercury,Uranus,Europa	true	indicate the name of the following celestial object.
-Milky Way Galaxy	point estimate	image	Milky_Way_Galaxy.png	Milky Way Galaxy,Large Magellanic Cloud,Andromeda Galaxy,Sirius,Cigar Galaxy	true	indicate the name of the following celestial object.
-Mercury	point estimate	image	Mercury.png	Mercury,Phobos,Venus,Sirius,Vesta	true	indicate the name of the following celestial object.
+Andromeda Galaxy	multiple choice	image	Andromeda_Galaxy.png	Andromeda Galaxy,Black Eye Galaxy,Cartwheel Galaxy,Cigar Galaxy,Milky Way Galaxy	true	indicate the name of the following celestial object.
+Cartwheel Galaxy	multiple choice	image	Cartwheel_Galaxy.png	Small Magallanic Cloud,Cartwheel Galaxy,The Sombrero Galaxy,Cigar Galaxy,Milky Way Galaxy	true	indicate the name of the following celestial object.
+Cigar Galaxy	multiple choice	image	Cigar_Galaxy.png	Andromeda Galaxy,Whirpool Galaxy Galaxy,Cartwheel Galaxy,Cigar Galaxy,The Sombrero Galaxy	true	indicate the name of the following celestial object.
+Phobos	multiple choice	image	Phobos.png	Phobos,Vesta,Europa,Mercury,Venus	true	indicate the name of the following celestial object.
+Vesta	multiple choice	image	Vesta.png	Phobos,Vesta,Venus,Mars,Mercury	true	indicate the name of the following celestial object.
+Large Magellanic Cloud	multiple choice	image	Large_Magellanic_Cloud.png	Large Magallanic Cloud,Andromeda Galaxy,Milky Way Galaxy,The Sombrero Galaxy,Proxima Centauri	true	indicate the name of the following celestial object.
+Mars	multiple choice	image	Mars.png	Phobos,Europa,Venus,Mars,Mercury	true	indicate the name of the following celestial object.
+Sirius	multiple choice	image	Sirius.png	Sirius,Proxima Centauri,Small Magellanic Cloud,Vesta,Phobos	true	indicate the name of the following celestial object.
+Proxima Centuria	multiple choice	image	Proxima_Centuria.png	Sirius,Proxima Centauri,Phobos,Large Magellanic Cloud,Andromeda Galaxy	true	indicate the name of the following celestial object.
+Neptune	multiple choice	image	Neptune.png	Neptune,Uranus,Mars,Vesta,Phobos	true	indicate the name of the following celestial object.
+Small Magellanic Cloud	multiple choice	image	Small_Magellanic_Cloud_Galaxy_1600.png	Small Magallanic Cloud,Andromeda Galaxy,Milky Way Galaxy,The Sombrero Galaxy,Proxima Centauri	true	indicate the name of the following celestial object.
+Triangulum Galaxy	multiple choice	image	Triangulum_Galaxy.png	Triangulum Galaxy,Black Eye Galaxy,Proxima Centauri,The Sombrero Galaxy, Small Magallanic Cloud	true	indicate the name of the following celestial object.
+Whirpool Galaxy	multiple choice	image	Whirpool_Galaxy.png	Whirlpool Galaxy,Triangulum Galaxy,Proxima Centauri,Andromeda Galaxy, Phobos	true	indicate the name of the following celestial object.
+Uranus	multiple choice	image	Uranus.png	Uranus,Neputne,Proxima Centauri,Phobos,Vesta	true	indicate the name of the following celestial object.
+The Sombrero Galaxy	multiple choice	image	The_Sombrero_Galaxy.png	The Sombrero Galaxy,Whirlpool Galaxy,Triangulum Galaxy,Cartwheel Galaxy,Andromeda Galaxy	true	indicate the name of the following celestial object.
+Europa	multiple choice	image	Europa.png	Europa,Vesta,Mercury,Venus,Mars	true	indicate the name of the following celestial object.
+Venus	multiple choice	image	Venus.png	Venus,Vesta,Mercury,Uranus,Europa	true	indicate the name of the following celestial object.
+Milky Way Galaxy	multiple choice	image	Milky_Way_Galaxy.png	Milky Way Galaxy,Large Magellanic Cloud,Andromeda Galaxy,Sirius,Cigar Galaxy	true	indicate the name of the following celestial object.
+Mercury	multiple choice	image	Mercury.png	Mercury,Phobos,Venus,Sirius,Vesta	true	indicate the name of the following celestial object.
+Black Eye Galaxy	multiple choice	image	Black_Eye_Galaxy.png	Black_Eye_Galaxy,Sirius,Proxima Centauri,Cigar Galaxy,Large Magallanic Cloud	true	indicate the name of the following celestial object.

@@ -1,0 +1,2 @@
+37
+You will be shown 20 images of an everyday object, and asked to estimate its weight.

@@ -1,0 +1,111 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "no assets", 
+    "domain_description": "You will be given 20 words, and asked to identify the correct synonym corresponding to each word.", 
+    "domain_id": "54", 
+    "domain_name": "sat_verbal", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "correct_answer": "hate", 
+            "description": "select the synonym of \"abhor\".", 
+            "possible_answers": "\"hinder,hate,forgive,pardon,release\""
+        }, 
+        "task 02": {
+            "correct_answer": "narrow minded", 
+            "description": "select the synonym of \"bigot\".", 
+            "possible_answers": "\"desist,aloof,withdraw,narrow minded,hinder\""
+        }, 
+        "task 03": {
+            "correct_answer": "suffrage", 
+            "description": "select the synonym of \"enfranchise\".", 
+            "possible_answers": "\"flimsy,kindle,suffrage,maze,improve\""
+        }, 
+        "task 04": {
+            "correct_answer": "ignite", 
+            "description": "select the synonym of \"kindle\".", 
+            "possible_answers": "\"ignite,noise,maze,full,empty\""
+        }, 
+        "task 05": {
+            "correct_answer": "harmful", 
+            "description": "select the synonym of \"noxious\".", 
+            "possible_answers": "\"harmful,free spirited,carefree,unbiased,free\""
+        }, 
+        "task 06": {
+            "correct_answer": "calm", 
+            "description": "select the synonym of \"placid\".", 
+            "possible_answers": "\"calm,kindle,fake,hard,threat\""
+        }, 
+        "task 07": {
+            "correct_answer": "payment", 
+            "description": "select the synonym of \"remuneration\".", 
+            "possible_answers": "\"payment,harm,threat,robbery,fop\""
+        }, 
+        "task 08": {
+            "correct_answer": "luckycharm", 
+            "description": "select the synonym of \"talisman\".", 
+            "possible_answers": "\"hurry,accelerate,lucky charm,rush,obvious\""
+        }, 
+        "task 09": {
+            "correct_answer": "cheat", 
+            "description": "select the synonym of \"bilk\".", 
+            "possible_answers": "\"pillory,clarity,accent,cheat,articulation\""
+        }, 
+        "task 10": {
+            "correct_answer": "complex", 
+            "description": "select the synonym of \"knotty\".", 
+            "possible_answers": "\"easy,complex,meticulous,spin,move\""
+        }, 
+        "task 11": {
+            "correct_answer": "swelling", 
+            "description": "select the synonym of \"billowing\".", 
+            "possible_answers": "\"dull,monotonous,bland,rush,swelling\""
+        }, 
+        "task 12": {
+            "correct_answer": "fulmination", 
+            "description": "select the synonym of \"harangue\".", 
+            "possible_answers": "\"respite,postpone,flimsy,fulmination,sloven\""
+        }, 
+        "task 13": {
+            "correct_answer": "petitioner", 
+            "description": "select the synonym of \"plaintiff\".", 
+            "possible_answers": "\"petitioner,hurry,accelerate,rush,butch\""
+        }, 
+        "task 14": {
+            "correct_answer": "appropriate", 
+            "description": "select the synonym of \"opportune\".", 
+            "possible_answers": "\"opportunity,appropriate,flimsy,placid,kindle\""
+        }, 
+        "task 15": {
+            "correct_answer": "refractory", 
+            "description": "select the synonym of \"recalcitrant\".", 
+            "possible_answers": "\"talisman,asinine,nincompoop,refractory,knotty\""
+        }, 
+        "task 16": {
+            "correct_answer": "garble", 
+            "description": "select the synonym of \"ofuscate\".", 
+            "possible_answers": "\"ignite,noise,garble,refractory,swell\""
+        }, 
+        "task 17": {
+            "correct_answer": "pleasure seeking", 
+            "description": "select the synonym of \"hedonism\".", 
+            "possible_answers": "\"glutton,flimsy,hinder,pleasure seeking,sadist\""
+        }, 
+        "task 18": {
+            "correct_answer": "annihilate", 
+            "description": "select the synonym of \"obliterate\".", 
+            "possible_answers": "\"annihilate,placid,stentorian,hedonist,abhor\""
+        }, 
+        "task 19": {
+            "correct_answer": "erratic", 
+            "description": "select the synonym of \"protean\".", 
+            "possible_answers": "\"placid,steady,erratic,extreme,accent\""
+        }, 
+        "task 20": {
+            "correct_answer": "callow", 
+            "description": "select the synonym of \"peurile\".", 
+            "possible_answers": "\"callow,trial,placid,knotty,ignoble\""
+        }
+    }, 
+    "time_limit": 30
+}

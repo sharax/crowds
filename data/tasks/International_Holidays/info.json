@@ -1,0 +1,90 @@
+{
+    "answer_type": "date", 
+    "asset_type": "no assets", 
+    "domain_description": "You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.", 
+    "domain_id": "48", 
+    "domain_name": "international_holidays", 
+    "task_info": {
+        "task 01": {
+            "correct_answer": "10-10-2016", 
+            "description": "estimate the date for 2016's Colombus Day."
+        }, 
+        "task 02": {
+            "correct_answer": "18-01-2016", 
+            "description": "estimate the date for 2016's Martin Luther King Day."
+        }, 
+        "task 03": {
+            "correct_answer": "24-11-2016", 
+            "description": "estimate the date for 2016's Thanksgiving Day."
+        }, 
+        "task 04": {
+            "correct_answer": "05-09-2016", 
+            "description": "estimate the date for 2016's Labour Day."
+        }, 
+        "task 05": {
+            "correct_answer": "10-03-2016", 
+            "description": "estimate the date for 2016's Zhonghe Festival."
+        }, 
+        "task 06": {
+            "correct_answer": "08-02-2016", 
+            "description": "estimate the date for 2016's Chinese New Year."
+        }, 
+        "task 07": {
+            "correct_answer": "11-01-2016", 
+            "description": "estimate the date for 2016's Coming of Age Day."
+        }, 
+        "task 08": {
+            "correct_answer": "09-06-2016", 
+            "description": "estimate the date for 2016's Dragon Boat Festival."
+        }, 
+        "task 09": {
+            "correct_answer": "01-08-2016", 
+            "description": "estimate the date for 2016's Kadooment Day."
+        }, 
+        "task 10": {
+            "correct_answer": "21-04-2016", 
+            "description": "estimate the date for 2016's Tiradentes Day."
+        }, 
+        "task 11": {
+            "correct_answer": "28-03-2016", 
+            "description": "estimate the date for 2016's Easter Monday."
+        }, 
+        "task 12": {
+            "correct_answer": "04-03-2016", 
+            "description": "estimate the date for 2016's Ascencion Day."
+        }, 
+        "task 13": {
+            "correct_answer": "18-07-2016", 
+            "description": "estimate the date for 2016's Nelson Mandela Day."
+        }, 
+        "task 14": {
+            "correct_answer": "11-10-2016", 
+            "description": "estimate the date for 2016's Yom Kippur."
+        }, 
+        "task 15": {
+            "correct_answer": "31-05-2016", 
+            "description": "estimate the date for 2016's Day of Castile-La Mancha."
+        }, 
+        "task 16": {
+            "correct_answer": "30-11-2016", 
+            "description": "estimate the date for 2016's St. Andrews Day."
+        }, 
+        "task 17": {
+            "correct_answer": "12-12-2016", 
+            "description": "estimate the date for 2016's Muhammad's Birthday."
+        }, 
+        "task 18": {
+            "correct_answer": "16-05-2016", 
+            "description": "estimate the date for 2016's Whit Sunday."
+        }, 
+        "task 19": {
+            "correct_answer": "25-12-2016", 
+            "description": "estimate the date for 2016's Christmas."
+        }, 
+        "task 20": {
+            "correct_answer": "24-03-2016", 
+            "description": "estimate the date for 2016's Holi."
+        }
+    }, 
+    "time_limit": 30
+}

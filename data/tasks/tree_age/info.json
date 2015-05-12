@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 images of trees, and asked to estimate their age in years.", 
+    "domain_id": "17", 
+    "domain_name": "tree_age", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "tree_age_abuelo.png", 
+            "correct_answer": 3643.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 02": {
+            "asset_file": "tree_age_arbol.png", 
+            "correct_answer": 1433.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 03": {
+            "asset_file": "tree_age_banyantree.png", 
+            "correct_answer": 5000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 04": {
+            "asset_file": "tree_age_bodhi.png", 
+            "correct_answer": 2302.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 05": {
+            "asset_file": "tree_age_fortingall.png", 
+            "correct_answer": 2000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 06": {
+            "asset_file": "tree_age_granit.png", 
+            "correct_answer": 1700.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 07": {
+            "asset_file": "tree_age_henrykow.png", 
+            "correct_answer": 1270.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 08": {
+            "asset_file": "tree_age_horses.png", 
+            "correct_answer": 4000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 09": {
+            "asset_file": "tree_age_houki.png", 
+            "correct_answer": 2000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 10": {
+            "asset_file": "tree_age_juniper.png", 
+            "correct_answer": 1500.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 11": {
+            "asset_file": "tree_age_llangrerntw.png", 
+            "correct_answer": 4000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 12": {
+            "asset_file": "tree_age_methuselah.png", 
+            "correct_answer": 4846.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 13": {
+            "asset_file": "tree_age_prometheus.png", 
+            "correct_answer": 4844.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 14": {
+            "asset_file": "tree_age_sarveabarkuh.png", 
+            "correct_answer": 4000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 15": {
+            "asset_file": "tree_age_sisteroak.png", 
+            "correct_answer": 1500.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 16": {
+            "asset_file": "tree_age_sozzastro.png", 
+            "correct_answer": 3000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 17": {
+            "asset_file": "tree_age_staramaslina.png", 
+            "correct_answer": 2000.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 18": {
+            "asset_file": "tree_age_stelmuze.png", 
+            "correct_answer": 1500.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 19": {
+            "asset_file": "tree_age_tjikko.png", 
+            "correct_answer": 9550.0, 
+            "description": "estimate the age of the tree."
+        }, 
+        "task 20": {
+            "asset_file": "tree_age_zoroastrian.png", 
+            "correct_answer": 4000.0, 
+            "description": "estimate the age of the tree."
+        }
+    }, 
+    "time_limit": 30
+}

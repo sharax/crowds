@@ -1,21 +1,21 @@
-Correct_Answer	Answer_Type	Asset_type	Asset_File	possible_answers	randomize_answers
-1993	point estimate	image	Schindler's_List.jpg	no answers	false
-1964	point estimate	image	A_Fistful_Of_Dollars.jpg	no answers	false
-1954	point estimate	image	Dial_M_For_Murder.jpg	no answers	false
-2000	point estimate	image	Snatch.jpg	no answers	false
-2000	point estimate	image	Memento.jpg	no answers	false
-2008	point estimate	image	Wall-E.jpg	no answers	false
-1946	point estimate	image	Notorious.jpg	no answers	false
-1975	point estimate	image	Jaws.jpg	no answers	false
-1968	point estimate	image	Once_Upon_A_Time_In_The_West.jpg	no answers	false
-1955	point estimate	image	Diabolique.jpg	no answers	false
-1994	point estimate	image	The_Lion_King.jpg	no answers	false
-2009	point estimate	image	Up.jpg	no answers	false
-2009	point estimate	image	Hachi_A_Dogs_Tale.jpg	no answers	false
-1980	point estimate	image	The_Elephant_Man.jpg	no answers	false
-2001	point estimate	image	The_Lord_Of_The_Rings_The_Fellowship_Of_The_Ring.jpg	no answers	false
-1958	point estimate	image	Touch_Of_Evil.jpg	no answers	false
-1995	point estimate	image	Casino.jpg	no answers	false
-1980	point estimate	image	The_Shining.jpg	no answers	false
-1982	point estimate	image	The_Thing.jpg	no answers	false
-1955	point estimate	image	The_Night_Of_The_Hunter.jpg	no answers	false
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+1993	point estimate	image	Schindler's_List.jpg	no answers	false	estimate the year of release for the film in the image.
+1964	point estimate	image	A_Fistful_Of_Dollars.jpg	no answers	false	estimate the year of release for the film in the image.
+1954	point estimate	image	Dial_M_For_Murder.jpg	no answers	false	estimate the year of release for the film in the image.
+2000	point estimate	image	Snatch.jpg	no answers	false	estimate the year of release for the film in the image.
+2000	point estimate	image	Memento.jpg	no answers	false	estimate the year of release for the film in the image.
+2008	point estimate	image	Wall-E.jpg	no answers	false	estimate the year of release for the film in the image.
+1946	point estimate	image	Notorious.jpg	no answers	false	estimate the year of release for the film in the image.
+1975	point estimate	image	Jaws.jpg	no answers	false	estimate the year of release for the film in the image.
+1968	point estimate	image	Once_Upon_A_Time_In_The_West.jpg	no answers	false	estimate the year of release for the film in the image.
+1955	point estimate	image	Diabolique.jpg	no answers	false	estimate the year of release for the film in the image.
+1994	point estimate	image	The_Lion_King.jpg	no answers	false	estimate the year of release for the film in the image.
+2009	point estimate	image	Up.jpg	no answers	false	estimate the year of release for the film in the image.
+2009	point estimate	image	Hachi_A_Dogs_Tale.jpg	no answers	false	estimate the year of release for the film in the image.
+1980	point estimate	image	The_Elephant_Man.jpg	no answers	false	estimate the year of release for the film in the image.
+2001	point estimate	image	The_Lord_Of_The_Rings_The_Fellowship_Of_The_Ring.jpg	no answers	false	estimate the year of release for the film in the image.
+1958	point estimate	image	Touch_Of_Evil.jpg	no answers	false	estimate the year of release for the film in the image.
+1995	point estimate	image	Casino.jpg	no answers	false	estimate the year of release for the film in the image.
+1980	point estimate	image	The_Shining.jpg	no answers	false	estimate the year of release for the film in the image.
+1982	point estimate	image	The_Thing.jpg	no answers	false	estimate the year of release for the film in the image.
+1955	point estimate	image	The_Night_Of_The_Hunter.jpg	no answers	false	estimate the year of release for the film in the image.

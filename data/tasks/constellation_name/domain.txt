@@ -1,3 +1,2 @@
 34
-select the constellation’s name after looking at its image.
-
+You will shown 20 images of constellations and asked to identify them by name.

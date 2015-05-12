@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of monetary bills and asked to select the country where the currency is from.", 
+    "domain_id": "33", 
+    "domain_name": "country_currency", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "1_China.jpg", 
+            "correct_answer": "china", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"burma,china,laos,mongolia,taiwan\""
+        }, 
+        "task 02": {
+            "asset_file": "2_India.jpg", 
+            "correct_answer": "india", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"argentina,india,maldives,south africa,sri lanka\""
+        }, 
+        "task 03": {
+            "asset_file": "3_UnitedStatesOfAmerica.jpg", 
+            "correct_answer": "united states of america", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"cameroon,chile,ecuador,macau,united states of america\""
+        }, 
+        "task 04": {
+            "asset_file": "4_Indonesia.jpg", 
+            "correct_answer": "indonesia", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"indonesia,malaysia,nepal,romania,yemen\""
+        }, 
+        "task 05": {
+            "asset_file": "5_Brazil.jpg", 
+            "correct_answer": "brazil", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"argentina,bolivia,brazil,chile,guyana\""
+        }, 
+        "task 06": {
+            "asset_file": "6_Pakistan.jpg", 
+            "correct_answer": "pakistan", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"afghanistan,burkina faso,kazakhstan,pakistan,qatar\""
+        }, 
+        "task 07": {
+            "asset_file": "7_Nigeria.jpg", 
+            "correct_answer": "nigeria", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"egypt,nigeria,suriname,uruguay,zimbabwe\""
+        }, 
+        "task 08": {
+            "asset_file": "8_Bangladesh.jpg", 
+            "correct_answer": "bangladesh", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"bangladesh,burma,iran,kuwait,tajikistan\""
+        }, 
+        "task 09": {
+            "asset_file": "9_Russia.jpg", 
+            "correct_answer": "russia", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"belarus,romania,russia,switzerland,ukraine\""
+        }, 
+        "task 10": {
+            "asset_file": "10_Japan.jpg", 
+            "correct_answer": "japan", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"benin,china,haiti,japan,malawi\""
+        }, 
+        "task 11": {
+            "asset_file": "11_Mexico.jpg", 
+            "correct_answer": "mexico", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"columbia,cuba,guyana,honduras,mexico\""
+        }, 
+        "task 12": {
+            "asset_file": "12_Philippines.jpg", 
+            "correct_answer": "philippines", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"albania,coasta rica,indonesia,peru,philippines\""
+        }, 
+        "task 13": {
+            "asset_file": "13_Ethiopia.jpg", 
+            "correct_answer": "ethiopia", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"ethiopia,kenya,somalia,sudan,zimbabwe\""
+        }, 
+        "task 14": {
+            "asset_file": "14_Vietnam.jpg", 
+            "correct_answer": "vietnam", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"combodia,el salvador,panama,venezuela,vietnam\""
+        }, 
+        "task 15": {
+            "asset_file": "15_Egypt.jpg", 
+            "correct_answer": "egypt", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"canada,egypt,israel,paraguay,russia\""
+        }, 
+        "task 16": {
+            "asset_file": "16_Iran.jpg", 
+            "correct_answer": "iran", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"haiti,hong kong,iran,iraq,malaysia\""
+        }, 
+        "task 17": {
+            "asset_file": "17_Turkey.jpg", 
+            "correct_answer": "turkey", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"mexico,peru,russia,singapore,turkey\""
+        }, 
+        "task 18": {
+            "asset_file": "18_DemocraticRepublicOfCongo.jpg", 
+            "correct_answer": "democratic republic of congo", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"bahamas,barbados,democratic republic of congo,jamaica,oman\""
+        }, 
+        "task 19": {
+            "asset_file": "19_Thailand.jpg", 
+            "correct_answer": "thailand", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"chile,combodia,el salvador,laos,thailand\""
+        }, 
+        "task 20": {
+            "asset_file": "20_UnitedKingdom.jpg", 
+            "correct_answer": "united kingdom", 
+            "description": "select the country where the currency from the image is from.", 
+            "possible_answers": "\"canada,french guiana,panama,saint lucia,united kingdom\""
+        }
+    }, 
+    "time_limit": 30
+}

@@ -1,0 +1,111 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "no assets", 
+    "domain_description": "You will be shown 20 words and asked to predict their origin.", 
+    "domain_id": "23", 
+    "domain_name": "word_origin", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "correct_answer": "french", 
+            "description": "determine the origin for the word \"crass\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 02": {
+            "correct_answer": "latin", 
+            "description": "determine the origin for the word \"excerpt\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 03": {
+            "correct_answer": "germanic", 
+            "description": "determine the origin for the word \"farm\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 04": {
+            "correct_answer": "italian", 
+            "description": "determine the origin for the word \"novel\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 05": {
+            "correct_answer": "germanic", 
+            "description": "determine the origin for the word \"creep\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 06": {
+            "correct_answer": "nordic", 
+            "description": "determine the origin for the word \"gap\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 07": {
+            "correct_answer": "latin", 
+            "description": "determine the origin for the word \"ignite\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 08": {
+            "correct_answer": "french", 
+            "description": "determine the origin for the word \"protectionism\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 09": {
+            "correct_answer": "italian", 
+            "description": "determine the origin for the word \"grotesque\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 10": {
+            "correct_answer": "french", 
+            "description": "determine the origin for the word \"sulphur\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 11": {
+            "correct_answer": "latin", 
+            "description": "determine the origin for the word \"recumbent\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 12": {
+            "correct_answer": "nordic", 
+            "description": "determine the origin for the word \"viking\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 13": {
+            "correct_answer": "germanic", 
+            "description": "determine the origin for the word \"airborne\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 14": {
+            "correct_answer": "french", 
+            "description": "determine the origin for the word \"retail\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 15": {
+            "correct_answer": "italian", 
+            "description": "determine the origin for the word \"mezzanine\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 16": {
+            "correct_answer": "nordic", 
+            "description": "determine the origin for the word \"muck\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 17": {
+            "correct_answer": "nordic", 
+            "description": "determine the origin for the word \"raft\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 18": {
+            "correct_answer": "latin", 
+            "description": "determine the origin for the word \"deceptive\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 19": {
+            "correct_answer": "germanic", 
+            "description": "determine the origin for the word \"charcoal\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }, 
+        "task 20": {
+            "correct_answer": "italian", 
+            "description": "determine the origin for the word \"sonate\".", 
+            "possible_answers": "\"french, germanic, italian, latin, nordic\""
+        }
+    }, 
+    "time_limit": 30
+}

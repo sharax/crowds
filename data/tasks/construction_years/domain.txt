@@ -1,3 +1,2 @@
 45
-estimate the number of years it took to build the building shown in the image.
-
+You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.

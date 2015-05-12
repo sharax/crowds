@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 images of architectural landmarks along with their name and location, and asked to estimate their height.", 
+    "domain_id": "06", 
+    "domain_name": "monuments_height", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "1.jpg", 
+            "correct_answer": 93.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 02": {
+            "asset_file": "2.jpg", 
+            "correct_answer": 301.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 03": {
+            "asset_file": "67.jpg", 
+            "correct_answer": 99.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 04": {
+            "asset_file": "19.jpg", 
+            "correct_answer": 830.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 05": {
+            "asset_file": "22.jpg", 
+            "correct_answer": 88.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 06": {
+            "asset_file": "9.jpg", 
+            "correct_answer": 96.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 07": {
+            "asset_file": "39.jpg", 
+            "correct_answer": 137.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 08": {
+            "asset_file": "42.jpg", 
+            "correct_answer": 36.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 09": {
+            "asset_file": "5.jpg", 
+            "correct_answer": 139.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 10": {
+            "asset_file": "69.jpg", 
+            "correct_answer": 42.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 11": {
+            "asset_file": "7.jpg", 
+            "correct_answer": 73.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 12": {
+            "asset_file": "64.jpg", 
+            "correct_answer": 553.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 13": {
+            "asset_file": "44.jpg", 
+            "correct_answer": 48.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 14": {
+            "asset_file": "40.jpg", 
+            "correct_answer": 65.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 15": {
+            "asset_file": "55.jpg", 
+            "correct_answer": 105.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 16": {
+            "asset_file": "65.jpg", 
+            "correct_answer": 56.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 17": {
+            "asset_file": "15.jpg", 
+            "correct_answer": 26.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 18": {
+            "asset_file": "48.jpg", 
+            "correct_answer": 70.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 19": {
+            "asset_file": "14.jpg", 
+            "correct_answer": 55.0, 
+            "description": "estimate the hight of the following landmark."
+        }, 
+        "task 20": {
+            "asset_file": "61.jpg", 
+            "correct_answer": 84.0, 
+            "description": "estimate the hight of the following landmark."
+        }
+    }, 
+    "time_limit": 30
+}

@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "audio", 
+    "domain_description": "You will be asked to listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.", 
+    "domain_id": "30", 
+    "domain_name": "artists_name", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Song01.mp3", 
+            "correct_answer": "avicii", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"avicii, jason derulo, charli xcx, tove lo, calvin harris\""
+        }, 
+        "task 02": {
+            "asset_file": "Song02.mp3", 
+            "correct_answer": "lady antebellum", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"lady antebellum, charli xcx, imagine dragons, drake, sam smith, beyonce\""
+        }, 
+        "task 03": {
+            "asset_file": "Song03.mp3", 
+            "correct_answer": "american authors", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"american authors, lee brice, miley cyrus, wiz khalifa, juicy j\""
+        }, 
+        "task 04": {
+            "asset_file": "Song04.mp3", 
+            "correct_answer": "beyonce", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"beyonce, jessie j, ariana grande, nicki minaj, bobby shmurda\""
+        }, 
+        "task 05": {
+            "asset_file": "Song05.mp3", 
+            "correct_answer": "imagine dragons", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"imagine dragons, zedd featuring hayley williams, sam smith, avicii, lorde,\""
+        }, 
+        "task 06": {
+            "asset_file": "Song06.mp3", 
+            "correct_answer": "florida", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"florida, miley cyrus, jason derulo, michael jackson, justin timberlake\""
+        }, 
+        "task 07": {
+            "asset_file": "Song07.mp3", 
+            "correct_answer": "dierks bentley", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"dierks bentley, dj snake and lil jon, lorde, jake owen, imagine dragons\""
+        }, 
+        "task 08": {
+            "asset_file": "Song08.mp3", 
+            "correct_answer": "lee brice", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"lee brice, one direction, kongos, onerepublic, drake featuring majid jordan\""
+        }, 
+        "task 09": {
+            "asset_file": "Song09.mp3", 
+            "correct_answer": "jason derulo", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"jason derulo, imagine dragons, nico & vinz, eminem featuring rihanna, onerepublic\""
+        }, 
+        "task 10": {
+            "asset_file": "Song10.mp3", 
+            "correct_answer": "katy perry", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"katy perry, sam smith, nico & vinz, iggy azalea featuring charli xcx, sia\""
+        }, 
+        "task 11": {
+            "asset_file": "Song11.mp3", 
+            "correct_answer": "kid ink", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"kid ink, passenger, brantley gilbert, robin thicke, john legend\""
+        }, 
+        "task 12": {
+            "asset_file": "Song12.mp3", 
+            "correct_answer": "lil wayne", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"lil wayne, bastille, taylor swift, coldplay, idina menzel\""
+        }, 
+        "task 13": {
+            "asset_file": "Song13.mp3", 
+            "correct_answer": "aloe blacc", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"aloe blacc, sia, rixton, 5 seconds of summer, lorde\""
+        }, 
+        "task 14": {
+            "asset_file": "Song14.mp3", 
+            "correct_answer": "naughty boy", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"naughty boy, kid ink featuring chris brown, taylor swift, 5 seconds of summer, john legend\""
+        }, 
+        "task 15": {
+            "asset_file": "Song15.mp3", 
+            "correct_answer": "one direction", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"one direction, maroon 5, trey songz, aloe blacc, brantley gilbert\""
+        }, 
+        "task 16": {
+            "asset_file": "Song16.mp3", 
+            "correct_answer": "one republic", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"one republic, lorde, magic!, jason aldean, t.i. featuring iggy azalea\""
+        }, 
+        "task 17": {
+            "asset_file": "Song17.mp3", 
+            "correct_answer": "pharell williams", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"pharell williams, drake, imagine dragons, naughty boy featuring sam smith, paramore\""
+        }, 
+        "task 18": {
+            "asset_file": "Song18.mp3", 
+            "correct_answer": "bastille", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"bastille, jake owen, avicii, lil wayne featuring drake, one direction\""
+        }, 
+        "task 19": {
+            "asset_file": "Song19.mp3", 
+            "correct_answer": "trey songz", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"trey songz, nico & vinz, sara bareilles, avicii, pitbull\""
+        }, 
+        "task 20": {
+            "asset_file": "Song20.mp3", 
+            "correct_answer": "calvin harris", 
+            "description": "listen to the audio clip and select the artist/band who interpreted the song", 
+            "possible_answers": "\"calvin harris, kenny chesney, kongos, magic!, becky g\""
+        }
+    }, 
+    "time_limit": 45
+}

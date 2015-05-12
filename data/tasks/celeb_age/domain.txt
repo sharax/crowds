@@ -1,2 +1,2 @@
-5
-estimate the celebrityÕs age from looking at their picture.
+05
+You will shown 20 images of celebrities, and asked to estimate the celebrityâ€™s age.

@@ -1,0 +1,40 @@
+39	You will be asked to estimate the Amazon price in USD for 20 products, given their image and specifications.
+30	You will be asked to listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.
+03	You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.
+16	You will be asked to estimate the year of publication of 20 books, given the book’s name and author.
+08	You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.
+43	Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.
+40	You will be asked to indicate if a certain product will be funded or not by Kickstarter, given its image and a short description.
+11	You will shown 20 images of Ford cars, and asked to estimate the manufacture year of each car.
+05	You will shown 20 images of celebrities, and asked to estimate the celebrity’s age.
+14	You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.
+52	You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.
+17	You will shown 20 images of trees, and asked to select the correct species.
+34	You will shown 20 images of constellations and asked to identify them by name.
+45	You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.
+18	You will shown 20 images of containers and asked to estimate its capacity.
+33	You will shown 20 images of monetary bills and asked to select the country where the currency is from.
+41	You will shown 20 images of flags, and asked to identify the country of origin.
+48	You will given a list of 20 countries, and asked to estimate their landmass.
+51	You will given a list of 20 countries, and asked to estimate their population.
+60	You will shown 20 images of country outlines, and asked to identify the country.
+22	You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.
+25	You will be shown 20 images of dogs, and asked to identify the breed.
+19	You will be shown 20 images of food items, and asked to estimate the amount of calories present in each.
+42	You will be shown a list of five historical events. Select the option representing the correct chronological order of the historical events.
+07	You will be shown 20 images of architectural landmarks, and asked to select the country where the landmark is located.
+47	You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.
+09	You will be shown 20 images of movie posters, and asked to estimate their IMDb rating from 0 to 10.
+48	You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.
+28	You will be shown 20 sample texts, and asked to identify the language.
+56	You will be given 20 headlines, and asked to select the magazine that published the article.
+06	You will be shown 20 images of architectural landmarks along with their name and location, and asked to estimate their height.
+15	You will be asked to estimate the release year for a list of Hollywood films.
+31	You will be given 20 headlines, and asked to identify whether each were real or fake.
+37	You will be shown 20 images of an everyday object, and asked to estimate its weight.
+12	You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.
+20	You will be given 20 tweets from Katy Perry (an American singer and songwriter), and asked to predict the number of retweets each will accumulate.
+54	You will be given 20 words, and asked to identify the correct synonym corresponding to each word.
+53	You will be provided with 20 short audio files with theme songs from various movies, and asked to select the movie it was presented in.
+17	You will be shown 20 images of trees, and asked to estimate their age in years.
+23	You will be shown 20 words and asked to predict their origin.

@@ -1,4 +1,2 @@
-16
-estimate the year of publication of 20 books, given the book’s name and author.
-
-
+47
+You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.

@@ -1,0 +1,2 @@
+06
+You will be shown 20 images of architectural landmarks along with their name and location, and asked to estimate their height.

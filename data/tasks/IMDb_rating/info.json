@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 images of movie posters, and asked to estimate their IMDb rating from 0 to 10.", 
+    "domain_id": "09", 
+    "domain_name": "imdb_rating", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "FightClub.png", 
+            "correct_answer": 8.9, 
+            "description": "estimate the Imbd rating from 0-10 for Fight Club."
+        }, 
+        "task 02": {
+            "asset_file": "GodFather2.png", 
+            "correct_answer": 9.1, 
+            "description": "estimate the Imbd rating from 0-10 for the Godfather 2."
+        }, 
+        "task 03": {
+            "asset_file": "HouseOfCards.png", 
+            "correct_answer": 9.1, 
+            "description": "estimate the Imbd rating from 0-10 for House of Cards."
+        }, 
+        "task 04": {
+            "asset_file": "Inception.png", 
+            "correct_answer": 8.7, 
+            "description": "estimate the Imbd rating from 0-10 for Inception."
+        }, 
+        "task 05": {
+            "asset_file": "Whiplash.png", 
+            "correct_answer": 8.6, 
+            "description": "estimate the Imbd rating from 0-10 for Whiplash."
+        }, 
+        "task 06": {
+            "asset_file": "Sherlock.png", 
+            "correct_answer": 9.3, 
+            "description": "estimate the Imbd rating from 0-10 for Sherlock."
+        }, 
+        "task 07": {
+            "asset_file": "Kingsman.png", 
+            "correct_answer": 8.2, 
+            "description": "estimate the Imbd rating from 0-10 for Kingsman."
+        }, 
+        "task 08": {
+            "asset_file": "LordOfTheRings.png", 
+            "correct_answer": 8.8, 
+            "description": "estimate the Imbd rating from 0-10 for The Lord of the Rings."
+        }, 
+        "task 09": {
+            "asset_file": "Matrix.png", 
+            "correct_answer": 8.7, 
+            "description": "estimate the Imbd rating from 0-10 for Matrix."
+        }, 
+        "task 10": {
+            "asset_file": "BreakingBad.png", 
+            "correct_answer": 9.5, 
+            "description": "estimate the Imbd rating from 0-10 for Breaking Bad."
+        }, 
+        "task 11": {
+            "asset_file": "RaidersOfLostArk.png", 
+            "correct_answer": 8.6, 
+            "description": "estimate the Imbd rating from 0-10 for Raiders of the Lost Ark."
+        }, 
+        "task 12": {
+            "asset_file": "TheSilenceOfLambs.png", 
+            "correct_answer": 8.6, 
+            "description": "estimate the Imbd rating from 0-10 for The Silence of the Lambs."
+        }, 
+        "task 13": {
+            "asset_file": "TheVampireDiaries.png", 
+            "correct_answer": 8.0, 
+            "description": "estimate the Imbd rating from 0-10 for The Vampire Diaries."
+        }, 
+        "task 14": {
+            "asset_file": "PersonOfInterest.png", 
+            "correct_answer": 8.5, 
+            "description": "estimate the Imbd rating from 0-10 for Person of Interest."
+        }, 
+        "task 15": {
+            "asset_file": "SavingPrivateRyan.png", 
+            "correct_answer": 8.6, 
+            "description": "estimate the Imbd rating from 0-10 for Saving Private Ryan."
+        }, 
+        "task 16": {
+            "asset_file": "ShawshankRedemption.png", 
+            "correct_answer": 9.3, 
+            "description": "estimate the Imbd rating from 0-10 for Shawshank Redemption."
+        }, 
+        "task 17": {
+            "asset_file": "Dexter.png", 
+            "correct_answer": 8.9, 
+            "description": "estimate the Imbd rating from 0-10 for Dexter."
+        }, 
+        "task 18": {
+            "asset_file": "24.png", 
+            "correct_answer": 8.5, 
+            "description": "estimate the Imbd rating from 0-10 for 24."
+        }, 
+        "task 19": {
+            "asset_file": "Interstellar.png", 
+            "correct_answer": 8.8, 
+            "description": "estimate the Imbd rating from 0-10 for Interstellar."
+        }, 
+        "task 20": {
+            "asset_file": "TheGoodWife.png", 
+            "correct_answer": 8.3, 
+            "description": "estimate the Imbd rating from 0-10 for The Good Wife."
+        }
+    }, 
+    "time_limit": 30
+}

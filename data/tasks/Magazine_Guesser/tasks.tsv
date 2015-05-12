@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-The Guardian	multiple choice	text	Question1.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question2.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question3.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question4.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question5.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question6.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question7.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question8.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question9.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question10.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question11.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question12.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question13.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question14.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question15.txt	The Economist, The Guardian, TIME, WIRED	false
-The Economist	multiple choice	text	Question16.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question17.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question18.txt	The Economist, The Guardian, TIME, WIRED	false
-The Guardian	multiple choice	text	Question19.txt	The Economist, The Guardian, TIME, WIRED	false
-WIRED	multiple choice	text	Question20.txt	The Economist, The Guardian, TIME, WIRED	false
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+The Guardian	multiple choice	image	Question1.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question2.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question3.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question4.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question5.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question6.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question7.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question8.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question9.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question10.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question11.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question12.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question13.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question14.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question15.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Economist	multiple choice	image	Question16.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question17.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question18.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question19.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+WIRED	multiple choice	image	Question20.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.

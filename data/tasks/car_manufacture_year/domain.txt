@@ -1,4 +1,2 @@
 11
-estimate the manufacture year of each Ford car after looking at its image.
-
-
+You will shown 20 images of Ford cars, and asked to estimate the manufacture year of each car.

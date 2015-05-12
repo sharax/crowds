@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "audio", 
+    "domain_description": "You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.", 
+    "domain_id": "52", 
+    "domain_name": "classical_composition", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "bach_allegro.mp3", 
+            "correct_answer": "johann sebastian bach", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"johannes brahms, frederic chopin, jules massenet, johann sebastian bach, carl orff\""
+        }, 
+        "task 02": {
+            "asset_file": "grieg_morning_mood.mp3", 
+            "correct_answer": "edvard grieg", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"piotr ilyich tchaikovsky, johann sebastian bach, johann strauss ii, edvard grieg, wolfgang amadeus mozart\""
+        }, 
+        "task 03": {
+            "asset_file": "wagner_valkyries.mp3", 
+            "correct_answer": "richard wagner", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"johann sebastian bach, richard wagner, carl orff, wolfgang amadeus mozart, frederic chopin\""
+        }, 
+        "task 04": {
+            "asset_file": "beethoven_fur_elise.mp3", 
+            "correct_answer": "ludwig van beethoven", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"ludwig van beethoven, frederic chopin, wolfgang amadeus mozart, johann strauss ii, claude debussy\""
+        }, 
+        "task 05": {
+            "asset_file": "beethoven_moonlight_sonata.mp3", 
+            "correct_answer": "ludwig van beethoven", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"johann sebastian bach, claude debussy, frederic chopin, antonio vivaldi, ludwig van beethoven\""
+        }, 
+        "task 06": {
+            "asset_file": "vivaldi_four_seasons.mp3", 
+            "correct_answer": "antonio vivaldi", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"richard wagner, edvard grieg, antonio vivaldi, wolfgang amadeus mozart, johann sebastian bach\""
+        }, 
+        "task 07": {
+            "asset_file": "debussy_claire_de_lune.mp3", 
+            "correct_answer": "claude debussy", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"edvard grieg, wolfgang amadeus mozart, richard wagner, jules massenet, claude debussy\""
+        }, 
+        "task 08": {
+            "asset_file": "tchaikovsky_swan_lake.mp3", 
+            "correct_answer": "piotr ilyich tchaikovsky", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"antonio vivaldi, piotr ilyich tchaikovsky, ludwig van beethoven, jules massenet, george frideric handel\""
+        }, 
+        "task 09": {
+            "asset_file": "chopin_nocturnes.mp3", 
+            "correct_answer": "frederic chopin", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"claude debussy, frederic chopin, ludwig van beethoven, edvard grieg, piotr ilyich tchaikovsky\""
+        }, 
+        "task 10": {
+            "asset_file": "bach_air.mp3", 
+            "correct_answer": "johann sebastian bach", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"edvard grieg, johann sebastian bach, ludwig van beethoven, george frideric handel, piotr ilyich tchaikovsky\""
+        }, 
+        "task 11": {
+            "asset_file": "brahms_hungarian_dance.mp3", 
+            "correct_answer": "johannes brahms", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"george frideric handel, johannes brahms, wolfgang amadeus mozart, piotr ilyich tchaikovsky, johann sebastian bach\""
+        }, 
+        "task 12": {
+            "asset_file": "mozart_symphony_40_I.mp3", 
+            "correct_answer": "wolfgang amadeus mozart", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"ludwig van beethoven, piotr ilyich tchaikovsky, wolfgang amadeus mozart, edvard grieg, carl orff\""
+        }, 
+        "task 13": {
+            "asset_file": "massenet_meditation.mp3", 
+            "correct_answer": "jules massenet", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"frederic chopin, wolfgang amadeus mozart, jules massenet, johannes brahms, johann strauss ii\""
+        }, 
+        "task 14": {
+            "asset_file": "orff_fortuna.mp3", 
+            "correct_answer": "carl orff", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"carl orff, claude debussy, piotr ilyich tchaikovsky, antonio vivaldi, ludwig van beethoven\""
+        }, 
+        "task 15": {
+            "asset_file": "mozart_alla_turca.mp3", 
+            "correct_answer": "wolfgang amadeus mozart", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"wolfgang amadeus mozart, carl orff, ludwig van beethoven, johann sebastian bach, frederic chopin\""
+        }, 
+        "task 16": {
+            "asset_file": "handel_messiah.mp3", 
+            "correct_answer": "george frideric handel", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"george frideric handel, johannes brahms, carl orff, piotr ilyich tchaikovsky, frederic chopin\""
+        }, 
+        "task 17": {
+            "asset_file": "beethoven_symphony_5.mp3", 
+            "correct_answer": "ludwig van beethoven", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"wolfgang amadeus mozart, edvard grieg, carl orff, jules massenet, ludwig van beethoven\""
+        }, 
+        "task 18": {
+            "asset_file": "mozart_piano_concerto_21.mp3", 
+            "correct_answer": "wolfgang amadeus mozart", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"edvard grieg, antonio vivaldi, frederic chopin, jules massenet, wolfgang amadeus mozart\""
+        }, 
+        "task 19": {
+            "asset_file": "mozart_overture.mp3", 
+            "correct_answer": "wolfgang amadeus mozart", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"claude debussy, edvard grieg, wolfgang amadeus mozart, antonio vivaldi, richard wagner\""
+        }, 
+        "task 20": {
+            "asset_file": "strauss_danube.mp3", 
+            "correct_answer": "johann strauss ii", 
+            "description": "indicate the classical composer who created the following melody.", 
+            "possible_answers": "\"johannes brahms, frederic chopin, wolfgang amadeus mozart, antonio vivaldi, johann strauss ii\""
+        }
+    }, 
+    "time_limit": 45
+}

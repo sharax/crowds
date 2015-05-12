@@ -1,4 +1,2 @@
 52
-listen to 20 audio clips of classical compositions and identify the composer.
-
-
+You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.

@@ -1,4 +1,2 @@
-16
-estimate the year of publication of 20 books, given the book’s name and author.
-
-
+07
+You will be shown 20 images of architectural landmarks, and asked to select the country where the landmark is located.

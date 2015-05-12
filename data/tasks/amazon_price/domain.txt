@@ -1,4 +1,2 @@
 39
-estimate the Amazon price in USD for 20 products, given their image and specifications.
-
-
+You will be asked to estimate the Amazon price in USD for 20 products, given their image and specifications.

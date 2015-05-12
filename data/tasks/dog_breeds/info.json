@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 images of dogs, and asked to identify the breed.", 
+    "domain_id": "25", 
+    "domain_name": "dog_breeds", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "dog1.png", 
+            "correct_answer": "labrador retriever", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"brittany, bullmastiff, golden retreiver, jack russell terrier, labrador retriever\""
+        }, 
+        "task 02": {
+            "asset_file": "dog2.png", 
+            "correct_answer": "maltese", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bichon frise, griffon bruxellois , maltese, pomeranian, weimaraner\""
+        }, 
+        "task 03": {
+            "asset_file": "dog3.png", 
+            "correct_answer": "cocker spaniel", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"boston terrier, cocker spaniel, dalmatian, german shorthaired pointer, shetland sheepdog\""
+        }, 
+        "task 04": {
+            "asset_file": "dog4.png", 
+            "correct_answer": "german shepherd", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"curly coated retriever, german shepherd, great dane, mastiff, rottweiler\""
+        }, 
+        "task 05": {
+            "asset_file": "dog5.png", 
+            "correct_answer": "yorkshire terrier", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bloodhound, havanese, labrador retriever, maltese, yorkshire terrier\""
+        }, 
+        "task 06": {
+            "asset_file": "dog6.png", 
+            "correct_answer": "doberman", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"dachshund, doberman, fox terrier, german shepherd, rottweiler\""
+        }, 
+        "task 07": {
+            "asset_file": "dog7.png", 
+            "correct_answer": "great dane", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bullmastiff, cairn terrier, great dane, havanese, st. bernard\""
+        }, 
+        "task 08": {
+            "asset_file": "dog8.png", 
+            "correct_answer": "dachshund", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"basset hound, boxer, collie, dachshund, norwich terrier\""
+        }, 
+        "task 09": {
+            "asset_file": "dog9.png", 
+            "correct_answer": "golden retriever", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bloodhound, chow chow, english springer spaniel, golden retriever, labrador retriever\""
+        }, 
+        "task 10": {
+            "asset_file": "dog10.png", 
+            "correct_answer": "poodle", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"chow chow, lhasa apso, maltese, pomeranian, poodle\""
+        }, 
+        "task 11": {
+            "asset_file": "dog11.png", 
+            "correct_answer": "pug", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"boxer, bulldog, chihuahua, pug, tibetan spaniel\""
+        }, 
+        "task 12": {
+            "asset_file": "dog12.png", 
+            "correct_answer": "pomeranian", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bichon fris\u00e9, lhasa apso, pekingese, pomeranian, portuguese water dog\""
+        }, 
+        "task 13": {
+            "asset_file": "dog13.png", 
+            "correct_answer": "rottweiler", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"anatolian shepherd, doberman, great dane, mastiff, rottweiler\""
+        }, 
+        "task 14": {
+            "asset_file": "dog14.png", 
+            "correct_answer": "st. bernard", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"boston terrier, collie, labrador retriever, st. bernard, whippet\""
+        }, 
+        "task 15": {
+            "asset_file": "dog15.png", 
+            "correct_answer": "beagle", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"basset hound, beagle, bernese mountain dog, boxer, miniature schnauzer\""
+        }, 
+        "task 16": {
+            "asset_file": "dog16.png", 
+            "correct_answer": "chihuahua", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"chihuahua, miniature pinscher, miniature schnauzer, shih tzu, vizslas\""
+        }, 
+        "task 17": {
+            "asset_file": "dog17.png", 
+            "correct_answer": "boxer", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"bichon frise, boston terrier, boxer, english mastiff, english springer spaniel\""
+        }, 
+        "task 18": {
+            "asset_file": "dog18.png", 
+            "correct_answer": "siberian husky", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"alaskan malamute, dachshund, german shepherd, siberian husky, st. bernard\""
+        }, 
+        "task 19": {
+            "asset_file": "dog19.png", 
+            "correct_answer": "dalmatian", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"belgian shepherd, dalmatian, great dane, irish wolfhound, silky terrier\""
+        }, 
+        "task 20": {
+            "asset_file": "dog20.png", 
+            "correct_answer": "bulldog", 
+            "description": "select the breed of dog in the image.", 
+            "possible_answers": "\"boston terrier, boxer, bull terrier, bulldog, irish wolfhound\""
+        }
+    }, 
+    "time_limit": 30
+}

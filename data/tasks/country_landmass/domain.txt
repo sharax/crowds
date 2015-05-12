@@ -1,4 +1,2 @@
-16
-estimate the year of publication of 20 books, given the book’s name and author.
-
-
+48
+You will given a list of 20 countries, and asked to estimate their landmass.

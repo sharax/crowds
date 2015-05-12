@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset	possible_answers	randomize_answers	question
-Labrador Retriever	multiple choice	image	dog1.jpg	 Brittany, Bullmastiff, Golden Retreiver, Jack Russell Terrier, Labrador Retriever	true	select the breed of dog in the image.
-Maltese	multiple choice	image	dog2.jpg	 Bichon Frise, Griffon Bruxellois , Maltese, Pomeranian, Weimaraner	true	select the breed of dog in the image.
-Cocker Spaniel	multiple choice	image	dog3.jpg	 Boston Terrier, Cocker Spaniel, Dalmatian, German Shorthaired Pointer, Shetland Sheepdog	true	select the breed of dog in the image.
-German Shepherd	multiple choice	image	dog4.jpg	 Curly Coated Retriever, German Shepherd, Great Dane, Mastiff, Rottweiler	true	select the breed of dog in the image.
-Yorkshire Terrier	multiple choice	image	dog5.jpg	 Bloodhound, Havanese, Labrador Retriever, Maltese, Yorkshire Terrier	true	select the breed of dog in the image.
-Doberman	multiple choice	image	dog6.jpg	 Dachshund, Doberman, Fox Terrier, German Shepherd, Rottweiler	true	select the breed of dog in the image.
-Great Dane	multiple choice	image	dog7.jpg	 Bullmastiff, Cairn Terrier, Great Dane, Havanese, St. Bernard	true	select the breed of dog in the image.
-Dachshund	multiple choice	image	dog8.jpg	 Basset Hound, Boxer, Collie, Dachshund, Norwich Terrier	true	select the breed of dog in the image.
-Golden Retriever	multiple choice	image	dog9.jpg	 Bloodhound, Chow Chow, English Springer Spaniel, Golden Retriever, Labrador Retriever	true	select the breed of dog in the image.
-Poodle	multiple choice	image	dog10.jpg	 Chow Chow, Lhasa Apso, Maltese, Pomeranian, Poodle	true	select the breed of dog in the image.
-Pug	multiple choice	image	dog11.jpg	 Boxer, Bulldog, Chihuahua, Pug, Tibetan Spaniel	true	select the breed of dog in the image.
-Pomeranian	multiple choice	image	dog12.jpg	 Bichon Frisé, Lhasa Apso, Pekingese, Pomeranian, Portuguese Water Dog	true	select the breed of dog in the image.
-Rottweiler	multiple choice	image	dog13.jpg	 Anatolian Shepherd, Doberman, Great Dane, Mastiff, Rottweiler	true	select the breed of dog in the image.
-St. Bernard	multiple choice	image	dog14.jpg	 Boston Terrier, Collie, Labrador Retriever, St. Bernard, Whippet	true	select the breed of dog in the image.
-Beagle	multiple choice	image	dog15.jpg	 Basset Hound, Beagle, Bernese Mountain Dog, Boxer, Miniature Schnauzer	true	select the breed of dog in the image.
-Chihuahua	multiple choice	image	dog16.jpg	 Chihuahua, Miniature Pinscher, Miniature Schnauzer, Shih Tzu, Vizslas	true	select the breed of dog in the image.
-Boxer	multiple choice	image	dog17.jpg	 Bichon Frise, Boston Terrier, Boxer, English Mastiff, English Springer Spaniel	true	select the breed of dog in the image.
-Siberian Husky	multiple choice	image	dog18.jpg	 Alaskan Malamute, Dachshund, German Shepherd, Siberian Husky, St. Bernard	true	select the breed of dog in the image.
-Dalmatian	multiple choice	image	dog19.jpg	 Belgian Shepherd, Dalmatian, Great Dane, Irish Wolfhound, Silky Terrier	true	select the breed of dog in the image.
-Bulldog	multiple choice	image	dog20.jpg	 Boston Terrier, Boxer, Bull Terrier, Bulldog, Irish Wolfhound	true	select the breed of dog in the image.
+Labrador Retriever	multiple choice	image	dog1.png	 Brittany, Bullmastiff, Golden Retreiver, Jack Russell Terrier, Labrador Retriever	true	select the breed of dog in the image.
+Maltese	multiple choice	image	dog2.png	 Bichon Frise, Griffon Bruxellois , Maltese, Pomeranian, Weimaraner	true	select the breed of dog in the image.
+Cocker Spaniel	multiple choice	image	dog3.png	 Boston Terrier, Cocker Spaniel, Dalmatian, German Shorthaired Pointer, Shetland Sheepdog	true	select the breed of dog in the image.
+German Shepherd	multiple choice	image	dog4.png	 Curly Coated Retriever, German Shepherd, Great Dane, Mastiff, Rottweiler	true	select the breed of dog in the image.
+Yorkshire Terrier	multiple choice	image	dog5.png	 Bloodhound, Havanese, Labrador Retriever, Maltese, Yorkshire Terrier	true	select the breed of dog in the image.
+Doberman	multiple choice	image	dog6.png	 Dachshund, Doberman, Fox Terrier, German Shepherd, Rottweiler	true	select the breed of dog in the image.
+Great Dane	multiple choice	image	dog7.png	 Bullmastiff, Cairn Terrier, Great Dane, Havanese, St. Bernard	true	select the breed of dog in the image.
+Dachshund	multiple choice	image	dog8.png	 Basset Hound, Boxer, Collie, Dachshund, Norwich Terrier	true	select the breed of dog in the image.
+Golden Retriever	multiple choice	image	dog9.png	 Bloodhound, Chow Chow, English Springer Spaniel, Golden Retriever, Labrador Retriever	true	select the breed of dog in the image.
+Poodle	multiple choice	image	dog10.png	 Chow Chow, Lhasa Apso, Maltese, Pomeranian, Poodle	true	select the breed of dog in the image.
+Pug	multiple choice	image	dog11.png	 Boxer, Bulldog, Chihuahua, Pug, Tibetan Spaniel	true	select the breed of dog in the image.
+Pomeranian	multiple choice	image	dog12.png	 Bichon Frisé, Lhasa Apso, Pekingese, Pomeranian, Portuguese Water Dog	true	select the breed of dog in the image.
+Rottweiler	multiple choice	image	dog13.png	 Anatolian Shepherd, Doberman, Great Dane, Mastiff, Rottweiler	true	select the breed of dog in the image.
+St. Bernard	multiple choice	image	dog14.png	 Boston Terrier, Collie, Labrador Retriever, St. Bernard, Whippet	true	select the breed of dog in the image.
+Beagle	multiple choice	image	dog15.png	 Basset Hound, Beagle, Bernese Mountain Dog, Boxer, Miniature Schnauzer	true	select the breed of dog in the image.
+Chihuahua	multiple choice	image	dog16.png	 Chihuahua, Miniature Pinscher, Miniature Schnauzer, Shih Tzu, Vizslas	true	select the breed of dog in the image.
+Boxer	multiple choice	image	dog17.png	 Bichon Frise, Boston Terrier, Boxer, English Mastiff, English Springer Spaniel	true	select the breed of dog in the image.
+Siberian Husky	multiple choice	image	dog18.png	 Alaskan Malamute, Dachshund, German Shepherd, Siberian Husky, St. Bernard	true	select the breed of dog in the image.
+Dalmatian	multiple choice	image	dog19.png	 Belgian Shepherd, Dalmatian, Great Dane, Irish Wolfhound, Silky Terrier	true	select the breed of dog in the image.
+Bulldog	multiple choice	image	dog20.png	 Boston Terrier, Boxer, Bull Terrier, Bulldog, Irish Wolfhound	true	select the breed of dog in the image.

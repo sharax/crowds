@@ -1,4 +1,2 @@
 43
-select the brand that is most popular in a given market.
-
-
+Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.

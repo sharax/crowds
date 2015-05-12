@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of country outlines, and asked to identify the country.", 
+    "domain_id": "60", 
+    "domain_name": "country_shape", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "country_shape_egypt.png", 
+            "correct_answer": "egypt", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"guatemala,canada,turkey,egypt,panama\""
+        }, 
+        "task 02": {
+            "asset_file": "country_shape_france.png", 
+            "correct_answer": "france", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"turkey,libya,china,france,greece\""
+        }, 
+        "task 03": {
+            "asset_file": "country_shape_phillipines.png", 
+            "correct_answer": "philipines", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"philipines,the bahamas,cuba,russia,portugal\""
+        }, 
+        "task 04": {
+            "asset_file": "country_shape_iceland.png", 
+            "correct_answer": "iceland", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"iceland,cameroon,togo,uganda,burma\""
+        }, 
+        "task 05": {
+            "asset_file": "country_shape_panama.png", 
+            "correct_answer": "panama", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"panama,oman,poland,ghana,sudan\""
+        }, 
+        "task 06": {
+            "asset_file": "country_shape_usa.png", 
+            "correct_answer": "usa", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"usa,canada,jamaica,argentina,saudi arabia\""
+        }, 
+        "task 07": {
+            "asset_file": "country_shape_vietnam.png", 
+            "correct_answer": "vietnam", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"vietnam,malawi,pakistan,spain,belgium\""
+        }, 
+        "task 08": {
+            "asset_file": "country_shape_cuba.png", 
+            "correct_answer": "cuba", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"iran,mali,peru,south sudan,cuba\""
+        }, 
+        "task 09": {
+            "asset_file": "country_shape_mexico.png", 
+            "correct_answer": "mexico", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"mexico,haiti,ghana,sierra leone,russia\""
+        }, 
+        "task 10": {
+            "asset_file": "country_shape_saudiarabia.png", 
+            "correct_answer": "saudi arabia", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"saudi arabia,pakistan,finland,syria,pakistan\""
+        }, 
+        "task 11": {
+            "asset_file": "country_shape_spain.png", 
+            "correct_answer": "spain", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"spain,australia,kazakhstan,tunisia,united kingdom\""
+        }, 
+        "task 12": {
+            "asset_file": "country_shape_turkey.png", 
+            "correct_answer": "turkey", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"turkey,peru,paraguay,united states,switzerland\""
+        }, 
+        "task 13": {
+            "asset_file": "country_shape_greece.png", 
+            "correct_answer": "greece", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"greece,india,venezuela,angola ,colombia\""
+        }, 
+        "task 14": {
+            "asset_file": "country_shape_canada.png", 
+            "correct_answer": "canada", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"canada,uganda,rwanda,colombia,france\""
+        }, 
+        "task 15": {
+            "asset_file": "country_shape_norway.png", 
+            "correct_answer": "norway", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"norway,colombia,cameroon,madagascar,nigeria\""
+        }, 
+        "task 16": {
+            "asset_file": "country_shape_south_africa.png", 
+            "correct_answer": "south africa", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"south africa,denmark,yemen,iran,brazil\""
+        }, 
+        "task 17": {
+            "asset_file": "country_shape_iraq.png", 
+            "correct_answer": "iraq", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"iraq,venezuela,brazil,zimbabwe,ireland\""
+        }, 
+        "task 18": {
+            "asset_file": "country_shape_indonesia.png", 
+            "correct_answer": "indonesia", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"indonesia,china,armenia,mexico,thailand\""
+        }, 
+        "task 19": {
+            "asset_file": "country_shape_japan.png", 
+            "correct_answer": "japan", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"japan,uzbekistan,italy,france,austria\""
+        }, 
+        "task 20": {
+            "asset_file": "country_shape_newzealand.png", 
+            "correct_answer": "new zealand", 
+            "description": "select the country corresponding to the outline.", 
+            "possible_answers": "\"new zealand,algeria,bangladesh,nigeria,morocco\""
+        }
+    }, 
+    "time_limit": 30
+}

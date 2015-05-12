@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.", 
+    "domain_id": "45", 
+    "domain_name": "construction_years", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Taj_Mahal.png", 
+            "correct_answer": 22.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 02": {
+            "asset_file": "Empire_State_Building.png", 
+            "correct_answer": 1.25, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 03": {
+            "asset_file": "Red_Fort.png", 
+            "correct_answer": 10.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 04": {
+            "asset_file": "Burj_Khalifa.png", 
+            "correct_answer": 5.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 05": {
+            "asset_file": "Leaning_Tower_of_Pisa.png", 
+            "correct_answer": 344.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 06": {
+            "asset_file": "Effiel_Tower.png", 
+            "correct_answer": 2.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 07": {
+            "asset_file": "Gateway_of_India.png", 
+            "correct_answer": 13.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 08": {
+            "asset_file": "Chrysler_Building.png", 
+            "correct_answer": 2.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 09": {
+            "asset_file": "Willis_Tower.png", 
+            "correct_answer": 3.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 10": {
+            "asset_file": "Forbidden_City.png", 
+            "correct_answer": 14.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 11": {
+            "asset_file": "30_St_Mary_Axe.png", 
+            "correct_answer": 3.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 12": {
+            "asset_file": "White_House.png", 
+            "correct_answer": 8.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 13": {
+            "asset_file": "Flatiron.png", 
+            "correct_answer": 1.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 14": {
+            "asset_file": "Taipei101.png", 
+            "correct_answer": 5.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 15": {
+            "asset_file": "International_Commerce_Centre.png", 
+            "correct_answer": 8.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 16": {
+            "asset_file": "Basilica_of_Sacred_Heart.png", 
+            "correct_answer": 39.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 17": {
+            "asset_file": "Union.png", 
+            "correct_answer": 3.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 18": {
+            "asset_file": "Petronas_Towers.png", 
+            "correct_answer": 3.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 19": {
+            "asset_file": "John_Hancock.png", 
+            "correct_answer": 4.0, 
+            "description": "estimate the number of years it took to build the building."
+        }, 
+        "task 20": {
+            "asset_file": "Sydney_Opera_House.png", 
+            "correct_answer": 14.0, 
+            "description": "estimate the number of years it took to build the building."
+        }
+    }, 
+    "time_limit": 30
+}

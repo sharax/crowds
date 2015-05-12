@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "video", 
+    "domain_description": "You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.", 
+    "domain_id": "12", 
+    "domain_name": "penalty_direction", 
+    "randomize_answers": "false", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Pen1.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 02": {
+            "asset_file": "Pen2.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 03": {
+            "asset_file": "Pen3.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 04": {
+            "asset_file": "Pen4.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 05": {
+            "asset_file": "Pen5.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 06": {
+            "asset_file": "Pen6.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 07": {
+            "asset_file": "Pen7.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 08": {
+            "asset_file": "Pen8.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 09": {
+            "asset_file": "Pen9.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 10": {
+            "asset_file": "Pen10.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 11": {
+            "asset_file": "Pen11.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 12": {
+            "asset_file": "Pen12.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 13": {
+            "asset_file": "Pen13.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 14": {
+            "asset_file": "Pen14.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 15": {
+            "asset_file": "Pen15.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 16": {
+            "asset_file": "Pen16.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 17": {
+            "asset_file": "Pen17.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 18": {
+            "asset_file": "Pen18.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 19": {
+            "asset_file": "Pen19.mp4", 
+            "correct_answer": "left", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }, 
+        "task 20": {
+            "asset_file": "Pen20.mp4", 
+            "correct_answer": "right", 
+            "description": "select in which direction the ball was directed to.", 
+            "possible_answers": "\"left,right\""
+        }
+    }, 
+    "time_limit": 45
+}

@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-French	multiple choice	text	crass.txt	French, Germanic, Italian, Latin, Nordic 	true
-Latin	multiple choice	text	excerpt.txt	French, Germanic, Italian, Latin, Nordic 	true
-Germanic	multiple choice	text	farm.txt	French, Germanic, Italian, Latin, Nordic 	true
-Italian	multiple choice	text	novel.txt	French, Germanic, Italian, Latin, Nordic 	true
-Germanic	multiple choice	text	creep.txt	French, Germanic, Italian, Latin, Nordic 	true
-Nordic	multiple choice	text	gap.txt	French, Germanic, Italian, Latin, Nordic 	true
-Latin	multiple choice	text	ignite.txt	French, Germanic, Italian, Latin, Nordic 	true
-French	multiple choice	text	protectionism.txt	French, Germanic, Italian, Latin, Nordic 	true
-Italian	multiple choice	text	grotesque.txt	French, Germanic, Italian, Latin, Nordic 	true
-French	multiple choice	text	sulphur.txt	French, Germanic, Italian, Latin, Nordic 	true
-Latin	multiple choice	text	recumbent.txt	French, Germanic, Italian, Latin, Nordic 	true
-Nordic	multiple choice	text	viking.txt	French, Germanic, Italian, Latin, Nordic 	true
-Germanic	multiple choice	text	airborne.txt	French, Germanic, Italian, Latin, Nordic 	true
-French	multiple choice	text	retail.txt	French, Germanic, Italian, Latin, Nordic 	true
-Italian	multiple choice	text	mezzanine.txt	French, Germanic, Italian, Latin, Nordic 	true
-Nordic	multiple choice	text	muck.txt	French, Germanic, Italian, Latin, Nordic 	true
-Nordic	multiple choice	text	raft.txt	French, Germanic, Italian, Latin, Nordic 	true
-Latin	multiple choice	text	deceptive.txt	French, Germanic, Italian, Latin, Nordic 	true
-Germanic	multiple choice	text	charcoal.txt	French, Germanic, Italian, Latin, Nordic 	true
-Italian	multiple choice	text	sonata.txt	French, Germanic, Italian, Latin, Nordic 	true
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+French	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "crass".
+Latin	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "excerpt".
+Germanic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "farm".
+Italian	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "novel".
+Germanic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "creep".
+Nordic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "gap".
+Latin	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "ignite".
+French	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "protectionism".
+Italian	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "grotesque".
+French	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "sulphur".
+Latin	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "recumbent".
+Nordic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "viking".
+Germanic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "airborne".
+French	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "retail".
+Italian	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "mezzanine".
+Nordic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "muck".
+Nordic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "raft".
+Latin	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "deceptive".
+Germanic	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "charcoal".
+Italian	multiple choice	no assets	no assets	French, Germanic, Italian, Latin, Nordic 	true	determine the origin for the word "sonate".

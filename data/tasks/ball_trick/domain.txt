@@ -1,4 +1,2 @@
-3
-watch 20 short videos of a magic trick, and identify the location of the ball at for each.
-
-
+03
+You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.

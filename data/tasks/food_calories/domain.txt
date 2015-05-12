@@ -1,4 +1,2 @@
-16
-estimate the year of publication of 20 books, given the book’s name and author.
-
-
+19
+You will be shown 20 images of food items, and asked to estimate the amount of calories present in each.

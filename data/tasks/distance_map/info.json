@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.", 
+    "domain_id": "22", 
+    "domain_name": "distance_map", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Philadelphia_Cairo.png", 
+            "correct_answer": 9160.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 02": {
+            "asset_file": "Dallas_Boston.png", 
+            "correct_answer": 2495.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 03": {
+            "asset_file": "Istanbul_Cairo.png", 
+            "correct_answer": 1237.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 04": {
+            "asset_file": "Bangalore_Seoul.png", 
+            "correct_answer": 5591.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 05": {
+            "asset_file": "Istanbul_Mumbai.png", 
+            "correct_answer": 4814.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 06": {
+            "asset_file": "Buenos_Aires_Hong_Kong.png", 
+            "correct_answer": 18494.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 07": {
+            "asset_file": "Glasgow_Kolkata.png", 
+            "correct_answer": 8114.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 08": {
+            "asset_file": "Singapore_Durban.png", 
+            "correct_answer": 8442.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 09": {
+            "asset_file": "Ahmedabad_Los_Angeles.png", 
+            "correct_answer": 13581.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 10": {
+            "asset_file": "Brisbane_Brasilia.png", 
+            "correct_answer": 14670.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 11": {
+            "asset_file": "Cape_Town_Colombo.png", 
+            "correct_answer": 7897.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 12": {
+            "asset_file": "Sydney_Chennai.png", 
+            "correct_answer": 9135.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 13": {
+            "asset_file": "Hong_Kong_Huston.png", 
+            "correct_answer": 11040.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 14": {
+            "asset_file": "Bangalore_Toronto.png", 
+            "correct_answer": 13313.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 15": {
+            "asset_file": "Beijing_Shanghai.png", 
+            "correct_answer": 11068.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 16": {
+            "asset_file": "Bangalore_Chennai.png", 
+            "correct_answer": 290.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 17": {
+            "asset_file": "Delhi_Kolkata.png", 
+            "correct_answer": 1305.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 18": {
+            "asset_file": "Sydney_London.png", 
+            "correct_answer": 17012.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 19": {
+            "asset_file": "San_Francisco_Shanghai.png", 
+            "correct_answer": 9890.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }, 
+        "task 20": {
+            "asset_file": "Huston_Cape_Town.png", 
+            "correct_answer": 16054.0, 
+            "description": "estimate the distance bewteen the two cities."
+        }
+    }, 
+    "time_limit": 30
+}

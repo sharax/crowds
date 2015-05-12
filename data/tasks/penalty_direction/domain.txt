@@ -1,0 +1,2 @@
+12
+You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.

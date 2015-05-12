@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+spam	binary	text	1.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	2.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	3.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	4.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	5.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	6.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	7.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	8.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	9.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	10.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	11.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	12.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	13.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	14.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	15.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	16.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	17.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+no spam	binary	text	18.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	19.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.
+spam	binary	text	20.tsv	no spam,spam	false	determine if the e-mail shown in the image is spam or not.

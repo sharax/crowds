@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will be given 20 headlines, and asked to select the magazine that published the article.", 
+    "domain_id": "56", 
+    "domain_name": "magazine_guesser", 
+    "randomize_answers": "false", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "Question1.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 02": {
+            "asset_file": "Question2.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 03": {
+            "asset_file": "Question3.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 04": {
+            "asset_file": "Question4.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 05": {
+            "asset_file": "Question5.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 06": {
+            "asset_file": "Question6.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 07": {
+            "asset_file": "Question7.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 08": {
+            "asset_file": "Question8.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 09": {
+            "asset_file": "Question9.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 10": {
+            "asset_file": "Question10.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 11": {
+            "asset_file": "Question11.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 12": {
+            "asset_file": "Question12.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 13": {
+            "asset_file": "Question13.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 14": {
+            "asset_file": "Question14.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 15": {
+            "asset_file": "Question15.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 16": {
+            "asset_file": "Question16.png", 
+            "correct_answer": "the economist", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 17": {
+            "asset_file": "Question17.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 18": {
+            "asset_file": "Question18.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 19": {
+            "asset_file": "Question19.png", 
+            "correct_answer": "the guardian", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }, 
+        "task 20": {
+            "asset_file": "Question20.png", 
+            "correct_answer": "wired", 
+            "description": "select the magazine from where the headline originates.", 
+            "possible_answers": "\"the economist, the guardian, time, wired\""
+        }
+    }, 
+    "time_limit": 30
+}

@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of containers and asked to estimate its capacity.", 
+    "domain_id": "18", 
+    "domain_name": "container_size", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "1_9.png", 
+            "correct_answer": 1.9, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 02": {
+            "asset_file": "3_8.png", 
+            "correct_answer": 3.8, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 03": {
+            "asset_file": "3_78.png", 
+            "correct_answer": 3.8, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 04": {
+            "asset_file": "13_2.png", 
+            "correct_answer": 13.2, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 05": {
+            "asset_file": "60ml.png", 
+            "correct_answer": 0.06, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 06": {
+            "asset_file": "120.png", 
+            "correct_answer": 0.12, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 07": {
+            "asset_file": "120a.png", 
+            "correct_answer": 0.12, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 08": {
+            "asset_file": "210m.png", 
+            "correct_answer": 0.21, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 09": {
+            "asset_file": "240.png", 
+            "correct_answer": 0.24, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 10": {
+            "asset_file": "240a.png", 
+            "correct_answer": 0.24, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 11": {
+            "asset_file": "250b.png", 
+            "correct_answer": 0.24, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 12": {
+            "asset_file": "250c.png", 
+            "correct_answer": 0.25, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 13": {
+            "asset_file": "250m.png", 
+            "correct_answer": 0.25, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 14": {
+            "asset_file": "250ml.png", 
+            "correct_answer": 0.25, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 15": {
+            "asset_file": "480.png", 
+            "correct_answer": 0.48, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 16": {
+            "asset_file": "480b.png", 
+            "correct_answer": 0.48, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 17": {
+            "asset_file": "500ma.png", 
+            "correct_answer": 0.5, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 18": {
+            "asset_file": "500mb.png", 
+            "correct_answer": 0.5, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 19": {
+            "asset_file": "500ml.png", 
+            "correct_answer": 0.5, 
+            "description": "estimate the capacity of the container shown next."
+        }, 
+        "task 20": {
+            "asset_file": "950ml.png", 
+            "correct_answer": 0.95, 
+            "description": "estimate the capacity of the container shown next."
+        }
+    }, 
+    "time_limit": 30
+}

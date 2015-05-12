@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
+Republican Party	binary	text	Kentucky.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Georgia.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Missouri.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Michigan.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Nebraska.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	New York.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Illinois.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Utah.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Washington.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	New Jersey.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Pennsylvania.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Maine.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Montana.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Wisconsin.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Oregon.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	North Dakota.txt	Republican Party,Democratic Party	false
+Democratic Party	binary	text	Vermont.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Texas.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Arizona.txt	Republican Party,Democratic Party	false
+Republican Party	binary	text	Alabama.txt	Republican Party,Democratic Party	false

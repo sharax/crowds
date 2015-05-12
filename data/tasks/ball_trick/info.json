@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "video", 
+    "domain_description": "You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.", 
+    "domain_id": "03", 
+    "domain_name": "ball_trick", 
+    "randomize_answers": "false", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "ball_trick_1.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 02": {
+            "asset_file": "ball_trick_2.mp4", 
+            "correct_answer": "left", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 03": {
+            "asset_file": "ball_trick_3.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 04": {
+            "asset_file": "ball_trick_4.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 05": {
+            "asset_file": "ball_trick_5.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 06": {
+            "asset_file": "ball_trick_6.mp4", 
+            "correct_answer": "left", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 07": {
+            "asset_file": "ball_trick_7.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 08": {
+            "asset_file": "ball_trick_8.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 09": {
+            "asset_file": "ball_trick_9.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 10": {
+            "asset_file": "ball_trick_10.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 11": {
+            "asset_file": "ball_trick_11.mp4", 
+            "correct_answer": "left", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 12": {
+            "asset_file": "ball_trick_12.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 13": {
+            "asset_file": "ball_trick_13.mp4", 
+            "correct_answer": "left", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 14": {
+            "asset_file": "ball_trick_14.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 15": {
+            "asset_file": "ball_trick_15.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 16": {
+            "asset_file": "ball_trick_16.mp4", 
+            "correct_answer": "left", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 17": {
+            "asset_file": "ball_trick_17.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 18": {
+            "asset_file": "ball_trick_18.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 19": {
+            "asset_file": "ball_trick_19.mp4", 
+            "correct_answer": "right", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }, 
+        "task 20": {
+            "asset_file": "ball_trick_20.mp4", 
+            "correct_answer": "middle", 
+            "description": "identify the location of the ball.", 
+            "possible_answers": "\"left,middle,right\""
+        }
+    }, 
+    "time_limit": 45
+}

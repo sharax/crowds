@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.", 
+    "domain_id": "43", 
+    "domain_name": "brands_popularity", 
+    "randomize_answers": "acer,hewlett packard", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "1.jpg", 
+            "correct_answer": "cadbury dairy milk", 
+            "description": "false", 
+            "possible_answers": "\"india\""
+        }, 
+        "task 02": {
+            "asset_file": "2.jpg", 
+            "correct_answer": "jack wills", 
+            "description": "false", 
+            "possible_answers": "\"united kingdom\""
+        }, 
+        "task 03": {
+            "asset_file": "3.jpg", 
+            "correct_answer": "starbucks", 
+            "description": "false", 
+            "possible_answers": "\"united states\""
+        }, 
+        "task 04": {
+            "asset_file": "4.jpg", 
+            "correct_answer": "dove", 
+            "description": "false", 
+            "possible_answers": "\"india\""
+        }, 
+        "task 05": {
+            "asset_file": "5.jpg", 
+            "correct_answer": "crest", 
+            "description": "false", 
+            "possible_answers": "\"canada\""
+        }, 
+        "task 06": {
+            "asset_file": "6.jpg", 
+            "correct_answer": "coca cola", 
+            "description": "false", 
+            "possible_answers": "\"brazil\""
+        }, 
+        "task 07": {
+            "asset_file": "7.jpg", 
+            "correct_answer": "dominos pizza", 
+            "description": "false", 
+            "possible_answers": "\"australia\""
+        }, 
+        "task 08": {
+            "asset_file": "8.jpg", 
+            "correct_answer": "pantene", 
+            "description": "false", 
+            "possible_answers": "\"pakistan\""
+        }, 
+        "task 09": {
+            "asset_file": "9.jpg", 
+            "correct_answer": "nike", 
+            "description": "false", 
+            "possible_answers": "\"slovakia\""
+        }, 
+        "task 10": {
+            "asset_file": "10.jpg", 
+            "correct_answer": "adidas", 
+            "description": "false", 
+            "possible_answers": "\"germany\""
+        }, 
+        "task 11": {
+            "asset_file": "11.jpg", 
+            "correct_answer": "reebok", 
+            "description": "false", 
+            "possible_answers": "\"iceland\""
+        }, 
+        "task 12": {
+            "asset_file": "12.jpg", 
+            "correct_answer": "hugo boss", 
+            "description": "false", 
+            "possible_answers": "\"austria\""
+        }, 
+        "task 13": {
+            "asset_file": "13.jpg", 
+            "correct_answer": "versace", 
+            "description": "false", 
+            "possible_answers": "\"italy\""
+        }, 
+        "task 14": {
+            "asset_file": "14.jpg", 
+            "correct_answer": "guess", 
+            "description": "false", 
+            "possible_answers": "\"france\""
+        }, 
+        "task 15": {
+            "asset_file": "15.jpg", 
+            "correct_answer": "burberry", 
+            "description": "false", 
+            "possible_answers": "\"singapore\""
+        }, 
+        "task 16": {
+            "asset_file": "16.jpg", 
+            "correct_answer": "armani", 
+            "description": "false", 
+            "possible_answers": "\"lebanon\""
+        }, 
+        "task 17": {
+            "asset_file": "17.jpg", 
+            "correct_answer": "kfc", 
+            "description": "false", 
+            "possible_answers": "\"malaysia\""
+        }, 
+        "task 18": {
+            "asset_file": "18.jpg", 
+            "correct_answer": "mcdonald's", 
+            "description": "false", 
+            "possible_answers": "\"singapore\""
+        }, 
+        "task 19": {
+            "asset_file": "19.jpg", 
+            "correct_answer": "nat sherman", 
+            "description": "false", 
+            "possible_answers": "\"united states\""
+        }, 
+        "task 20": {
+            "asset_file": "20.jpg", 
+            "correct_answer": "acer", 
+            "description": "false", 
+            "possible_answers": "\"cuba\""
+        }
+    }, 
+    "time_limit": 30
+}

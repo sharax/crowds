@@ -1,4 +1,2 @@
-16
-estimate the year of publication of 20 books, given the book’s name and author.
-
-
+09
+You will be shown 20 images of movie posters, and asked to estimate their IMDb rating from 0 to 10.

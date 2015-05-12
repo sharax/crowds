@@ -1,5 +1,2 @@
-8
-estimate the international box office collection in millions of USD from the 20 upcoming Hollywood movies.
-
-
-
+08
+You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.

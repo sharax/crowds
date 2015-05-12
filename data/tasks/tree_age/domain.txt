@@ -1,0 +1,2 @@
+17
+You will be shown 20 images of trees, and asked to estimate their age in years.

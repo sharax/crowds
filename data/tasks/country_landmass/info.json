@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will given a list of 20 countries, and asked to estimate their landmass.", 
+    "domain_id": "48", 
+    "domain_name": "country_landmass", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "country_landmass_argentina.png", 
+            "correct_answer": 2736690.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 02": {
+            "asset_file": "country_landmass_australia.png", 
+            "correct_answer": 7633565.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 03": {
+            "asset_file": "country_landmass_bangladesh.png", 
+            "correct_answer": 130168.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 04": {
+            "asset_file": "country_landmass_brazil.png", 
+            "correct_answer": 8460415.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 05": {
+            "asset_file": "country_landmass_canada.png", 
+            "correct_answer": 9093507.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 06": {
+            "asset_file": "country_landmass_chile.png", 
+            "correct_answer": 743812.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 07": {
+            "asset_file": "country_landmass_china.png", 
+            "correct_answer": 9326410.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 08": {
+            "asset_file": "country_landmass_france.png", 
+            "correct_answer": 640427.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 09": {
+            "asset_file": "country_landmass_germany.png", 
+            "correct_answer": 348672.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 10": {
+            "asset_file": "country_landmass_india.png", 
+            "correct_answer": 2864021.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 11": {
+            "asset_file": "country_landmass_ireland.png", 
+            "correct_answer": 68883.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 12": {
+            "asset_file": "country_landmass_italy.png", 
+            "correct_answer": 294140.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 13": {
+            "asset_file": "country_landmass_japan.png", 
+            "correct_answer": 364485.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 14": {
+            "asset_file": "country_landmass_mexico.png", 
+            "correct_answer": 1943945.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 15": {
+            "asset_file": "country_landmass_pakistan.png", 
+            "correct_answer": 856692.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 16": {
+            "asset_file": "country_landmass_russia.png", 
+            "correct_answer": 16377742.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 17": {
+            "asset_file": "country_landmass_south_africa.png", 
+            "correct_answer": 1214470.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 18": {
+            "asset_file": "country_landmass_sri_lanka.png", 
+            "correct_answer": 62732.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 19": {
+            "asset_file": "country_landmass_turkey.png", 
+            "correct_answer": 769632.0, 
+            "description": "estimate the country's landmass."
+        }, 
+        "task 20": {
+            "asset_file": "country_landmass_usa.png", 
+            "correct_answer": 9161966.0, 
+            "description": "estimate the country's landmass."
+        }
+    }, 
+    "time_limit": 30
+}

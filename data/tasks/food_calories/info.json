@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 images of food items, and asked to estimate the amount of calories present in each.", 
+    "domain_id": "19", 
+    "domain_name": "food_calories", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "food_calories_100g_black_coffee.jpg", 
+            "correct_answer": 0.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 02": {
+            "asset_file": "food_calories_100g_spinach.jpg", 
+            "correct_answer": 18.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 03": {
+            "asset_file": "food_calories_1_glass_milk.jpg", 
+            "correct_answer": 105.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 04": {
+            "asset_file": "food_calories_1_glass_beer.jpg", 
+            "correct_answer": 105.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 05": {
+            "asset_file": "food_calories_1_glass_cola.jpg", 
+            "correct_answer": 110.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 06": {
+            "asset_file": "food_calories_1_apple.jpg", 
+            "correct_answer": 75.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 07": {
+            "asset_file": "food_calories_1_banana.jpg", 
+            "correct_answer": 110.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 08": {
+            "asset_file": "food_calories_100g_grilled_fish.jpg", 
+            "correct_answer": 109.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 09": {
+            "asset_file": "food_calories_100g_rice.jpg", 
+            "correct_answer": 110.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 10": {
+            "asset_file": "food_calories_120g_wine.jpg", 
+            "correct_answer": 165.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 11": {
+            "asset_file": "food_calories_100g_chicken_breast.jpg", 
+            "correct_answer": 195.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 12": {
+            "asset_file": "food_calories_dominos_vegetarian_supreme_medium_classic_crust_pizza.jpg", 
+            "correct_answer": 1360.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 13": {
+            "asset_file": "food_calories_100g_whisky.jpg", 
+            "correct_answer": 250.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 14": {
+            "asset_file": "food_calories_6_slices_wheat_bread.jpg", 
+            "correct_answer": 400.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 15": {
+            "asset_file": "food_calories_100g_honey.jpg", 
+            "correct_answer": 304.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 16": {
+            "asset_file": "food_calories_3_eggs.jpg", 
+            "correct_answer": 353.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 17": {
+            "asset_file": "food_calories_100g_french_fries.jpg", 
+            "correct_answer": 300.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 18": {
+            "asset_file": "food_calories_100g_chocolate.jpg", 
+            "correct_answer": 529.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 19": {
+            "asset_file": "food_calories_20_almonds.jpg", 
+            "correct_answer": 900.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }, 
+        "task 20": {
+            "asset_file": "food_calories_500ml_olive_oil.jpg", 
+            "correct_answer": 4066.0, 
+            "description": "estimate the amount of calories of the food shown in the image."
+        }
+    }, 
+    "time_limit": 30
+}

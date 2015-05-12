@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be given 20 tweets from Katy Perry (an American singer and songwriter), and asked to predict the number of retweets each will accumulate.", 
+    "domain_id": "20", 
+    "domain_name": "retweets", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "KP_1.png", 
+            "correct_answer": 10337.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 02": {
+            "asset_file": "KP_2.png", 
+            "correct_answer": 9909.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 03": {
+            "asset_file": "KP_3.png", 
+            "correct_answer": 10405.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 04": {
+            "asset_file": "KP_4.png", 
+            "correct_answer": 7505.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 05": {
+            "asset_file": "KP_5.png", 
+            "correct_answer": 41120.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 06": {
+            "asset_file": "KP_6.png", 
+            "correct_answer": 9519.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 07": {
+            "asset_file": "KP_7.png", 
+            "correct_answer": 128482.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 08": {
+            "asset_file": "KP_8.png", 
+            "correct_answer": 14555.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 09": {
+            "asset_file": "KP_9.png", 
+            "correct_answer": 7915.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 10": {
+            "asset_file": "KP_10.png", 
+            "correct_answer": 13880.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 11": {
+            "asset_file": "KP_11.png", 
+            "correct_answer": 7884.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 12": {
+            "asset_file": "KP_12.png", 
+            "correct_answer": 10045.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 13": {
+            "asset_file": "KP_13.png", 
+            "correct_answer": 39172.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 14": {
+            "asset_file": "KP_14.png", 
+            "correct_answer": 105160.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 15": {
+            "asset_file": "KP_15.png", 
+            "correct_answer": 26396.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 16": {
+            "asset_file": "KP_16.png", 
+            "correct_answer": 3356.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 17": {
+            "asset_file": "KP_17.png", 
+            "correct_answer": 36116.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 18": {
+            "asset_file": "KP_18.png", 
+            "correct_answer": 8095.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 19": {
+            "asset_file": "KP_19.png", 
+            "correct_answer": 23080.0, 
+            "description": "estimate the number of reweets from the following message."
+        }, 
+        "task 20": {
+            "asset_file": "KP_20.png", 
+            "correct_answer": 7516.0, 
+            "description": "estimate the number of reweets from the following message."
+        }
+    }, 
+    "time_limit": 30
+}

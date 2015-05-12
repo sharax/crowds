@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.", 
+    "domain_id": "08", 
+    "domain_name": "box_office_collection", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "iron_man_3.png", 
+            "correct_answer": 1215.4, 
+            "description": "estimate the boxoffice collection for the following film:              "
+        }, 
+        "task 02": {
+            "asset_file": "the_lion_king.png", 
+            "correct_answer": 987.5, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 03": {
+            "asset_file": "spiderman_3.png", 
+            "correct_answer": 890.9, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 04": {
+            "asset_file": "harry_potter_chamber_secrets.png", 
+            "correct_answer": 879.0, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 05": {
+            "asset_file": "hunger_games.png", 
+            "correct_answer": 751.8, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 06": {
+            "asset_file": "mission_impossible.png", 
+            "correct_answer": 694.7, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 07": {
+            "asset_file": "interstellar.png", 
+            "correct_answer": 672.5, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 08": {
+            "asset_file": "kung_fu_panda.png", 
+            "correct_answer": 631.7, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 09": {
+            "asset_file": "mamma_mia.png", 
+            "correct_answer": 609.8, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 10": {
+            "asset_file": "king_kong.png", 
+            "correct_answer": 550.5, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 11": {
+            "asset_file": "ted.png", 
+            "correct_answer": 549.4, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 12": {
+            "asset_file": "godzilla.png", 
+            "correct_answer": 528.7, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 13": {
+            "asset_file": "shrek.png", 
+            "correct_answer": 484.4, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 14": {
+            "asset_file": "exorcist.png", 
+            "correct_answer": 441.3, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 15": {
+            "asset_file": "mrs_doubtfire.png", 
+            "correct_answer": 441.3, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 16": {
+            "asset_file": "alvin.png", 
+            "correct_answer": 361.3, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 17": {
+            "asset_file": "neighbors.png", 
+            "correct_answer": 268.2, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 18": {
+            "asset_file": "cliffhanger.png", 
+            "correct_answer": 255.0, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 19": {
+            "asset_file": "enemy_state.png", 
+            "correct_answer": 250.6, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }, 
+        "task 20": {
+            "asset_file": "gone_60_seconds.png", 
+            "correct_answer": 237.2, 
+            "description": "estimate the boxoffice collection for the following film:"
+        }
+    }, 
+    "time_limit": 30
+}

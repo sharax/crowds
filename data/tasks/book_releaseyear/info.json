@@ -1,0 +1,110 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "image", 
+    "domain_description": "You will be asked to estimate the year of publication of 20 books, given the book\u2019s name and author.", 
+    "domain_id": "16", 
+    "domain_name": "book_releaseyear", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "question1.png", 
+            "correct_answer": 1929.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 02": {
+            "asset_file": "question2.png", 
+            "correct_answer": 1962.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 03": {
+            "asset_file": "question3.png", 
+            "correct_answer": 1903.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 04": {
+            "asset_file": "question4.png", 
+            "correct_answer": 1919.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 05": {
+            "asset_file": "question5.png", 
+            "correct_answer": 1929.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 06": {
+            "asset_file": "question6.png", 
+            "correct_answer": 1908.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 07": {
+            "asset_file": "question7.png", 
+            "correct_answer": 1953.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 08": {
+            "asset_file": "question8.png", 
+            "correct_answer": 1920.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 09": {
+            "asset_file": "question9.png", 
+            "correct_answer": 1925.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 10": {
+            "asset_file": "question10.png", 
+            "correct_answer": 1913.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 11": {
+            "asset_file": "question11.png", 
+            "correct_answer": 1920.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 12": {
+            "asset_file": "question12.png", 
+            "correct_answer": 1954.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 13": {
+            "asset_file": "question13.png", 
+            "correct_answer": 1922.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 14": {
+            "asset_file": "question14.png", 
+            "correct_answer": 1957.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 15": {
+            "asset_file": "question15.png", 
+            "correct_answer": 1930.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 16": {
+            "asset_file": "question16.png", 
+            "correct_answer": 1981.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 17": {
+            "asset_file": "question17.png", 
+            "correct_answer": 1916.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 18": {
+            "asset_file": "question18.png", 
+            "correct_answer": 1902.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 19": {
+            "asset_file": "question19.png", 
+            "correct_answer": 1924.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }, 
+        "task 20": {
+            "asset_file": "question20.png", 
+            "correct_answer": 1931.0, 
+            "description": "estimate the year of publication for the follwing book:"
+        }
+    }, 
+    "time_limit": 30
+}

@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will be shown 20 sample texts, and asked to identify the language.", 
+    "domain_id": "28", 
+    "domain_name": "language_script", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "gujarati.png", 
+            "correct_answer": "gujarati", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"thai,tamil,cyrillic,maya,gujarati\""
+        }, 
+        "task 02": {
+            "asset_file": "latin.png", 
+            "correct_answer": "latin", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"bengali,georgian,maya,thai,latin\""
+        }, 
+        "task 03": {
+            "asset_file": "devnagari.png", 
+            "correct_answer": "devnagari", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"greek,bengali,chinese,latin,devnagari\""
+        }, 
+        "task 04": {
+            "asset_file": "tamil.png", 
+            "correct_answer": "tamil", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"chinese,kana,devnagari,latin,tamil\""
+        }, 
+        "task 05": {
+            "asset_file": "thai.png", 
+            "correct_answer": "thai", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"gurumukhi,bengali,sinhala,burmese,thai\""
+        }, 
+        "task 06": {
+            "asset_file": "cyrillic.png", 
+            "correct_answer": "cyrillic", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"chinese,sinhala,ethiopic,hebrew,cyrillic\""
+        }, 
+        "task 07": {
+            "asset_file": "greek.png", 
+            "correct_answer": "greek", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"bengali,tamil,hebrew,kana,greek\""
+        }, 
+        "task 08": {
+            "asset_file": "hebrew.png", 
+            "correct_answer": "hebrew", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"ethiopic,gujarati,maya,georgian,hebrew\""
+        }, 
+        "task 09": {
+            "asset_file": "kana.png", 
+            "correct_answer": "kana", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"latin,sinhala,arabic,ethiopic,kana\""
+        }, 
+        "task 10": {
+            "asset_file": "arabic.png", 
+            "correct_answer": "arabic", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"thai,sinhala,kana,chinese,arabic\""
+        }, 
+        "task 11": {
+            "asset_file": "georgian.png", 
+            "correct_answer": "georgian", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"chinese,sinhala,bengali,tamil,georgian\""
+        }, 
+        "task 12": {
+            "asset_file": "chinese.png", 
+            "correct_answer": "chinese", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"gurumukhi,burmese,khmer,arabic,chinese\""
+        }, 
+        "task 13": {
+            "asset_file": "burmese.png", 
+            "correct_answer": "burmese", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"maya,sinhala,hebrew,tamil,burmese\""
+        }, 
+        "task 14": {
+            "asset_file": "khmer.png", 
+            "correct_answer": "khmer", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"greek,burmese,cyrillic,thai,khmer\""
+        }, 
+        "task 15": {
+            "asset_file": "sinhala.png", 
+            "correct_answer": "sinhala", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"devnagari,gujarati,tamil,bengali,sinhala\""
+        }, 
+        "task 16": {
+            "asset_file": "bengali.png", 
+            "correct_answer": "bengali", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"latin,devnagari,gujarati,cyrillic,bengali\""
+        }, 
+        "task 17": {
+            "asset_file": "gurumukhi.png", 
+            "correct_answer": "gurumukhi", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"kana,khmer,maya,bengali,gurumukhi\""
+        }, 
+        "task 18": {
+            "asset_file": "ethiopic.png", 
+            "correct_answer": "ethiopic", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"khmer,burmese,hebrew,greek,ethiopic\""
+        }, 
+        "task 19": {
+            "asset_file": "maya.png", 
+            "correct_answer": "maya", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"bengali,hebrew,arabic,gurumukhi,maya\""
+        }, 
+        "task 20": {
+            "asset_file": "egyptian.png", 
+            "correct_answer": "egyptian", 
+            "description": "select the language from which the script in the image originates.", 
+            "possible_answers": "\"egyptian,bengali,greek,gurumukhi,chinese\""
+        }
+    }, 
+    "time_limit": 30
+}

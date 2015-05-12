@@ -1,4 +1,2 @@
 16
-estimate the year of publication of 20 books, given the bookÕs name and author.
-
-
+You will be asked to estimate the year of publication of 20 books, given the bookâ€™s name and author.

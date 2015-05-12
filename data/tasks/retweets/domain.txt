@@ -1,0 +1,2 @@
+20
+You will be given 20 tweets from Katy Perry (an American singer and songwriter), and asked to predict the number of retweets each will accumulate.

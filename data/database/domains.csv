@@ -1,0 +1,41 @@
+id,name,description,time_limit
+39,amazon_price,You will be asked to estimate the Amazon price in USD for 20 products, given their image and specifications.,30
+30,artists_name,You will be asked to listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.,45
+03,ball_trick,You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.,45
+16,book_releaseyear,You will be asked to estimate the year of publication of 20 books, given the book’s name and author.,30
+08,box_office_collection,You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.,30
+43,brands_popularity,Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.,30
+40,business_idea,You will be asked to indicate if a certain product will be funded or not by Kickstarter, given its image and a short description.,30
+11,car_manufacture_year,You will shown 20 images of Ford cars, and asked to estimate the manufacture year of each car.,30
+05,celeb_age,You will shown 20 images of celebrities, and asked to estimate the celebrity’s age.,30
+14,celestial_bodies,You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.,30
+52,classical_composition,You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.,45
+17,classification_trees,You will shown 20 images of trees, and asked to select the correct species.,30
+34,constellation_name,You will shown 20 images of constellations and asked to identify them by name.,30
+45,construction_years,You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.,30
+18,container_size,You will shown 20 images of containers and asked to estimate its capacity.,30
+33,country_currency,You will shown 20 images of monetary bills and asked to select the country where the currency is from.,30
+41,country_flag,You will shown 20 images of flags, and asked to identify the country of origin.,30
+48,country_landmass,You will given a list of 20 countries, and asked to estimate their landmass.,30
+51,country_population,You will given a list of 20 countries, and asked to estimate their population.,30
+60,country_shape,You will shown 20 images of country outlines, and asked to identify the country.,30
+22,distance_map,You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.,30
+25,dog_breeds,You will be shown 20 images of dogs, and asked to identify the breed.,30
+19,food_calories,You will be shown 20 images of food items, and asked to estimate the amount of calories present in each.,30
+42,historical_events_II,You will be shown a list of five historical events. Select the option representing the correct chronological order of the historical events.,30
+07,historical_monuments,You will be shown 20 images of architectural landmarks, and asked to select the country where the landmark is located.,30
+47,human_emotions,You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.,30
+09,imdb_rating,You will be shown 20 images of movie posters, and asked to estimate their IMDb rating from 0 to 10.,30
+48,international_holidays,You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.,30
+28,language_script,You will be shown 20 sample texts, and asked to identify the language.,30
+56,magazine_guesser,You will be given 20 headlines, and asked to select the magazine that published the article.,30
+06,monuments_height,You will be shown 20 images of architectural landmarks along with their name and location, and asked to estimate their height.,30
+15,movie_year,You will be asked to estimate the release year for a list of Hollywood films.,30
+31,news_real,You will be given 20 headlines, and asked to identify whether each were real or fake.,30
+37,object_weight,You will be shown 20 images of an everyday object, and asked to estimate its weight.,30
+12,penalty_direction,You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.,45
+20,retweets,You will be given 20 tweets from Katy Perry (an American singer and songwriter), and asked to predict the number of retweets each will accumulate.,30
+54,sat_verbal,You will be given 20 words, and asked to identify the correct synonym corresponding to each word.,30
+53,song_movie,You will be provided with 20 short audio files with theme songs from various movies, and asked to select the movie it was presented in.,45
+17,tree_age,You will be shown 20 images of trees, and asked to estimate their age in years.,30
+23,word_origin,You will be shown 20 words and asked to predict their origin.,30

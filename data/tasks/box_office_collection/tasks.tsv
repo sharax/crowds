@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-1215.4	image	text	iron_man_3.txt	no answers	false	estimate the boxoffice collection for the following film:              
-987.5	image	text	the_lion_king.txt	no answers	false	estimate the boxoffice collection for the following film:
-890.9	image	text	spiderman_3.txt	no answers	false	estimate the boxoffice collection for the following film:
-879.0	image	text	harry_potter_chamber_secrets.txt	no answers	false	estimate the boxoffice collection for the following film:
-751.8	image	text	hunger_games.txt	no answers	false	estimate the boxoffice collection for the following film:
-694.7	image	text	mission_impossible.txt	no answers	false	estimate the boxoffice collection for the following film:
-672.5	image	text	interstellar.txt	no answers	false	estimate the boxoffice collection for the following film:
-631.7	image	text	kung_fu_panda.txt	no answers	false	estimate the boxoffice collection for the following film:
-609.8	image	text	mamma_mia.txt	no answers	false	estimate the boxoffice collection for the following film:
-550.5	image	text	king_kong.txt	no answers	false	estimate the boxoffice collection for the following film:
-549.4	image	text	ted.txt	no answers	false	estimate the boxoffice collection for the following film:
-528.7	image	text	godzilla.txt	no answers	false	estimate the boxoffice collection for the following film:
-484.4	image	text	shrek.txt	no answers	false	estimate the boxoffice collection for the following film:
-441.3	image	text	exorcist.txt	no answers	false	estimate the boxoffice collection for the following film:
-441.3	image	text	mrs_doubtfire.txt	no answers	false	estimate the boxoffice collection for the following film:
-361.3	image	text	alvin.txt	no answers	false	estimate the boxoffice collection for the following film:
-268.2	image	text	neighbors.txt	no answers	false	estimate the boxoffice collection for the following film:
-255.0	image	text	cliffhanger.txt	no answers	false	estimate the boxoffice collection for the following film:
-250.6	image	text	enemy_state.txt	no answers	false	estimate the boxoffice collection for the following film:
-237.2	image	text	gone_60_seconds.txt	no answers	false	estimate the boxoffice collection for the following film:
+1215.4	point estimate	image	iron_man_3.png	no answers	false	estimate the boxoffice collection for the following film:              
+987.5	point estimate	image	the_lion_king.png	no answers	false	estimate the boxoffice collection for the following film:
+890.9	point estimate	image	spiderman_3.png	no answers	false	estimate the boxoffice collection for the following film:
+879.0	point estimate	image	harry_potter_chamber_secrets.png	no answers	false	estimate the boxoffice collection for the following film:
+751.8	point estimate	image	hunger_games.png	no answers	false	estimate the boxoffice collection for the following film:
+694.7	point estimate	image	mission_impossible.png	no answers	false	estimate the boxoffice collection for the following film:
+672.5	point estimate	image	interstellar.png	no answers	false	estimate the boxoffice collection for the following film:
+631.7	point estimate	image	kung_fu_panda.png	no answers	false	estimate the boxoffice collection for the following film:
+609.8	point estimate	image	mamma_mia.png	no answers	false	estimate the boxoffice collection for the following film:
+550.5	point estimate	image	king_kong.png	no answers	false	estimate the boxoffice collection for the following film:
+549.4	point estimate	image	ted.png	no answers	false	estimate the boxoffice collection for the following film:
+528.7	point estimate	image	godzilla.png	no answers	false	estimate the boxoffice collection for the following film:
+484.4	point estimate	image	shrek.png	no answers	false	estimate the boxoffice collection for the following film:
+441.3	point estimate	image	exorcist.png	no answers	false	estimate the boxoffice collection for the following film:
+441.3	point estimate	image	mrs_doubtfire.png	no answers	false	estimate the boxoffice collection for the following film:
+361.3	point estimate	image	alvin.png	no answers	false	estimate the boxoffice collection for the following film:
+268.2	point estimate	image	neighbors.png	no answers	false	estimate the boxoffice collection for the following film:
+255.0	point estimate	image	cliffhanger.png	no answers	false	estimate the boxoffice collection for the following film:
+250.6	point estimate	image	enemy_state.png	no answers	false	estimate the boxoffice collection for the following film:
+237.2	point estimate	image	gone_60_seconds.png	no answers	false	estimate the boxoffice collection for the following film:

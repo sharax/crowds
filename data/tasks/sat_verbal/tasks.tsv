@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-Hate	multiple choice	text	ques1.txt	hinder,Hate,forgive,pardon,release	text
-Narrow minded	multiple choice	text	ques2.txt	desist,aloof,withdraw,narrow minded,hinder	true 
-Suffrage	multiple choice	text	ques3.txt	flimsy,kindle,suffrage,maze,improve	true
-Ignite	multiple choice	text	ques4.txt	ignite,noise,maze,full,empty	true
-Harmful	multiple choice	text	ques5.txt	harmful,free spirited,carefree,unbiased,free	true
-Calm	multiple Choice	text	ques6.txt	calm,kindle,fake,hard,threat	true
-Payment	multiple choice	text	ques7.txt	payment,harm,threat,robbery,fop	true
-Luckycharm	multiple choice	text	ques8.txt	hurry,accelerate,lucky charm,rush,obvious	true
-Cheat	multiple choice	text	ques9.txt	pillory,clarity,accent,Cheat,articulation	true
-Complex	multiple choice	text	ques10.txt	easy,Complex,meticulous,spin,move	true
-Swelling	multiple choice	text	ques11.txt	dull,monotonous,bland,rush,swelling	true
-Fulmination	multiple choice	text	ques12.txt	respite,postpone,flimsy,fulmination,sloven	true
-Petitioner	multiple choice	text	ques13.txt	petitioner,hurry,accelerate,rush,butch	true
-Appropriate	multiple choice	text	ques14.txt	opportunity,appropriate,flimsy,placid,kindle	true
-Refractory	multiple choice	text	ques15.txt	talisman,asinine,nincompoop,refractory,knotty	true
-Garble	multiple choice	text	ques16.txt	ignite,noise,garble,refractory,swell	true
-Pleasure seeking	multiple choice	text	ques17.txt	glutton,flimsy,hinder,pleasure seeking,sadist	true
-Annihilate	multiple choice	text	ques18.txt	annihilate,placid,stentorian,hedonist,abhor	true
-Erratic	multiple choice	text	ques19.txt	placid,steady,erratic,extreme,accent	true
-Callow	multiple choice	text	ques20.txt	callow,trial,placid,knotty,ignoble	true
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+Hate	multiple choice	no assets	no assets	hinder,hate,forgive,pardon,release	no assets	select the synonym of "abhor".
+Narrow minded	multiple choice	no assets	no assets	desist,aloof,withdraw,narrow minded,hinder	true	select the synonym of "bigot".
+Suffrage	multiple choice	no assets	no assets	flimsy,kindle,suffrage,maze,improve	true	select the synonym of "enfranchise".
+Ignite	multiple choice	no assets	no assets	ignite,noise,maze,full,empty	true	select the synonym of "kindle".
+Harmful	multiple choice	no assets	no assets	harmful,free spirited,carefree,unbiased,free	true	select the synonym of "noxious".
+Calm	multiple Choice	no assets	no assets	calm,kindle,fake,hard,threat	true	select the synonym of "placid".
+Payment	multiple choice	no assets	no assets	payment,harm,threat,robbery,fop	true	select the synonym of "remuneration".
+Luckycharm	multiple choice	no assets	no assets	hurry,accelerate,lucky charm,rush,obvious	true	select the synonym of "talisman".
+Cheat	multiple choice	no assets	no assets	pillory,clarity,accent,cheat,articulation	true	select the synonym of "bilk".
+Complex	multiple choice	no assets	no assets	easy,Complex,meticulous,spin,move	true	select the synonym of "knotty".
+Swelling	multiple choice	no assets	no assets	dull,monotonous,bland,rush,swelling	true	select the synonym of "billowing".
+Fulmination	multiple choice	no assets	no assets	respite,postpone,flimsy,fulmination,sloven	true	select the synonym of "harangue".
+Petitioner	multiple choice	no assets	no assets	petitioner,hurry,accelerate,rush,butch	true	select the synonym of "plaintiff".
+Appropriate	multiple choice	no assets	no assets	opportunity,appropriate,flimsy,placid,kindle	true	select the synonym of "opportune".
+Refractory	multiple choice	no assets	no assets	talisman,asinine,nincompoop,refractory,knotty	true	select the synonym of "recalcitrant".
+Garble	multiple choice	no assets	no assets	ignite,noise,garble,refractory,swell	true	select the synonym of "ofuscate".
+Pleasure seeking	multiple choice	no assets	no assets	glutton,flimsy,hinder,pleasure seeking,sadist	true	select the synonym of "hedonism".
+Annihilate	multiple choice	no assets	no assets	annihilate,placid,stentorian,hedonist,abhor	true	select the synonym of "obliterate".
+Erratic	multiple choice	no assets	no assets	placid,steady,erratic,extreme,accent	true	select the synonym of "protean".
+Callow	multiple choice	no assets	no assets	callow,trial,placid,knotty,ignoble	true	select the synonym of "peurile".

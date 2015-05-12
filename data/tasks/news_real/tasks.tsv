@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset	possible_answers	randomized_answers	
-yes	multiple choice	text	Question1.txt	yes, no	TRUE	
-no	multiple choice	text	Question2.txt	yes, no	TRUE	
-yes	multiple choice	text	Question3.txt	yes, no	TRUE	
-no	multiple choice	text	Question4.txt	yes, no	TRUE	
-yes	multiple choice	text	Question5.txt	yes, no	TRUE	
-no	multiple choice	text	Question6.txt	yes, no	TRUE	
-yes	multiple choice	text	Question7.txt	yes, no	TRUE	
-yes	multiple choice	text	Question8.txt	yes, no	TRUE	
-yes	multiple choice	text	Question9.txt	yes, no	TRUE	
-no	multiple choice	text	Question10.txt	yes, no	TRUE	
-no	multiple choice	text	Question11.txt	yes, no	TRUE	
-yes	multiple choice	text	Question12.txt	yes, no	TRUE	
-yes	multiple choice	text	Question13.txt	yes, no	TRUE	
-no	multiple choice	text	Question14.txt	yes, no	TRUE	
-yes	multiple choice	text	Question15.txt	yes, no	TRUE	
-yes	multiple choice	text	Question16.txt	yes, no	TRUE	
-yes	multiple choice	text	Question17.txt	yes, no	TRUE	
-no	multiple choice	text	Question18.txt	yes, no	TRUE	
-yes	multiple choice	text	Question19.txt	yes, no	TRUE	
-yes	multiple choice	text	Question20.txt	yes, no	TRUE	
+correct_answer	answer_type	asset_type	asset	possible_answers	randomized_answers	question	
+yes	multiple choice	text	Question1.txt	yes, no	true	determine if the following news headline is real (refers to a real event).
+no	multiple choice	text	Question2.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question3.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question4.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question5.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question6.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question7.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question8.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question9.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question10.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question11.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question12.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question13.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question14.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question15.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question16.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question17.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+no	multiple choice	text	Question18.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question19.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	
+yes	multiple choice	text	Question20.txt	yes, no	true	determine if the following news headline is real (refers to a real event).	

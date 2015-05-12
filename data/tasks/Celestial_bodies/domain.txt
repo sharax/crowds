@@ -1,4 +1,2 @@
 14
-estimate the age in years of 20 different celestial objects after looking at their images.
-
-
+You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.

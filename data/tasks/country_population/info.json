@@ -1,0 +1,90 @@
+{
+    "answer_type": "point estimate", 
+    "asset_type": "no assets", 
+    "domain_description": "You will given a list of 20 countries, and asked to estimate their population.", 
+    "domain_id": "51", 
+    "domain_name": "country_population", 
+    "task_info": {
+        "task 01": {
+            "correct_answer": 39928947.0, 
+            "description": "estimate the population of Algeria."
+        }, 
+        "task 02": {
+            "correct_answer": 142467651.0, 
+            "description": "estimate the population of Russia."
+        }, 
+        "task 03": {
+            "correct_answer": 16606878.0, 
+            "description": "estmate the population of Kazakhstan."
+        }, 
+        "task 04": {
+            "correct_answer": 1267401849.0, 
+            "description": "estimate the population of India."
+        }, 
+        "task 05": {
+            "correct_answer": 1393783836.0, 
+            "description": "estimate the population of China."
+        }, 
+        "task 06": {
+            "correct_answer": 322583006.0, 
+            "description": "estimate the population of USA."
+        }, 
+        "task 07": {
+            "correct_answer": 78470222.0, 
+            "description": "estimate the population of Iran."
+        }, 
+        "task 08": {
+            "correct_answer": 17772871.0, 
+            "description": "estimate the population of Chile."
+        }, 
+        "task 09": {
+            "correct_answer": 123799215.0, 
+            "description": "estimate the population of Mexico."
+        }, 
+        "task 10": {
+            "correct_answer": 29369428.0, 
+            "description": "estimate the population of Saudi Arabia."
+        }, 
+        "task 11": {
+            "correct_answer": 15859714.0, 
+            "description": "estimate the population of Guatemala."
+        }, 
+        "task 12": {
+            "correct_answer": 41803125.0, 
+            "description": "estimate the population of Argentina."
+        }, 
+        "task 13": {
+            "correct_answer": 11128404.0, 
+            "description": "estimate the population of Greece."
+        }, 
+        "task 14": {
+            "correct_answer": 35524732.0, 
+            "description": "estimate the population of Canada."
+        }, 
+        "task 15": {
+            "correct_answer": 23630169.0, 
+            "description": "estimate the population of Australia."
+        }, 
+        "task 16": {
+            "correct_answer": 202033670.0, 
+            "description": "estimate the population of Brazil."
+        }, 
+        "task 17": {
+            "correct_answer": 50757459.0, 
+            "description": "estimate the population of Tanzania."
+        }, 
+        "task 18": {
+            "correct_answer": 252812245.0, 
+            "description": "estimate the population of Indonesia."
+        }, 
+        "task 19": {
+            "correct_answer": 96506031.0, 
+            "description": "estimate the population of Ethiopia."
+        }, 
+        "task 20": {
+            "correct_answer": 48929706.0, 
+            "description": "estimate the population of Colombia."
+        }
+    }, 
+    "time_limit": 30
+}

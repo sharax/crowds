@@ -1,0 +1,131 @@
+{
+    "answer_type": "multiple choice", 
+    "asset_type": "image", 
+    "domain_description": "You will shown 20 images of trees, and asked to select the correct species.", 
+    "domain_id": "17", 
+    "domain_name": "classification_trees", 
+    "randomize_answers": "true", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "tree_hawthorn.png", 
+            "correct_answer": "hawthorn", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"hawthorn,balsam fir,apple seviceberry,pine,plum\""
+        }, 
+        "task 02": {
+            "asset_file": "tree_holly.png", 
+            "correct_answer": "holly", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"holly,gray birch,redbud,dogwood,plum\""
+        }, 
+        "task 03": {
+            "asset_file": "tree_balsamfir.png", 
+            "correct_answer": "balsam fir", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"silver birches, oak,balsam fir,pine,sycamore\""
+        }, 
+        "task 04": {
+            "asset_file": "tree_apple.png", 
+            "correct_answer": "apple serviceberry", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"apple serviceberry,japanese maple,poplar,elder,elm\""
+        }, 
+        "task 05": {
+            "asset_file": "tree_plum.png", 
+            "correct_answer": "plum", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"plum,pine,oak,elm,werty\""
+        }, 
+        "task 06": {
+            "asset_file": "tree_redbund.png", 
+            "correct_answer": "eastern redbud", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"dogwood,norway maple,poplar,eastern redwood,loboneir\""
+        }, 
+        "task 07": {
+            "asset_file": "tree_snowden.png", 
+            "correct_answer": "snowbell", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"snowball,maple,sycamore,laboneir,hawthorn\""
+        }, 
+        "task 08": {
+            "asset_file": "tree_maple.png", 
+            "correct_answer": "norway maple", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"japanese maple,norway maple,oak,plum,elm\""
+        }, 
+        "task 09": {
+            "asset_file": "tree_dogwood.png", 
+            "correct_answer": "dogwood", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"dogwood,snowball,plum,beech tree,elm\""
+        }, 
+        "task 10": {
+            "asset_file": "tree_pine.png", 
+            "correct_answer": "pine", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"pine,plum,oak,redwood,weeping willow\""
+        }, 
+        "task 11": {
+            "asset_file": "tree_oak.png", 
+            "correct_answer": "oak", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"oak,pine,eucalyptus,chestnut,poplar\""
+        }, 
+        "task 12": {
+            "asset_file": "tree_silverbirches.png", 
+            "correct_answer": "silver birches", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"apple,maple norway,pine,silver birches,oak\""
+        }, 
+        "task 13": {
+            "asset_file": "tree_graybirch.png", 
+            "correct_answer": "gray birch", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"sycamore,serviceberry,graybirch,ivy\""
+        }, 
+        "task 14": {
+            "asset_file": "tree_blacklocust.png", 
+            "correct_answer": "black locust", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"graybirch,holly,shantung,black locust,balsam fir\""
+        }, 
+        "task 15": {
+            "asset_file": "tree_elm.png", 
+            "correct_answer": "elm", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"elm,elder,pine,oak,poplar\""
+        }, 
+        "task 16": {
+            "asset_file": "tree_elder.png", 
+            "correct_answer": "elder", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"elder,beech,hawthorn,plum,oak\""
+        }, 
+        "task 17": {
+            "asset_file": "tree_beechtree.png", 
+            "correct_answer": "beech trees", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"beech tree,plum,snowbell,redbud,ivy\""
+        }, 
+        "task 18": {
+            "asset_file": "tree_poplar.png", 
+            "correct_answer": "poplars", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"sycamore,poplar,elm,pine,snowbell\""
+        }, 
+        "task 19": {
+            "asset_file": "tree_sycamore.png", 
+            "correct_answer": "sycamore", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"sycamore,elder,elm,silver birches,redbud\""
+        }, 
+        "task 20": {
+            "asset_file": "tree_weepingwillow.png", 
+            "correct_answer": "weeping willow", 
+            "description": "select the tree specie's name.", 
+            "possible_answers": "\"weeping willow, hawthorn,redbud, dogwood,oak\""
+        }
+    }, 
+    "time_limit": 30
+}
