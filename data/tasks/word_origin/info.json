@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "no assets", 
-    "domain_description": "You will be shown 20 words and asked to predict their origin.", 
+    "domain_description": "\"You will be shown 20 words and asked to predict their origin.\"", 
     "domain_id": "23", 
     "domain_name": "word_origin", 
     "randomize_answers": "true", 

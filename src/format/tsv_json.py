@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import Image
 
 def create_dict(dirname,domain_name):
 	domain = {}
@@ -9,7 +10,7 @@ def create_dict(dirname,domain_name):
 	domain['domain_name'] = domain_name
 	with open(domain_info,'r') as fl:
 		domain['domain_id'] = fl.readline().rstrip('\n')
-		domain['domain_description'] = fl.readline().rstrip('\n')
+		domain['domain_description'] = '"'+fl.readline().rstrip('\n')+'"'
 	
 	with open(tasks_info,'r') as fl:
 		fl.readline()
@@ -31,7 +32,15 @@ def create_dict(dirname,domain_name):
 			if task[1] == 'multiple choice':
 				domain['task_info'][task_id]['possible_answers'] = '"'+task[4]+'"'
 			if task[3] !='no assets':
-				domain['task_info'][task_id]['asset_file'] = line[3]
+				if task[2]=='image':
+					im_name = line[3]
+					ext = im_name[-4:]
+					if ext !='.png':
+						im = Image.open(dirname+"/assets/"+im_name)
+						im.save(dirname+"/assets/"+im_name[:-4]+'.png')
+					domain['task_info'][task_id]['asset_file'] = im_name[:-4]+'.png'
+				else:
+					domain['task_info'][task_id]['asset_file'] = line[3]
 			i+=1 
 		domain['answer_type'] = task[1]
 		domain['asset_type'] = task[2]

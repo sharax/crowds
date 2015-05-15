@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 sample texts, and asked to identify the language.", 
+    "domain_description": "\"You will be shown 20 sample texts, and asked to identify the language.\"", 
     "domain_id": "28", 
     "domain_name": "language_script", 
     "randomize_answers": "true", 

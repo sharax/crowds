@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.", 
+    "domain_description": "\"You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.\"", 
     "domain_id": "08", 
     "domain_name": "box_office_collection", 
     "task_info": {

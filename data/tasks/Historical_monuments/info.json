@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 images of architectural landmarks, and asked to select the country where the landmark is located.", 
+    "domain_description": "\"You will be shown 20 images of architectural landmarks, and asked to select the country where the landmark is located.\"", 
     "domain_id": "07", 
     "domain_name": "historical_monuments", 
     "randomize_answers": "true", 
@@ -13,91 +13,91 @@
             "possible_answers": "\"algeria,france,malaysia,south africa,south korea\""
         }, 
         "task 02": {
-            "asset_file": "The Statue Of Liberty.jpg", 
+            "asset_file": "The Statue Of Liberty.png", 
             "correct_answer": "united states", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"austria,france,japan,jordan,united states\""
         }, 
         "task 03": {
-            "asset_file": "Parc Guell.jpg", 
+            "asset_file": "Parc Guell.png", 
             "correct_answer": "spain", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"austria,france,indonesia,japan,spain\""
         }, 
         "task 04": {
-            "asset_file": "The Great Chinese Wall.jpg", 
+            "asset_file": "The Great Chinese Wall.png", 
             "correct_answer": "china", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"canada,china,indonesia,malaysia,tunisia\""
         }, 
         "task 05": {
-            "asset_file": "The Colosseum.jpg", 
+            "asset_file": "The Colosseum.png", 
             "correct_answer": "italy", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"austria,france,italy,lebanon,peru\""
         }, 
         "task 06": {
-            "asset_file": "Agia Sophia.jpg", 
+            "asset_file": "Agia Sophia.png", 
             "correct_answer": "turkey", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"egypt,france,israel,turkey,zimbabwe\""
         }, 
         "task 07": {
-            "asset_file": "Brandenburg-Gate.jpg", 
+            "asset_file": "Brandenburg-Gate.png", 
             "correct_answer": "germany", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"england,germany,lebanon,morocco,united states\""
         }, 
         "task 08": {
-            "asset_file": "Big Ben.jpg", 
+            "asset_file": "Big Ben.png", 
             "correct_answer": "england", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"brazil,england,france,italy,singapore\""
         }, 
         "task 09": {
-            "asset_file": "St Basils Cathedral.jpg", 
+            "asset_file": "St Basils Cathedral.png", 
             "correct_answer": "russia", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"chile,kenya,russia,spain,united states\""
         }, 
         "task 10": {
-            "asset_file": "pompeii.jpg", 
+            "asset_file": "pompeii.png", 
             "correct_answer": "italy", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"china,egypt,greece,indonesia,south africa\""
         }, 
         "task 11": {
-            "asset_file": "Mecca.jpg", 
+            "asset_file": "Mecca.png", 
             "correct_answer": "saudi arabia", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"algeria,austria,china,kenya,saudi arabia\""
         }, 
         "task 12": {
-            "asset_file": "Luxor Temple.jpg", 
+            "asset_file": "Luxor Temple.png", 
             "correct_answer": "egypt", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"egypt,jordan,morocco,spain,turkey\""
         }, 
         "task 13": {
-            "asset_file": "Chichen Itza.jpg", 
+            "asset_file": "Chichen Itza.png", 
             "correct_answer": "mexico", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"brazil,indonesia,mexico,russia,singapore\""
         }, 
         "task 14": {
-            "asset_file": "The Great Buddha Of Kamakura.jpg", 
+            "asset_file": "The Great Buddha Of Kamakura.png", 
             "correct_answer": "japan", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"japan,jordan,saudi arabia,singapore,south africa\""
         }, 
         "task 15": {
-            "asset_file": "Temple of Besakih.jpg", 
+            "asset_file": "Temple of Besakih.png", 
             "correct_answer": "indonesia", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"chile,egypt,indonesia,malaysia,ukraine\""
         }, 
         "task 16": {
-            "asset_file": "Acropolis of Athens.jpg", 
+            "asset_file": "Acropolis of Athens.png", 
             "correct_answer": "greece", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"algeria,egypt,greece,malaysia,turkey\""
@@ -109,19 +109,19 @@
             "possible_answers": "\"china,france,indonesia,kenya,peru\""
         }, 
         "task 18": {
-            "asset_file": "Taj mahal.jpg", 
+            "asset_file": "Taj mahal.png", 
             "correct_answer": "india", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"argentina,canada,india,lebanon,uganda\""
         }, 
         "task 19": {
-            "asset_file": "The Pyramids of Giza.jpg", 
+            "asset_file": "The Pyramids of Giza.png", 
             "correct_answer": "egypt", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"brazil,egypt,india,jordan,lebanon\""
         }, 
         "task 20": {
-            "asset_file": "Tower Of Pisa.jpg", 
+            "asset_file": "Tower Of Pisa.png", 
             "correct_answer": "italy", 
             "description": "select the country where the landmark is from.", 
             "possible_answers": "\"egypt,israel,italy,mexico,uganda\""

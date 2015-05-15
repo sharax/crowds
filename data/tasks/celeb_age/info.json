@@ -1,107 +1,107 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of celebrities, and asked to estimate the celebrity\u2019s age.", 
+    "domain_description": "\"You will shown 20 images of celebrities, and asked to estimate the celebrity\u2019s age.\"", 
     "domain_id": "05", 
     "domain_name": "celeb_age", 
     "task_info": {
         "task 01": {
-            "asset_file": "celebs_beyonce_knowles.jpg", 
+            "asset_file": "celebs_beyonce_knowles.png", 
             "correct_answer": 33.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 02": {
-            "asset_file": "celebs_bruno_mars.jpg", 
+            "asset_file": "celebs_bruno_mars.png", 
             "correct_answer": 29.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 03": {
-            "asset_file": "celebs_calvin_harris.jpg", 
+            "asset_file": "celebs_calvin_harris.png", 
             "correct_answer": 31.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 04": {
-            "asset_file": "celebs_dr_dre.jpg", 
+            "asset_file": "celebs_dr_dre.png", 
             "correct_answer": 50.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 05": {
-            "asset_file": "celebs_ellen_degeneres.jpg", 
+            "asset_file": "celebs_ellen_degeneres.png", 
             "correct_answer": 57.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 06": {
-            "asset_file": "celebs_floyd_mayweather.jpg", 
+            "asset_file": "celebs_floyd_mayweather.png", 
             "correct_answer": 38.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 07": {
-            "asset_file": "celebs_jay_z.jpg", 
+            "asset_file": "celebs_jay_z.png", 
             "correct_answer": 45.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 08": {
-            "asset_file": "celebs_jennifer_lawrence.jpg", 
+            "asset_file": "celebs_jennifer_lawrence.png", 
             "correct_answer": 24.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 09": {
-            "asset_file": "celebs_kanye_west.jpg", 
+            "asset_file": "celebs_kanye_west.png", 
             "correct_answer": 37.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 10": {
-            "asset_file": "celebs_katy_perry.jpg", 
+            "asset_file": "celebs_katy_perry.png", 
             "correct_answer": 30.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 11": {
-            "asset_file": "celebs_kobe_bryant.jpg", 
+            "asset_file": "celebs_kobe_bryant.png", 
             "correct_answer": 36.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 12": {
-            "asset_file": "celebs_lady_gaga.jpg", 
+            "asset_file": "celebs_lady_gaga.png", 
             "correct_answer": 28.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 13": {
-            "asset_file": "celebs_lebron_james.jpg", 
+            "asset_file": "celebs_lebron_james.png", 
             "correct_answer": 30.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 14": {
-            "asset_file": "celebs_miley_cyrus.jpg", 
+            "asset_file": "celebs_miley_cyrus.png", 
             "correct_answer": 21.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 15": {
-            "asset_file": "celebs_oprah_winfrey.jpg", 
+            "asset_file": "celebs_oprah_winfrey.png", 
             "correct_answer": 61.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 16": {
-            "asset_file": "celebs_rihanna.jpg", 
+            "asset_file": "celebs_rihanna.png", 
             "correct_answer": 27.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 17": {
-            "asset_file": "celebs_robert_downey_jr.jpg", 
+            "asset_file": "celebs_robert_downey_jr.png", 
             "correct_answer": 49.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 18": {
-            "asset_file": "celebs_roger_federer.jpg", 
+            "asset_file": "celebs_roger_federer.png", 
             "correct_answer": 33.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 19": {
-            "asset_file": "celebs_steven_spielberg.jpg", 
+            "asset_file": "celebs_steven_spielberg.png", 
             "correct_answer": 68.0, 
             "description": "estimate the following celebrity's age."
         }, 
         "task 20": {
-            "asset_file": "celebs_taylor_swift.jpg", 
+            "asset_file": "celebs_taylor_swift.png", 
             "correct_answer": 25.0, 
             "description": "estimate the following celebrity's age."
         }

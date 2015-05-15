@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "video", 
-    "domain_description": "You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.", 
+    "domain_description": "\"You will be asked to watch 20 short videos of a magic trick, and identify the location of the ball at for each.\"", 
     "domain_id": "03", 
     "domain_name": "ball_trick", 
     "randomize_answers": "false", 

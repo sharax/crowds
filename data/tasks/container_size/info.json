@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of containers and asked to estimate its capacity.", 
+    "domain_description": "\"You will shown 20 images of containers and asked to estimate its capacity.\"", 
     "domain_id": "18", 
     "domain_name": "container_size", 
     "task_info": {

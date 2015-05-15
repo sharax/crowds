@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be given 20 headlines, and asked to select the magazine that published the article.", 
+    "domain_description": "\"You will be given 20 headlines, and asked to select the magazine that published the article.\"", 
     "domain_id": "56", 
     "domain_name": "magazine_guesser", 
     "randomize_answers": "false", 

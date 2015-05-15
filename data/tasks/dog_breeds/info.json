@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 images of dogs, and asked to identify the breed.", 
+    "domain_description": "\"You will be shown 20 images of dogs, and asked to identify the breed.\"", 
     "domain_id": "25", 
     "domain_name": "dog_breeds", 
     "randomize_answers": "true", 
@@ -76,7 +76,7 @@
             "asset_file": "dog12.png", 
             "correct_answer": "pomeranian", 
             "description": "select the breed of dog in the image.", 
-            "possible_answers": "\"bichon fris\u00e9, lhasa apso, pekingese, pomeranian, portuguese water dog\""
+            "possible_answers": "\"bichon frise, lhasa apso, pekingese, pomeranian, portuguese water dog\""
         }, 
         "task 13": {
             "asset_file": "dog13.png", 

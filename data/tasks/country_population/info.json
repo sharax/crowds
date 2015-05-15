@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "no assets", 
-    "domain_description": "You will given a list of 20 countries, and asked to estimate their population.", 
+    "domain_description": "\"You will given a list of 20 countries, and asked to estimate their population.\"", 
     "domain_id": "51", 
     "domain_name": "country_population", 
     "task_info": {

@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "audio", 
-    "domain_description": "You will be provided with 20 short audio files with theme songs from various movies, and asked to select the movie it was presented in.", 
+    "domain_description": "\"You will be provided with 20 short audio files with theme songs from various movies, and asked to select the movie it was presented in.\"", 
     "domain_id": "53", 
     "domain_name": "song_movie", 
     "randomize_answers": "true", 
@@ -92,7 +92,7 @@
         }, 
         "task 15": {
             "asset_file": "TheLordOfTheRings.mp3", 
-            "correct_answer": "the lord of the rings: the fellowship of the ring", 
+            "correct_answer": "the lord of the rings", 
             "description": "select the following song's movie.", 
             "possible_answers": "\"matrix, star wars: episode 1 the phantom menace, the lord of the rings, hobbit, gladiator\""
         }, 

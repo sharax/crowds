@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "audio", 
-    "domain_description": "You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.", 
+    "domain_description": "\"You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.\"", 
     "domain_id": "52", 
     "domain_name": "classical_composition", 
     "randomize_answers": "true", 

@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of flags, and asked to identify the country of origin.", 
+    "domain_description": "\"You will shown 20 images of flags, and asked to identify the country of origin.\"", 
     "domain_id": "41", 
     "domain_name": "country_flag", 
     "randomize_answers": "true", 

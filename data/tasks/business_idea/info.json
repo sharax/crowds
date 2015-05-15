@@ -1,127 +1,127 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be asked to indicate if a certain product will be funded or not by Kickstarter, given its image and a short description.", 
+    "domain_description": "\"You will be asked to indicate if a certain product will be funded or not by Kickstarter, given its image and a short description.\"", 
     "domain_id": "40", 
     "domain_name": "business_idea", 
     "randomize_answers": "false", 
     "task_info": {
         "task 01": {
-            "asset_file": "604f8987-1b79-4bcb-bf06-a429a448f595.jpg", 
+            "asset_file": "604f8987-1b79-4bcb-bf06-a429a448f595.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 02": {
-            "asset_file": "1c127188-a9f1-4245-91d7-d76b9dbd3e12.jpg", 
+            "asset_file": "1c127188-a9f1-4245-91d7-d76b9dbd3e12.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 03": {
-            "asset_file": "0d3ac91d-ae5c-4a92-9905-e0c1a6b9c462.jpg", 
+            "asset_file": "0d3ac91d-ae5c-4a92-9905-e0c1a6b9c462.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 04": {
-            "asset_file": "f21ee7bf-ce31-4bae-b4a2-3ddbe70c8170.jpg", 
+            "asset_file": "f21ee7bf-ce31-4bae-b4a2-3ddbe70c8170.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 05": {
-            "asset_file": "f066dbc8-4d3c-4488-bc7a-0bf8c2745f03.jpg", 
+            "asset_file": "f066dbc8-4d3c-4488-bc7a-0bf8c2745f03.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 06": {
-            "asset_file": "37dc5aa8-e6c4-4ba1-b382-0ca94f1754c9.jpg", 
+            "asset_file": "37dc5aa8-e6c4-4ba1-b382-0ca94f1754c9.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 07": {
-            "asset_file": "114fd85f-a5c2-41c4-89e6-169393198036.jpg", 
+            "asset_file": "114fd85f-a5c2-41c4-89e6-169393198036.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 08": {
-            "asset_file": "f19cafeb-b581-4030-b7b0-bec4e42d9d7b.jpg", 
+            "asset_file": "f19cafeb-b581-4030-b7b0-bec4e42d9d7b.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 09": {
-            "asset_file": "a8e36115-0931-40ab-a0b4-36f9745948ac.jpg", 
+            "asset_file": "a8e36115-0931-40ab-a0b4-36f9745948ac.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 10": {
-            "asset_file": "20020130-df81-4a0f-be1c-18d19410a773.jpg", 
+            "asset_file": "20020130-df81-4a0f-be1c-18d19410a773.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 11": {
-            "asset_file": "eb449ead-4ba3-464c-bdbb-68cc0e93cdee.jpg", 
+            "asset_file": "eb449ead-4ba3-464c-bdbb-68cc0e93cdee.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 12": {
-            "asset_file": "f67fa930-0597-4173-8801-eb429392261d.jpg", 
+            "asset_file": "f67fa930-0597-4173-8801-eb429392261d.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 13": {
-            "asset_file": "2820f12e-17d2-45ff-b2b2-6138991b7de5.jpg", 
+            "asset_file": "2820f12e-17d2-45ff-b2b2-6138991b7de5.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 14": {
-            "asset_file": "4652817f-19d6-48e5-943e-939a85d1a728.jpg", 
+            "asset_file": "4652817f-19d6-48e5-943e-939a85d1a728.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 15": {
-            "asset_file": "ec4c51ac-018d-417a-82e2-4033fb9775fa.jpg", 
+            "asset_file": "ec4c51ac-018d-417a-82e2-4033fb9775fa.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 16": {
-            "asset_file": "4dc9ea67-0249-46ca-8322-c619ee17b08d.jpg", 
+            "asset_file": "4dc9ea67-0249-46ca-8322-c619ee17b08d.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 17": {
-            "asset_file": "2c322772-d646-409a-892c-dcd8f5b7cb9c.jpg", 
+            "asset_file": "2c322772-d646-409a-892c-dcd8f5b7cb9c.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 18": {
-            "asset_file": "33c803d6-7e77-4e85-bfcc-378679c1f866.jpg", 
+            "asset_file": "33c803d6-7e77-4e85-bfcc-378679c1f866.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 19": {
-            "asset_file": "850ed782-4438-45ef-ba24-76e2928a687e.jpg", 
+            "asset_file": "850ed782-4438-45ef-ba24-76e2928a687e.png", 
             "correct_answer": "successful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""
         }, 
         "task 20": {
-            "asset_file": "885f2065-ddd9-4234-a213-46e8cfc3d1bb.jpg", 
+            "asset_file": "885f2065-ddd9-4234-a213-46e8cfc3d1bb.png", 
             "correct_answer": "unsuccessful", 
             "description": "indicate if the following product will be funded by Kickstarter.", 
             "possible_answers": "\"successful, unsuccessful\""

@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "video", 
-    "domain_description": "You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.", 
+    "domain_description": "\"You will be shown 20 videos of a soccer player about to take a penalty shot and asked to predict the direction which the ball will go. You will also be provided with the outcome of his last two attempted penalty shots.\"", 
     "domain_id": "12", 
     "domain_name": "penalty_direction", 
     "randomize_answers": "false", 

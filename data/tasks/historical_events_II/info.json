@@ -1,127 +1,127 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be shown a list of five historical events. Select the option representing the correct chronological order of the historical events.", 
+    "domain_description": "\"You will be shown a list of five historical events. Select the option representing the correct chronological order of the historical events.\"", 
     "domain_id": "42", 
     "domain_name": "historical_events_II", 
     "randomize_answers": "true", 
     "task_info": {
         "task 01": {
-            "asset_file": "asset1.jpg", 
+            "asset_file": "asset1.png", 
             "correct_answer": "1-3-4-5-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"1-3-4-5-2, 2-3-1-4-5, 2-1-4-3-5, 1-2-3-5-4, 3-1-4-5-2\""
         }, 
         "task 02": {
-            "asset_file": "asset2.jpg", 
+            "asset_file": "asset2.png", 
             "correct_answer": "1-4-2-3-5", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"1-4-2-3-5, 1-4-3-2-5, 5-2-1-4-3, 1-2-4-5-3, 2-4-1-5-3\""
         }, 
         "task 03": {
-            "asset_file": "asset3.jpg", 
+            "asset_file": "asset3.png", 
             "correct_answer": "5-1-3-4-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"5-1-3-4-2, 3-4-5-1-2, 4-5-2-1-3, 4-2-3-5-1, 1-4-3-2-5\""
         }, 
         "task 04": {
-            "asset_file": "asset4.jpg", 
+            "asset_file": "asset4.png", 
             "correct_answer": "1-3-4-5-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"1-3-4-5-2, 2-1-3-4-5, 4-5-2-1-3, 3-1-4-5-2, 2-4-1-5-3\""
         }, 
         "task 05": {
-            "asset_file": "asset5.jpg", 
+            "asset_file": "asset5.png", 
             "correct_answer": "2-4-1-5-3", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"2-4-1-5-3, 1-2-3-5-4, 1-2-5-3-4, 2-5-4-3-1, 5-4-3-1-2\""
         }, 
         "task 06": {
-            "asset_file": "asset6.jpg", 
+            "asset_file": "asset6.png", 
             "correct_answer": "5-1-3-2-4", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"5-1-3-2-4, 5-4-3-1-2, 4-2-3-1-5, 2-4-3-1-5, 1-5-2-4-3\""
         }, 
         "task 07": {
-            "asset_file": "asset7.jpg", 
+            "asset_file": "asset7.png", 
             "correct_answer": "1-3-5-4-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"1-3-5-4-2, 3-1-5-2-4, 3-2-5-1-4, 4-3-5-1-2, 4-1-2-5-3\""
         }, 
         "task 08": {
-            "asset_file": "asset8.jpg", 
+            "asset_file": "asset8.png", 
             "correct_answer": "2-3-5-1-4", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"2-3-5-1-4, 1-2-3-5-4, 3-1-4-2-5, 5-3-2-1-4, 2-1-5-3-4\""
         }, 
         "task 09": {
-            "asset_file": "asset9.jpg", 
+            "asset_file": "asset9.png", 
             "correct_answer": "4-5-1-3-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"4-5-1-3-2, 1-2-5-4-3, 4-2-3-1-5, 5-4-2-3-1, 5-4-3-1-2\""
         }, 
         "task 10": {
-            "asset_file": "asset10.jpg", 
+            "asset_file": "asset10.png", 
             "correct_answer": "2-3-5-4-1", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"2-3-5-4-1, 2-5-3-4-1, 3-1-4-5-2, 2-4-1-5-3, 4-1-2-5-3\""
         }, 
         "task 11": {
-            "asset_file": "asset11.jpg", 
+            "asset_file": "asset11.png", 
             "correct_answer": "4-5-2-1-3", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"4-5-2-1-3, 2-4-1-5-3, 4-3-5-2-1, 3-2-4-1-5, 2-1-5-3-4\""
         }, 
         "task 12": {
-            "asset_file": "asset12.jpg", 
+            "asset_file": "asset12.png", 
             "correct_answer": "4-3-5-2-1", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"4-3-5-2-1, 4-2-5-1-3, 5-4-3-1-2, 5-1-4-3-2, 3-2-5-1-4\""
         }, 
         "task 13": {
-            "asset_file": "asset13.jpg", 
+            "asset_file": "asset13.png", 
             "correct_answer": "5-2-1-4-3", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"5-2-1-4-3, 1-3-2-4-5, 3-1-5-4-2, 1-4-5-3-2, 4-1-2-5-3\""
         }, 
         "task 14": {
-            "asset_file": "asset14.jpg", 
+            "asset_file": "asset14.png", 
             "correct_answer": "3-2-1-5-4", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"3-2-1-5-4, 5-2-4-3-1, 3-5-2-4-1, 2-5-4-3-1, 3-2-5-1-4\""
         }, 
         "task 15": {
-            "asset_file": "asset15.jpg", 
+            "asset_file": "asset15.png", 
             "correct_answer": "1-4-3-2-5", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"1-4-3-2-5, 5-3-4-2-1, 1-5-4-2-3, 5-1-3-4-2, 2-1-5-3-4\""
         }, 
         "task 16": {
-            "asset_file": "asset16.jpg", 
+            "asset_file": "asset16.png", 
             "correct_answer": "2-1-5-3-4", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"2-1-5-3-4, 3-5-4-1-2, 1-2-5-4-3, 3-4-1-2-5, 2-4-1-5-3\""
         }, 
         "task 17": {
-            "asset_file": "asset17.jpg", 
+            "asset_file": "asset17.png", 
             "correct_answer": "4-1-2-3-5", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"4-1-2-3-5, 4-3-5-1-2, 3-5-2-1-4, 3-4-1-5-2, 1-5-2-4-3\""
         }, 
         "task 18": {
-            "asset_file": "asset18.jpg", 
+            "asset_file": "asset18.png", 
             "correct_answer": "2-1-5-3-4", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"2-1-5-3-4, 4-2-5-1-3, 2-5-3-1-4, 2-3-4-5-1, 5-4-3-1-2\""
         }, 
         "task 19": {
-            "asset_file": "asset19.jpg", 
+            "asset_file": "asset19.png", 
             "correct_answer": "3-4-1-5-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"3-4-1-5-2, 5-3-4-2-1, 4-5-2-3-1, 4-1-2-5-3, 1-5-2-4-3\""
         }, 
         "task 20": {
-            "asset_file": "asset20.jpg", 
+            "asset_file": "asset20.png", 
             "correct_answer": "5-3-1-4-2", 
             "description": "select the correct chronological order with left events happening first.", 
             "possible_answers": "\"5-3-1-4-2, 3-1-5-4-2, 4-5-3-2-1, 1-5-2-4-3, 2-4-1-5-3\""

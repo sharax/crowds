@@ -1,107 +1,107 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be asked to estimate the release year for a list of Hollywood films.", 
+    "domain_description": "\"You will be asked to estimate the release year for a list of Hollywood films.\"", 
     "domain_id": "15", 
     "domain_name": "movie_year", 
     "task_info": {
         "task 01": {
-            "asset_file": "Schindler's_List.jpg", 
+            "asset_file": "Schindler's_List.png", 
             "correct_answer": 1993.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 02": {
-            "asset_file": "A_Fistful_Of_Dollars.jpg", 
+            "asset_file": "A_Fistful_Of_Dollars.png", 
             "correct_answer": 1964.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 03": {
-            "asset_file": "Dial_M_For_Murder.jpg", 
+            "asset_file": "Dial_M_For_Murder.png", 
             "correct_answer": 1954.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 04": {
-            "asset_file": "Snatch.jpg", 
+            "asset_file": "Snatch.png", 
             "correct_answer": 2000.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 05": {
-            "asset_file": "Memento.jpg", 
+            "asset_file": "Memento.png", 
             "correct_answer": 2000.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 06": {
-            "asset_file": "Wall-E.jpg", 
+            "asset_file": "Wall-E.png", 
             "correct_answer": 2008.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 07": {
-            "asset_file": "Notorious.jpg", 
+            "asset_file": "Notorious.png", 
             "correct_answer": 1946.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 08": {
-            "asset_file": "Jaws.jpg", 
+            "asset_file": "Jaws.png", 
             "correct_answer": 1975.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 09": {
-            "asset_file": "Once_Upon_A_Time_In_The_West.jpg", 
+            "asset_file": "Once_Upon_A_Time_In_The_West.png", 
             "correct_answer": 1968.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 10": {
-            "asset_file": "Diabolique.jpg", 
+            "asset_file": "Diabolique.png", 
             "correct_answer": 1955.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 11": {
-            "asset_file": "The_Lion_King.jpg", 
+            "asset_file": "The_Lion_King.png", 
             "correct_answer": 1994.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 12": {
-            "asset_file": "Up.jpg", 
+            "asset_file": "Up.png", 
             "correct_answer": 2009.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 13": {
-            "asset_file": "Hachi_A_Dogs_Tale.jpg", 
+            "asset_file": "Hachi_A_Dogs_Tale.png", 
             "correct_answer": 2009.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 14": {
-            "asset_file": "The_Elephant_Man.jpg", 
+            "asset_file": "The_Elephant_Man.png", 
             "correct_answer": 1980.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 15": {
-            "asset_file": "The_Lord_Of_The_Rings_The_Fellowship_Of_The_Ring.jpg", 
+            "asset_file": "The_Lord_Of_The_Rings_The_Fellowship_Of_The_Ring.png", 
             "correct_answer": 2001.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 16": {
-            "asset_file": "Touch_Of_Evil.jpg", 
+            "asset_file": "Touch_Of_Evil.png", 
             "correct_answer": 1958.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 17": {
-            "asset_file": "Casino.jpg", 
+            "asset_file": "Casino.png", 
             "correct_answer": 1995.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 18": {
-            "asset_file": "The_Shining.jpg", 
+            "asset_file": "The_Shining.png", 
             "correct_answer": 1980.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 19": {
-            "asset_file": "The_Thing.jpg", 
+            "asset_file": "The_Thing.png", 
             "correct_answer": 1982.0, 
             "description": "estimate the year of release for the film in the image."
         }, 
         "task 20": {
-            "asset_file": "The_Night_Of_The_Hunter.jpg", 
+            "asset_file": "The_Night_Of_The_Hunter.png", 
             "correct_answer": 1955.0, 
             "description": "estimate the year of release for the film in the image."
         }

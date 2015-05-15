@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will given a list of 20 countries, and asked to estimate their landmass.", 
+    "domain_description": "\"You will given a list of 20 countries, and asked to estimate their landmass.\"", 
     "domain_id": "48", 
     "domain_name": "country_landmass", 
     "task_info": {

@@ -1,127 +1,127 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of constellations and asked to identify them by name.", 
+    "domain_description": "\"You will shown 20 images of constellations and asked to identify them by name.\"", 
     "domain_id": "34", 
     "domain_name": "constellation_name", 
     "randomize_answers": "true", 
     "task_info": {
         "task 01": {
-            "asset_file": "constellation_Orion.jpg", 
+            "asset_file": "constellation_Orion.png", 
             "correct_answer": "orion", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"orion, horologium, aquarius, virgo, apus\""
         }, 
         "task 02": {
-            "asset_file": "constellation_Cygnus.jpg", 
+            "asset_file": "constellation_Cygnus.png", 
             "correct_answer": "cygnus", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"cygnus,taurus,sextans, aries, aquila\""
         }, 
         "task 03": {
-            "asset_file": "constellation_Sagittarius.jpg", 
+            "asset_file": "constellation_Sagittarius.png", 
             "correct_answer": "sagittarius", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"saggitarius, octans, mensa, aquila,scorpius\""
         }, 
         "task 04": {
-            "asset_file": "constellation_Leo.jpg", 
+            "asset_file": "constellation_Leo.png", 
             "correct_answer": "leo", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"leo, lupus, apus, columba, gemini\""
         }, 
         "task 05": {
-            "asset_file": "constellation_Aries.jpg", 
+            "asset_file": "constellation_Aries.png", 
             "correct_answer": "aries", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"aries, norma, scorpius, pictor, aquarius\""
         }, 
         "task 06": {
-            "asset_file": "constellation_Scorpius.jpg", 
+            "asset_file": "constellation_Scorpius.png", 
             "correct_answer": "scorpius", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"scorpius,  scutum, vulpecula, virgo, apus\""
         }, 
         "task 07": {
-            "asset_file": "constellation_Lyra.jpg", 
+            "asset_file": "constellation_Lyra.png", 
             "correct_answer": "lyra", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"lyra, triangulum, scorpius, octans, scutum\""
         }, 
         "task 08": {
-            "asset_file": "constellation_Hercules.jpg", 
+            "asset_file": "constellation_Hercules.png", 
             "correct_answer": "hercules", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"hercules, grus, ursa minor, aquila, volans\""
         }, 
         "task 09": {
-            "asset_file": "constellation_Taurus.jpg", 
+            "asset_file": "constellation_Taurus.png", 
             "correct_answer": "taurus", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"taurus,  norma, pavo, chamaeleon, cepheus\""
         }, 
         "task 10": {
-            "asset_file": "constellation_Cassiopeia.jpg", 
+            "asset_file": "constellation_Cassiopeia.png", 
             "correct_answer": "cassiopeia", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"cassiopeia,  lupus, indus, crater, lacerta\""
         }, 
         "task 11": {
-            "asset_file": "constellation_Pegasus.jpg", 
+            "asset_file": "constellation_Pegasus.png", 
             "correct_answer": "pegasus", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"pegasus, sagittarius, serpens, ara, aries\""
         }, 
         "task 12": {
-            "asset_file": "constellation_Draco.jpg", 
+            "asset_file": "constellation_Draco.png", 
             "correct_answer": "draco", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"draco,  crux, phoenix, piscis austrinus, cepheus\""
         }, 
         "task 13": {
-            "asset_file": "constellation_Libra.jpg", 
+            "asset_file": "constellation_Libra.png", 
             "correct_answer": "libra", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"libra, tucana, gemini, reticulum, norma\""
         }, 
         "task 14": {
-            "asset_file": "constellation_Capricornus.jpg", 
+            "asset_file": "constellation_Capricornus.png", 
             "correct_answer": "capricornus", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"capricornus,  carina, andromeda, monoceros, equuleus\""
         }, 
         "task 15": {
-            "asset_file": "constellation_Virgo.jpg", 
+            "asset_file": "constellation_Virgo.png", 
             "correct_answer": "virgo", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"virgo,  hercules, crater, vela, canes venatici\""
         }, 
         "task 16": {
-            "asset_file": "constellation_Ursa_Major.jpg", 
+            "asset_file": "constellation_Ursa_Major.png", 
             "correct_answer": "ursa major", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"ursa major,  antlia, andromeda, camelopardalis, indus\""
         }, 
         "task 17": {
-            "asset_file": "constellation_Gemini.jpg", 
+            "asset_file": "constellation_Gemini.png", 
             "correct_answer": "gemini", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"gemini, triangulum, coma berenices, draco, grus\""
         }, 
         "task 18": {
-            "asset_file": "constellation_Aquarius.jpg", 
+            "asset_file": "constellation_Aquarius.png", 
             "correct_answer": "aquarius", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"aquarius, puppis, telescopium, crater, lepus\""
         }, 
         "task 19": {
-            "asset_file": "constellation_Aquila.jpg", 
+            "asset_file": "constellation_Aquila.png", 
             "correct_answer": "aquila", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"aquila, eridanus, vulpecula, serpens, aquarius\""
         }, 
         "task 20": {
-            "asset_file": "constellation_CanisMajor.jpg", 
+            "asset_file": "constellation_CanisMajor.png", 
             "correct_answer": "canis major", 
             "description": "select the constellation's name.", 
             "possible_answers": "\"canis major, scorpius, crater, columba, gemini\""

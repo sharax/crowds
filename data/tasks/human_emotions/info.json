@@ -1,127 +1,127 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.", 
+    "domain_description": "\"You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.\"", 
     "domain_id": "47", 
     "domain_name": "human_emotions", 
     "randomize_answers": "false", 
     "task_info": {
         "task 01": {
-            "asset_file": "asset0.jpg", 
+            "asset_file": "asset0.png", 
             "correct_answer": "happy", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 02": {
-            "asset_file": "asset1.jpg", 
+            "asset_file": "asset1.png", 
             "correct_answer": "angry", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 03": {
-            "asset_file": "asset2.jpg", 
+            "asset_file": "asset2.png", 
             "correct_answer": "surprise", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 04": {
-            "asset_file": "asset3.jpg", 
+            "asset_file": "asset3.png", 
             "correct_answer": "angry", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 05": {
-            "asset_file": "asset4.jpg", 
+            "asset_file": "asset4.png", 
             "correct_answer": "distress", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 06": {
-            "asset_file": "asset5.jpg", 
+            "asset_file": "asset5.png", 
             "correct_answer": "sad", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 07": {
-            "asset_file": "asset6.jpg", 
+            "asset_file": "asset6.png", 
             "correct_answer": "surprise", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 08": {
-            "asset_file": "asset7.jpg", 
+            "asset_file": "asset7.png", 
             "correct_answer": "sad", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 09": {
-            "asset_file": "asset8.jpg", 
+            "asset_file": "asset8.png", 
             "correct_answer": "surprise", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 10": {
-            "asset_file": "asset9.jpg", 
+            "asset_file": "asset9.png", 
             "correct_answer": "happy", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 11": {
-            "asset_file": "asset10.jpg", 
+            "asset_file": "asset10.png", 
             "correct_answer": "distress", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 12": {
-            "asset_file": "asset11.jpg", 
+            "asset_file": "asset11.png", 
             "correct_answer": "angry", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 13": {
-            "asset_file": "asset12.jpg", 
+            "asset_file": "asset12.png", 
             "correct_answer": "distress", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 14": {
-            "asset_file": "asset13.jpg", 
+            "asset_file": "asset13.png", 
             "correct_answer": "sad", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 15": {
-            "asset_file": "asset14.jpg", 
+            "asset_file": "asset14.png", 
             "correct_answer": "surprise", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 16": {
-            "asset_file": "asset15.jpg", 
+            "asset_file": "asset15.png", 
             "correct_answer": "happy", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 17": {
-            "asset_file": "asset16.jpg", 
+            "asset_file": "asset16.png", 
             "correct_answer": "angry", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 18": {
-            "asset_file": "asset17.jpg", 
+            "asset_file": "asset17.png", 
             "correct_answer": "distress", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 19": {
-            "asset_file": "asset18.jpg", 
+            "asset_file": "asset18.png", 
             "correct_answer": "happy", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""
         }, 
         "task 20": {
-            "asset_file": "asset19.jpg", 
+            "asset_file": "asset19.png", 
             "correct_answer": "sad", 
             "description": "select the human emotion portrayed in the image.", 
             "possible_answers": "\"angry , distress , happy , sad , surprise\""

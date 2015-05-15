@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of country outlines, and asked to identify the country.", 
+    "domain_description": "\"You will shown 20 images of country outlines, and asked to identify the country.\"", 
     "domain_id": "60", 
     "domain_name": "country_shape", 
     "randomize_answers": "true", 

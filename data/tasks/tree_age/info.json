@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 images of trees, and asked to estimate their age in years.", 
+    "domain_description": "\"You will be shown 20 images of trees, and asked to estimate their age in years.\"", 
     "domain_id": "17", 
     "domain_name": "tree_age", 
     "task_info": {

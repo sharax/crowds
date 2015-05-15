@@ -1,7 +1,7 @@
 {
     "answer_type": "date", 
     "asset_type": "no assets", 
-    "domain_description": "You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.", 
+    "domain_description": "\"You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.\"", 
     "domain_id": "48", 
     "domain_name": "international_holidays", 
     "task_info": {

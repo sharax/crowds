@@ -1,107 +1,107 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be asked to estimate the Amazon price in USD for 20 products, given their image and specifications.", 
+    "domain_description": "\"You will be asked to estimate the Amazon price in USD for 20 products, given their image and specifications.\"", 
     "domain_id": "39", 
     "domain_name": "amazon_price", 
     "task_info": {
         "task 01": {
-            "asset_file": "__Amazon-AC-1.jpg", 
+            "asset_file": "__Amazon-AC-1.png", 
             "correct_answer": 400.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 02": {
-            "asset_file": "__Amazon-AC-2.jpg", 
+            "asset_file": "__Amazon-AC-2.png", 
             "correct_answer": 519.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 03": {
-            "asset_file": "__Amazon-Camera-1.jpg", 
+            "asset_file": "__Amazon-Camera-1.png", 
             "correct_answer": 117.3, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 04": {
-            "asset_file": "__Amazon-Camera-2.jpg", 
+            "asset_file": "__Amazon-Camera-2.png", 
             "correct_answer": 399.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 05": {
-            "asset_file": "__Amazon-Dish-1.jpg", 
+            "asset_file": "__Amazon-Dish-1.png", 
             "correct_answer": 219.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 06": {
-            "asset_file": "__Amazon-Dish-2.jpg", 
+            "asset_file": "__Amazon-Dish-2.png", 
             "correct_answer": 899.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 07": {
-            "asset_file": "__Amazon-Fridge-1.jpg", 
+            "asset_file": "__Amazon-Fridge-1.png", 
             "correct_answer": 144.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 08": {
-            "asset_file": "__Amazon-Fridge-2.jpg", 
+            "asset_file": "__Amazon-Fridge-2.png", 
             "correct_answer": 2370.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 09": {
-            "asset_file": "__Amazon-Laptop-1.jpg", 
+            "asset_file": "__Amazon-Laptop-1.png", 
             "correct_answer": 250.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 10": {
-            "asset_file": "__Amazon-Laptop-2.jpg", 
+            "asset_file": "__Amazon-Laptop-2.png", 
             "correct_answer": 360.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 11": {
-            "asset_file": "__Amazon-Mobile-1.jpg", 
+            "asset_file": "__Amazon-Mobile-1.png", 
             "correct_answer": 59.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 12": {
-            "asset_file": "__Amazon-Mobile-2.jpg", 
+            "asset_file": "__Amazon-Mobile-2.png", 
             "correct_answer": 115.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 13": {
-            "asset_file": "__Amazon-Printer-1.jpg", 
+            "asset_file": "__Amazon-Printer-1.png", 
             "correct_answer": 75.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 14": {
-            "asset_file": "__Amazon-Printer-2.jpg", 
+            "asset_file": "__Amazon-Printer-2.png", 
             "correct_answer": 47.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 15": {
-            "asset_file": "__Amazon-Tab-1.jpg", 
+            "asset_file": "__Amazon-Tab-1.png", 
             "correct_answer": 157.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 16": {
-            "asset_file": "__Amazon-Tab-2.jpg", 
+            "asset_file": "__Amazon-Tab-2.png", 
             "correct_answer": 80.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 17": {
-            "asset_file": "__Amazon-TV-1.jpg", 
+            "asset_file": "__Amazon-TV-1.png", 
             "correct_answer": 557.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 18": {
-            "asset_file": "__Amazon-TV-2.jpg", 
+            "asset_file": "__Amazon-TV-2.png", 
             "correct_answer": 241.5, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 19": {
-            "asset_file": "__Amazon-Washer-1.jpg", 
+            "asset_file": "__Amazon-Washer-1.png", 
             "correct_answer": 2270.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }, 
         "task 20": {
-            "asset_file": "__Amazon-Washer-2.jpg", 
+            "asset_file": "__Amazon-Washer-2.png", 
             "correct_answer": 899.0, 
             "description": "Guess the amazon price in USD for the following product:"
         }

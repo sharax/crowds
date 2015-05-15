@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "audio", 
-    "domain_description": "You will be asked to listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.", 
+    "domain_description": "\"You will be asked to listen to 20 short, 15-second audio clips of a song, and select the artist/band who interpreted each song.\"", 
     "domain_id": "30", 
     "domain_name": "artists_name", 
     "randomize_answers": "true", 

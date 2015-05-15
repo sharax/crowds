@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.", 
+    "domain_description": "\"You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.\"", 
     "domain_id": "22", 
     "domain_name": "distance_map", 
     "task_info": {

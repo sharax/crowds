@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "text", 
-    "domain_description": "You will be given 20 headlines, and asked to identify whether each were real or fake.", 
+    "domain_description": "\"You will be given 20 headlines, and asked to identify whether each were real or fake.\"", 
     "domain_id": "31", 
     "domain_name": "news_real", 
     "randomize_answers": "true", 

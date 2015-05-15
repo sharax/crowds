@@ -1,107 +1,107 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be shown 20 images of an everyday object, and asked to estimate its weight.", 
+    "domain_description": "\"You will be shown 20 images of an everyday object, and asked to estimate its weight.\"", 
     "domain_id": "37", 
     "domain_name": "object_weight", 
     "task_info": {
         "task 01": {
-            "asset_file": "object_weight_1.jpg", 
+            "asset_file": "object_weight_1.png", 
             "correct_answer": 2.5, 
             "description": "estimate the weight of the following object."
         }, 
         "task 02": {
-            "asset_file": "object_weight_2.jpg", 
+            "asset_file": "object_weight_2.png", 
             "correct_answer": 5.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 03": {
-            "asset_file": "object_weight_3.jpg", 
+            "asset_file": "object_weight_3.png", 
             "correct_answer": 23.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 04": {
-            "asset_file": "object_weight_4.jpg", 
+            "asset_file": "object_weight_4.png", 
             "correct_answer": 8.5, 
             "description": "estimate the weight of the following object."
         }, 
         "task 05": {
-            "asset_file": "object_weight_5.jpg", 
+            "asset_file": "object_weight_5.png", 
             "correct_answer": 0.56, 
             "description": "estimate the weight of the following object."
         }, 
         "task 06": {
-            "asset_file": "object_weight_6.jpg", 
+            "asset_file": "object_weight_6.png", 
             "correct_answer": 15.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 07": {
-            "asset_file": "object_weight_7.jpg", 
+            "asset_file": "object_weight_7.png", 
             "correct_answer": 72.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 08": {
-            "asset_file": "object_weight_8.jpg", 
+            "asset_file": "object_weight_8.png", 
             "correct_answer": 1995.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 09": {
-            "asset_file": "object_weight_9.jpg", 
+            "asset_file": "object_weight_9.png", 
             "correct_answer": 950.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 10": {
-            "asset_file": "object_weight_10.jpg", 
+            "asset_file": "object_weight_10.png", 
             "correct_answer": 113.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 11": {
-            "asset_file": "object_weight_11.jpg", 
+            "asset_file": "object_weight_11.png", 
             "correct_answer": 2.38, 
             "description": "estimate the weight of the following object."
         }, 
         "task 12": {
-            "asset_file": "object_weight_12.jpg", 
+            "asset_file": "object_weight_12.png", 
             "correct_answer": 5.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 13": {
-            "asset_file": "object_weight_13.jpg", 
+            "asset_file": "object_weight_13.png", 
             "correct_answer": 14.8, 
             "description": "estimate the weight of the following object."
         }, 
         "task 14": {
-            "asset_file": "object_weight_14.jpg", 
+            "asset_file": "object_weight_14.png", 
             "correct_answer": 0.9, 
             "description": "estimate the weight of the following object."
         }, 
         "task 15": {
-            "asset_file": "object_weight_15.jpg", 
+            "asset_file": "object_weight_15.png", 
             "correct_answer": 45.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 16": {
-            "asset_file": "object_weight_16.jpg", 
+            "asset_file": "object_weight_16.png", 
             "correct_answer": 1.78, 
             "description": "estimate the weight of the following object."
         }, 
         "task 17": {
-            "asset_file": "object_weight_17.jpg", 
+            "asset_file": "object_weight_17.png", 
             "correct_answer": 20.0, 
             "description": "estimate the weight of the following object."
         }, 
         "task 18": {
-            "asset_file": "object_weight_18.jpg", 
+            "asset_file": "object_weight_18.png", 
             "correct_answer": 64.4, 
             "description": "estimate the weight of the following object."
         }, 
         "task 19": {
-            "asset_file": "object_weight_19.jpg", 
+            "asset_file": "object_weight_19.png", 
             "correct_answer": 7.5, 
             "description": "estimate the weight of the following object."
         }, 
         "task 20": {
-            "asset_file": "object_weight_20.jpg", 
+            "asset_file": "object_weight_20.png", 
             "correct_answer": 129.0, 
             "description": "estimate the weight of the following object."
         }

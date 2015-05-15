@@ -50,7 +50,7 @@ def populate_tasks_db(db_tasks,info):
 			asset = task_info['asset_file']
 			ext = asset[-4:]
 			new_asset_name = domain_name+task_id+ext
-			data = 'http://crowds.5harad.com/assets/'+new_asset_name
+			data = 'assets/'+new_asset_name
 			move_asset(domain_name,asset,new_asset_name)
 		answer_type= info['answer_type']
 		if answer_type == 'multiple choice':
@@ -59,7 +59,7 @@ def populate_tasks_db(db_tasks,info):
 		else:
 			answer_data = ''
 			correct_answer = str(task_info['correct_answer'])
-		line = ','.join([task_id,domain_id,title,t_type,data,answer_type,answer_data,correct_answer])
+		line = ','.join([task_id,domain_id,title,t_type,data,answer_type,str(answer_data),correct_answer])
 		db_tasks.write(line+'\n')
 	
 

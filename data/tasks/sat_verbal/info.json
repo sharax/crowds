@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "no assets", 
-    "domain_description": "You will be given 20 words, and asked to identify the correct synonym corresponding to each word.", 
+    "domain_description": "\"You will be given 20 words, and asked to identify the correct synonym corresponding to each word.\"", 
     "domain_id": "54", 
     "domain_name": "sat_verbal", 
     "randomize_answers": "true", 

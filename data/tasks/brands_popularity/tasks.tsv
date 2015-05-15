@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	extra_information	possible_answers	randomize_answers question
-Cadbury Dairy Milk	multiple choice	image	1.jpg	India	Cadbury Dairy Milk,Kitkat	false	select the most popular brand.
-Jack Wills	multiple choice	image	2.jpg	United Kingdom	Gap,Jack Wills	false	select the most popular brand.
-Starbucks	multiple choice	image	3.jpg	United States	Starbucks,Nescafe	false	select the most popular brand.
-Dove	multiple choice	image	4.jpg	India	Dove,Loreal	false	select the most popular brand.
-Crest	multiple choice	image	5.jpg	Canada	Colgate,Crest	false	select the most popular brand.
-Coca cola	multiple choice	image	6.jpg	Brazil	Coca cola, Crush	false	select the most popular brand.
-Dominos Pizza	multiple choice	image	7.jpg	Australia	Dominos Pizza,Pizza Hut	false	select the most popular brand.
-Pantene	multiple choice	image	8.jpg	Pakistan	Garnier, Pantene	false	select the most popular brand.
-Nike	multiple choice	image	9.jpg	Slovakia	Nike,Puma	false	select the most popular brand.
-Adidas	multiple choice	image	10.jpg	Germany	Adidas,Asics	false	select the most popular brand.
-Reebok	multiple choice	image	11.jpg	Iceland	Reebok,Under Armour	false	select the most popular brand.
-Hugo Boss	multiple choice	image	12.jpg	Austria	Tommy Hilfiger, Hugo Boss	false	select the most popular brand.
-Versace	multiple choice	image	13.jpg	Italy	Versace, Louis Vuitton	false	select the most popular brand.
-Guess	multiple choice	image	14.jpg	France	Lacoste, Guess	false	select the most popular brand.
-Burberry	multiple choice	image	15.jpg	Singapore	Calvin Klein, Burberry	false	select the most popular brand.
-Armani	multiple choice	image	16.jpg	Lebanon	Armani, Ralph Lauren	false	select the most popular brand.
-KFC	multiple choice	image	17.jpg	Malaysia	KFC, Popeyes	false	select the most popular brand.
-McDonald's	multiple choice	image	18.jpg	Singapore	McDonald's, Burger King 	false	select the most popular brand.
-Nat Sherman	multiple choice	image	19.jpg	United States	Davidoff, Nat Sherman	false	select the most popular brand.
-Acer	multiple choice	image	20.jpg	Cuba	Acer,Hewlett Packard	false	select the most popular brand.
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers question
+Cadbury Dairy Milk	multiple choice	image	1.jpg	Cadbury Dairy Milk,Kitkat	false	select the most popular brand in India.
+Jack Wills	multiple choice	image	2.jpg	Gap,Jack Wills	false	select the most popular brand in the United Kingdom.
+Starbucks	multiple choice	image	3.jpg	Starbucks,Nescafe	false	select the most popular brand in the United States.
+Dove	multiple choice	image	4.jpg	Dove,Loreal	false	select the most popular brand in India.
+Crest	multiple choice	image	5.jpg	Colgate,Crest	false	select the most popular brand in Canada.
+Coca cola	multiple choice	image	6.jpg	Coca cola, Crush	false	select the most popular brand in Brazil.
+Dominos Pizza	multiple choice	image	7.jpg	Dominos Pizza,Pizza Hut	false	select the most popular brand in Australia.
+Pantene	multiple choice	image	8.jpg	Garnier, Pantene	false	select the most popular brand in Pakistan.
+Nike	multiple choice	image	9.jpg	Nike,Puma	false	select the most popular brand in Slovakia.
+Adidas	multiple choice	image	10.jpg	Adidas,Asics	false	select the most popular brand in Germany.
+Reebok	multiple choice	image	11.jpg	Reebok,Under Armour	false	select the most popular brand in Iceland.
+Hugo Boss	multiple choice	image	12.jpg	Tommy Hilfiger, Hugo Boss	false	select the most popular brand in Austria.
+Versace	multiple choice	image	13.jpg	Versace, Louis Vuitton	false	select the most popular brand in Italy.
+Guess	multiple choice	image	14.jpg	Lacoste, Guess	false	select the most popular brand in France.
+Burberry	multiple choice	image	15.jpg	Calvin Klein, Burberry	false	select the most popular brand in Singapure.
+Armani	multiple choice	image	16.jpg	Armani, Ralph Lauren	false	select the most popular brand in Lebanon.
+KFC	multiple choice	image	17.jpg	KFC, Popeyes	false	select the most popular brand in Malaysia.
+McDonald's	multiple choice	image	18.jpg	McDonald's, Burger King 	false	select the most popular brand in Singapore.
+Nat Sherman	multiple choice	image	19.jpg	Davidoff, Nat Sherman	false	select the most popular brand in the United States.
+Acer	multiple choice	image	20.jpg	Acer,Hewlett Packard	false	select the most popular brand in Cuba.

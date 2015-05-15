@@ -1,7 +1,7 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.", 
+    "domain_description": "\"You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.\"", 
     "domain_id": "14", 
     "domain_name": "celestial_bodies", 
     "randomize_answers": "true", 

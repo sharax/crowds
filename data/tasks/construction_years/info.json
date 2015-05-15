@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.", 
+    "domain_description": "\"You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.\"", 
     "domain_id": "45", 
     "domain_name": "construction_years", 
     "task_info": {

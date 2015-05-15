@@ -1,130 +1,130 @@
 {
     "answer_type": "multiple choice", 
     "asset_type": "image", 
-    "domain_description": "Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.", 
+    "domain_description": "\"Given two different brand for a product, you will be asked to select the brand that is most popular in a given market.\"", 
     "domain_id": "43", 
     "domain_name": "brands_popularity", 
-    "randomize_answers": "acer,hewlett packard", 
+    "randomize_answers": "false", 
     "task_info": {
         "task 01": {
-            "asset_file": "1.jpg", 
+            "asset_file": "1.png", 
             "correct_answer": "cadbury dairy milk", 
-            "description": "false", 
-            "possible_answers": "\"india\""
+            "description": "select the most popular brand in India.", 
+            "possible_answers": "\"cadbury dairy milk,kitkat\""
         }, 
         "task 02": {
-            "asset_file": "2.jpg", 
+            "asset_file": "2.png", 
             "correct_answer": "jack wills", 
-            "description": "false", 
-            "possible_answers": "\"united kingdom\""
+            "description": "select the most popular brand in the United Kingdom.", 
+            "possible_answers": "\"gap,jack wills\""
         }, 
         "task 03": {
-            "asset_file": "3.jpg", 
+            "asset_file": "3.png", 
             "correct_answer": "starbucks", 
-            "description": "false", 
-            "possible_answers": "\"united states\""
+            "description": "select the most popular brand in the United States.", 
+            "possible_answers": "\"starbucks,nescafe\""
         }, 
         "task 04": {
-            "asset_file": "4.jpg", 
+            "asset_file": "4.png", 
             "correct_answer": "dove", 
-            "description": "false", 
-            "possible_answers": "\"india\""
+            "description": "select the most popular brand in India.", 
+            "possible_answers": "\"dove,loreal\""
         }, 
         "task 05": {
-            "asset_file": "5.jpg", 
+            "asset_file": "5.png", 
             "correct_answer": "crest", 
-            "description": "false", 
-            "possible_answers": "\"canada\""
+            "description": "select the most popular brand in Canada.", 
+            "possible_answers": "\"colgate,crest\""
         }, 
         "task 06": {
-            "asset_file": "6.jpg", 
+            "asset_file": "6.png", 
             "correct_answer": "coca cola", 
-            "description": "false", 
-            "possible_answers": "\"brazil\""
+            "description": "select the most popular brand in Brazil.", 
+            "possible_answers": "\"coca cola, crush\""
         }, 
         "task 07": {
-            "asset_file": "7.jpg", 
+            "asset_file": "7.png", 
             "correct_answer": "dominos pizza", 
-            "description": "false", 
-            "possible_answers": "\"australia\""
+            "description": "select the most popular brand in Australia.", 
+            "possible_answers": "\"dominos pizza,pizza hut\""
         }, 
         "task 08": {
-            "asset_file": "8.jpg", 
+            "asset_file": "8.png", 
             "correct_answer": "pantene", 
-            "description": "false", 
-            "possible_answers": "\"pakistan\""
+            "description": "select the most popular brand in Pakistan.", 
+            "possible_answers": "\"garnier, pantene\""
         }, 
         "task 09": {
-            "asset_file": "9.jpg", 
+            "asset_file": "9.png", 
             "correct_answer": "nike", 
-            "description": "false", 
-            "possible_answers": "\"slovakia\""
+            "description": "select the most popular brand in Slovakia.", 
+            "possible_answers": "\"nike,puma\""
         }, 
         "task 10": {
-            "asset_file": "10.jpg", 
+            "asset_file": "10.png", 
             "correct_answer": "adidas", 
-            "description": "false", 
-            "possible_answers": "\"germany\""
+            "description": "select the most popular brand in Germany.", 
+            "possible_answers": "\"adidas,asics\""
         }, 
         "task 11": {
-            "asset_file": "11.jpg", 
+            "asset_file": "11.png", 
             "correct_answer": "reebok", 
-            "description": "false", 
-            "possible_answers": "\"iceland\""
+            "description": "select the most popular brand in Iceland.", 
+            "possible_answers": "\"reebok,under armour\""
         }, 
         "task 12": {
-            "asset_file": "12.jpg", 
+            "asset_file": "12.png", 
             "correct_answer": "hugo boss", 
-            "description": "false", 
-            "possible_answers": "\"austria\""
+            "description": "select the most popular brand in Austria.", 
+            "possible_answers": "\"tommy hilfiger, hugo boss\""
         }, 
         "task 13": {
-            "asset_file": "13.jpg", 
+            "asset_file": "13.png", 
             "correct_answer": "versace", 
-            "description": "false", 
-            "possible_answers": "\"italy\""
+            "description": "select the most popular brand in Italy.", 
+            "possible_answers": "\"versace, louis vuitton\""
         }, 
         "task 14": {
-            "asset_file": "14.jpg", 
+            "asset_file": "14.png", 
             "correct_answer": "guess", 
-            "description": "false", 
-            "possible_answers": "\"france\""
+            "description": "select the most popular brand in France.", 
+            "possible_answers": "\"lacoste, guess\""
         }, 
         "task 15": {
-            "asset_file": "15.jpg", 
+            "asset_file": "15.png", 
             "correct_answer": "burberry", 
-            "description": "false", 
-            "possible_answers": "\"singapore\""
+            "description": "select the most popular brand in Singapure.", 
+            "possible_answers": "\"calvin klein, burberry\""
         }, 
         "task 16": {
-            "asset_file": "16.jpg", 
+            "asset_file": "16.png", 
             "correct_answer": "armani", 
-            "description": "false", 
-            "possible_answers": "\"lebanon\""
+            "description": "select the most popular brand in Lebanon.", 
+            "possible_answers": "\"armani, ralph lauren\""
         }, 
         "task 17": {
-            "asset_file": "17.jpg", 
+            "asset_file": "17.png", 
             "correct_answer": "kfc", 
-            "description": "false", 
-            "possible_answers": "\"malaysia\""
+            "description": "select the most popular brand in Malaysia.", 
+            "possible_answers": "\"kfc, popeyes\""
         }, 
         "task 18": {
-            "asset_file": "18.jpg", 
+            "asset_file": "18.png", 
             "correct_answer": "mcdonald's", 
-            "description": "false", 
-            "possible_answers": "\"singapore\""
+            "description": "select the most popular brand in Singapore.", 
+            "possible_answers": "\"mcdonald's, burger king\""
         }, 
         "task 19": {
-            "asset_file": "19.jpg", 
+            "asset_file": "19.png", 
             "correct_answer": "nat sherman", 
-            "description": "false", 
-            "possible_answers": "\"united states\""
+            "description": "select the most popular brand in the United States.", 
+            "possible_answers": "\"davidoff, nat sherman\""
         }, 
         "task 20": {
-            "asset_file": "20.jpg", 
+            "asset_file": "20.png", 
             "correct_answer": "acer", 
-            "description": "false", 
-            "possible_answers": "\"cuba\""
+            "description": "select the most popular brand in Cuba.", 
+            "possible_answers": "\"acer,hewlett packard\""
         }
     }, 
     "time_limit": 30

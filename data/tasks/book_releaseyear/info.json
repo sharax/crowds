@@ -1,7 +1,7 @@
 {
     "answer_type": "point estimate", 
     "asset_type": "image", 
-    "domain_description": "You will be asked to estimate the year of publication of 20 books, given the book\u2019s name and author.", 
+    "domain_description": "\"You will be asked to estimate the year of publication of 20 books, given the book\u2019s name and author.\"", 
     "domain_id": "16", 
     "domain_name": "book_releaseyear", 
     "task_info": {
