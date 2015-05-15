@@ -10,13 +10,13 @@ id,name,description,time_limit
 05,celeb_age,"You will shown 20 images of celebrities, and asked to estimate the celebrity’s age.",30
 14,celestial_bodies,"You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.",30
 52,classical_composition,"You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.",45
-17,classification_trees,"You will shown 20 images of trees, and asked to select the correct species.",30
+04,classification_trees,"You will shown 20 images of trees, and asked to select the correct species.",30
 34,constellation_name,"You will shown 20 images of constellations and asked to identify them by name.",30
 45,construction_years,"You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.",30
 18,container_size,"You will shown 20 images of containers and asked to estimate its capacity.",30
 33,country_currency,"You will shown 20 images of monetary bills and asked to select the country where the currency is from.",30
 41,country_flag,"You will shown 20 images of flags, and asked to identify the country of origin.",30
-48,country_landmass,"You will given a list of 20 countries, and asked to estimate their landmass.",30
+50,country_landmass,"You will given a list of 20 countries, and asked to estimate their landmass.",30
 51,country_population,"You will given a list of 20 countries, and asked to estimate their population.",30
 60,country_shape,"You will shown 20 images of country outlines, and asked to identify the country.",30
 22,distance_map,"You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.",30

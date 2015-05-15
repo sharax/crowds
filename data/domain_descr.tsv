@@ -9,13 +9,13 @@
 05	You will shown 20 images of celebrities, and asked to estimate the celebrity’s age.
 14	You will shown 20 images of celestial bodies (stars, galaxies,planets, moons and asteroids) and asked to indicate their name.
 52	You will be asked to listen to 20 audio clips of classical compositions, and asked to identify the composer.
-17	You will shown 20 images of trees, and asked to select the correct species.
+04	You will shown 20 images of trees, and asked to select the correct species.
 34	You will shown 20 images of constellations and asked to identify them by name.
 45	You will shown 20 images of famous buildings from around the world and asked to estimate how many years it took to build each.
 18	You will shown 20 images of containers and asked to estimate its capacity.
 33	You will shown 20 images of monetary bills and asked to select the country where the currency is from.
 41	You will shown 20 images of flags, and asked to identify the country of origin.
-48	You will given a list of 20 countries, and asked to estimate their landmass.
+50	You will given a list of 20 countries, and asked to estimate their landmass.
 51	You will given a list of 20 countries, and asked to estimate their population.
 60	You will shown 20 images of country outlines, and asked to identify the country.
 22	You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.

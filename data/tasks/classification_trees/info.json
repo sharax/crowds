@@ -2,7 +2,7 @@
     "answer_type": "multiple choice", 
     "asset_type": "image", 
     "domain_description": "\"You will shown 20 images of trees, and asked to select the correct species.\"", 
-    "domain_id": "17", 
+    "domain_id": "04", 
     "domain_name": "classification_trees", 
     "randomize_answers": "true", 
     "task_info": {

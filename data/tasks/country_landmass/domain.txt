@@ -1,2 +1,2 @@
-48
+50
 You will given a list of 20 countries, and asked to estimate their landmass.
