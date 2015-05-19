@@ -1,127 +1,127 @@
 {
     "answer_type": "multiple choice", 
-    "asset_type": "text", 
+    "asset_type": "image", 
     "domain_description": "\"You will be given 20 headlines, and asked to identify whether each were real or fake.\"", 
     "domain_id": "31", 
     "domain_name": "news_real", 
     "randomize_answers": "true", 
     "task_info": {
         "task 01": {
-            "asset_file": "Question1.txt", 
+            "asset_file": "Question1.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 02": {
-            "asset_file": "Question2.txt", 
+            "asset_file": "Question2.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 03": {
-            "asset_file": "Question3.txt", 
+            "asset_file": "Question3.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 04": {
-            "asset_file": "Question4.txt", 
+            "asset_file": "Question4.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 05": {
-            "asset_file": "Question5.txt", 
+            "asset_file": "Question5.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 06": {
-            "asset_file": "Question6.txt", 
+            "asset_file": "Question6.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 07": {
-            "asset_file": "Question7.txt", 
+            "asset_file": "Question7.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 08": {
-            "asset_file": "Question8.txt", 
+            "asset_file": "Question8.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 09": {
-            "asset_file": "Question9.txt", 
+            "asset_file": "Question9.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 10": {
-            "asset_file": "Question10.txt", 
+            "asset_file": "Question10.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 11": {
-            "asset_file": "Question11.txt", 
+            "asset_file": "Question11.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 12": {
-            "asset_file": "Question12.txt", 
+            "asset_file": "Question12.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 13": {
-            "asset_file": "Question13.txt", 
+            "asset_file": "Question13.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 14": {
-            "asset_file": "Question14.txt", 
+            "asset_file": "Question14.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 15": {
-            "asset_file": "Question15.txt", 
+            "asset_file": "Question15.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 16": {
-            "asset_file": "Question16.txt", 
+            "asset_file": "Question16.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 17": {
-            "asset_file": "Question17.txt", 
+            "asset_file": "Question17.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 18": {
-            "asset_file": "Question18.txt", 
+            "asset_file": "Question18.png", 
             "correct_answer": "no", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 19": {
-            "asset_file": "Question19.txt", 
+            "asset_file": "Question19.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""
         }, 
         "task 20": {
-            "asset_file": "Question20.txt", 
+            "asset_file": "Question20.png", 
             "correct_answer": "yes", 
             "description": "determine if the following news headline is real (refers to a real event).", 
             "possible_answers": "\"yes, no\""

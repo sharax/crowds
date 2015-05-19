@@ -10,6 +10,7 @@ for folder in os.listdir(path+'/tasks'):
 		domain = lines[counter].rstrip('\n').rstrip('\r').split('\t')
 		wfl.write(domain[0]+'\n'+domain[1])
 		wfl.close()
+		print folder
 		counter+=1
 
 domain_des.close()
