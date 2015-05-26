@@ -14,7 +14,6 @@ app.controller('termsController', function($scope, $location, $localStorage, Api
             $location.path('challenge/start');
         }, function(error){
             alert(error);
-            Logger.log(error);
         });
 
     }

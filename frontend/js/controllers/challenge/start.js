@@ -22,7 +22,6 @@ app.controller('challengeStartController', function($scope, $location, $localSto
             $location.path('challenge/task');
         }, function(error){
             alert(error);
-            Logger.log(error);
         });
     }
 
