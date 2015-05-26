@@ -1,0 +1,64 @@
+
+<div class="backdrop task">
+    <button class="btn right-hexagon" ng-disabled="!validInput(answer, selectedCL)"
+            ng-click="next()">
+        <span class="inner-triangle"></span>
+        Next question
+    </button>
+</div>
+
+<div class="container task slide">
+    <div class="row">
+        <div class="col-md-7 text-center">
+            <div class="main-message">{{question.text}}</div>
+            <img class="question-image" src="{{question.imagePath}}"/>
+        </div>
+        <div class="col-md-1">
+            <div class="task-progress">
+                <div class="task-progress-row">
+                    <div ng-repeat="question in questions" class="task-progress-cell">
+                        <div class="circle" ng-class="{active: $index <= currQuestion }"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 answer-col">
+            <div class="text-right timer-block">
+                <div class="timer" easypiechart options="timerOptions" percent="timerPercent"></div>
+                <div class="time-left">{{ timeLeft }}</div>
+            </div>
+            <div class="answer">
+                <div class="answer-label">Answer</div>
+                <button class="btn grey" ng-click="setAnswer('yes')"
+                        ng-class="{active: answer === 'yes'}">Yes</button>
+                <button class="btn grey" ng-click="setAnswer('no')"
+                        ng-class="{active: answer === 'no'}">No</button>
+            </div>
+            <div class="confidence">
+                How confident are you?
+                <table>
+                    <tr>
+                        <td class="confidence-icon-cell" ng-repeat="cl in confidenceLevels">
+                            <img ng-src="img/confidence-{{cl}}.png"
+                                 ng-class="{active: cl === selectedCL}"
+                                 ng-click="setCL(cl)"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td ng-repeat="cl in confidenceLevels">
+                            {{ cl === 0 ? "Unsure" : ""}}
+                            {{ cl === confidenceLevels.length - 1 ? "Confident" : ""}}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="row next-row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8"></div>
+        <div class="col-md-2 md-bottom-right">
+        </div>
+    </div>
+</div>

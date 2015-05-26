@@ -1,0 +1,162 @@
+.done.slide {
+    padding-top: 10px;
+}
+.done h1 {
+    font-size: 60px;
+}
+
+.done .next-bee {
+    width: 90%;
+}
+
+.done .next-domain {
+    position: relative;
+    cursor: pointer;
+}
+
+.done .next-domain .text {
+    position: absolute;
+    color: white;
+    left: 0; right: 0; top: 0; bottom: 0;
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+.done .next-domain img {
+    width: 90%;
+}
+
+.done .achievement img {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.done .results {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.done .result-item small {
+    display: block;
+    font-size: 12px;
+    margin-bottom: -8px;
+    margin-top: 10px;
+}
+
+.done .result-item .large {
+    font-size: 30px;
+}
+
+.done .result-item .forward-slash {
+    font-size: 25px;
+}
+
+.done .bar {
+    width: 96%;
+    margin-left: 2%;
+    position: relative;
+}
+
+.done .bar.rank-bar {
+    height: 12px;
+    background-color: #d1d3d4;
+}
+
+.done .bar.rank-labels .label-wrapper {
+    position: absolute;
+    font-size: 14px;
+    width: 100px;
+    margin-left: -50px;
+    height: 20px;
+    display: block;
+    text-align: center;
+}
+
+.done .rank-labels .last {
+    left: 0;
+}
+
+.done .rank-labels .first {
+    left: 100%;
+}
+
+.done .rank-labels .crowd {
+    left: 60%;
+}
+
+.done .rank-labels .user {
+    left: 80%;
+}
+
+.done .bar .filled {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    height: 100%;
+}
+
+.done .marker {
+    position: absolute;
+    width: 2px;
+    height: 18px;
+    background-color: black;
+    bottom: 0;
+}
+
+.done .marker.user {
+    left: 80%;
+}
+
+.done .marker.crowd {
+    left: 60%;
+}
+
+.done .bar.rank-labels {
+    height: 40px;
+    padding-top: 5px;
+}
+
+.done .bar.icons {
+    height: 70px;
+    margin-top: 10px;
+}
+
+.done .bar.icons .icon {
+    position: absolute;
+    margin-left: -15px;
+    width: 30px;
+    text-align: center;
+}
+.done .bar.icons .icon label {
+    font-size: 12px;
+}
+
+.done .bar.icons .icon img {
+    width: 100%;
+}
+
+.done .bar.icons .icon.crowd {
+    left: 60%;
+}
+
+.done .bar.icons .icon.user {
+    left: 80%;
+}
+
+.done .bar.rank-bar .triangle {
+    position: absolute;
+    top: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.done .bar.rank-bar .triangle.left {
+    border-right: 4px solid #d1d3d4;
+    left: -4px;
+}
+
+.done .bar.rank-bar .triangle.right {
+    border-left: 4px solid #37a2d4;
+    right: -4px;
+}

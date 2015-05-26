@@ -1,0 +1,95 @@
+.task .question-image {
+    max-width: 70%;
+    border: 2px solid rgb(230,230,230);
+    border-radius: 3px;
+}
+.task-progress {
+    margin-left: 5%;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: table;
+}
+
+.task-progress-row {
+    display: table-row;
+}
+
+.task-progress-cell {
+    display: table-cell;
+    text-align: center;
+    height: 22px;
+}
+
+.task-progress .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.task .answer-col {
+    padding-left: 40px;
+}
+
+.task .timer-block {
+    position: relative;
+}
+
+.task .timer {
+    padding-right: 20px;
+}
+
+.answer .btn {
+    width: 40%;
+    margin-right: 5px;
+}
+
+.task .answer {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.task .answer .answer-label {
+    margin-bottom: 15px;
+}
+
+.task .time-left {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.confidence {
+    margin-top: 20px;
+}
+
+.confidence table {
+    width: 90%;
+    margin-top: 10px;
+}
+
+.confidence table td {
+    padding-top: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.confidence img {
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.confidence img:hover {
+    background-color: #4EBEE5;
+}
+
+.confidence img.active {
+    background-color: #31A3D4;
+}
+
+.task.backdrop {
+    top: 0;
+}

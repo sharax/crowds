@@ -1,0 +1,88 @@
+<head>
+    <title>{{SITE_NAME}} | Challenge Completed!</title>
+</head>
+
+<div class="backdrop">
+    <div class="backdrop-middle"></div>
+</div>
+
+<div class="container slide done">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h1 class="cursive">
+                You are now a Buzzer!
+            </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 results">
+            <strong>
+                Results for this domain
+            </strong>
+
+            <div class="bar icons">
+                <div class="icon crowd">
+                    <label>crowd</label>
+                    <img src="img/intro-hive.png"/>
+                </div>
+                <div class="icon user">
+                    <label>you</label>
+                    <img src="img/rank-bee.png"/>
+                </div>
+            </div>
+            <div class="bar rank-bar">
+                <div class="left triangle"></div>
+                <div class="filled blue"></div>
+                <div class="marker user"></div>
+                <div class="marker crowd"></div>
+                <div class="right triangle"></div>
+            </div>
+            <div class="bar rank-labels">
+                <div class="label-wrapper last">
+                    <label>{{numBees}}<sup>th</sup></label>
+                </div>
+                <div class="label-wrapper crowd">
+                    <label>{{crowdRank}}<sup>th</sup></label>
+                </div>
+                <div class="label-wrapper user">
+                    <label>{{rank}}<sup>th</sup></label>
+                </div>
+                <div class="label-wrapper first">
+                    <label>1<sup>st</sup></label>
+                </div>
+            </div>
+            <div class="result-item">
+                <small class="blue-font">Your Score</small>
+                <span class="large">{{numCorrect}}
+                </span><span class="forward-slash">/
+                </span>{{numQuestions}}
+            </div>
+            <div class="result-item">
+                <small class="blue-font">Your Rank</small>
+                <span class="large">{{rank}}</span><span class="forward-slash"><sup>th</sup>
+                /</span>
+                {{numBees}} bees
+            </div>
+            <div class="result-item">
+                <small class="blue-font">Crowd's Rank</small>
+                <span class="large">{{crowdRank}}</span><span class="forward-slash"><sup>th</sup>
+                /</span>
+                {{numBees}} bees
+            </div>
+        </div>
+        <div class="col-md-4 text-center">
+            <img class="next-bee" src="img/next-bee.gif"/>
+
+            <div class="next-domain" ng-click="startNewChallenge()">
+                <div class="text">Try the next domain!</div>
+                <img src="img/hexagon-button.png"/>
+            </div>
+        </div>
+        <div class="col-md-4 text-center achievement">
+            <strong>
+                One achievement unlocked!
+            </strong>
+            <img src="img/achievements/1.png"/>
+        </div>
+    </div>
+</div>
