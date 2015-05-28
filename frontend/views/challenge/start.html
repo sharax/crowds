@@ -1,0 +1,47 @@
+<head>
+    <title>{{SITE_NAME}} | Start of Challenge</title>
+</head>
+
+<div class="backdrop">
+    <button class="btn right-hexagon"
+            ng-click="startChallenge()" ng-disabled="!validInput()">
+        <span class="inner-triangle"></span>
+        Start challenge!
+    </button>
+</div>
+
+<div class="container slide start">
+    <div class="row">
+        <div class="col-md-2 text-center">
+            <span class="fa fa-angle-double-left back" ng-click="prev()"></span>
+        </div>
+        <div class="col-md-8">
+            <div class="text-center main-message">
+                Your challenge domain is ...<br/>
+                ' <span class="blue-font">{{challengeDomain}}</span> '
+            </div>
+        </div>
+    </div>
+
+    <div class="row row-v-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-4 main-bee">
+            <img src="img/main-bee.png"/>
+        </div>
+        <div class="col-md-6">
+            Out of 100 people, you are confident<br/>
+            of performing to be in the Top
+            <br/>
+            <br/>
+            <form ng-submit="startChallenge()">
+                <input class="white rank-input" type="text" placeholder="Rank" ng-model="user.rank"/> .<br/>
+            </form>
+            <div class="error" ng-show="user.rank !== undefined && user.rank.length > 0 && !validInput()">
+                Oops! Rank must be a number between 1 to 100</div>
+            <br/>
+            <small>1 - Best</small>
+            <br/>
+            <small>100 - Last</small>
+        </div>
+    </div>
+</div>

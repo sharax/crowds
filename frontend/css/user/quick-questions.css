@@ -1,0 +1,94 @@
+.quick-questions {
+    font-size: 18px;
+}
+
+.quick-questions .question-progress {
+    margin-top: 13px;
+    margin-bottom: 40px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.quick-questions .question-progress .circle {
+    display: inline-block;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.quick-questions .question-progress .circle:last-child {
+    margin-right: 0;
+}
+
+.quick-questions .main-bee {
+    width: 69%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.quick-questions .question-block {
+    margin-top: -30px;
+}
+
+.quick-questions .gender button {
+    display: block;
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    min-width: 100px;
+}
+
+.quick-questions .age-block {
+    display: inline-block;
+}
+
+.quick-questions .age input {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.quick-questions .country {
+    position: relative;
+}
+
+.quick-questions .country input {
+    width: 80%;
+}
+
+.quick-questions .autofill {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    text-align: left;
+    border: 1px solid #d7d8da;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    max-height: 100px;
+    overflow-y: auto;
+    z-index: 20;
+}
+
+.quick-questions .autofill li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quick-questions .autofill li.active {
+    background-color: #65b0db;
+    color: white;
+}
+
+.quick-questions .education .custom-select {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.quick-questions .rank {
+    padding: 30px;
+}
+
+.quick-questions .rank input {
+    margin: 15px 0;
+}

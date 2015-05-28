@@ -1,3 +1,19 @@
+#!/usr/bin/python2
+#
+# Author: Imanol Arrieta Ibarra
+
+"""
+Populate the Wisdom of Crowds database from a list of foldernames containingdomain informaion in a json file and an assets folder containing the assets required. In case the assets are images, they will be resized. In case the files are videos, they will be uploaded to youtube, and in case they are audio files they will be uploaded to soundtrack.
+
+Input:
+
+
+Output:
+
+
+"""
+
+import time
 import os
 import json
 import sys
@@ -5,13 +21,40 @@ import shutil
 import hashlib
 import random
 import codecs
+import youtube_upload
+import Image
+import soundcloud
+
+
 TASK_PATH = '/Users/Imanol/Documents/Sharad/crowds/data/tasks'
 DB_PATH = '/Users/Imanol/Documents/Sharad/crowds/data/database'
+IMAGE_SIZE = 600,600
 
-def move_asset(domain,asset,new_name):
+def youtube(domain,asset,new_name):
+	name = TASK_PATH+'/'+domain+'/assets/'+asset
+	youtube_id = youtube_upload.youtube_upload([name],new_name) 
+	time.sleep(10)
+	return(str(youtube_id))
+
+def sound(domain,asset,new_name):
+	name = TASK_PATH+'/'+domain+'/assets/'+asset
+	client = soundcloud.Client(
+		client_id = '22594f1b4d32dbec1566c54751aacd27',
+		client_secret = '96c6e9dc1f78c845ed2e6a4803f0bf4e',
+		username = 'wcrowds@gmail.com',
+		password = 'Woc12345678'
+	)
+	track = client.post('/tracks/', track = {'title':asset,
+		'asset_data': open(name,'rb')})
+	sound_id = str(track.id)
+	return(sound_id)
+
+def move_image(domain,asset,new_name):
 	old_path = TASK_PATH+'/'+domain+'/assets/'+asset
-	new_path = DB_PATH+'/assets/'+new_name
-	shutil.copy2(old_path,new_path)
+	new_path = DB_PATH+'/images/'+new_name
+	im = Image.open(old_path)
+	im.thumbnail(IMAGE_SIZE,Image.ANTIALIAS)
+	im.save(new_path)
 	
 def string_to_int(s):
 	conv = int(hashlib.md5(s).hexdigest(),16)
@@ -43,15 +86,25 @@ def populate_tasks_db(db_tasks,info):
 		task_info = info['task_info'][old_ids[i]]
 		task_id = domain_id+new_ids[i]
 		title = task_info['description']
+		
 		t_type = info['asset_type']
 		if t_type == 'no assets':
 			data = ''
-		else:
+		elif t_type == 'video':
+			asset = task_info['asset_file']
+			new_asset_name = domain_name+task_id
+			data = youtube(domain_name,asset,new_asset_name)
+		elif t_type =='audio':
+			asset = task_info['asset_file']
+			new_asset_name = domain_name+task_id
+			data = sound(domain_name,asset,new_asset_name)
+		elif t_type =='image':
 			asset = task_info['asset_file']
 			ext = asset[-4:]
 			new_asset_name = domain_name+task_id+ext
-			data = 'assets/'+new_asset_name
-			move_asset(domain_name,asset,new_asset_name)
+			data = '/images/'+new_asset_name
+			move_image(domain_name,asset,new_asset_name)
+
 		answer_type= info['answer_type']
 		if answer_type == 'multiple choice':
 			answer_data = task_info['possible_answers']

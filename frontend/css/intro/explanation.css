@@ -1,0 +1,33 @@
+.explanation .hive img {
+    max-width: 80%;
+}
+
+.explanation .main-bee img {
+    max-width: 40%;
+}
+.explanation .bee-row label {
+    display: block;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.explanation .bee-row .col-3 {
+    width: 30%;
+    display: inline-block;
+}
+
+.explanation .bee-row .middle-text {
+    margin-left: 5%;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+
+.explanation .bee-row-text {
+    margin-top: 20px;
+    color: #6d6e71;
+}
+
+.explanation .info-row {
+    margin-top: 50px;
+    position: relative;
+}

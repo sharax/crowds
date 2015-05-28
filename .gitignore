@@ -39,3 +39,6 @@
 ehthumbs.db
 Thumbs.db
 .Rhistory
+
+# IDE generated files #
+.idea

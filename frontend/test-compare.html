@@ -1,0 +1,41 @@
+<div ng-app="app">
+    <div ng-controller="chartCtrl">
+        <div easypiechart options="options" percent="percent"></div>
+        <button ng-click="test()">Set percentage</button>
+    </div>
+</div>
+
+<script src="js/vendor/angular.min.js"></script>
+<script src="js/vendor/angular-easypiechart.min.js"></script>
+
+<script>
+    var app = angular.module('app', ['easypiechart']);
+    app.controller('chartCtrl', ['$scope', function ($scope, $interval) {
+        $scope.percent = 20;
+        $scope.options = {
+            animate:{
+                duration:0,
+                enabled:false
+            },
+            barColor:'white',
+            scaleColor:false,
+            trackColor:'#66b1dc',
+            lineWidth:20,
+            lineCap:'circle'
+        };
+
+        var c=0;
+        $scope.message="This DIV is refreshed "+c+" time.";
+        $interval(function(){
+            $scope.message="This DIV is refreshed "+c+" time.";
+            c++;
+            if(c===100)
+            {
+                $scope.message="Restarting the timer again :-)";
+                c=0;
+            }
+        },100);
+
+
+    }]);
+</script>
