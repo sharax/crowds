@@ -1,0 +1,3 @@
+Category	Kitchen	
+Detail	Toaster (2 slices)
+

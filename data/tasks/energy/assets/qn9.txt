@@ -1,0 +1,3 @@
+Category	Lighting
+Detail	Halogen (300 W)
+

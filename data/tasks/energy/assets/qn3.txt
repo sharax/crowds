@@ -1,0 +1,2 @@
+Category	Computers
+Detail	Desktop Computer

@@ -1,0 +1,21 @@
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
+1.8	point estimate	text	qn1.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.1	point estimate	text	qn2.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.06 - 0.25	point estimate	text	qn3.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+1.08	point estimate	text	qn4.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+2.5 - 4	point estimate	text	qn5.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/load.
+0.75	point estimate	text	qn6.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.15	point estimate	text	qn7.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.4	point estimate	text	qn8.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.3	point estimate	text	qn9.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+1.5	point estimate	text	qn10.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+1 - 2.17	point estimate	text	qn11.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/load.
+0.02 - 0.05	point estimate	text	qn12.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+10.5	point estimate	text	qn13.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.02	point estimate	text	qn14.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.04	point estimate	text	qn15.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/use.
+0.15	point estimate	text	qn16.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+0.075	point estimate	text	qn17.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+6.3	point estimate	text	qn18.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/load.
+1.5	point estimate	text	qn19.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.
+3	point estimate	text	qn20.txt	no answers	FALSE	Estimate the energy use of the following electrical appliance in kW/hr.

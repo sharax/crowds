@@ -1,0 +1,2 @@
+Category	Lighting
+Detail	Incandescent bulb (100 W)
