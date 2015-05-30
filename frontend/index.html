@@ -8,6 +8,8 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/shared/nav.css" rel="stylesheet">
+    <link href="css/shared/button.css" rel="stylesheet">
 
     <link href="css/intro/welcome.css" rel="stylesheet">
     <link href="css/intro/explanation.css" rel="stylesheet">
@@ -48,11 +50,7 @@
 </head>
 <body ng-controller='mainController'>
     <div ng-include="'views/header.html'"></div>
-    <div ng-view class="animate quick-fade"></div>
-    <div style="position: absolute; width: 100%">
-        <div style="position: absolute; width: 100%">
-        </div>
-    </div>
+    <div ng-view class="animate quick-fade view-container"></div>
 </body>
 
 <script src='js/fix.js'></script>

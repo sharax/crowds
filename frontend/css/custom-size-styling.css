@@ -5,98 +5,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px)  {
-    .welcome h1 img {
-        width: 40%;
-    }
-    .btn.right-hexagon, .btn.left-hexagon {
-        position: absolute;
-        width: auto;
-        height: 48px;
-        margin-top: 0;
-        padding: 10px 50px;
-        bottom: 50px;
-    }
-    .btn.right-hexagon {
-        right: 0;
-    }
-    .btn.left-hexagon {
-        left: 0;
-    }
-    .btn.right-hexagon .inner-triangle, .btn.left-hexagon .inner-triangle {
-        border-top-width: 24px;
-        border-right-width: 12px;
-        border-bottom-width: 24px;
-    }
-    .btn.right-hexagon .inner-triangle {
-        left: -11px;
-    }
-    .btn.left-hexagon .inner-triangle {
-        right: -14px;
-    }
-    .welcome .left-bees img, .welcome .right-bees img {
-        display: block;
-    }
-    .explanation .bee-row .middle-text {
-        margin-top: 0px;
-    }
-    .md-bottom-right {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
-    .quick-questions .question-progress .circle:last-child {
-        margin-right: 40px;
-    }
-    .task-progress, .task-progress-row, .task-progress-cell {
-        display: block;
-    }
-    .task-progress {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .task-progress-cell {
-        margin-bottom: 0px;
-    }
-    .task .answer-col {
-        padding-left: 0;
-    }
 }
+
 
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
-    .experiment .domain img {
-        width: 35%;
-    }
-    .experiment .domain .right-text {
-        margin-top: 4.7%;
-    }
-    .row-v-center {
-        display: flex;
-        align-items: center;
-    }
-}
-
-/* Extra small devices (phones, less than 768px) */
-@media(max-width:767px){
-}
-
-.backdrop {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (min-width: 768px) {
-    .backdrop {
-        width: 750px;
-    }
-}
-@media (min-width: 992px) {
-    .backdrop {
-        width: 970px;
-    }
-}
-@media (min-width: 1200px) {
-    .backdrop {
-        width: 1170px;
-    }
 }

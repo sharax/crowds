@@ -1,0 +1,22 @@
+.btn {
+    height: 100%;
+}
+
+.btn .button-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+}
+
+.btn.blue {
+    color: white;
+}
+
+.btn.blue:hover {
+    background-color: #2E8CC6;
+}
+

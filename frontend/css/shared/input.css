@@ -1,0 +1,36 @@
+
+.custom-select {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #d7d8da;
+    border-radius: 0px;
+    overflow: hidden;
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.custom-select select {
+    width: 100%;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 8px 10px;
+    border-radius: 0px;
+    border: none;
+
+    background: #ffffff url("../img/custom-select.png") no-repeat 100% 0%;
+    background-size: 40px 40px;
+    vertical-align: top;
+}
+
+.custom-select select:focus {
+    outline: 0;
+}
+
+input[type="text"].white {
+    border: 1px solid #d7d8da;
+    padding: 5px 10px;
+}
