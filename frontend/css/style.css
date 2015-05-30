@@ -81,6 +81,34 @@ img {
     max-width: 100%;
 }
 
+.fill-height {
+    height: 100%;
+}
+
+.vertical-center-1-line, .vertical-center-2-lines {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.vertical-center-1-line {
+    margin-top: -0.5em;
+}
+
+.vertical-center-2-lines {
+    margin-top: -1em;
+}
+
+.va-outer {
+    display: table;
+}
+
+.va-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
 .cursive {
     font-family: LobsterTwo;
 }

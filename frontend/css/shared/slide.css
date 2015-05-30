@@ -1,33 +1,12 @@
-.backdrop {
-    background-color: white;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    right: 0;
-    bottom: 0px;
-    margin-bottom: 20px;
-}
-
-.backdrop-middle {
-    background-color: #f4f4f4;
-    position: relative;
-    margin-left: 33%;
-    width: 34%;
-    height: 100%;
-}
-
 .slide {
-    padding: 40px 0;
-    margin-bottom: 20px;
+    position: absolute;
+    background: white;
+    top: 20px;
+    bottom: 20px;
+    left: 40px;
+    right: 40px;
 }
 
-.slide .main-message {
-    font-size: 30px;
-    margin-bottom: 40px;
-    padding: 0 10px;
+.slide h1 {
     font-weight: bold;
-}
-
-.slide .next-row {
-    position: relative;
 }
