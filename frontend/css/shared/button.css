@@ -34,6 +34,10 @@
     left: -0.8em;
 }
 
+.btn .right.triangle {
+    right: -0.8em;
+}
+
 
 .btn.grey {
     background-color: #e6e7e8;
@@ -44,4 +48,23 @@
 .btn.grey:hover {
     background-color: #4EBEE5;
     color: white;
+}
+
+.btn.prev-button {
+    border-radius: 0;
+    background-color: rgb(190,190,190);
+    color: white;
+}
+
+.btn.prev-button:hover{
+    background-color: rgb(100,100,100);
+}
+
+.btn.prev-button .right.triangle {
+    border-left-color: rgb(190,190,190);
+
+}
+
+.btn.prev-button:hover .right.triangle {
+    border-left-color: rgb(100,100,100);
 }

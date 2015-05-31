@@ -2,32 +2,33 @@
     <title>{{SITE_NAME}} | Terms and Conditions</title>
 </head>
 
-<div class="backdrop">
-    <a href="#intro/welcome" class="btn left-hexagon">
-        <span class="inner-triangle"></span>
-        No, thanks
-    </a>
-    <a class="btn right-hexagon" ng-click="startChallenge()">
-        <span class="inner-triangle"></span>
-        I agree. Start challenge!
-    </a>
-</div>
-
-<div class="container slide terms">
-    <div class="row">
+<div class="slide terms">
+    <div class="row header-row height-20">
         <div class="col-md-2 text-center">
-            <span class="fa fa-angle-double-left back" ng-click="prev()"></span>
+            <span class="fa fa-angle-double-left back-button vertical-center-1-line" ng-click="prev()"></span>
         </div>
         <div class="col-md-8">
-            <div class="text-center main-message">Some Terms & Conditions</div>
+            <h1 class="vertical-center-1-line">
+                Some Terms & Conditions
+            </h1>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10 description">
+    <div class="info-row height-60">
+        <div class="col-md-offset-1 col-md-10 description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </div>
     </div>
+
+    <a href="#intro/welcome" class="btn prev-button">
+        <span class="right triangle"></span>
+        No, thanks
+    </a>
+
+    <a class="btn blue next-button" ng-click="startChallenge($event)" data-loading-text='<span class="left triangle"></span>Loading...'>
+        <span class="left triangle"></span>
+        I agree. Start challenge!
+    </a>
+
 </div>

@@ -3,7 +3,8 @@ app.controller('termsController', function($scope, $location, $localStorage, Api
         $location.path('user/quick-questions');
     }
 
-    $scope.startChallenge = function() {
+    $scope.startChallenge = function(e) {
+        $(e.target).button("loading");
         var user = {};
         user.gender = $localStorage.user.gender;
         user.age = $localStorage.user.age;
