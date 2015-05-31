@@ -11,7 +11,8 @@ app.controller('challengeStartController', function($scope, $location, $localSto
         return false;
     }
 
-    $scope.startChallenge = function() {
+    $scope.startChallenge = function(e) {
+        $(e.target).button('loading');
         if(!$scope.validInput()) {
             return;
         }

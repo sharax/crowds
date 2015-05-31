@@ -21,7 +21,7 @@ app.factory('LocalApi', function($timeout) {
     function post(callback, data) {
         $timeout(function(){
             callback(data);
-        }, 2000);
+        }, 1000);
     }
 
     return api;

@@ -26,3 +26,7 @@
     padding-bottom: 1%;
     height: 12%;
 }
+
+.welcome .btn {
+    font-weight: bold;
+}

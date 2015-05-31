@@ -1,0 +1,12 @@
+
+<div ng-if="previousResponses === undefined || previousResponses.length === 0">
+    <div class="question-media text-center">
+        <img class="question-image" src="{{question.imagePath}}"/>
+    </div>
+</div>
+<div ng-if="previousResponses !== undefined && previousResponses.length > 0">
+    <div class="question-media with-stats">
+        <img class="question-image" src="{{question.imagePath}}"/>
+    </div>
+    <div ng-include="'views/challenge/_stats.html'"></div>
+</div>
