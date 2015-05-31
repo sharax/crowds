@@ -2,13 +2,8 @@
 @media(min-width:1200px) {
 }
 
+/* height-based styling */
 @media(min-height: 960px) {
-    body, .btn {
-        font-size: 30px;
-    }
-    nav.black, .navbar-brand {
-        font-size: 26px;
-    }
 }
 
 /* Medium devices (desktops, 992px and up) */

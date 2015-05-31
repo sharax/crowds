@@ -1,31 +1,3 @@
-.experiment .main-message {
-    margin-bottom: 58px;
-}
-
 .experiment .info-row {
-    margin-top: 58px;
-    position: relative;
-}
-
-.experiment .info-row .info-text {
-    padding: 0 20px;
-}
-
-.experiment .domain .image-col img {
-    width: 80%;
-}
-
-.experiment .domain .col-3 {
-    width: 30%;
-    display: inline-block;
-}
-
-.experiment .domain .left-text {
-    text-align: right;
-}
-
-.experiment .domain .right-text {
-    text-align: left;
-    vertical-align: top;
-    margin-top: 3.5%;
+    padding-top: 3%;
 }

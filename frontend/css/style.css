@@ -41,17 +41,22 @@ html, body {
     border: none;
     height: 100%;
     width: 100%;
+    font-size: 18px;
+    font-family: Museo;
 }
 
+/* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
     body {
         padding: 0;
     }
 }
 
-body, button, .btn {
-    font-family: Museo;
-    font-size: 18px;
+/* height-based styling */
+@media(min-height: 960px) {
+    html, body {
+        font-size: 30px;
+    }
 }
 
 body {
@@ -81,8 +86,15 @@ img {
     max-width: 100%;
 }
 
-.fill-height {
-    height: 100%;
+.back-button {
+    display: inline-block;
+    font-size: 28px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: #65b0db;
 }
 
 .vertical-center-1-line, .vertical-center-2-lines {
@@ -123,4 +135,22 @@ img {
 
 .error {
     color: #e85037;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1.25em;
+}
+.left.triangle {
+    border-left-width: 0;
+    border-right-color: #37a2d4;
+    border-right-width: 0.8em;
+}
+.right.triangle {
+    border-right-width: 0;
+    border-left-color: #37a2d4;
+    border-left-width: 0.8em;
 }

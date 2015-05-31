@@ -1,14 +1,9 @@
-.explanation .header-row {
-    height: 20%;
-}
-
 .explanation .bee-row {
     padding-top: 1%;
     height: 45%;
 }
 
 .explanation .info-row {
-    height: 30%;
     padding-top: 5%;
 }
 
@@ -25,7 +20,6 @@
 }
 
 .explanation .media-block-left, .explanation .media-block-right {
-    width: 30%;
 }
 
 .explanation .media-block-center {

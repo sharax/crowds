@@ -1,4 +1,4 @@
-
+/* fix to make placeholders work across browsers */
 $('[placeholder]').focus(function() {
     var input = $(this);
     if (input.val() == input.attr('placeholder')) {

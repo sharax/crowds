@@ -19,6 +19,11 @@ nav.black .navbar-nav > li > a {
     margin-top: -5px;
 }
 
+
+nav.black, .navbar-brand {
+    font-size: 1em;
+}
+
 nav.black .navbar-nav > li > a:hover,
 nav.black .navbar-nav > li > a:focus {
     background-color: #63b1dc;
