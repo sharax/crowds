@@ -84,3 +84,37 @@
 .task .stats .number-response {
     padding-left: 0.5em;
 }
+
+.task .timer-row {
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 12%;
+}
+
+.task .timer-block {
+    position: relative;
+    display: inline-block;
+}
+
+.task .time-left {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* height-based styling */
+@media(min-height: 960px) {
+    .task .time-left {
+        top: 8px;
+        font-size: 26px;
+    }
+}
+
+@media(min-width:1280px) {
+    .task .time-left {
+        top: 25px;
+    }
+}

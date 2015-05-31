@@ -6,6 +6,14 @@ app.controller('challengeTaskController', function($scope, $interval, $location)
 
     $scope.confidenceLevels = [0,1,2,3,4];
 
+    var timerSize = 50;
+    var timerLineWidth = 6;
+    var bodyWidth = $(document).width();
+    if(bodyWidth > 1280) {
+        timerLineWidth = 8;
+        timerSize = 80;
+    }
+
     $scope.questions = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
     $scope.questionContent = [
         {
@@ -53,9 +61,9 @@ app.controller('challengeTaskController', function($scope, $interval, $location)
         barColor:'#feeed9',
         scaleColor:false,
         trackColor:'#f7a32b',
-        lineWidth:6,
+        lineWidth:timerLineWidth,
         lineCap:'circle',
-        size: 50
+        size: timerSize
     };
     startTimer();
 

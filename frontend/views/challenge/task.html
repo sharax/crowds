@@ -24,6 +24,14 @@
                      class="circle" ng-class="{active: $index <= currQuestion }"
                         ng-click="setQuestion($index)"></div>
             </div>
+            <div class="col-md-4 text-right">
+                <div class="timer-row">
+                    <div class="timer-block">
+                        <div class="timer" easypiechart options="timerOptions" percent="timerPercent"></div>
+                        <div class="time-left">{{ timeLeft }}</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
