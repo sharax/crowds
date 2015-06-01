@@ -18,8 +18,11 @@
 }
 
 .task .progress-col {
-    margin-top: 1.25%;
-    height: 95%;
+    position: absolute;
+    right: -3.5%;
+    top: 3%;
+    bottom: 0;
+    z-index: 20;
 }
 
 .task .progress-col .circle {
@@ -86,7 +89,7 @@
 }
 
 .task .timer-row {
-    margin-right: 10%;
+    margin-right: 2%;
     margin-top: 5%;
     height: 12%;
 }
@@ -108,13 +111,66 @@
 /* height-based styling */
 @media(min-height: 960px) {
     .task .time-left {
-        top: 8px;
         font-size: 26px;
+        top: 25px;
     }
 }
 
-@media(min-width:1280px) {
-    .task .time-left {
-        top: 25px;
-    }
+.task .answer-label {
+    margin-bottom: 0.7em;
+}
+
+.task .answer-col {
+    padding-left: 7%;
+    padding-right: 5%;
+}
+
+.task .answer-button {
+    margin-bottom: 2%;
+    width: 48%;
+}
+
+.task .answer-button.first {
+    margin-right: 2%;
+}
+
+.task .answer-input {
+    width: 60%;
+}
+
+.task .confidence-table {
+    width: 100%;
+}
+
+.task .confidence-table tr td {
+    width: 20%;
+    text-align: center;
+    padding: 3%;
+}
+
+.task .confidence-label {
+    margin-top: 0.7em;
+}
+
+.task .cl-unsure {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.task .cl-confident {
+    float: right;
+}
+
+.confidence-icon {
+    cursor: pointer;
+    border-radius: 10em;
+}
+
+.confidence-icon:hover {
+    background-color: #b2e2f9;
+}
+
+.confidence-icon.active {
+    background-color: #8ed3f3;
 }

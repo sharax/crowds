@@ -4,6 +4,11 @@
     font-size: 1em;
 }
 
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 .btn .button-content {
     position: absolute;
     top: 50%;
@@ -43,10 +48,16 @@
     background-color: #e6e7e8;
     border: 1px solid #c9cbcd;
     border-radius: 0;
+    color: black;
 }
 
 .btn.grey:hover {
     background-color: #4EBEE5;
+    color: white;
+}
+
+.btn.grey.active {
+    background-color: #2E8CC6;
     color: white;
 }
 

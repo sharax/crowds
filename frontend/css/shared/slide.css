@@ -19,6 +19,7 @@
     border-radius: 0;
     padding-left: 3em;
     padding-right: 3em;
+    font-weight: bold;
 }
 
 .slide .btn.prev-button {

@@ -3,35 +3,10 @@
 </head>
 
 <div class="slide-container">
-    <!--
     <div ng-if="currentSlide === 1" class="animate ease slide-left">
-        <div ng-include="'views/challenge/question.html'"></div>
+        <div ng-include="'views/challenge/_question.html'"></div>
     </div>
     <div ng-if="currentSlide === 2" class="animate ease slide-left">
-        <div ng-include="'views/challenge/question.html'"></div>
-    </div>
-    -->
-    <div class="task slide">
-        <div class="row question-row height-100">
-            <div class="col-md-7 question-text-col">
-                <div class="va-outer height-20 width-100 text-center">
-                    <h1 class="va-center">{{question.text}}</h1>
-                </div>
-                <div ng-include="'views/challenge/_media.html'"></div>
-            </div>
-            <div class="col-md-1 text-center progress-col">
-                <div ng-repeat="question in questions" style="top: {{$index * (100 / questions.length)}}%;"
-                     class="circle" ng-class="{active: $index <= currQuestion }"
-                        ng-click="setQuestion($index)"></div>
-            </div>
-            <div class="col-md-4 text-right">
-                <div class="timer-row">
-                    <div class="timer-block">
-                        <div class="timer" easypiechart options="timerOptions" percent="timerPercent"></div>
-                        <div class="time-left">{{ timeLeft }}</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div ng-include="'views/challenge/_question.html'"></div>
     </div>
 </div>

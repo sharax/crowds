@@ -25,6 +25,7 @@
 .animate.slide-left {
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 
 .animate.ease.ng-enter, .animate.ease.ng-leave {
