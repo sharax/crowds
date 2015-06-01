@@ -1,0 +1,49 @@
+<div class="bar icons">
+    <div class="icon crowd">
+        <label>crowd</label>
+        <img src="img/hive.png"/>
+    </div>
+    <div class="icon user">
+        <label>you</label>
+        <img src="img/rank-bee.png"/>
+    </div>
+</div>
+<div class="bar rank-bar">
+    <div class="left triangle"></div>
+    <div class="filled blue"></div>
+    <div class="marker user"></div>
+    <div class="marker crowd"></div>
+    <div class="right triangle"></div>
+</div>
+<div class="bar rank-labels">
+    <div class="label-wrapper last">
+        <label>{{numBees}}<sup>th</sup></label>
+    </div>
+    <div class="label-wrapper crowd">
+        <label>{{crowdRank}}<sup>th</sup></label>
+    </div>
+    <div class="label-wrapper user">
+        <label>{{rank}}<sup>th</sup></label>
+    </div>
+    <div class="label-wrapper first">
+        <label>1<sup>st</sup></label>
+    </div>
+</div>
+<div class="result-item">
+    <small class="blue-text">Your Score</small>
+                <span class="large">{{numCorrect}}
+                </span><span class="forward-slash">/
+                </span>{{numQuestions}}
+</div>
+<div class="result-item">
+    <small class="blue-text">Your Rank</small>
+    <span class="large">{{rank}}</span><span class="forward-slash"><sup>th</sup>
+                /</span>
+    {{numBees}} bees
+</div>
+<div class="result-item">
+    <small class="blue-text">Crowd's Rank</small>
+    <span class="large">{{crowdRank}}</span><span class="forward-slash"><sup>th</sup>
+                /</span>
+    {{numBees}} bees
+</div>
