@@ -12,3 +12,19 @@ function numberArray(start, end, interval) {
     }
     return arr;
 }
+
+function segment(arr, segmentLength) {
+    var segments = [];
+    var tempSegment = [];
+    for(var i = 0; i < arr.length; i++) {
+        tempSegment.push(arr[i]);
+        if((i+1) % segmentLength === 0) {
+            segments.push(tempSegment);
+            tempSegment = [];
+        }
+    }
+    if(tempSegment.length > 0) {
+        segments.push(tempSegment);
+    }
+    return segments;
+}

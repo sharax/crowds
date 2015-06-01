@@ -7,7 +7,13 @@
     right: 40px;
 }
 
-.slide h1 {
+.slide-infinite {
+    position: relative;
+    background: white;
+    margin: 20px 40px;
+}
+
+.slide h1, .slide-infinite h1 {
     font-weight: bold;
     font-size: 1.5em;
 }

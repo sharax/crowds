@@ -33,6 +33,13 @@ app.config(function($routeProvider) {
             templateUrl : 'views/challenge/done.html',
             controller  : 'challengeDoneController'
         })
+        .when('/about/research', {
+            templateUrl : 'views/about/research.html'
+        })
+        .when('/about/team', {
+            templateUrl : 'views/about/team.html',
+            controller  : 'aboutTeamController'
+        })
         .otherwise({
             templateUrl: 'views/404.html'
         });
