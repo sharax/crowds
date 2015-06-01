@@ -13,40 +13,56 @@
         </div>
 
         <div class="col-md-5 answer-col">
+            <div ng-if="timeLeft === 0" class="animate quick-fade">
+                <div class="white overlay"></div>
+            </div>
             <div class="timer-row text-right">
+                <div class="times-up-container text-left">
+                    <div class="times-up-label animate quick-fade" ng-if="timeLeft === 0">
+                        <div class="right triangle"></div>
+                        <small>
+                            Time is up! Let’s proceed<br/>
+                            to the next question!
+                        </small>
+                    </div>
+                </div>
                 <div class="timer-block">
-                    <div class="timer" easypiechart options="timerOptions" percent="timerPercent"></div>
+                    <div class="timer" id="easypiechart-timer" easypiechart options="timerOptions" percent="timerPercent"></div>
                     <div class="time-left">{{ timeLeft }}</div>
                 </div>
             </div>
-            <div>
-                <div class="answer-label">Answer</div>
-                <div ng-if="question.type !== 'number'">
-                    <a class="btn grey answer-button"
-                       ng-repeat="answer in answers"
-                       ng-click="selectAnswer(answer)"
-                       ng-class="{active: answer === selectedAnswer, first: $index % 2 == 0}">
-                        {{answer}}
-                    </a>
-                </div>
-                <div ng-if="question.type === 'number'">
-                    <input type="text" class="white answer-input" ng-model="$parent.selectedAnswer"/>
+            <div class="va-outer width-100 height-30">
+                <div class="va-center">
+                    <div class="answer-label">Answer</div>
+                    <div ng-if="question.type !== 'number'">
+                        <a class="btn grey answer-button"
+                           ng-repeat="answer in answers"
+                           ng-click="selectAnswer(answer)"
+                           ng-class="{active: answer === selectedAnswer, first: $index % 2 == 0}">
+                            {{answer}}
+                        </a>
+                    </div>
+                    <div ng-if="question.type === 'number'">
+                        <input type="text" class="white answer-input" ng-model="$parent.selectedAnswer"/>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div class="confidence-label">How confident are you?</div>
-                <table class="confidence-table">
-                    <tr>
-                        <td ng-repeat="cl in confidenceLevels">
-                            <img class="confidence-icon" ng-src="img/confidence/{{cl}}.png"
-                                 ng-class="{active: cl === selectedCL}"
-                                 ng-click="setCL(cl)"/>
-                        </td>
-                    </tr>
-                </table>
-                <div>
-                    <div class="cl-unsure">Unsure</div>
-                    <div class="cl-confident">Confident</div>
+            <div class="va-outer width-100 height-30">
+                <div class="va-center">
+                    <div class="confidence-label">How confident are you?</div>
+                    <table class="confidence-table">
+                        <tr>
+                            <td ng-repeat="cl in confidenceLevels">
+                                <img class="confidence-icon" ng-src="img/confidence/{{cl}}.png"
+                                     ng-class="{active: cl === selectedCL}"
+                                     ng-click="setCL(cl)"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        <div class="cl-unsure">Unsure</div>
+                        <div class="cl-confident">Confident</div>
+                    </div>
                 </div>
             </div>
         </div>

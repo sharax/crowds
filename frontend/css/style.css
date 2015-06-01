@@ -156,3 +156,17 @@ img {
     border-left-color: #37a2d4;
     border-left-width: 0.8em;
 }
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.white.overlay {
+    background-color: white;
+}

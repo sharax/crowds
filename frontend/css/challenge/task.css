@@ -89,9 +89,9 @@
 }
 
 .task .timer-row {
+    position: relative;
     margin-right: 2%;
     margin-top: 5%;
-    height: 12%;
 }
 
 .task .timer-block {
@@ -173,4 +173,29 @@
 
 .confidence-icon.active {
     background-color: #8ed3f3;
+}
+
+.task .times-up-container {
+    position: absolute;
+    top: -0.5em;
+    z-index: 20;
+}
+
+.task .times-up-label {
+    background-color: #efefef;
+    padding: 0.3em 1em;
+}
+
+.task .times-up-label .right.triangle {
+    position: absolute;
+    top: 0;
+    right: -1em;
+    border-width: 1.7em;
+    border-right-width: 0;
+    border-left-color: #efefef;
+    border-left-width: 1em;
+}
+
+.task .overlay {
+    right: 3%;
 }

@@ -1,4 +1,4 @@
-app.controller('challengeTaskController', function($scope, $interval, $location) {
+app.controller('challengeTaskController', function($scope, $interval, $timeout, $location) {
     $scope.currentSlide = 1;
 
     $scope.selectedAnswer = undefined;
@@ -15,16 +15,19 @@ app.controller('challengeTaskController', function($scope, $interval, $location)
         timerLineWidth = 8;
         timerSize = 80;
     }
+    var timeAvailable = 30;
 
     $scope.questions = numberArray(0, 19);
     var questionArr = getQuestionArr();
-    setCurrQuestion(0);
-
+    setCurrQuestion(2);
     initTimer();
     resetTimer();
     startTimer();
 
     $scope.validInput = function(answer, selectedCL) {
+        if($scope.timeLeft === 0) {
+            return true;
+        }
         if(!isValidCL(selectedCL)) {
             return false;
         }
@@ -123,27 +126,30 @@ app.controller('challengeTaskController', function($scope, $interval, $location)
                 duration:300,
                 enabled:true
             },
-            barColor:'#feeed9',
+            barColor: "#feeed9",
             scaleColor:false,
-            trackColor:'#f7a32b',
+            trackColor: "#f7a32b",
             lineWidth:timerLineWidth,
-            lineCap:'circle',
+            lineCap:"circle",
             size: timerSize
         };
     }
 
     function startTimer() {
+
         $interval(function(){
+            if($scope.timeLeft === 0) {
+                return;
+            }
             $scope.timeLeft--;
-            $scope.timerPercent += 3.33;
-        }, 1000, 30);
+            $scope.timerPercent += 100/timeAvailable;
+        }, 1000);
     }
 
     function resetTimer() {
-        $scope.timeLeft = 30;
+        $scope.timeLeft = timeAvailable;
         $scope.timerPercent = 0;
     }
-
 
     function getQuestionArr() {
         var questions = [
