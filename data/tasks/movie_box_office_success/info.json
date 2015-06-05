@@ -1,0 +1,110 @@
+{
+    "answer_type": "prediction", 
+    "asset_type": "image", 
+    "domain_description": "\"You will be shown 20 images with information of upcoming movies. For each, estimate the revenue gathered during the opening weekend.\"", 
+    "domain_id": "61", 
+    "domain_name": "movie_box_office_success", 
+    "task_info": {
+        "task 01": {
+            "asset_file": "movie_1.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 02": {
+            "asset_file": "movie_2.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 03": {
+            "asset_file": "movie_3.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 04": {
+            "asset_file": "movie_4.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 05": {
+            "asset_file": "movie_5.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 06": {
+            "asset_file": "movie_6.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 07": {
+            "asset_file": "movie_7.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 08": {
+            "asset_file": "movie_8.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 09": {
+            "asset_file": "movie_9.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 10": {
+            "asset_file": "movie_10.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 11": {
+            "asset_file": "movie_11.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 12": {
+            "asset_file": "movie_12.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 13": {
+            "asset_file": "movie_13.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 14": {
+            "asset_file": "movie_14.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 15": {
+            "asset_file": "movie_15.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 16": {
+            "asset_file": "movie_16.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 17": {
+            "asset_file": "movie_17.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 18": {
+            "asset_file": "movie_18.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 19": {
+            "asset_file": "movie_19.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }, 
+        "task 20": {
+            "asset_file": "movie_20.png", 
+            "correct_answer": "tbd", 
+            "description": "estimate the first weekend's revenue for the following upcoming film:"
+        }
+    }, 
+    "time_limit": 30
+}

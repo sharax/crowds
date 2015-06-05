@@ -1,0 +1,2 @@
+62
+You will be asked to predict the political party which will obtain majority at 20 different states in the 2016 US presidential elections.

@@ -1,0 +1,90 @@
+{
+    "answer_type": "prediction", 
+    "asset_type": "no assets", 
+    "domain_description": "\"You will be asked to predict the political party which will obtain majority at 20 different states in the 2016 US presidential elections.\"", 
+    "domain_id": "62", 
+    "domain_name": "us_elections", 
+    "task_info": {
+        "task 01": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Kentucky for the 2016 presidential elections."
+        }, 
+        "task 02": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Georgia for the 2016 presidential elections."
+        }, 
+        "task 03": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Missouri for the 2016 presidential elections."
+        }, 
+        "task 04": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Michigan for the 2016 presidential elections."
+        }, 
+        "task 05": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Nebraska for the 2016 presidential elections."
+        }, 
+        "task 06": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of New York for the 2016 presidential elections."
+        }, 
+        "task 07": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Illinois for the 2016 presidential elections."
+        }, 
+        "task 08": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Utah for the 2016 presidential elections."
+        }, 
+        "task 09": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Washington for the 2016 presidential elections."
+        }, 
+        "task 10": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of New Jersey for the 2016 presidential elections."
+        }, 
+        "task 11": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Pennsylvania for the 2016 presidential elections."
+        }, 
+        "task 12": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Maine for the 2016 presidential elections."
+        }, 
+        "task 13": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Montana for the 2016 presidential elections."
+        }, 
+        "task 14": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Wisconsin for the 2016 presidential elections."
+        }, 
+        "task 15": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Oregon for the 2016 presidential elections."
+        }, 
+        "task 16": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of North Dakota for the 2016 presidential elections."
+        }, 
+        "task 17": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Vermont for the 2016 presidential elections."
+        }, 
+        "task 18": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Texas for the 2016 presidential elections."
+        }, 
+        "task 19": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Arizona for the 2016 presidential elections."
+        }, 
+        "task 20": {
+            "correct_answer": "tbd", 
+            "description": "predict which party will win mayority in the state of Alabama for the 2016 presidential elections."
+        }
+    }, 
+    "time_limit": 30
+}
