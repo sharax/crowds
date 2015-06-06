@@ -1,21 +1,21 @@
-"correct_answer"	"answer_type"	"asset_type"	"asset"	"possible_answers"	"randomized_answers"
-"TBD"	"binary"	"tsv"	"movie_1.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_2.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_3.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_4.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_5.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_6.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_7.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_8.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_9.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_10.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_11.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_12.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_13.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_14.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_15.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_16.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_17.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_18.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_19.tsv"	"yes, no"	"true"
-"TBD"	"binary"	"tsv"	"movie_20.tsv"	"yes, no"	"true"
+correct_answer	answer_type	asset_type	asset	possible_answers	randomized_answers	question
+TBD	prediction	image	movie_1.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_2.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_3.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_4.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_5.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_6.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_7.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_8.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_9.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_10.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_11.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_12.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_13.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_14.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_15.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_16.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_17.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_18.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_19.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:
+TBD	prediction	image	movie_20.png	no answers	false	estimate the first weekend's revenue for the following upcoming film:

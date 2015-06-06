@@ -1,21 +1,21 @@
-correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers
-Republican Party	binary	text	Kentucky.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Georgia.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Missouri.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Michigan.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Nebraska.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	New York.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Illinois.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Utah.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Washington.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	New Jersey.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Pennsylvania.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Maine.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Montana.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Wisconsin.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Oregon.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	North Dakota.txt	Republican Party,Democratic Party	false
-Democratic Party	binary	text	Vermont.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Texas.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Arizona.txt	Republican Party,Democratic Party	false
-Republican Party	binary	text	Alabama.txt	Republican Party,Democratic Party	false
+correct_answer	answer_type	asset_type	asset_file	possible_answers	randomino assetse_answers	question
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Kentucky.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false		estimate which party will win mayority in the state of Georgia.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Missouri.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Michigan.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Nebraska.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of New York.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Illinois.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Utah.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Washington.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of New Jersey.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Pennsylvania.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Maine.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Montana.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Wisconsin.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Oregon.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of North Dakota.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Vermont.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Texas.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Arizona.
+tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	estimate which party will win mayority in the state of Alabama.

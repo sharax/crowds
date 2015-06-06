@@ -1,2 +1,2 @@
 41
-You will shown 20 images of flags, and asked to identify the country of origin.
+You will be shown 20 images of flags, and asked to identify the country of origin.
