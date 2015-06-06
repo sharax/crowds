@@ -9,8 +9,8 @@
         </div>
         <div class="col-md-8">
             <h1 class="vertical-center-2-lines">
-                Your challenge domain is ...<br/>
-                ' <span class="blue-text">{{challengeDomain}}</span> '
+                In this round...<br/>
+                <span class="blue-text">{{domainInfo}}</span>
             </h1>
         </div>
     </div>
@@ -22,8 +22,10 @@
         </div>
         <div class="col-md-6 va-outer">
             <div class="va-center">
-                Out of 100 people, you are confident<br/>
-                of performing to be in the Top
+                Out of a 100 people answering these questions, <br/>
+                where do you think you will place?<br/>
+                <br/>
+                1 is best and 100 is worst
                 <br/>
                 <br/>
                 <form ng-submit="startChallenge()">
@@ -31,10 +33,6 @@
                 </form>
                 <div class="error" ng-show="user.rank !== undefined && user.rank.length > 0 && !validInput()">
                     Oops! Rank must be a number between 1 to 100</div>
-                <br/>
-                <small>1 - Best</small>
-                <br/>
-                <small>100 - Last</small>
             </div>
         </div>
     </div>

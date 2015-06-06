@@ -14,3 +14,9 @@
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
 }
+
+/* Extra small devices (phones, 767px and below) */
+@media(max-width:767px) {
+
+}
+

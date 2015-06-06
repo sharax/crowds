@@ -19,7 +19,7 @@ app.controller('challengeTaskController', function($scope, $interval, $timeout, 
 
     $scope.questions = numberArray(0, 19);
     var questionArr = getQuestionArr();
-    setCurrQuestion(2);
+    setCurrQuestion(0);
     initTimer();
     resetTimer();
     startTimer();
