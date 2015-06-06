@@ -1,0 +1,59 @@
+.team {
+    padding-bottom: 1%;
+}
+
+.team .header-row {
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.team .team-description {
+    padding-bottom: 7%;
+}
+
+.team-member-col {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.team-row {
+    margin-left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 5%;
+}
+
+.team-member {
+    background-color: #efefef;
+    height: 100%;
+}
+
+.team-member h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: -0.5em;
+}
+
+.team-member h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.team-member .description {
+    padding: 7%;
+    font-size: 0.9em;
+}
+
+.team-member img {
+    position: absolute;
+    width: 6em;
+    height: 5.18em;
+    left: 0.6em;
+    top: -0.5em;
+}
+
+.team-member-header {
+    padding-left: 6em;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+}

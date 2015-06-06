@@ -1,6 +1,6 @@
 app.controller('challengeStartController', function($scope, $location, $localStorage, Api, Logger) {
     $scope.user = {};
-    $scope.challengeDomain = "Guess if a business will be funded by Kickstarter.";
+    $scope.domainInfo = "You will be shown 20 images of flags, and asked to identify the country of origin.";
     $scope.prev = function() {
         $location.path('user/terms-and-conditions');
     }
@@ -11,7 +11,8 @@ app.controller('challengeStartController', function($scope, $location, $localSto
         return false;
     }
 
-    $scope.startChallenge = function() {
+    $scope.startChallenge = function(e) {
+        $(e.target).button('loading');
         if(!$scope.validInput()) {
             return;
         }

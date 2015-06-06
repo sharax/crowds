@@ -1,95 +1,201 @@
-.task .question-image {
-    max-width: 70%;
-    border: 2px solid rgb(230,230,230);
-    border-radius: 3px;
-}
-.task-progress {
-    margin-left: 5%;
-    width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: table;
+.task .question-row {
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.task-progress-row {
-    display: table-row;
+.task .question-text-col {
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
 }
 
-.task-progress-cell {
-    display: table-cell;
-    text-align: center;
-    height: 22px;
+.task .question-media {
+    position: absolute;
+    top: 21%;
+    bottom: 10%;
+    left: 8%;
+    right: 3%;
 }
 
-.task-progress .circle {
+.task .progress-col {
+    position: absolute;
+    right: -3.5%;
+    top: 3%;
+    bottom: 0;
+    z-index: 20;
+}
+
+.task .progress-col .circle {
+    position: absolute;
+    width: 0.6em;
+    height: 0.6em;
+}
+
+.task .question-media.with-stats {
+    max-width: 50%;
+}
+
+.task .stats-container {
+    position:absolute;
+    top: 21%;
+    left: 60%;
+    right: 3%;
+}
+
+.task .stats {
+    padding: 0em 1em;
+    padding-top: 0.8em;
+    background-color: #efefef;
+}
+
+.task .stats-label {
+    padding-bottom: 0.8em;
+}
+
+.task .stats-item {
+    white-space: nowrap;
+}
+
+.task .stats-item td {
+    padding-bottom: 0.8em;
+    position: relative;
+}
+
+.task .bar-col {
+    width: 100%;
+    padding: 0 0.5em;
+}
+
+.task .stats .bar {
+    height: 1.5em;
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    background-color: #37a2d4;
 }
 
-.task .answer-col {
-    padding-left: 40px;
+.task .stats .response-count {
+    display: inline-block;
+    height: 1em;
+    position: relative;
+}
+
+.task .stats .response-count .content {
+    position: absolute;
+    top: -0.25em;
+    left: 0.25em;
+}
+
+.task .stats .number-response {
+    padding-left: 0.5em;
+}
+
+.task .timer-row {
+    position: relative;
+    margin-right: 2%;
+    margin-top: 5%;
 }
 
 .task .timer-block {
     position: relative;
-}
-
-.task .timer {
-    padding-right: 20px;
-}
-
-.answer .btn {
-    width: 40%;
-    margin-right: 5px;
-}
-
-.task .answer {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
-.task .answer .answer-label {
-    margin-bottom: 15px;
+    display: inline-block;
 }
 
 .task .time-left {
     position: absolute;
     top: 13px;
-    right: 20px;
-    width: 50px;
+    left: 0;
+    right: 0;
     text-align: center;
     font-size: 18px;
 }
 
-.confidence {
-    margin-top: 20px;
+/* height-based styling */
+@media(min-height: 960px) {
+    .task .time-left {
+        font-size: 26px;
+        top: 25px;
+    }
 }
 
-.confidence table {
-    width: 90%;
-    margin-top: 10px;
+.task .answer-label {
+    margin-bottom: 0.7em;
 }
 
-.confidence table td {
-    padding-top: 10px;
-    text-align: center;
+.task .answer-col {
+    padding-left: 7%;
+    padding-right: 5%;
+}
+
+.task .answer-button {
+    margin-bottom: 2%;
+    width: 48%;
+}
+
+.task .answer-button.first {
+    margin-right: 2%;
+}
+
+.task .answer-input {
+    width: 60%;
+}
+
+.task .confidence-table {
+    width: 100%;
+}
+
+.task .confidence-table tr td {
     width: 20%;
+    text-align: center;
+    padding: 3%;
 }
 
-.confidence img {
-    border-radius: 23px;
+.task .confidence-label {
+    margin-top: 0.7em;
+}
+
+.task .cl-unsure {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.task .cl-confident {
+    float: right;
+}
+
+.confidence-icon {
     cursor: pointer;
+    border-radius: 10em;
 }
 
-.confidence img:hover {
-    background-color: #4EBEE5;
+.confidence-icon:hover {
+    background-color: #b2e2f9;
 }
 
-.confidence img.active {
-    background-color: #31A3D4;
+.confidence-icon.active {
+    background-color: #8ed3f3;
 }
 
-.task.backdrop {
+.task .times-up-container {
+    position: absolute;
+    top: -0.5em;
+    z-index: 20;
+}
+
+.task .times-up-label {
+    background-color: #efefef;
+    padding: 0.3em 1em;
+}
+
+.task .times-up-label .right.triangle {
+    position: absolute;
     top: 0;
+    right: -1em;
+    border-width: 1.7em;
+    border-right-width: 0;
+    border-left-color: #efefef;
+    border-left-width: 1em;
+}
+
+.task .overlay {
+    right: 3%;
 }

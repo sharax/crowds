@@ -1,0 +1,11 @@
+
+.circle {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 0.4em;
+    background-color: #d1d3d4;
+}
+
+.circle.active {
+    background-color: #66b1dc;
+}

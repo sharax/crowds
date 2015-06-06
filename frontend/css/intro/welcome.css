@@ -2,15 +2,31 @@
     position: relative;
 }
 
-.welcome h1 img {
-    width: 80%;
+.welcome .header-row {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 35%;
 }
 
-.welcome .main-bee img {
-    max-width: 70%;
+.welcome .bee-row {
+    height: 50%;
 }
 
-.welcome .left-bees img, .welcome .right-bees img {
-    max-width: 60%;
-    display: none;
+.welcome .side-bees {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.welcome .side-bees img {
+    height: 100%;
+}
+
+.welcome .button-row {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 12%;
+}
+
+.welcome .btn {
+    font-weight: bold;
 }

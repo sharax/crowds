@@ -1,0 +1,35 @@
+<head>
+    <title>{{SITE_NAME}} | Team</title>
+</head>
+
+<div class="slide-infinite team">
+    <div class="row header-row text-center">
+        <div class="col-md-12">
+            <h1>Our Team</h1>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-12">
+            <div class="team-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br/>
+                sed do eiusmod tempor incididunt ut labore et dolore <br/>
+                magna aliqua. Ut enim ad minim veniam.
+            </div>
+        </div>
+    </div>
+    <div class="row row-full-height row-same-height team-row width-100"
+         ng-repeat="segment in teamSegments">
+        <div class="col-md-4 col-full-height team-member-col" ng-repeat="member in segment">
+            <div class="team-member">
+                <img ng-src="img/team/{{member.image}}.png"/>
+                <div class="team-member-header">
+                    <h2 class="blue-text">{{member.name}}</h2>
+                    <h3>{{member.title}}</h3>
+                </div>
+                <div class="description">
+                    {{member.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.autofill {
+    position: absolute;
+    text-align: left;
+    border: 1px solid #d7d8da;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    max-height: 100px;
+    overflow-y: auto;
+    z-index: 20;
+}
+
+.autofill li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.autofill li.active {
+    background-color: #65b0db;
+    color: white;
+}

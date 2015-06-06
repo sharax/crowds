@@ -1,0 +1,85 @@
+.btn {
+    height: 2.5em;
+    padding-top: 0.6em;
+    font-size: 1em;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn .button-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -0.6em;
+    text-align: center;
+}
+
+.btn.blue {
+    color: white;
+}
+
+.btn.blue:hover {
+    background-color: #2E8CC6;
+}
+
+.btn.blue:hover .left.triangle {
+    border-right-color: #2E8CC6;
+}
+
+.btn.blue:hover .right.triangle {
+    border-left-color: #2E8CC6;
+}
+
+.btn .triangle {
+    position: absolute;
+    top: 0;
+}
+
+.btn .left.triangle {
+    left: -0.83em;
+}
+
+.btn .right.triangle {
+    right: -0.83em;
+}
+
+
+.btn.grey {
+    background-color: #e6e7e8;
+    border: 1px solid #c9cbcd;
+    border-radius: 0;
+    color: black;
+}
+
+.btn.grey:hover {
+    background-color: #4EBEE5;
+    color: white;
+}
+
+.btn.grey.active {
+    background-color: #2E8CC6;
+    color: white;
+}
+
+.btn.prev-button {
+    border-radius: 0;
+    background-color: rgb(190,190,190);
+    color: white;
+}
+
+.btn.prev-button:hover{
+    background-color: rgb(100,100,100);
+}
+
+.btn.prev-button .right.triangle {
+    border-left-color: rgb(190,190,190);
+
+}
+
+.btn.prev-button:hover .right.triangle {
+    border-left-color: rgb(100,100,100);
+}

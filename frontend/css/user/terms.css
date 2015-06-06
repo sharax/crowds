@@ -1,0 +1,12 @@
+.terms {
+    padding-bottom: 8em;
+}
+
+.terms .header-row {
+    height: 6em;
+}
+
+.terms .info-row {
+    padding-left: 3em;
+    padding-right: 3em;
+}

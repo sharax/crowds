@@ -1,33 +1,42 @@
-.explanation .hive img {
-    max-width: 80%;
-}
-
-.explanation .main-bee img {
-    max-width: 40%;
-}
-.explanation .bee-row label {
-    display: block;
-    margin-top: 20px;
-    font-weight: normal;
-}
-
-.explanation .bee-row .col-3 {
-    width: 30%;
-    display: inline-block;
-}
-
-.explanation .bee-row .middle-text {
-    margin-left: 5%;
-    vertical-align: middle;
-    margin-top: 40px;
-}
-
-.explanation .bee-row-text {
-    margin-top: 20px;
-    color: #6d6e71;
+.explanation .bee-row {
+    padding-top: 1%;
+    height: 45%;
 }
 
 .explanation .info-row {
-    margin-top: 50px;
-    position: relative;
+    padding-top: 5%;
+}
+
+.explanation .media-block {
+    height: 100%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.explanation .media-block-element {
+    display: inline-block;
+    height: 100%;
+    max-width: 33%;
+}
+
+.explanation .media-block-left, .explanation .media-block-right {
+}
+
+.explanation .media-block-center {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.explanation .media-block-image-container {
+    height: 90%;
+}
+
+.explanation .hive {
+    padding-top: 10%;
+    max-height: 100%;
+}
+
+.explanation .main-bee {
+    padding-top: 20%;
+    max-height: 100%;
 }

@@ -8,14 +8,25 @@
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/shared/animate.css" rel="stylesheet">
+    <link href="css/shared/heights-and-widths.css" rel="stylesheet">
+    <link href="css/shared/nav.css" rel="stylesheet">
+    <link href="css/shared/button.css" rel="stylesheet">
+    <link href="css/shared/input.css" rel="stylesheet">
+    <link href="css/shared/autofill.css" rel="stylesheet">
+    <link href="css/shared/slide.css" rel="stylesheet">
+    <link href="css/shared/circle.css" rel="stylesheet">
 
     <link href="css/intro/welcome.css" rel="stylesheet">
     <link href="css/intro/explanation.css" rel="stylesheet">
     <link href="css/intro/experiment.css" rel="stylesheet">
     <link href="css/user/quick-questions.css" rel="stylesheet">
+    <link href="css/user/terms.css" rel="stylesheet">
     <link href="css/challenge/start.css" rel="stylesheet">
     <link href="css/challenge/task.css" rel="stylesheet">
     <link href="css/challenge/done.css" rel="stylesheet">
+    <link href="css/about/research.css" rel="stylesheet">
+    <link href="css/about/team.css" rel="stylesheet">
 
     <link href="css/custom-size-styling.css" rel="stylesheet">
 
@@ -39,6 +50,7 @@
 
     <script src='js/controllers/main.js'></script>
     <script src='js/controllers/intro/welcome.js'></script>
+    <script src='js/controllers/about/team.js'></script>
     <script src='js/controllers/user/quick-questions.js'></script>
     <script src='js/controllers/user/terms.js'></script>
     <script src='js/controllers/challenge/start.js'></script>
@@ -48,11 +60,7 @@
 </head>
 <body ng-controller='mainController'>
     <div ng-include="'views/header.html'"></div>
-    <div ng-view class="animate quick-fade"></div>
-    <div style="position: absolute; width: 100%">
-        <div style="position: absolute; width: 100%">
-        </div>
-    </div>
+    <div ng-view class="animate quick-fade view-container"></div>
 </body>
 
 <script src='js/fix.js'></script>

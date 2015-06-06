@@ -1,0 +1,59 @@
+
+
+nav.black {
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    min-height: 30px;
+}
+
+nav.black .navbar-nav > li > a {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#nav-logo {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+
+nav.black, .navbar-brand {
+    font-size: 1em;
+}
+
+nav.black .navbar-nav > li > a:hover,
+nav.black .navbar-nav > li > a:focus {
+    background-color: #63b1dc;
+    color: white;
+}
+
+nav.black .navbar-brand {
+    padding-left: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+
+nav.black .navbar-brand:hover,
+nav.black .navbar-brand:focus {
+    color: #63b1dc;
+}
+
+nav.black button {
+    border: none;
+}
+
+nav.black .navbar-toggle:focus, nav.black .navbar-toggle:hover{
+    background: none;
+}
+
+nav.black .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+nav.black .navbar-collapse {
+    border-top-color: rgb(150,150,150);
+}

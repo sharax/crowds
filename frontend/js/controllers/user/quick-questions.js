@@ -3,7 +3,14 @@ app.controller('quickQuestionsController', function($scope, $timeout, $localStor
     $scope.countries = [];
     $scope.countryIndex = 0;
 
-    $scope.educationOptions = ["Primary Education", "Secondary Education", "Bachelor Degree", "Master Degree", "Doctoral"];
+    $scope.educationOptions =
+        ["Some high school",
+        "High school graduate",
+        "Some college",
+        "Vocational training",
+        "College graduate",
+        "Some postgraduate work",
+        "Post-graduate degree"]
 
     $scope.challengeDomain = "Guess if business will be funded by Kickstarter";
 

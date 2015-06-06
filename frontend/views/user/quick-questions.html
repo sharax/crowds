@@ -2,82 +2,74 @@
     <title>{{SITE_NAME}} | Quick Questions</title>
 </head>
 
-<div class="backdrop">
-    <button class="btn right-hexagon" ng-show="currQuestion > 0"
-            ng-click="next()" ng-disabled="!validInput()">
-        <span class="inner-triangle"></span>
-        Next
-    </button>
-</div>
-
-<div class="container quick-questions slide">
-    <div class="row">
+<div class="quick-questions slide">
+    <div class="row header-row height-20">
         <div class="col-md-2 text-center">
-            <span class="fa fa-angle-double-left back" ng-click="prev()" ng-show="currQuestion !== 0"></span>
+            <span class="fa fa-angle-double-left back-button vertical-center-1-line"
+                  ng-click="prev()" ng-show="currQuestion !== 0"></span>
         </div>
         <div class="col-md-7">
-            <div class="text-center main-message">4 quick questions before we start ...</div>
+            <h1 class="vertical-center-1-line">
+                4 quick questions before we start ...
+            </h1>
         </div>
         <div class="col-md-3 text-center">
-            <div class="question-progress">
+            <div class="question-progress vertical-center-1-line">
                 <div ng-repeat="question in questions" class="circle"
                      ng-class="{active: $index <= currQuestion }" ng-click="setCurrQuestion($index)"></div>
             </div>
         </div>
     </div>
-    <div class="row question-row row-v-center">
-        <div class="col-md-4"></div>
-        <div class="col-md-4">
-            <img class="main-bee center-block" src="img/main-bee.png"/>
-        </div>
-        <div class="col-md-4">
-            <!--
-            <div>
-                <input type="checkbox" ng-model="showItem"/>
-                <div class="animate ease slide-left" style="height: 100px; background-color: red"
-                        ng-if="showItem"></div>
-            </div>
--->
 
-            <!-- First Question -->
-            <div class="gender question-block animate quick-fade" ng-if="currQuestion === 0">
-                <button class="btn grey" ng-click="setGender('male')">Male</button>
-                <button class="btn grey" ng-click="setGender('female')">Female</button>
-            </div>
-            <!-- Second Question -->
-            <div class="age text-center question-block animate quick-fade" ng-if="currQuestion === 1">
-                <div class="age-block">
-                    <form ng-submit="next()">
-                        <input type="text" class="white" placeholder="Age" ng-model="user.age"/> years old
-                    </form>
+    <div class="row question-row height-60">
+        <div class="col-md-offset-4 col-md-4 text-center">
+            <img class="main-bee" src="img/main-bee.png"/>
+        </div>
+        <div class="col-md-4">
+            <div class="va-outer height-100">
+                <!-- First Question -->
+                <div class="va-center gender question-block animate quick-fade" ng-if="currQuestion === 0">
+                    <button class="btn grey btn-block" ng-click="setGender('male')">Male</button>
+                    <button class="btn grey btn-block" ng-click="setGender('female')">Female</button>
                 </div>
-            </div>
-            <!-- Third Question -->
-            <div class="country text-center question-block animate quick-fade" ng-if="currQuestion === 2">
-                <input type="text" class="white" placeholder="Your country" ng-model="user.country"
-                       ng-change="updateCountries(user.country)"
-                       ng-focus="countryFocused = true" ng-blur="countryFocused = false"
-                       ng-keydown="countryKeydown($event)"/>
-                <ul class="autofill" ng-show="countryFocused && countries.length > 0 && !(validCountry(user.country))">
-                    <li ng-repeat="country in countries" ng-mouseenter="countryMouseEnter($index)"
-                        ng-mousedown="selectCountry()" ng-class="{active: $index === countryIndex}">{{country}}</li>
-                </ul>
-            </div>
-            <!-- Fou Question -->
-            <div class="education question-block animate quick-fade" ng-if="currQuestion === 3">
-                <div class="custom-select">
-                    <select ng-model="user.education">
-                        <option value="" disabled selected style="display:none; color: rgb(200,200,200)">Your education</option>
-                        <option ng-repeat="education in educationOptions">{{education}}</option>
-                    </select>
+
+                <!-- Second Question -->
+                <div class="va-center age text-center question-block animate quick-fade" ng-if="currQuestion === 1">
+                    <div class="age-block">
+                        <form ng-submit="next()">
+                            <input type="text" class="white" placeholder="Age" ng-model="user.age"/> years old
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Third Question -->
+                <div class="va-center country text-center question-block animate quick-fade" ng-if="currQuestion === 2">
+                    <input type="text" class="white" placeholder="Your country" ng-model="user.country"
+                           ng-change="updateCountries(user.country)"
+                           ng-focus="countryFocused = true" ng-blur="countryFocused = false"
+                           ng-keydown="countryKeydown($event)"/>
+                    <ul class="autofill" ng-show="countryFocused && countries.length > 0 && !(validCountry(user.country))">
+                        <li ng-repeat="country in countries" ng-mouseenter="countryMouseEnter($index)"
+                            ng-mousedown="selectCountry()" ng-class="{active: $index === countryIndex}">{{country}}</li>
+                    </ul>
+                </div>
+
+                <!-- Fourth Question -->
+                <div class="va-center education question-block animate quick-fade" ng-if="currQuestion === 3">
+                    <div class="custom-select">
+                        <select ng-model="user.education">
+                            <option value="" disabled selected style="display:none; color: rgb(200,200,200)">Highest education</option>
+                            <option ng-repeat="education in educationOptions">{{education}}</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row next-row">
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4 md-bottom-right">
-        </div>
-    </div>
+
+    <a class="btn blue next-button" ng-show="currQuestion > 0"
+            ng-click="next()" ng-disabled="!validInput()">
+        <span class="left triangle"></span>
+        Next
+    </a>
 </div>
