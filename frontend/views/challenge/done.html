@@ -3,8 +3,17 @@
 </head>
 
 <div class="slide done">
-    <div class="grey-backdrop"></div>
-    <div class="row height-20">
+    <div class="backdrop">
+        <div class="text-center new-challenge-row">
+            <a class="btn blue new-challenge-button" ng-click="startNewChallenge()">
+                <div class="left triangle"></div>
+                <div class="right triangle"></div>
+                Start the next round
+            </a>
+        </div>
+    </div>
+    <div class="grey-backdrop hidden-sm hidden-xs"></div>
+    <div class="row header-row">
         <div class="col-md-12 text-center">
             <h1 class="cursive vertical-center-1-line">
                 Congratulations, you are now a Buzzer!
@@ -15,23 +24,16 @@
         <div class="col-md-4 results-col">
             <div ng-include="'views/challenge/_results.html'"></div>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center next-bee-col">
             <img class="next-bee" src="img/next-bee.gif"/>
         </div>
         <div class="col-md-4 text-center achievement-col">
-            <strong>
-                One achievement unlocked!
-            </strong>
+            <div>
+                <strong>
+                    One achievement unlocked!
+                </strong>
+            </div>
             <img src="img/achievements/1.png"/>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <a class="btn blue new-challenge-button" ng-click="startNewChallenge()">
-                <div class="left triangle"></div>
-                <div class="right triangle"></div>
-                Start the next round
-            </a>
         </div>
     </div>
 </div>

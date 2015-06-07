@@ -66,11 +66,23 @@
 }
 
 
-
 .slide .new-challenge-button {
-    position: relative;
     display: inline-block;
     font-size: 1.2em;
     font-weight: bold;
     border-radius: 0;
+    position: relative;
+}
+
+.back-col {
+    padding-top: 3%;
+    height: 30%;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .back-col {
+        padding-top: 0;
+        height: 100%;
+    }
 }

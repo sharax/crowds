@@ -25,21 +25,12 @@
     height: 20%;
 }
 
-.quick-questions .back-col {
-    padding-top: 3%;
-    height: 30%;
-}
-
 .quick-questions .heading-text-col {
     height: 70%;
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px)  {
-    .quick-questions .back-col {
-        padding-top: 0;
-        height: 100%;
-    }
     .quick-questions .question-row {
         height: 60%;
         padding-top: 0;
@@ -54,7 +45,6 @@
         padding-left: 5%;
         padding-right: 5%;
     }
-
 }
 
 .quick-questions .age-block input {

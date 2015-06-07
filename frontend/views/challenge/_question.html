@@ -1,15 +1,27 @@
 <div class="task slide">
+    <div class="backdrop">
+        <a class="btn blue next-button" ng-disabled="!validInput(selectedAnswer, selectedCL)"
+           ng-click="next()">
+            <div class="left triangle"></div>
+            Next question
+        </a>
+    </div>
     <div class="row question-row height-100">
         <div class="col-md-7 question-text-col">
             <div class="va-outer height-20 width-100 text-center">
                 <h1 class="va-center">{{question.text}}</h1>
             </div>
             <div ng-include="'views/challenge/_media.html'"></div>
-            <div class="text-center progress-col">
+            <div class="text-center progress-col hidden-md hidden-xs">
                 <div ng-repeat="question in questions" style="top: {{$index * (100 / questions.length)}}%;"
                      class="circle" ng-class="{active: $index <= currQuestion }"
                      ng-click="setCurrQuestion($index)"></div>
             </div>
+        </div>
+        <div class="col-sm-12 progress-col-sm hidden-md hidden-lg">
+            <div ng-repeat="question in questions" style="left: {{$index * (100 / questions.length)}}%;"
+                 class="circle" ng-class="{active: $index <= currQuestion }"
+                 ng-click="setCurrQuestion($index)"></div>
         </div>
 
         <div class="col-md-5 answer-col">
@@ -67,10 +79,4 @@
             </div>
         </div>
     </div>
-
-    <a class="btn blue next-button" ng-disabled="!validInput(selectedAnswer, selectedCL)"
-       ng-click="next()">
-        <div class="left triangle"></div>
-        Next question
-    </a>
 </div>

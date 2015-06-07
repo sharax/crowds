@@ -2,13 +2,14 @@ nav.black {
     background-color: black;
     border: none;
     border-radius: 0;
+    z-index: 1000;
 }
 nav.black .navbar-nav {
     width: 20%;
 }
 nav.black .navbar-nav > li {
     color: white;
-    width: 50%;
+    width: 100%;
     text-align: center;
 }
 
@@ -21,6 +22,13 @@ nav.black .navbar-nav > li {
 
 nav.black, .navbar-brand {
     font-size: 1.0em;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    nav.black .navbar-nav > li {
+        width: 50%;
+    }
 }
 
 

@@ -1,5 +1,7 @@
-.done h1 {
-    font-size: 3em;
+
+.done .header-row {
+    height: 30%;
+    font-size: 1.5em;
 }
 
 .done .results-col {
@@ -7,10 +9,57 @@
     padding-right: 5%;
 }
 
+.done .backdrop {
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    bottom: -110%;
+    left: 0;
+    right: 0;
+}
+
+.done .new-challenge-button {
+    position: relative;
+    z-index: 200;
+}
+
+.done .next-bee {
+    padding-top: 20%;
+}
+
 .done .achievement-col img {
     margin-top: 10%;
-    max-height: 80%;
+    max-height: 40%;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px) {
+    .done .achievement-col img {
+        max-height: 80%;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .done .header-row {
+        height: 20%;
+        font-size: 2em;
+    }
+
+    .done .results-col {
+        padding-top: 0;
+    }
+    .done .backdrop {
+        z-index: 20;
+        background: none;
+        bottom: 0;
+    }
+    .done .next-bee {
+        padding-top: 0;
+    }
+}
+
 
 .done .result-item small {
     display: block;
@@ -27,6 +76,13 @@
     font-size: 1.5em;
 }
 
+.new-challenge-row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1.5em;
+}
+
 .done .bar {
     width: 96%;
     margin-left: 2%;
@@ -41,11 +97,13 @@
 .done .bar.rank-labels .label-wrapper {
     position: absolute;
     font-size: 0.8em;
-    width: 90%;
-    margin-left: -45%;
     display: block;
     text-align: center;
 }
+.done .bar.rank-labels .label-wrapper label {
+    margin-left: -50%;
+}
+
 
 .done .rank-labels .last {
     left: 0;
