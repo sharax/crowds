@@ -101,7 +101,7 @@ img {
     color: #65b0db;
 }
 
-.vertical-center-1-line, .vertical-center-2-lines {
+.vertical-center-1-line, .vertical-center-2-lines, .vertical-center-adaptive {
     position: absolute;
     top: 50%;
     left: 0;
@@ -114,6 +114,25 @@ img {
 
 .vertical-center-2-lines {
     margin-top: -1em;
+}
+
+.vertical-center-adaptive {
+    margin-top: -1em;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .vertical-center-adaptive {
+        margin-top: -0.5em;
+    }
+    .vertical-center-1-line-md {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        margin-top: -0.5em;
+    }
 }
 
 .va-outer {

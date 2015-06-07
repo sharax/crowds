@@ -1,12 +1,30 @@
 .terms {
-    padding-bottom: 8em;
+    padding-bottom: 12em;
+}
+
+.terms.slide-infinite .next-button {
+    bottom: 6em;
 }
 
 .terms .header-row {
-    height: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-.terms .info-row {
-    padding-left: 3em;
-    padding-right: 3em;
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .terms {
+        padding-bottom: 8em;
+    }
+    .terms .header-row {
+        height: 6em;
+    }
+    .terms .info-row {
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .terms.slide-infinite .next-button {
+        bottom: 2.5em;
+    }
 }

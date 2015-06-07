@@ -4,24 +4,24 @@
 
 <div class="quick-questions slide">
     <div class="row header-row height-20">
-        <div class="col-md-2 text-center">
-            <span class="fa fa-angle-double-left back-button vertical-center-1-line"
+        <div class="col-md-2 back-col text-center">
+            <span class="fa fa-angle-double-left back-button vertical-center-1-line-md"
                   ng-click="prev()" ng-show="currQuestion !== 0"></span>
         </div>
-        <div class="col-md-7">
-            <h1 class="vertical-center-1-line">
-                4 quick questions before we start ...
+        <div class="col-md-7 heading-text-col">
+            <h1 class="vertical-center-1-line-md text-center">
+                4 quick questions before we start <span class="hidden-sm">...</span>
             </h1>
         </div>
-        <div class="col-md-3 text-center">
-            <div class="question-progress vertical-center-1-line">
+        <div class="col-md-3 text-center question-progress-col">
+            <div class="question-progress vertical-center-1-line-md">
                 <div ng-repeat="question in questions" class="circle"
                      ng-class="{active: $index <= currQuestion }" ng-click="setCurrQuestion($index)"></div>
             </div>
         </div>
     </div>
 
-    <div class="row question-row height-60">
+    <div class="row question-row">
         <div class="col-md-offset-4 col-md-4 text-center">
             <img class="main-bee" src="img/main-bee.png"/>
         </div>

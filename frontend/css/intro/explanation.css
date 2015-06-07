@@ -1,14 +1,41 @@
 .explanation .bee-row {
-    padding-top: 1%;
-    height: 45%;
+    padding-top: 5%;
+    height: 30%;
+    font-size: 0.7em;
 }
 
 .explanation .info-row {
-    padding-top: 5%;
+    padding-top: 20%;
+    height: 30%;
+    font-size: 0.8em;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media(min-width:768px) {
+    .explanation .bee-row, .explanation .info-row {
+        font-size: 1.0em;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .explanation .bee-row {
+        padding-top: 1%;
+        height: 45%;
+        font-size: 1em;
+    }
+    .explanation .info-row {
+        padding-top: 7%;
+        height: 30%;
+        font-size: 1em;
+    }
+}
+
 
 .explanation .media-block {
     height: 100%;
+    width: 100%;
     display: inline-block;
     white-space: nowrap;
 }
@@ -23,8 +50,8 @@
 }
 
 .explanation .media-block-center {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .explanation .media-block-image-container {
@@ -33,10 +60,8 @@
 
 .explanation .hive {
     padding-top: 10%;
-    max-height: 100%;
 }
 
 .explanation .main-bee {
     padding-top: 20%;
-    max-height: 100%;
 }

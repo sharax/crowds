@@ -3,13 +3,25 @@
 }
 
 .welcome .header-row {
-    padding-top: 2%;
+    padding-top: 7%;
     padding-bottom: 2%;
-    height: 35%;
+    height: 25%;
 }
 
 .welcome .bee-row {
-    height: 50%;
+    height: 60%;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .welcome .header-row {
+        padding-top: 2%;
+        height: 30%;
+    }
+    .welcome .bee-row {
+        height: 50%;
+    }
 }
 
 .welcome .side-bees {
@@ -18,7 +30,7 @@
 }
 
 .welcome .side-bees img {
-    height: 100%;
+    max-height: 100%;
 }
 
 .welcome .button-row {

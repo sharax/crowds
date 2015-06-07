@@ -40,11 +40,21 @@
 }
 
 .btn .left.triangle {
-    left: -0.83em;
+    left: -0.78em;
 }
 
 .btn .right.triangle {
-    right: -0.83em;
+    right: -0.78em;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .btn .left.triangle {
+        left: -0.83em;
+    }
+    .btn .right.triangle {
+        right: -0.83em;
+    }
 }
 
 

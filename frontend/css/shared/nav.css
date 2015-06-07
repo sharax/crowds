@@ -1,28 +1,28 @@
-
-
 nav.black {
     background-color: black;
     border: none;
     border-radius: 0;
-    min-height: 30px;
 }
-
-nav.black .navbar-nav > li > a {
+nav.black .navbar-nav {
+    width: 20%;
+}
+nav.black .navbar-nav > li {
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 50%;
+    text-align: center;
 }
 
 #nav-logo {
     display: inline-block;
-    margin-right: 10px;
-    margin-top: -5px;
+    margin-right: 0.5em;
+    margin-top: -0.3em;
 }
 
 
 nav.black, .navbar-brand {
-    font-size: 1em;
+    font-size: 1.0em;
 }
+
 
 nav.black .navbar-nav > li > a:hover,
 nav.black .navbar-nav > li > a:focus {
@@ -31,9 +31,13 @@ nav.black .navbar-nav > li > a:focus {
 }
 
 nav.black .navbar-brand {
-    padding-left: 40px;
     color: white;
     font-weight: bold;
+}
+
+.nav-home-text {
+    display: inline-block;
+    padding-top: 0.1em;
 }
 
 
@@ -56,4 +60,42 @@ nav.black .navbar-toggle .icon-bar {
 
 nav.black .navbar-collapse {
     border-top-color: rgb(150,150,150);
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }

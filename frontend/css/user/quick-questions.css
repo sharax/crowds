@@ -4,8 +4,6 @@
 
 .quick-questions .va-outer, .question-block {
     width: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 
 .quick-questions .question-progress .circle {
@@ -14,11 +12,55 @@
     cursor: pointer;
 }
 
+.quick-questions .question-progress .circle:last-child {
+    margin-right: 0;
+}
+
+.quick-questions .question-row {
+    height: 40%;
+    padding-top: 20%;
+}
+
+.question-progress-col {
+    height: 20%;
+}
+
+.quick-questions .back-col {
+    padding-top: 3%;
+    height: 30%;
+}
+
+.quick-questions .heading-text-col {
+    height: 70%;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .quick-questions .back-col {
+        padding-top: 0;
+        height: 100%;
+    }
+    .quick-questions .question-row {
+        height: 60%;
+        padding-top: 0;
+    }
+    .question-progress-col {
+        height: 100%;
+    }
+    .quick-questions .heading-text-col {
+        height: 100%;
+    }
+    .quick-questions .va-outer, .question-block {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+}
+
 .quick-questions .age-block input {
     width: 40%;
     margin-right: 3%;
 }
-
 
 .quick-questions .country {
     position: relative;
@@ -33,9 +75,19 @@
 .quick-questions .autofill {
     width: 80%;
     left: 10%;
+    z-index: 200;
 }
 
 .quick-questions .education .custom-select {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 0;
+    width: 100%;
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media(min-width:992px)  {
+    .quick-questions .education .custom-select {
+        margin-left: 10%;
+        width: 80%;
+    }
 }
