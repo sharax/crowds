@@ -19,3 +19,10 @@ $('[placeholder]').focus(function() {
         }
     })
 });
+
+// fix to close mobile menu bar after a menu item is clicked
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
