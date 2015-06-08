@@ -1,12 +1,12 @@
+<div class="media-block">
+    <div class="question-media"
+         ng-class="{'with-stats': hasStats()}">
+        <img class="question-image" ng-src="{{question.imagePath}}"/>
+    </div>
 
-<div ng-if="previousResponses === undefined || previousResponses.length === 0">
-    <div class="question-media text-center">
-        <img class="question-image" ng-src="{{question.imagePath}}"/>
-    </div>
-</div>
-<div ng-if="previousResponses !== undefined && previousResponses.length > 0">
-    <div class="question-media with-stats">
-        <img class="question-image" ng-src="{{question.imagePath}}"/>
-    </div>
-    <div ng-include="'views/challenge/_stats.html'"></div>
+    <div class="text-type-question-content"
+         ng-class="{'with-stats': hasStats()}"
+         ng-if="question.type === 'text'">{{question.text}}</div>
+
+    <div ng-if="hasStats()" ng-include="'views/challenge/_stats.html'"></div>
 </div>

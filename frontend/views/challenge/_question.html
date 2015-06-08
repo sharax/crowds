@@ -8,8 +8,8 @@
     </div>
     <div class="row question-row height-100">
         <div class="col-md-7 question-text-col">
-            <div class="va-outer height-20 width-100 text-center">
-                <h1 class="va-center">{{question.text}}</h1>
+            <div class="va-outer height-20 width-100">
+                <h1 class="va-center text-center" ng-if="question.type !== 'text'">{{question.text}}</h1>
             </div>
             <div ng-include="'views/challenge/_media.html'"></div>
             <div class="text-center progress-col hidden-md hidden-xs">

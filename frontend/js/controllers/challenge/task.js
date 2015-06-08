@@ -24,6 +24,13 @@ app.controller('challengeTaskController', function($scope, $interval, $timeout, 
     resetTimer();
     startTimer();
 
+    $scope.hasStats = function() {
+        if($scope.previousResponses !== undefined && $scope.previousResponses.length > 0) {
+            return true;
+        }
+        return false;
+    }
+
     $scope.validInput = function(answer, selectedCL) {
         if($scope.timeLeft === 0) {
             return true;
@@ -80,7 +87,7 @@ app.controller('challengeTaskController', function($scope, $interval, $timeout, 
     }
 
     function setCurrQuestion(index) {
-        if(index === 4) {
+        if(index === questionArr.length) {
             $location.path("challenge/done");
             return;
         }
@@ -180,6 +187,29 @@ app.controller('challengeTaskController', function($scope, $interval, $timeout, 
                 type: "number",
                 imagePath: "question-media/brazil.png",
                 previousResponses: [28497, 328472, 124, 0, 23498]
+            },
+            {
+                text: "Reasonable suspicion” means that a police officer has a specific and articulable" +
+                    " fact raising suspicion that you have been, are, or are about to be involved in criminal" +
+                    " activity.\n\nIs the officer allowed to arrest you?\n\n" +
+                    "(A) No, you have constitutional protections against unreasonable search and seizure." +
+                    "The police can seize your cell phone but will need to go to court for a warrant before they can search it.\n\n" +
+                    "(B) Yes, the police can search anything they find on your person or in your pockets at the time of arrest. This includes electronic devices.\n\n" +
+                    "(C) Sometimes, the issue is still being decided in court. For now, it depends on the circumstances and your local court system.",
+                type: "text",
+                answers: ["A", "B", "C"]
+            },
+            {
+                text: "Reasonable suspicion” means that a police officer has a specific and articulable" +
+                    " fact raising suspicion that you have been, are, or are about to be involved in criminal" +
+                    " activity.\n\nIs the officer allowed to arrest you?\n\n" +
+                    "(A) No, you have constitutional protections against unreasonable search and seizure." +
+                    "The police can seize your cell phone but will need to go to court for a warrant before they can search it.\n\n" +
+                    "(B) Yes, the police can search anything they find on your person or in your pockets at the time of arrest. This includes electronic devices.\n\n" +
+                    "(C) Sometimes, the issue is still being decided in court. For now, it depends on the circumstances and your local court system.",
+                type: "text",
+                previousResponses: [{text: "A", count: 3}, {text: "B", count: 2}, {text: "C", count: 0}],
+                answers: ["A", "B", "C"]
             }
         ];
         return questions;

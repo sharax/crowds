@@ -16,6 +16,21 @@
     right: 0;
 }
 
+.text-type-question-content {
+    white-space: pre-wrap;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 3%;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.task .text-type-question-content.with-stats {
+    width: 53%;
+}
+
 .task .white.overlay {
     height: 90%;
 }
@@ -31,6 +46,7 @@
 @media(min-width:992px)  {
     .task .question-text-col {
         height: 100%;
+        padding-top: 0;
     }
 
     .task.slide {
@@ -76,6 +92,7 @@
 .task .question-media.with-stats {
     max-width: 50%;
 }
+
 
 .task .stats-container {
     position:absolute;
