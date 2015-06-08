@@ -56,6 +56,11 @@
                     </div>
                     <div ng-if="question.type === 'number'">
                         <input type="text" class="white answer-input" ng-model="$parent.selectedAnswer"/>
+                        <div class="custom-select unit-select">
+                            <select ng-model="selectedUnits">
+                                <option value="m2">m2</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>

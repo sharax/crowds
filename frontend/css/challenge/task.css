@@ -16,6 +16,10 @@
     right: 0;
 }
 
+.task .unit-select select {
+    min-width: 5em;
+}
+
 .text-type-question-content {
     white-space: pre-wrap;
     overflow-y: auto;

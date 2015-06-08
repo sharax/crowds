@@ -7,6 +7,8 @@ app.controller('challengeTaskController', function($scope, $interval, $timeout, 
     $scope.confidenceLevels = numberArray(0, 4);
     $scope.answers = [];
 
+    $scope.selectedUnits = "m2";
+
     var timerSize = 50;
     var timerLineWidth = 6;
 
