@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-Egypt	multiple choice	image	country_shape_egypt.png	Guatemala,Canada,Turkey,Egypt,Panama	true	select the country corresponding to the outline.
-France	multiple choice	image	country_shape_france.png	Turkey,Libya,China,France,Greece	true	select the country corresponding to the outline.
-Philipines	multiple choice	image	country_shape_phillipines.png	Philipines,The Bahamas,Cuba,Russia,Portugal	true	select the country corresponding to the outline.
-Iceland	multiple choice	image	country_shape_iceland.png	Iceland,Cameroon,Togo,Uganda,Burma	true	select the country corresponding to the outline.
-Panama	multiple choice	image	country_shape_panama.png	Panama,Oman,Poland,Ghana,Sudan	true	select the country corresponding to the outline.
-USA	multiple choice	image	country_shape_usa.png	USA,Canada,Jamaica,Argentina,Saudi Arabia	true	select the country corresponding to the outline.
-Vietnam	multiple choice	image	country_shape_vietnam.png	Vietnam,Malawi,Pakistan,Spain,Belgium	true	select the country corresponding to the outline.
-Cuba	multiple choice	image	country_shape_cuba.png	Iran,Mali,Peru,South Sudan,Cuba	true	select the country corresponding to the outline.
-Mexico	multiple choice	image	country_shape_mexico.png	Mexico,Haiti,Ghana,Sierra Leone,Russia	true	select the country corresponding to the outline.
-Saudi Arabia	multiple choice	image	country_shape_saudiarabia.png	Saudi Arabia,Pakistan,Finland,Syria,Pakistan	true	select the country corresponding to the outline.
-Spain	multiple choice	image	country_shape_spain.png	Spain,Australia,Kazakhstan,Tunisia,United Kingdom	true	select the country corresponding to the outline.
-Turkey	multiple choice	image	country_shape_turkey.png	Turkey,Peru,Paraguay,United States,Switzerland	true	select the country corresponding to the outline.
-Greece	multiple choice	image	country_shape_greece.png	Greece,India,Venezuela,Angola ,Colombia	true	select the country corresponding to the outline.
-Canada	multiple choice	image	country_shape_canada.png	Canada,Uganda,Rwanda,Colombia,France	true	select the country corresponding to the outline.
-Norway	multiple choice	image	country_shape_norway.png	Norway,Colombia,Cameroon,Madagascar,Nigeria	true	select the country corresponding to the outline.
-South Africa	multiple choice	image	country_shape_south_africa.png	South Africa,Denmark,Yemen,Iran,Brazil	true	select the country corresponding to the outline.
-Iraq	multiple choice	image	country_shape_iraq.png	Iraq,Venezuela,Brazil,Zimbabwe,Ireland	true	select the country corresponding to the outline.
-Indonesia	multiple choice	image	country_shape_indonesia.png	Indonesia,China,Armenia,Mexico,Thailand	true	select the country corresponding to the outline.
-Japan	multiple choice	image	country_shape_japan.png	Japan,Uzbekistan,Italy,France,Austria	true	select the country corresponding to the outline.
-New Zealand	multiple choice	image	country_shape_newzealand.png	New Zealand,Algeria,Bangladesh,Nigeria,Morocco	true	select the country corresponding to the outline.
+Egypt	multiple choice	image	country_shape_egypt.png	"Guatemala,Canada,Turkey,Egypt,Panama"	TRUE	Which country does this land border correspond to?
+France	multiple choice	image	country_shape_france.png	"Turkey,Libya,China,France,Greece"	TRUE	Which country does this land border correspond to?
+Philipines	multiple choice	image	country_shape_phillipines.png	"Philipines,The Bahamas,Cuba,Russia,Portugal"	TRUE	Which country does this land border correspond to?
+Iceland	multiple choice	image	country_shape_iceland.png	"Iceland,Cameroon,Togo,Uganda,Burma"	TRUE	Which country does this land border correspond to?
+Panama	multiple choice	image	country_shape_panama.png	"Panama,Oman,Poland,Ghana,Sudan"	TRUE	Which country does this land border correspond to?
+USA	multiple choice	image	country_shape_usa.png	"USA,Canada,Jamaica,Argentina,Saudi Arabia"	TRUE	Which country does this land border correspond to?
+Vietnam	multiple choice	image	country_shape_vietnam.png	"Vietnam,Malawi,Pakistan,Spain,Belgium"	TRUE	Which country does this land border correspond to?
+Cuba	multiple choice	image	country_shape_cuba.png	"Iran,Mali,Peru,South Sudan,Cuba"	TRUE	Which country does this land border correspond to?
+Mexico	multiple choice	image	country_shape_mexico.png	"Mexico,Haiti,Ghana,Sierra Leone,Russia"	TRUE	Which country does this land border correspond to?
+Saudi Arabia	multiple choice	image	country_shape_saudiarabia.png	"Saudi Arabia,Pakistan,Finland,Syria,Pakistan"	TRUE	Which country does this land border correspond to?
+Spain	multiple choice	image	country_shape_spain.png	"Spain,Australia,Kazakhstan,Tunisia,United Kingdom"	TRUE	Which country does this land border correspond to?
+Turkey	multiple choice	image	country_shape_turkey.png	"Turkey,Peru,Paraguay,United States,Switzerland"	TRUE	Which country does this land border correspond to?
+Greece	multiple choice	image	country_shape_greece.png	"Greece,India,Venezuela,Angola ,Colombia"	TRUE	Which country does this land border correspond to?
+Canada	multiple choice	image	country_shape_canada.png	"Canada,Uganda,Rwanda,Colombia,France"	TRUE	Which country does this land border correspond to?
+Norway	multiple choice	image	country_shape_norway.png	"Norway,Colombia,Cameroon,Madagascar,Nigeria"	TRUE	Which country does this land border correspond to?
+South Africa	multiple choice	image	country_shape_south_africa.png	"South Africa,Denmark,Yemen,Iran,Brazil"	TRUE	Which country does this land border correspond to?
+Iraq	multiple choice	image	country_shape_iraq.png	"Iraq,Venezuela,Brazil,Zimbabwe,Ireland"	TRUE	Which country does this land border correspond to?
+Indonesia	multiple choice	image	country_shape_indonesia.png	"Indonesia,China,Armenia,Mexico,Thailand"	TRUE	Which country does this land border correspond to?
+Japan	multiple choice	image	country_shape_japan.png	"Japan,Uzbekistan,Italy,France,Austria"	TRUE	Which country does this land border correspond to?
+New Zealand	multiple choice	image	country_shape_newzealand.png	"New Zealand,Algeria,Bangladesh,Nigeria,Morocco"	TRUE	Which country does this land border correspond to?

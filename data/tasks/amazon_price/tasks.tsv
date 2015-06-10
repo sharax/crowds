@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-400	point estimate	image	__Amazon-AC-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-519	point estimate	image	__Amazon-AC-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-117.3	point estimate	image	__Amazon-Camera-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-399	point estimate	image	__Amazon-Camera-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-219	point estimate	image	__Amazon-Dish-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-899	point estimate	image	__Amazon-Dish-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-144	point estimate	image	__Amazon-Fridge-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-2370	point estimate	image	__Amazon-Fridge-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-250	point estimate	image	__Amazon-Laptop-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-360	point estimate	image	__Amazon-Laptop-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-59	point estimate	image	__Amazon-Mobile-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-115	point estimate	image	__Amazon-Mobile-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-75	point estimate	image	__Amazon-Printer-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-47	point estimate	image	__Amazon-Printer-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-157	point estimate	image	__Amazon-Tab-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-80	point estimate	image	__Amazon-Tab-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-557	point estimate	image	__Amazon-TV-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-241.5	point estimate	image	__Amazon-TV-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
-2270	point estimate	image	__Amazon-Washer-1.jpg	no answers	false	Guess the amazon price in USD for the following product:
-899	point estimate	image	__Amazon-Washer-2.jpg	no answers	false	Guess the amazon price in USD for the following product:
+400	point estimate	image	__Amazon-AC-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+519	point estimate	image	__Amazon-AC-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+117.3	point estimate	image	__Amazon-Camera-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+399	point estimate	image	__Amazon-Camera-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+219	point estimate	image	__Amazon-Dish-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+899	point estimate	image	__Amazon-Dish-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+144	point estimate	image	__Amazon-Fridge-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+2370	point estimate	image	__Amazon-Fridge-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+250	point estimate	image	__Amazon-Laptop-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+360	point estimate	image	__Amazon-Laptop-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+59	point estimate	image	__Amazon-Mobile-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+115	point estimate	image	__Amazon-Mobile-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+75	point estimate	image	__Amazon-Printer-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+47	point estimate	image	__Amazon-Printer-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+157	point estimate	image	__Amazon-Tab-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+80	point estimate	image	__Amazon-Tab-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+557	point estimate	image	__Amazon-TV-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+241.5	point estimate	image	__Amazon-TV-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+2270	point estimate	image	__Amazon-Washer-1.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product
+899	point estimate	image	__Amazon-Washer-2.jpg	no answers	FALSE	Estimate the price in USD as listed on Amazon for the following product

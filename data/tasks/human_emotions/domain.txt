@@ -1,2 +1,2 @@
 47
-You will be shown 20 images of individuals expressing an emotion, and asked to select the correct emotion.
+You will be shown 20 images of individuals expressing an emotion, and asked to identify the correct emotion.

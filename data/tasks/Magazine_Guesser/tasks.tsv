@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-The Guardian	multiple choice	image	Question1.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question2.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question3.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question4.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question5.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question6.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question7.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question8.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question9.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question10.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question11.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question12.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question13.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question14.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question15.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Economist	multiple choice	image	Question16.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question17.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question18.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-The Guardian	multiple choice	image	Question19.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
-WIRED	multiple choice	image	Question20.png	The Economist, The Guardian, TIME, WIRED	false	select the magazine from where the headline originates.
+The Guardian	multiple choice	image	Question1.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question2.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question3.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question4.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question5.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question6.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question7.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question8.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question9.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question10.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question11.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question12.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question13.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question14.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question15.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Economist	multiple choice	image	Question16.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question17.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question18.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+The Guardian	multiple choice	image	Question19.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?
+WIRED	multiple choice	image	Question20.png	"The Economist, The Guardian, TIME, WIRED"	FALSE	Which magazine published the headline?

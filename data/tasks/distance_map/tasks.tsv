@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-9160	point estimate	image	Philadelphia_Cairo.png	no answers	false	estimate the distance bewteen the two cities.
-2495	point estimate	image	Dallas_Boston.png	no answers	false	estimate the distance bewteen the two cities.
-1237	point estimate	image	Istanbul_Cairo.png	no answers	false	estimate the distance bewteen the two cities.
-5591	point estimate	image	Bangalore_Seoul.png	no answers	false	estimate the distance bewteen the two cities.
-4814	point estimate	image	Istanbul_Mumbai.png	no answers	false	estimate the distance bewteen the two cities.
-18494	point estimate	image	Buenos_Aires_Hong_Kong.png	no answers	false	estimate the distance bewteen the two cities.
-8114	point estimate	image	Glasgow_Kolkata.png	no answers	false	estimate the distance bewteen the two cities.
-8442	point estimate	image	Singapore_Durban.png	no answers	false	estimate the distance bewteen the two cities.
-13581	point estimate	image	Ahmedabad_Los_Angeles.png	no answers	false	estimate the distance bewteen the two cities.
-14670	point estimate	image	Brisbane_Brasilia.png	no answers	false	estimate the distance bewteen the two cities.
-7897	point estimate	image	Cape_Town_Colombo.png	no answers	false	estimate the distance bewteen the two cities.
-9135	point estimate	image	Sydney_Chennai.png	no answers	false	estimate the distance bewteen the two cities.
-11040	point estimate	image	Hong_Kong_Huston.png	no answers	false	estimate the distance bewteen the two cities.
-13313	point estimate	image	Bangalore_Toronto.png	no answers	false	estimate the distance bewteen the two cities.
-11068	point estimate	image	Beijing_Shanghai.png	no answers	false	estimate the distance bewteen the two cities.
-290	point estimate	image	Bangalore_Chennai.png	no answers	false	estimate the distance bewteen the two cities.
-1305	point estimate	image	Delhi_Kolkata.png	no answers	false	estimate the distance bewteen the two cities.
-17012	point estimate	image	Sydney_London.png	no answers	false	estimate the distance bewteen the two cities.
-9890	point estimate	image	San_Francisco_Shanghai.png	no answers	false	estimate the distance bewteen the two cities.
-16054	point estimate	image	Huston_Cape_Town.png	no answers	false	estimate the distance bewteen the two cities.
+9160	point estimate	image	Philadelphia_Cairo.png	no answers	FALSE	What is the distance between these two cities?
+2495	point estimate	image	Dallas_Boston.png	no answers	FALSE	What is the distance between these two cities?
+1237	point estimate	image	Istanbul_Cairo.png	no answers	FALSE	What is the distance between these two cities?
+5591	point estimate	image	Bangalore_Seoul.png	no answers	FALSE	What is the distance between these two cities?
+4814	point estimate	image	Istanbul_Mumbai.png	no answers	FALSE	What is the distance between these two cities?
+18494	point estimate	image	Buenos_Aires_Hong_Kong.png	no answers	FALSE	What is the distance between these two cities?
+8114	point estimate	image	Glasgow_Kolkata.png	no answers	FALSE	What is the distance between these two cities?
+8442	point estimate	image	Singapore_Durban.png	no answers	FALSE	What is the distance between these two cities?
+13581	point estimate	image	Ahmedabad_Los_Angeles.png	no answers	FALSE	What is the distance between these two cities?
+14670	point estimate	image	Brisbane_Brasilia.png	no answers	FALSE	What is the distance between these two cities?
+7897	point estimate	image	Cape_Town_Colombo.png	no answers	FALSE	What is the distance between these two cities?
+9135	point estimate	image	Sydney_Chennai.png	no answers	FALSE	What is the distance between these two cities?
+11040	point estimate	image	Hong_Kong_Huston.png	no answers	FALSE	What is the distance between these two cities?
+13313	point estimate	image	Bangalore_Toronto.png	no answers	FALSE	What is the distance between these two cities?
+11068	point estimate	image	Beijing_Shanghai.png	no answers	FALSE	What is the distance between these two cities?
+290	point estimate	image	Bangalore_Chennai.png	no answers	FALSE	What is the distance between these two cities?
+1305	point estimate	image	Delhi_Kolkata.png	no answers	FALSE	What is the distance between these two cities?
+17012	point estimate	image	Sydney_London.png	no answers	FALSE	What is the distance between these two cities?
+9890	point estimate	image	San_Francisco_Shanghai.png	no answers	FALSE	What is the distance between these two cities?
+16054	point estimate	image	Huston_Cape_Town.png	no answers	FALSE	What is the distance between these two cities?

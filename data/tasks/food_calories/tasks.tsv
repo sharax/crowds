@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-0	point estimate	image	food_calories_100g_black_coffee.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-18	point estimate	image	food_calories_100g_spinach.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-105	point estimate	image	food_calories_1_glass_milk.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-105	point estimate	image	food_calories_1_glass_beer.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-110	point estimate	image	food_calories_1_glass_cola.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-75	point estimate	image	food_calories_1_apple.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-110	point estimate	image	food_calories_1_banana.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-109	point estimate	image	food_calories_100g_grilled_fish.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-110	point estimate	image	food_calories_100g_rice.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-165	point estimate	image	food_calories_120g_wine.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-195	point estimate	image	food_calories_100g_chicken_breast.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-1360	point estimate	image	food_calories_dominos_vegetarian_supreme_medium_classic_crust_pizza.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-250	point estimate	image	food_calories_100g_whisky.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-400	point estimate	image	food_calories_6_slices_wheat_bread.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-304	point estimate	image	food_calories_100g_honey.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-353	point estimate	image	food_calories_3_eggs.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-300	point estimate	image	food_calories_100g_french_fries.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-529	point estimate	image	food_calories_100g_chocolate.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-900	point estimate	image	food_calories_20_almonds.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
-4066	point estimate	image	food_calories_500ml_olive_oil.jpg	no answers	false	estimate the amount of calories of the food shown in the image.
+0	point estimate	image	food_calories_100g_black_coffee.jpg	no answers	FALSE	How many calories does this food item contain?
+18	point estimate	image	food_calories_100g_spinach.jpg	no answers	FALSE	How many calories does this food item contain?
+105	point estimate	image	food_calories_1_glass_milk.jpg	no answers	FALSE	How many calories does this food item contain?
+105	point estimate	image	food_calories_1_glass_beer.jpg	no answers	FALSE	How many calories does this food item contain?
+110	point estimate	image	food_calories_1_glass_cola.jpg	no answers	FALSE	How many calories does this food item contain?
+75	point estimate	image	food_calories_1_apple.jpg	no answers	FALSE	How many calories does this food item contain?
+110	point estimate	image	food_calories_1_banana.jpg	no answers	FALSE	How many calories does this food item contain?
+109	point estimate	image	food_calories_100g_grilled_fish.jpg	no answers	FALSE	How many calories does this food item contain?
+110	point estimate	image	food_calories_100g_rice.jpg	no answers	FALSE	How many calories does this food item contain?
+165	point estimate	image	food_calories_120g_wine.jpg	no answers	FALSE	How many calories does this food item contain?
+195	point estimate	image	food_calories_100g_chicken_breast.jpg	no answers	FALSE	How many calories does this food item contain?
+1360	point estimate	image	food_calories_dominos_vegetarian_supreme_medium_classic_crust_pizza.jpg	no answers	FALSE	How many calories does this food item contain?
+250	point estimate	image	food_calories_100g_whisky.jpg	no answers	FALSE	How many calories does this food item contain?
+400	point estimate	image	food_calories_6_slices_wheat_bread.jpg	no answers	FALSE	How many calories does this food item contain?
+304	point estimate	image	food_calories_100g_honey.jpg	no answers	FALSE	How many calories does this food item contain?
+353	point estimate	image	food_calories_3_eggs.jpg	no answers	FALSE	How many calories does this food item contain?
+300	point estimate	image	food_calories_100g_french_fries.jpg	no answers	FALSE	How many calories does this food item contain?
+529	point estimate	image	food_calories_100g_chocolate.jpg	no answers	FALSE	How many calories does this food item contain?
+900	point estimate	image	food_calories_20_almonds.jpg	no answers	FALSE	How many calories does this food item contain?
+4066	point estimate	image	food_calories_500ml_olive_oil.jpg	no answers	FALSE	How many calories does this food item contain?

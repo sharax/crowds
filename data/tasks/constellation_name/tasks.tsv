@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-Orion	multiple choice	image	constellation_Orion.jpg	Orion, Horologium, Aquarius, Virgo, Apus	true	select the constellation's name.
-Cygnus	multiple choice	image	constellation_Cygnus.jpg	Cygnus,Taurus,Sextans, Aries, Aquila	true	select the constellation's name.
-Sagittarius	multiple choice	image	constellation_Sagittarius.jpg	Saggitarius, Octans, Mensa, Aquila,Scorpius	true	select the constellation's name.
-Leo	multiple choice	image	constellation_Leo.jpg	Leo, Lupus, Apus, Columba, Gemini	true	select the constellation's name.
-Aries	multiple choice	image	constellation_Aries.jpg	Aries, Norma, Scorpius, Pictor, Aquarius	true	select the constellation's name.
-Scorpius 	multiple choice	image	constellation_Scorpius.jpg	Scorpius,  Scutum, Vulpecula, Virgo, Apus	true	select the constellation's name.
-Lyra	multiple choice	image	constellation_Lyra.jpg	Lyra, Triangulum, Scorpius, Octans, Scutum	true	select the constellation's name.
-Hercules	multiple choice	image	constellation_Hercules.jpg	Hercules, Grus, Ursa Minor, Aquila, Volans	true	select the constellation's name.
-Taurus 	multiple choice	image	constellation_Taurus.jpg	Taurus,  Norma, Pavo, Chamaeleon, Cepheus	true	select the constellation's name.
-Cassiopeia 	multiple choice	image	constellation_Cassiopeia.jpg	Cassiopeia,  Lupus, Indus, Crater, Lacerta	true	select the constellation's name.
-Pegasus	multiple choice	image	constellation_Pegasus.jpg	Pegasus, Sagittarius, Serpens, Ara, Aries	true	select the constellation's name.
-Draco 	multiple choice	image	constellation_Draco.jpg	Draco,  Crux, Phoenix, Piscis Austrinus, Cepheus	true	select the constellation's name.
-Libra	multiple choice	image	constellation_Libra.jpg	Libra, Tucana, Gemini, Reticulum, Norma	true	select the constellation's name.
-Capricornus 	multiple choice	image	constellation_Capricornus.jpg	Capricornus,  Carina, Andromeda, Monoceros, Equuleus	true	select the constellation's name.
-Virgo 	multiple choice	image	constellation_Virgo.jpg	Virgo,  Hercules, Crater, Vela, Canes Venatici	true	select the constellation's name.
-Ursa Major 	multiple choice	image	constellation_Ursa_Major.jpg	Ursa Major,  Antlia, Andromeda, Camelopardalis, Indus	true	select the constellation's name.
-Gemini	multiple choice	image	constellation_Gemini.jpg	Gemini, Triangulum, Coma Berenices, Draco, Grus	true	select the constellation's name.
-Aquarius	multiple choice	image	constellation_Aquarius.jpg	Aquarius, Puppis, Telescopium, Crater, Lepus	true	select the constellation's name.
-Aquila	multiple choice	image	constellation_Aquila.jpg	Aquila, Eridanus, Vulpecula, Serpens, Aquarius	true	select the constellation's name.
-Canis Major	multiple choice	image	constellation_CanisMajor.jpg	Canis Major, Scorpius, Crater, Columba, Gemini	true	select the constellation's name.
+Orion	multiple choice	image	constellation_Orion.jpg	"Orion, Horologium, Aquarius, Virgo, Apus"	TRUE	What is the name of this constellation?
+Cygnus	multiple choice	image	constellation_Cygnus.jpg	"Cygnus,Taurus,Sextans, Aries, Aquila"	TRUE	What is the name of this constellation?
+Sagittarius	multiple choice	image	constellation_Sagittarius.jpg	"Saggitarius, Octans, Mensa, Aquila,Scorpius"	TRUE	What is the name of this constellation?
+Leo	multiple choice	image	constellation_Leo.jpg	"Leo, Lupus, Apus, Columba, Gemini"	TRUE	What is the name of this constellation?
+Aries	multiple choice	image	constellation_Aries.jpg	"Aries, Norma, Scorpius, Pictor, Aquarius"	TRUE	What is the name of this constellation?
+Scorpius 	multiple choice	image	constellation_Scorpius.jpg	"Scorpius,  Scutum, Vulpecula, Virgo, Apus"	TRUE	What is the name of this constellation?
+Lyra	multiple choice	image	constellation_Lyra.jpg	"Lyra, Triangulum, Scorpius, Octans, Scutum"	TRUE	What is the name of this constellation?
+Hercules	multiple choice	image	constellation_Hercules.jpg	"Hercules, Grus, Ursa Minor, Aquila, Volans"	TRUE	What is the name of this constellation?
+Taurus 	multiple choice	image	constellation_Taurus.jpg	"Taurus,  Norma, Pavo, Chamaeleon, Cepheus"	TRUE	What is the name of this constellation?
+Cassiopeia 	multiple choice	image	constellation_Cassiopeia.jpg	"Cassiopeia,  Lupus, Indus, Crater, Lacerta"	TRUE	What is the name of this constellation?
+Pegasus	multiple choice	image	constellation_Pegasus.jpg	"Pegasus, Sagittarius, Serpens, Ara, Aries"	TRUE	What is the name of this constellation?
+Draco 	multiple choice	image	constellation_Draco.jpg	"Draco,  Crux, Phoenix, Piscis Austrinus, Cepheus"	TRUE	What is the name of this constellation?
+Libra	multiple choice	image	constellation_Libra.jpg	"Libra, Tucana, Gemini, Reticulum, Norma"	TRUE	What is the name of this constellation?
+Capricornus 	multiple choice	image	constellation_Capricornus.jpg	"Capricornus,  Carina, Andromeda, Monoceros, Equuleus"	TRUE	What is the name of this constellation?
+Virgo 	multiple choice	image	constellation_Virgo.jpg	"Virgo,  Hercules, Crater, Vela, Canes Venatici"	TRUE	What is the name of this constellation?
+Ursa Major 	multiple choice	image	constellation_Ursa_Major.jpg	"Ursa Major,  Antlia, Andromeda, Camelopardalis, Indus"	TRUE	What is the name of this constellation?
+Gemini	multiple choice	image	constellation_Gemini.jpg	"Gemini, Triangulum, Coma Berenices, Draco, Grus"	TRUE	What is the name of this constellation?
+Aquarius	multiple choice	image	constellation_Aquarius.jpg	"Aquarius, Puppis, Telescopium, Crater, Lepus"	TRUE	What is the name of this constellation?
+Aquila	multiple choice	image	constellation_Aquila.jpg	"Aquila, Eridanus, Vulpecula, Serpens, Aquarius"	TRUE	What is the name of this constellation?
+Canis Major	multiple choice	image	constellation_CanisMajor.jpg	"Canis Major, Scorpius, Crater, Columba, Gemini"	TRUE	What is the name of this constellation?

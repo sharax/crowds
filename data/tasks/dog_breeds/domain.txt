@@ -1,2 +1,2 @@
 25
-You will be shown 20 images of dogs, and asked to identify the breed.
+You will be shown 20 images of dogs, and asked to identify their breed.

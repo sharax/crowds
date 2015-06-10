@@ -1,2 +1,2 @@
 42
-You will be shown a list of five historical events. Select the option representing the correct chronological order of the historical events.
+You will be shown a list of five historical events, and asked to select the option representing the correct chronological order in which the events occured.

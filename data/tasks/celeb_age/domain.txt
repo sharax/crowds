@@ -1,2 +1,2 @@
-05
-You will shown 20 images of celebrities, and asked to estimate the celebrity’s age.
+﻿05
+You will shown 20 images of celebrities, and asked to estimate their age.

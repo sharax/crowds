@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-3643	point estimate	image	tree_age_abuelo.png	no answers	false	estimate the age of the tree.
-1433	point estimate	image	tree_age_arbol.png	no answers	false	estimate the age of the tree.
-5000	point estimate	image	tree_age_banyantree.png	no answers	false	estimate the age of the tree.
-2302	point estimate	image	tree_age_bodhi.png	no answers	false	estimate the age of the tree.
-2000	point estimate	image	tree_age_fortingall.png	no answers	false	estimate the age of the tree.
-1700	point estimate	image	tree_age_granit.png	no answers	false	estimate the age of the tree.
-1270	point estimate	image	tree_age_henrykow.png	no answers	false	estimate the age of the tree.
-4000	point estimate	image	tree_age_horses.png	no answers	false	estimate the age of the tree.
-2000	point estimate	image	tree_age_houki.png	no answers	false	estimate the age of the tree.
-1500	point estimate	image	tree_age_juniper.png	no answers	false	estimate the age of the tree.
-4000	point estimate	image	tree_age_llangrerntw.png	no answers	false	estimate the age of the tree.
-4846	point estimate	image	tree_age_methuselah.png	no answers	false	estimate the age of the tree.
-4844	point estimate	image	tree_age_prometheus.png	no answers	false	estimate the age of the tree.
-4000	point estimate	image	tree_age_sarveabarkuh.png	no answers	false	estimate the age of the tree.
-1500	point estimate	image	tree_age_sisteroak.png	no answers	false	estimate the age of the tree.
-3000	point estimate	image	tree_age_sozzastro.png	no answers	false	estimate the age of the tree.
-2000	point estimate	image	tree_age_staramaslina.png	no answers	false	estimate the age of the tree.
-1500	point estimate	image	tree_age_stelmuze.png	no answers	false	estimate the age of the tree.
-9550	point estimate	image	tree_age_tjikko.png	no answers	false	estimate the age of the tree.
-4000	point estimate	image	tree_age_zoroastrian.png	no answers	false	estimate the age of the tree.
+3643	point estimate	image	tree_age_abuelo.png	no answers	FALSE	How old is this tree (in years)?
+1433	point estimate	image	tree_age_arbol.png	no answers	FALSE	How old is this tree (in years)?
+5000	point estimate	image	tree_age_banyantree.png	no answers	FALSE	How old is this tree (in years)?
+2302	point estimate	image	tree_age_bodhi.png	no answers	FALSE	How old is this tree (in years)?
+2000	point estimate	image	tree_age_fortingall.png	no answers	FALSE	How old is this tree (in years)?
+1700	point estimate	image	tree_age_granit.png	no answers	FALSE	How old is this tree (in years)?
+1270	point estimate	image	tree_age_henrykow.png	no answers	FALSE	How old is this tree (in years)?
+4000	point estimate	image	tree_age_horses.png	no answers	FALSE	How old is this tree (in years)?
+2000	point estimate	image	tree_age_houki.png	no answers	FALSE	How old is this tree (in years)?
+1500	point estimate	image	tree_age_juniper.png	no answers	FALSE	How old is this tree (in years)?
+4000	point estimate	image	tree_age_llangrerntw.png	no answers	FALSE	How old is this tree (in years)?
+4846	point estimate	image	tree_age_methuselah.png	no answers	FALSE	How old is this tree (in years)?
+4844	point estimate	image	tree_age_prometheus.png	no answers	FALSE	How old is this tree (in years)?
+4000	point estimate	image	tree_age_sarveabarkuh.png	no answers	FALSE	How old is this tree (in years)?
+1500	point estimate	image	tree_age_sisteroak.png	no answers	FALSE	How old is this tree (in years)?
+3000	point estimate	image	tree_age_sozzastro.png	no answers	FALSE	How old is this tree (in years)?
+2000	point estimate	image	tree_age_staramaslina.png	no answers	FALSE	How old is this tree (in years)?
+1500	point estimate	image	tree_age_stelmuze.png	no answers	FALSE	How old is this tree (in years)?
+9550	point estimate	image	tree_age_tjikko.png	no answers	FALSE	How old is this tree (in years)?
+4000	point estimate	image	tree_age_zoroastrian.png	no answers	FALSE	How old is this tree (in years)?

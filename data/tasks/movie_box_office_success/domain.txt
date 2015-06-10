@@ -1,2 +1,2 @@
 61
-You will be shown 20 images with information of upcoming movies. For each, estimate the revenue gathered during the opening weekend.
+You will be shown 20 images with information on upcoming Hollywood movies and asked to predict their gross revenue at the box office on the opening weekend.

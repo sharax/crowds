@@ -1,0 +1,2 @@
+98
+You will be given a list of 20 US states and asked to estimate the number of violent crimes per 100,000 inhabitants in 2013. Violent crime is defined to include the offenses of murder, rape, robbery, and aggravated assault.

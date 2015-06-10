@@ -1,2 +1,2 @@
 60
-You will shown 20 images of country outlines, and asked to identify the country.
+You will shown 20 images showing the land border of countries from around the world, and asked to identify the country they correspond to.

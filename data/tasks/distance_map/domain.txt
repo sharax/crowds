@@ -1,2 +1,2 @@
 22
-You will be given a set of 20 city pairs, and asked to estimate the distance between two cities.
+You will be given a set of 20 city pairs, and asked to estimate the distance between the two cities.

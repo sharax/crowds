@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset	possible_answers	randomize_answers	question
-Gujarati	multiple choice	image	gujarati.png	Thai,Tamil,Cyrillic,Maya,Gujarati	true	select the language from which the script in the image originates.
-Latin	multiple choice	image	latin.png	Bengali,Georgian,Maya,Thai,Latin	true	select the language from which the script in the image originates.
-Devnagari	multiple choice	image	devnagari.png	Greek,Bengali,Chinese,Latin,Devnagari	true	select the language from which the script in the image originates.
-Tamil	multiple choice	image	tamil.png	Chinese,Kana,Devnagari,Latin,Tamil	true	select the language from which the script in the image originates.
-Thai	multiple choice	image	thai.png	Gurumukhi,Bengali,Sinhala,Burmese,Thai	true	select the language from which the script in the image originates.
-Cyrillic	multiple choice	image	cyrillic.png	Chinese,Sinhala,Ethiopic,Hebrew,Cyrillic	true	select the language from which the script in the image originates.
-Greek	multiple choice	image	greek.png	Bengali,Tamil,Hebrew,Kana,Greek	true	select the language from which the script in the image originates.
-Hebrew	multiple choice	image	hebrew.png	Ethiopic,Gujarati,Maya,Georgian,Hebrew	true	select the language from which the script in the image originates.
-Kana	multiple choice	image	kana.png	Latin,Sinhala,Arabic,Ethiopic,Kana	true	select the language from which the script in the image originates.
-Arabic	multiple choice	image	arabic.png	Thai,Sinhala,Kana,Chinese,Arabic	true	select the language from which the script in the image originates.
-Georgian	multiple choice	image	georgian.png	Chinese,Sinhala,Bengali,Tamil,Georgian	true	select the language from which the script in the image originates.
-Chinese	multiple choice	image	chinese.png	Gurumukhi,Burmese,Khmer,Arabic,Chinese	true	select the language from which the script in the image originates.
-Burmese	multiple choice	image	burmese.png	Maya,Sinhala,Hebrew,Tamil,Burmese	true	select the language from which the script in the image originates.
-Khmer	multiple choice	image	khmer.png	Greek,Burmese,Cyrillic,Thai,Khmer	true	select the language from which the script in the image originates.
-Sinhala	multiple choice	image	sinhala.png	Devnagari,Gujarati,Tamil,Bengali,Sinhala	true	select the language from which the script in the image originates.
-Bengali	multiple choice	image	bengali.png	Latin,Devnagari,Gujarati,Cyrillic,Bengali	true	select the language from which the script in the image originates.
-Gurumukhi	multiple choice	image	gurumukhi.png	Kana,Khmer,Maya,Bengali,Gurumukhi	true	select the language from which the script in the image originates.
-Ethiopic	multiple choice	image	ethiopic.png	Khmer,Burmese,Hebrew,Greek,Ethiopic	true	select the language from which the script in the image originates.
-Maya	multiple choice	image	maya.png	Bengali,Hebrew,Arabic,Gurumukhi,Maya	true	select the language from which the script in the image originates.
-Egyptian	multiple choice	image	egyptian.png	Egyptian,Bengali,Greek,Gurumukhi,Chinese	true	select the language from which the script in the image originates.
+Gujarati	multiple choice	image	gujarati.png	"Thai,Tamil,Cyrillic,Maya,Gujarati"	TRUE	In which language is the text is written?
+Latin	multiple choice	image	latin.png	"Bengali,Georgian,Maya,Thai,Latin"	TRUE	In which language is the text is written?
+Devnagari	multiple choice	image	devnagari.png	"Greek,Bengali,Chinese,Latin,Devnagari"	TRUE	In which language is the text is written?
+Tamil	multiple choice	image	tamil.png	"Chinese,Kana,Devnagari,Latin,Tamil"	TRUE	In which language is the text is written?
+Thai	multiple choice	image	thai.png	"Gurumukhi,Bengali,Sinhala,Burmese,Thai"	TRUE	In which language is the text is written?
+Cyrillic	multiple choice	image	cyrillic.png	"Chinese,Sinhala,Ethiopic,Hebrew,Cyrillic"	TRUE	In which language is the text is written?
+Greek	multiple choice	image	greek.png	"Bengali,Tamil,Hebrew,Kana,Greek"	TRUE	In which language is the text is written?
+Hebrew	multiple choice	image	hebrew.png	"Ethiopic,Gujarati,Maya,Georgian,Hebrew"	TRUE	In which language is the text is written?
+Kana	multiple choice	image	kana.png	"Latin,Sinhala,Arabic,Ethiopic,Kana"	TRUE	In which language is the text is written?
+Arabic	multiple choice	image	arabic.png	"Thai,Sinhala,Kana,Chinese,Arabic"	TRUE	In which language is the text is written?
+Georgian	multiple choice	image	georgian.png	"Chinese,Sinhala,Bengali,Tamil,Georgian"	TRUE	In which language is the text is written?
+Chinese	multiple choice	image	chinese.png	"Gurumukhi,Burmese,Khmer,Arabic,Chinese"	TRUE	In which language is the text is written?
+Burmese	multiple choice	image	burmese.png	"Maya,Sinhala,Hebrew,Tamil,Burmese"	TRUE	In which language is the text is written?
+Khmer	multiple choice	image	khmer.png	"Greek,Burmese,Cyrillic,Thai,Khmer"	TRUE	In which language is the text is written?
+Sinhala	multiple choice	image	sinhala.png	"Devnagari,Gujarati,Tamil,Bengali,Sinhala"	TRUE	In which language is the text is written?
+Bengali	multiple choice	image	bengali.png	"Latin,Devnagari,Gujarati,Cyrillic,Bengali"	TRUE	In which language is the text is written?
+Gurumukhi	multiple choice	image	gurumukhi.png	"Kana,Khmer,Maya,Bengali,Gurumukhi"	TRUE	In which language is the text is written?
+Ethiopic	multiple choice	image	ethiopic.png	"Khmer,Burmese,Hebrew,Greek,Ethiopic"	TRUE	In which language is the text is written?
+Maya	multiple choice	image	maya.png	"Bengali,Hebrew,Arabic,Gurumukhi,Maya"	TRUE	In which language is the text is written?
+Egyptian	multiple choice	image	egyptian.png	"Egyptian,Bengali,Greek,Gurumukhi,Chinese"	TRUE	In which language is the text is written?

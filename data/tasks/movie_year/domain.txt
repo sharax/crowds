@@ -1,2 +1,2 @@
 15
-You will be asked to estimate the release year for a list of Hollywood films.
+You will be shown 20 images of Hollywood movie posters, and asked to estimate the year each movie was released.

@@ -1,2 +1,2 @@
 56
-You will be given 20 headlines, and asked to select the magazine that published the article.
+You will be given 20 headlines, and asked to identify the magazine that published the article.

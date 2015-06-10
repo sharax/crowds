@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-1215.4	point estimate	image	iron_man_3.png	no answers	false	estimate the boxoffice collection for the following film:              
-987.5	point estimate	image	the_lion_king.png	no answers	false	estimate the boxoffice collection for the following film:
-890.9	point estimate	image	spiderman_3.png	no answers	false	estimate the boxoffice collection for the following film:
-879.0	point estimate	image	harry_potter_chamber_secrets.png	no answers	false	estimate the boxoffice collection for the following film:
-751.8	point estimate	image	hunger_games.png	no answers	false	estimate the boxoffice collection for the following film:
-694.7	point estimate	image	mission_impossible.png	no answers	false	estimate the boxoffice collection for the following film:
-672.5	point estimate	image	interstellar.png	no answers	false	estimate the boxoffice collection for the following film:
-631.7	point estimate	image	kung_fu_panda.png	no answers	false	estimate the boxoffice collection for the following film:
-609.8	point estimate	image	mamma_mia.png	no answers	false	estimate the boxoffice collection for the following film:
-550.5	point estimate	image	king_kong.png	no answers	false	estimate the boxoffice collection for the following film:
-549.4	point estimate	image	ted.png	no answers	false	estimate the boxoffice collection for the following film:
-528.7	point estimate	image	godzilla.png	no answers	false	estimate the boxoffice collection for the following film:
-484.4	point estimate	image	shrek.png	no answers	false	estimate the boxoffice collection for the following film:
-441.3	point estimate	image	exorcist.png	no answers	false	estimate the boxoffice collection for the following film:
-441.3	point estimate	image	mrs_doubtfire.png	no answers	false	estimate the boxoffice collection for the following film:
-361.3	point estimate	image	alvin.png	no answers	false	estimate the boxoffice collection for the following film:
-268.2	point estimate	image	neighbors.png	no answers	false	estimate the boxoffice collection for the following film:
-255.0	point estimate	image	cliffhanger.png	no answers	false	estimate the boxoffice collection for the following film:
-250.6	point estimate	image	enemy_state.png	no answers	false	estimate the boxoffice collection for the following film:
-237.2	point estimate	image	gone_60_seconds.png	no answers	false	estimate the boxoffice collection for the following film:
+1215.4	point estimate	image	iron_man_3.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+987.5	point estimate	image	the_lion_king.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+890.9	point estimate	image	spiderman_3.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+879	point estimate	image	harry_potter_chamber_secrets.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+751.8	point estimate	image	hunger_games.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+694.7	point estimate	image	mission_impossible.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+672.5	point estimate	image	interstellar.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+631.7	point estimate	image	kung_fu_panda.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+609.8	point estimate	image	mamma_mia.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+550.5	point estimate	image	king_kong.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+549.4	point estimate	image	ted.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+528.7	point estimate	image	godzilla.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+484.4	point estimate	image	shrek.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+441.3	point estimate	image	exorcist.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+441.3	point estimate	image	mrs_doubtfire.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+361.3	point estimate	image	alvin.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+268.2	point estimate	image	neighbors.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+255	point estimate	image	cliffhanger.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+250.6	point estimate	image	enemy_state.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?
+237.2	point estimate	image	gone_60_seconds.png	no answers	FALSE	What was the gross boxoffice collection for the following movie (in millions of USD)?

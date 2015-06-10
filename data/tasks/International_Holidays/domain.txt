@@ -1,2 +1,2 @@
 48
-You will be given a list of 20 international holidays, and asked to input when they occurred in 2015.
+You will be given the name of 20 international holidays, and asked when for the date on which they occured in 2015.

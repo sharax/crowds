@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-China	multiple choice	Image	China.jpg	Burma,China,Laos,Mongolia,Taiwan	true	select the country where the currency from the image is from.
-India	multiple choice	Image	India.jpg	Argentina,India,Maldives,South Africa,Sri Lanka	true	select the country where the currency from the image is from.
-United States of America	multiple choice	Image	USA.jpg	Cameroon,Chile,Ecuador,Macau,United States of America	true	select the country where the currency from the image is from.
-Indonesia	multiple choice	Image	Indonesia.jpg	Indonesia,Malaysia,Nepal,Romania,Yemen	true	select the country where the currency from the image is from.
-Brazil	multiple choice	Image	Brazil.jpg	Argentina,Bolivia,Brazil,Chile,Guyana	true	select the country where the currency from the image is from.
-Pakistan	multiple choice	Image	Pakistan.jpg	Afghanistan,Burkina Faso,Kazakhstan,Pakistan,Qatar	true	select the country where the currency from the image is from.
-Nigeria	multiple choice	Image	Nigeria.jpg	Egypt,Nigeria,Suriname,Uruguay,Zimbabwe	true	select the country where the currency from the image is from.
-Bangladesh	multiple choice	Image	Bangladesh.jpg	Bangladesh,Burma,Iran,Kuwait,Tajikistan	true	select the country where the currency from the image is from.
-Russia	multiple choice	Image	Russia.jpg	Belarus,Romania,Russia,Switzerland,Ukraine	true	select the country where the currency from the image is from.
-Japan	multiple choice	Image	Japan.jpg	Benin,China,Haiti,Japan,Malawi	true	select the country where the currency from the image is from.
-Mexico	multiple choice	Image	Mexico.jpg	Columbia,Cuba,Guyana,Honduras,Mexico	true	select the country where the currency from the image is from.
-Philippines	multiple choice	Image	Philippines.jpg	Albania,Coasta Rica,Indonesia,Peru,Philippines	true	select the country where the currency from the image is from.
-Ethiopia	multiple choice	Image	Ethiopia.jpg	Ethiopia,Kenya,Somalia,Sudan,Zimbabwe	true	select the country where the currency from the image is from.
-Vietnam	multiple choice	Image	Vietnam.jpg	Combodia,El Salvador,Panama,Venezuela,Vietnam	true	select the country where the currency from the image is from.
-Egypt	multiple choice	Image	Egypt.jpg	Canada,Egypt,Israel,Paraguay,Russia	true	select the country where the currency from the image is from.
-Iran	multiple choice	Image	Iran.jpg	Haiti,Hong Kong,Iran,Iraq,Malaysia	true	select the country where the currency from the image is from.
-Turkey	multiple choice	Image	Turkey.jpg	Mexico,Peru,Russia,Singapore,Turkey	true	select the country where the currency from the image is from.
-Democratic Republic of Congo	multiple choice	Image	Congo.jpg	Bahamas,Barbados,Democratic Republic of Congo,Jamaica,Oman	true	select the country where the currency from the image is from.
-Thailand	multiple choice	Image	Thailand.jpg	Chile,Combodia,El Salvador,Laos,Thailand	true	select the country where the currency from the image is from.
-United Kingdom	multiple choice	Image	UK.jpg	Canada,French Guiana,Panama,Saint Lucia,United Kingdom	true	select the country where the currency from the image is from.
+China	multiple choice	Image	China.jpg	"Burma,China,Laos,Mongolia,Taiwan"	TRUE	Which country is the bill from?
+India	multiple choice	Image	India.jpg	"Argentina,India,Maldives,South Africa,Sri Lanka"	TRUE	Which country is the bill from?
+United States of America	multiple choice	Image	USA.jpg	"Cameroon,Chile,Ecuador,Macau,United States of America"	TRUE	Which country is the bill from?
+Indonesia	multiple choice	Image	Indonesia.jpg	"Indonesia,Malaysia,Nepal,Romania,Yemen"	TRUE	Which country is the bill from?
+Brazil	multiple choice	Image	Brazil.jpg	"Argentina,Bolivia,Brazil,Chile,Guyana"	TRUE	Which country is the bill from?
+Pakistan	multiple choice	Image	Pakistan.jpg	"Afghanistan,Burkina Faso,Kazakhstan,Pakistan,Qatar"	TRUE	Which country is the bill from?
+Nigeria	multiple choice	Image	Nigeria.jpg	"Egypt,Nigeria,Suriname,Uruguay,Zimbabwe"	TRUE	Which country is the bill from?
+Bangladesh	multiple choice	Image	Bangladesh.jpg	"Bangladesh,Burma,Iran,Kuwait,Tajikistan"	TRUE	Which country is the bill from?
+Russia	multiple choice	Image	Russia.jpg	"Belarus,Romania,Russia,Switzerland,Ukraine"	TRUE	Which country is the bill from?
+Japan	multiple choice	Image	Japan.jpg	"Benin,China,Haiti,Japan,Malawi"	TRUE	Which country is the bill from?
+Mexico	multiple choice	Image	Mexico.jpg	"Columbia,Cuba,Guyana,Honduras,Mexico"	TRUE	Which country is the bill from?
+Philippines	multiple choice	Image	Philippines.jpg	"Albania,Coasta Rica,Indonesia,Peru,Philippines"	TRUE	Which country is the bill from?
+Ethiopia	multiple choice	Image	Ethiopia.jpg	"Ethiopia,Kenya,Somalia,Sudan,Zimbabwe"	TRUE	Which country is the bill from?
+Vietnam	multiple choice	Image	Vietnam.jpg	"Combodia,El Salvador,Panama,Venezuela,Vietnam"	TRUE	Which country is the bill from?
+Egypt	multiple choice	Image	Egypt.jpg	"Canada,Egypt,Israel,Paraguay,Russia"	TRUE	Which country is the bill from?
+Iran	multiple choice	Image	Iran.jpg	"Haiti,Hong Kong,Iran,Iraq,Malaysia"	TRUE	Which country is the bill from?
+Turkey	multiple choice	Image	Turkey.jpg	"Mexico,Peru,Russia,Singapore,Turkey"	TRUE	Which country is the bill from?
+Democratic Republic of Congo	multiple choice	Image	Congo.jpg	"Bahamas,Barbados,Democratic Republic of Congo,Jamaica,Oman"	TRUE	Which country is the bill from?
+Thailand	multiple choice	Image	Thailand.jpg	"Chile,Combodia,El Salvador,Laos,Thailand"	TRUE	Which country is the bill from?
+United Kingdom	multiple choice	Image	UK.jpg	"Canada,French Guiana,Panama,Saint Lucia,United Kingdom"	TRUE	Which country is the bill from?

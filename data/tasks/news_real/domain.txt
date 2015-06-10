@@ -1,2 +1,2 @@
 31
-You will be given 20 headlines, and asked to identify whether each were real or fake.
+You will be given 20 headlines, and asked to identify whether each were real (ie. published) or fake.

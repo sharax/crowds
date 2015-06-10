@@ -1,0 +1,2 @@
+99 
+You will be given a series of electronic appliances, and asked to estimate their average energy consumption.

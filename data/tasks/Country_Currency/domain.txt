@@ -1,2 +1,2 @@
 33
-You will shown 20 images of monetary bills and asked to select the country where the currency is from.
+You will shown 20 images of financial bills and asked to select their country of origin.

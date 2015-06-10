@@ -1,2 +1,2 @@
 04
-You will shown 20 images of trees, and asked to select the correct species.
+You will shown 20 images of trees, and asked to identify the species.

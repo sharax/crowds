@@ -1,2 +1,2 @@
 28
-You will be shown 20 sample texts, and asked to identify the language.
+You will be shown 20 sample texts, and asked to identify the language in which they are written.

@@ -1,21 +1,21 @@
 correct_answer	answer_type	asset_type	asset_file	possible_answers	randomize_answers	question
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Kentucky for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Georgia for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Missouri for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Michigan for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Nebraska for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of New York for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Illinois for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Utah for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Washington for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of New Jersey for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Pennsylvania for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Maine for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Montana for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Wisconsin for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Oregon for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of North Dakota for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Vermont for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Texas for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Arizona for the 2016 presidential elections.
-tbd	prediction	no assets	no assets	Republican Party,Democratic Party	false	predict which party will win mayority in the state of Alabama for the 2016 presidential elections.
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Kentucky in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Georgia in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Missouri in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Michigan in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Nebraska in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in New York in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Illinois in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Utah in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Washington in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in New Jersey in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Pennsylvania in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Maine in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Montana in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Wisconsin in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Oregon in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in North Dakota in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Vermont in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Texas in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Arizona in the 2016 presidential elections?
+tbd	prediction	no assets	no assets	"Republican Party,Democratic Party"	FALSE	Which party will win the majority of votes in Alabama in the 2016 presidential elections?

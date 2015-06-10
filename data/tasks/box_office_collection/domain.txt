@@ -1,2 +1,2 @@
 08
-You will be asked to estimate the international box office collection in millions of USD from the 20 Hollywood movies.
+You will be shown the poster of 20 Hollywood movies, and asked to estimate their gross international box office collection in millions of USD.

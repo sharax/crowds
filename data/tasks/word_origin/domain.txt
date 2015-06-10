@@ -1,2 +1,2 @@
 23
-You will be shown 20 words and asked to predict their origin.
+You will be given 20 words, and asked to predict their origin.
