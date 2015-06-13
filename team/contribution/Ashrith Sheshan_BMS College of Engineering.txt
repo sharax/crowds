@@ -1,0 +1,7 @@
+Ashrith Sheshan
+
+ashrith.sheshan@gmail.com
+
+CodeManiacs
+
+Actively participated in composing the literature survey by researching existing papers and summarising them. Suggested various experiments to test the wisdom of crowds that were presentable on the web platform. Reviewed various submissions by peers and suggested improvements. Was involved in the ball trick task and made appreciable quality videos to test the participant in the experiment. Was enthusiastically part of video hangout meetings to discuss various ways to improve the ball trick experiment. Wrote data analysis scripts in R to analyse the performance of crowd in various tasks. 
