@@ -1,5 +1,6 @@
 .quick-questions .main-bee {
     padding-top: 10%;
+    margin-bottom: 20%;
 }
 
 .quick-questions .va-outer, .question-block {
@@ -27,6 +28,10 @@
 
 .quick-questions .heading-text-col {
     height: 70%;
+}
+
+.quick-questions .question-col {
+    margin-bottom: 2em;
 }
 
 /* Medium devices (desktops, 992px and up) */
