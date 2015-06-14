@@ -1,0 +1,8 @@
+Aayush Attri
+
+aayushattri.95@gmail.com		
+
+BITSG Powerhouse
+
+As the team leader , I arranged weekly meetings for discussing the task. I made sure everyone gets to work on the project. In the initial days , I did a thorough study of the "Deciphering Wisdom of Crowds from Their Influenced Binary Decisions" by Weiyun Chen and Xin Li apart from going through the papers which other people shared. During the discussion about the task to be submitted , I proposed the idea for "predicting the amazon price of a product",which appeared as one of the top tasks.Had a major role in developing the questions for the task.Framed a research question after long and exhaustive discussion on "To identify intelligent sub crowds from larger crowds and to compare
+their performance with the crowds as whole",which received positive feedback during peer grading. Although I couldn't give much time to R programming in the end, I attended the meetings and gave my inputs to the project wherever possible.
