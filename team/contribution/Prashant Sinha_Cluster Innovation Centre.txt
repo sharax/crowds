@@ -1,0 +1,7 @@
+Prashant Sinha
+
+prashant@ducic.ac.in
+
+piXYZ
+
+Was involved into the 'Business Idea' task, in which I wrote a Kickstarter scapper in Python to collect the data automatically for the task. Implemented a text summarising algorithm for the same. Reviewed and summarized a few papers in literature survey.
