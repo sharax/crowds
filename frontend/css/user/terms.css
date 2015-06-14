@@ -17,6 +17,10 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px)  {
+    .terms .description {
+        margin-left: 10%;
+        width: 80%;
+    }
     .terms {
         padding-bottom: 8em;
     }

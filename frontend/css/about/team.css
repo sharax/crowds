@@ -20,12 +20,13 @@
     margin-left: 0;
     padding-left: 2%;
     padding-right: 2%;
-    margin-bottom: 5%;
 }
 
 .team-member {
+    position: relative;
     background-color: #efefef;
     height: 100%;
+    margin-bottom: 2em;
 }
 
 .team-member h2 {
@@ -48,7 +49,7 @@
     position: absolute;
     width: 6em;
     height: 5.18em;
-    left: 0.6em;
+    left: -1.47em;
     top: -0.5em;
 }
 
