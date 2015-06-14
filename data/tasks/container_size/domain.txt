@@ -1,2 +1,2 @@
 18
-You will shown 20 images of containers and asked to estimate their capacity.
+You will be shown 20 images of containers and asked to estimate their capacity.
