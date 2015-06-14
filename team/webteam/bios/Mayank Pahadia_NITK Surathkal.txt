@@ -1,0 +1,1 @@
+I am a final year student at National Institute of Technology Karnataka, Surathkal. My research interests include Data Mining and Bioinformatics. My aim is to use the information present in our DNAs, to solve the disease prediction problem.

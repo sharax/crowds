@@ -1,0 +1,7 @@
+Anjali Singh
+
+singhanj13@gmail.com
+
+Team: Blitz
+
+Read the paper on "Identifying web spam with the wisdom of the crowds" individually, and did more literature review on the Wisdom of the Crowds along with my team members. Designed the task on "Human Emotions" and helped with the task on "Celebrity Ages". Also designed the task on "US Elections" (which was later assigned to us) along with my team. Scraped the data for these  tasks along with other team members. Presented the task on "Human Emotions" on google hangouts, since our team was selected amongst the top 2 teams. Held brainstorming sessions with team members and proposed the research question "What should be the size of the crowd for a Wisdom of Crowds Experiment?". Then, along with my team members, did literature review, and designed a task for the same. Attended the R tutorials, and performed the beginning few data analytics experiments using R.

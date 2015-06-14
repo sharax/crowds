@@ -1,10 +1,13 @@
-.terms {
-    padding-bottom: 12em;
+.terms .info-row {
+    margin-bottom: 1em;
 }
 
-.terms.slide-infinite .next-button {
-    bottom: 6em;
+.terms.slide-infinite .next-button, .terms.slide-infinite .prev-button {
+    margin-bottom: 1em;
+    width: 90%;
+    margin-left: 5%;
 }
+
 
 .terms .header-row {
     padding-top: 1em;
@@ -14,6 +17,10 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media(min-width:992px)  {
+    .terms .description {
+        margin-left: 10%;
+        width: 80%;
+    }
     .terms {
         padding-bottom: 8em;
     }
@@ -26,5 +33,9 @@
     }
     .terms.slide-infinite .next-button {
         bottom: 2.5em;
+    }
+    .terms.slide-infinite .next-button, .terms.slide-infinite .prev-button {
+        width: auto;
+        margin-left: 0;
     }
 }
