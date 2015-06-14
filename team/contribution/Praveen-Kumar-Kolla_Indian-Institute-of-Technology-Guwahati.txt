@@ -1,0 +1,7 @@
+Praveen Kumar Kolla
+
+praveen619619619@gmail.com
+
+Elites
+
+I have done the literature review on the research paper "Evaluting the wisdom of crowds".The name of that paper in github folder is "wagner_2010". I have done the task of "Brainstorming new ideas" and I have also completed the task of rating those new ideas.I have done two tasks namely "Predicting the distance between cities" and "Number of retweets of a specific person" which were used to conduct the experiment.I have proposed a research question "How does the size of crowd affect it’s wisdom?", summarized the literature on that question, proposed an experiment to test it and described how to analyze the data from that experiment. I have contributed in verifying and updating the "checker file" in google spread sheets. I have also contributed in discussing about the domain name of our website. I have tested the beta version of the web platform and suggested improvements in tricider.com. I have learnt "R" programming language very well in the process of doing this project.
