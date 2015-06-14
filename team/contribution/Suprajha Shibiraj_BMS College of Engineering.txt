@@ -1,0 +1,7 @@
+Suprajha Shibiraj
+
+suprajha.s@gmail.com
+
+CodeManiacs
+
+I was involved in reviewing already existing research papers on ?Wisdom of Crowds? and writing brief literature surveys. I worked with the Car_manufacture year task and the ball_trick task. Collected all the required assets for the former one and created the readme.txt and tasks.tsv files. Worked on every weekly assignment enthusiastically. I reviewed the weekly submissions made by other teams and offered some suggestions. Compiled all the required data and results to create the final assignment report most weeks.
